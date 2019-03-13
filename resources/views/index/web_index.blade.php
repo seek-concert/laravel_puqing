@@ -1,6 +1,15 @@
-﻿
-@extends('index.header')
-
+﻿@extends('index.header')
+@section('content')
+<style>
+.dot{width:161px;position:absolute;left:50%;margin-left:400px;height:395px;}
+.dot_bg{width:161px;height:161px;float:left;margin-top:30px;background: transparent url(static/images/clock-shape.svg) no-repeat;position:relative;}
+.center_dot{position: absolute;width: 10px;height: 10px;background: black;left: 50%;;top:50%;border-radius:10px;display:none;left:75.5px;}
+.minute{display:none;}
+.text{display:none;}
+.secend_zhen{position: absolute; background: transparent url(static/images/clock-sec.svg) no-repeat;width:11px;height:161px;left:75px;}
+.minute_zhen{position: absolute;background: transparent url(static/images/clock-min.svg) no-repeat;width:11px;height:161px;left:75px;}
+.hour_zhen{position: absolute;width:11px;height:161px;background: transparent url(static/images/clock-hour.svg) no-repeat;left:75px;}
+</style>
 <!--banner-->
 <div class="banner" style="background:url(/index/images/1490869083.jpg) no-repeat center center;"></div>
 <!--main开始-->
@@ -40,7 +49,7 @@
     </div>
     <div class="pro_con" style="padding:90px 0px;">      <h3 style="text-align:center;color:#333333;font-size:32px;font-weight:500;">我们的能力</h3>
       <p style="padding:30px 0px;text-align:center;color:#999999;line-height:26px;font-size:14px;"><a href="/" target="_blank"><span style="color:#000000;">网联信息</span></a>帮助客户策划、构想、实施和运营关键性的互联网业务，涵盖高端网站建设、电子商务、媒介代理、VI设计、互联网基础服务、云主机托管及其他IT信息技术外包服务。经过17年的市场培育和技术积累，2万多客户的共同见证，网联科技凝聚了网站建设行业领先的业务优势，并服务过众多知名企业。</p>
-      <p> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf1.jpg" data-original="/Public/index/images/pf1.jpg" height="114" width="114" /></span> <span style="width:344px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf2.jpg" data-original="/Public/index/images/pf2.jpg" height="114" width="114" /></span> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/20160301010331_10565.jpg" data-original="/asp_bin/UploadFile/20160301010331_10565.jpg" border="0" /></span> </p>
+      <p> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf1.jpg" data-original="/index/images/pf1.jpg" height="114" width="114" /></span> <span style="width:344px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf2.jpg" data-original="/index/images/pf2.jpg" height="114" width="114" /></span> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/20160301010331_10565.jpg" data-original="/asp_bin/UploadFile/20160301010331_10565.jpg" border="0" /></span> </p>
      <p> <span style="width:330px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">PROFESSIONALS</span><br />
         专业</span> <span style="width:344px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">EXPERIENCE</span><br />
         经验</span> <span style="width:330px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">CREATIVE</span><br />
@@ -51,7 +60,9 @@
 </div>
 </if>
 </div>
-<!--footer-->
-@extends('index.footer')
-<script>GetCurStyle("home1");</script></body>
-</html>
+
+@endsection
+
+@section('home')
+<script>GetCurStyle("home");</script>
+@endsection

@@ -1,10 +1,70 @@
-﻿
-@extends('index.header')
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>深圳网站建设,深圳网页制作,深圳网站开发-深圳网站外包公司网联科技</title>
+<meta name="description" content="网联科技是深圳专业的网站制作外包公司,提供高品质网页策划,个性化网站开发服务,17年来为2万多家企业打造高品质网站建设服务,电话咨询：0755-83271881。">
+<meta name="keywords" content="深圳网站建设,深圳网页制作,深圳网站开发、深圳网站外包、深圳网站公司、深圳官网定制">
+<link rel="shortcut icon" href="/index/images/favicon.ico">
+<link type="text/css" rel="stylesheet" href="/index/css/style.css" />
+  <script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
+  <script src="/index/js/jquery1.js" type="text/javascript"></script>
+<style>
+</style>
+<meta name="baidu-site-verification" content="2KohppFGFx" />
+<meta name="wlhlauth" content="a46c1c8fe737488a5c7202e9d8abec49"/>
+<meta name="robots" content="all">
+</head>
+<body style="background:url(/index/images/1491531510.jpg) no-repeat center top;background-attachment:fixed;">
+<script src="/index/js/jquery.lazyload.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function() {
+     $("img").lazyload({
+         effect : "fadeIn",
+         failure_limit : 10,
+
+     });
+  });
+</script>
+<div class="top" id="top">
+  <div class="topbox">
+    <div class="logo f1"><a href="/" title="网联科技"><img src="/index/picture/logo.png" id="logo" data-original="/index/images/logo.png"/></a></div>
+    <div class="dh f2">
+      <ul class="dh-top f2" style="height:22px;">
+        <li class="f2"><span style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span> <span>服务：0755-83271606、83658105</span></li>
+      </ul>
+      <div class="clear"></div>
+      <span class="dh-main">
+      <h3 class="nav_h2"><a href="/" id="in01" class="hover" title="首页">首页</a></h3>
+      <h3 class="nav_h2"><a href="/service/index.html" id="in02" class="hover" title="网站建设">网站建设</a></h3>
+
+
+	  <h3 class="nav_h2"><a href="http://www.ni8.com/service/index_112.html" id="in08" class="hover" title="APP开发">APP开发</a>
+
+      </h3>
+	  <h3 class="nav_h2"><a href="/solution/index.html" id="in07" class="hover" title="解决方案">解决方案</a>
+
+      </h3>
+      <h3 class="nav_h2"><a href="/case/index.html" id="in03" class="hover" title="成功案例">成功案例</a>
+
+      </h3>
+      <h3 class="nav_h2"><a href="/about/news.html" id="in04" class="hover" title="网站资讯">网站资讯</a>
+
+      </h3>
+      <h3 class="nav_h2"><a href="/about/index.html" id="in05" class="hover" title="关于网联网站开发" rel="nofollow">关于网联</a>
+
+      </h3>
+      <h3 class="nav_h2"><a href="/contact/index.html" id="in06" class="hover" title="联系网站开发">联系网联</a>
+
+      </h3>
+      </span> </div>
+  </div>
+</div>
 
 <!--banner开始-->
 <div class="flexslider">
   <ul class="slides">
-    <li style="background:url(/images/1523601621.jpg) no-repeat center;"><a href="http://www.ni8.com/service/index_108.html" title="高品质网站建设">&nbsp;</a></li><li style="background:url(/images/1523601659.jpg) no-repeat center;"><a href="http://www.ni8.com/app/solution.html" title="网站建设解决方案">&nbsp;</a></li><li style="background:url(/images/1490868991.jpg) no-repeat center;"><a href="http://www.ni8.com/case/index.html" title="高品质网站建设">&nbsp;</a></li><li style="background:url(/images/1490869019.jpg) no-repeat center;"><a href="http://www.ni8.com/app/html5.html" title="H5网站建设">&nbsp;</a></li>  </ul>
+    <li style="background:url(/index/images/1523601621.jpg) no-repeat center;"><a href="http://www.ni8.com/service/index_108.html" title="高品质网站建设">&nbsp;</a></li><li style="background:url(/index/images/1523601659.jpg) no-repeat center;"><a href="http://www.ni8.com/app/solution.html" title="网站建设解决方案">&nbsp;</a></li><li style="background:url(/index/images/1490868991.jpg) no-repeat center;"><a href="http://www.ni8.com/case/index.html" title="高品质网站建设">&nbsp;</a></li><li style="background:url(/index/images/1490869019.jpg) no-repeat center;"><a href="http://www.ni8.com/app/html5.html" title="H5网站建设">&nbsp;</a></li>  </ul>
 </div>
 <!--banner结束-->
 <!--main开始-->
@@ -45,7 +105,7 @@
 				   <a href="http://www.ni8.com/case/show_397.html" title="领略商城开发" rel="nofollow">领略商城网站开发</a>
 			 </span>
 		</div>
-	    <img src="/picture/logo.jpg" data-original="asp_bin/photo/1459161080.jpg"  rel="nofollow" width="430" height="430" alt="商城网站建设" class="bimg1">
+	    <img src="/index/picture/logo.jpg" data-original="asp_bin/photo/1459161080.jpg"  rel="nofollow" width="430" height="430" alt="商城网站建设" class="bimg1">
 	  </li>
       <li class="business-two">
         <p></p>
@@ -65,7 +125,7 @@
 				   <a href="http://www.ni8.com/case/show_388.html" title=" 国巨通企业网站建设" rel="nofollow">国巨通讯</a>
 				   <a href="http://www.ni8.com/case/show_389.html" title="瑞珂玛高端网站建设" rel="nofollow">瑞珂玛机电</a>
 			 </span>
-		</div> <img src="/picture/logo.jpg" data-original="asp_bin/photo/1498456980.jpg" width="290" height="290" alt="品牌网站开发案例" class="bimg2"> </li>
+		</div> <img src="/index/picture/logo.jpg" data-original="asp_bin/photo/1498456980.jpg" width="290" height="290" alt="品牌网站开发案例" class="bimg2"> </li>
       <li class="business-three" style="margin:0;">
         <p></p>
         <div><h3 style="color: #FFFFFF; padding:25px 20px 10px;font-size: 24px;">系统平台开发</h3>
@@ -83,7 +143,7 @@
 				   <a href="http://www.ni8.com/case/show_390.html" title=" 龙运通移动端web开发" rel="nofollow">龙运通</a>
 				   <a href="http://www.ni8.com/case/show_239.html" title="众健供应链网站制作" rel="nofollow">众健供应链</a>
 			 </span>
-		</div> <img src="/picture/logo.jpg" data-original="asp_bin/photo/1459316479.jpg" width="440" height="440" alt="服务平台站点开发" class="bimg3"> </li>
+		</div> <img src="/index/picture/logo.jpg" data-original="asp_bin/photo/1459316479.jpg" width="440" height="440" alt="服务平台站点开发" class="bimg3"> </li>
       <li class="business-four">
         <p></p>
         <div><h2 style="color: #FFFFFF; padding:25px 20px 10px;font-size: 24px;">微信应用开发</h2>
@@ -95,16 +155,16 @@
 				   <a href="http://www.ni8.com/case/show_385.html" title="懒虫微商城系统开发" rel="nofollow">懒虫商城</a>
 				   <a href="http://www.ni8.com/case/show_379.html" title="雄盛业农副产品官网建站" rel="nofollow">雄盛业农副产品</a>
 			 </span>
-		</div> <img src="/picture/logo.jpg" data-original="asp_bin/photo/1459316434.jpg" width="430" height="430" alt="微信营销网站开发" class="bimg4"> </li>
+		</div> <img src="/index/picture/logo.jpg" data-original="asp_bin/photo/1459316434.jpg" width="430" height="430" alt="微信营销网站开发" class="bimg4"> </li>
       <li class="business-fiv">
         <p></p>
         <div><a title="网站托管服务"><span class="wzt1" >网站托管服务</span><br/>
-        <span class="wzt2" >网站托管后网联科技为该系统提供免费技术支持和维护，包含：内容维护、设计维护、系统维护.</span></a></div> <img src="/picture/1459317057.jpg" data-original="asp_bin/photo/1459317057.jpg" width="285" height="285" alt="网站代运营" class="bimg5"> </li>
-      <li style="position:absolute;right:0;bottom:0;width:700px;height:140px;margin:0;"> <img src="/picture/logo.jpg" data-original="asp_bin/photo/1459317114.jpg" alt="网站托管外包" width="700" height="140"/></li>
+        <span class="wzt2" >网站托管后网联科技为该系统提供免费技术支持和维护，包含：内容维护、设计维护、系统维护.</span></a></div> <img src="/index/picture/1459317057.jpg" data-original="asp_bin/photo/1459317057.jpg" width="285" height="285" alt="网站代运营" class="bimg5"> </li>
+      <li style="position:absolute;right:0;bottom:0;width:700px;height:140px;margin:0;"> <img src="/index/picture/logo.jpg" data-original="asp_bin/photo/1459317114.jpg" alt="网站托管外包" width="700" height="140"/></li>
     </ul>
   </div>
 </div>
-<div class="swhy" style="background:url(/images/1523601722.jpg) no-repeat center center;"></div>
+<div class="swhy" style="background:url(/index/images/1523601722.jpg) no-repeat center center;"></div>
 <div class="zbxw">
   <div class="zbxw_top">
     <h3 > 中标新闻 <span>WINNING NEWS</span></h3>
@@ -118,20 +178,20 @@
           <div id="List1">
             <!-- 图片列表 begin -->
             <div class="pic">
-                <div class="picImg"><a href="/about/show_714.html" rel="nofollow" title=""><img src="/picture/1510820276.jpg" data-original="/asp_bin/newimg/1510820276.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
+                <div class="picImg"><a href="/about/show_714.html" rel="nofollow" title=""><img src="/index/picture/1510820276.jpg" data-original="/asp_bin/newimg/1510820276.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
                 <div class="pic_cont"><a href="/about/show_714.html" rel="nofollow"  title=""><span class="b1">总监三千平台开发  B2B2C平台开发</span><span class="b2">深圳市网联信息科技开发有限公司有幸为总监三千（深圳文化投资有限公司）服务，提供b2b2c商城建设解决方案，“总监三千”平台是总监三千（深圳文化投资有限公司）集结全球顶级创意设计人士的互动、创业创收的平台。开创总监经济人模式，专注服务高品质企业对品牌策划设计推广需求。</span></a></div>
               </div><div class="pic">
-                <div class="picImg"><a href="/about/show_701.html" rel="nofollow" title=""><img src="/picture/1505977886.jpg" data-original="/asp_bin/newimg/1505977886.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
+                <div class="picImg"><a href="/about/show_701.html" rel="nofollow" title=""><img src="/index/picture/1505977886.jpg" data-original="/asp_bin/newimg/1505977886.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
                 <div class="pic_cont"><a href="/about/show_701.html" rel="nofollow"  title=""><span class="b1">网联科技中标研祥智能科技股份有限公司商城建设项目</span><span class="b2">随着数字经济时代的到来，我们看到全球制造业正在发生着深刻的变革。传统的大批量、少批次的生产方式已经不能满足当今消费者对个性化的追求，而小批量、定制化的柔性生产正在成为制造业中的时尚。</span></a></div>
               </div><div class="pic">
-                <div class="picImg"><a href="/about/show_615.html" rel="nofollow" title=""><img src="/picture/1492830255.jpg" data-original="/asp_bin/newimg/1492830255.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
+                <div class="picImg"><a href="/about/show_615.html" rel="nofollow" title=""><img src="/index/picture/1492830255.jpg" data-original="/asp_bin/newimg/1492830255.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
                 <div class="pic_cont"><a href="/about/show_615.html" rel="nofollow"  title=""><span class="b1">网联科技中标B2C深圳鹿嘴旅游平台网站建设项目</span><span class="b2">深圳鹿嘴山庄是一家 型度假村，位于大鹏半岛杨梅坑片区，深圳 东端，面朝大亚湾，背倚深圳第二高峰七娘山。充满诗情画意的月夜钓螃蟹；游艇出海捕鱼；快艇冲浪；海钓、露营、烧烤；骑行鹿嘴观海大道；外岛浮潜窥探五光十色海底世界；迎接深圳 缕阳光；喜欢挑战的来一场攀崖比赛更是不错的选择；还可以包一栋海边别墅举行生日PARTY或朋友聚会；不管你是否学过摄影，只需你拿起相机，按下快门，都是一幅精美 伦的画面……。或伫立山崖或游走于海岸边，听着海浪击石的声音，心底一片轻灵、空明。”</span></a></div>
               </div><div class="pic">
-                <div class="picImg"><a href="/about/show_543.html" rel="nofollow" title=""><img src="/picture/1487574894.jpg" data-original="/asp_bin/newimg/1487574894.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
+                <div class="picImg"><a href="/about/show_543.html" rel="nofollow" title=""><img src="/index/picture/1487574894.jpg" data-original="/asp_bin/newimg/1487574894.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
                 <div class="pic_cont"><a href="/about/show_543.html" rel="nofollow"  title=""><span class="b1">网联科技中标大桥化工官方商城网站建设项目</span><span class="b2">中山大桥化工有限公司成立于1985年3月，总部位于伟人孙中山先生的故乡——广东省中山市，是集研发、生产和销售于一体的中港合资高新技术企业。2008年3月，正式组建成立了中山大桥化工企业集团（简称“大桥化工集团”）。 
 　　经过多年发展，大桥化工集团实力不断增强，同时，旗下拥有众多子公司和控股公司，并先后在中山市、重庆市、上海市、合肥市、韶关市等地兴建了现代化的生产基地。公司生产和经营的各类高性能专用涂料系列产品，包括汽车涂料、工程机械涂料、大中巴涂料、摩托车涂料、电子电器涂料、机车涂料、重防腐涂料、粉末涂料、电泳涂料等，产品性能优越，具有很高的市场知名度和强大的客户基础，在行业内拥有良好的口碑，部分产品进入国际市场。 </span></a></div>
               </div><div class="pic">
-                <div class="picImg"><a href="/about/show_405.html" rel="nofollow" title=""><img src="/picture/1483063842.jpg" data-original="/asp_bin/newimg/1483063842.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
+                <div class="picImg"><a href="/about/show_405.html" rel="nofollow" title=""><img src="/index/picture/1483063842.jpg" data-original="/asp_bin/newimg/1483063842.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238"/></a></div>
                 <div class="pic_cont"><a href="/about/show_405.html" rel="nofollow"  title=""><span class="b1">网联科技中标中联广深集团公司官网建设项目</span><span class="b2">中联广深医药（集团）有限公司成立于一九八三年，是由全国医药行业几十家企业与本集团公司职工共同持有股份的混合所有制企业。公司坚持人才战略、创新机制，现已发展成为以医药为主，集科、工、贸为一体，具有一定实力和知名度的大型企业集团。</span></a></div>
               </div>            <!-- 图片列表 end -->
           </div>
@@ -164,66 +224,66 @@
                 <div class="cgal_tp"> <a href="/case/show_446.html" title="建站案例">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1536224262.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_396.html" title="建站案例">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1536224262.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_396.html" title="建站案例">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1497321820.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_266.html" title="建站案例">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497321820.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_266.html" title="建站案例">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1482401652.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_400.html" title="建站案例">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1482401652.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_400.html" title="建站案例">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1497431215.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_399.html" title="建站案例">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497431215.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_399.html" title="建站案例">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1511747389.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_398.html" title="建站案例">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1511747389.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_398.html" title="建站案例">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1511747230.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1511747230.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
             </li>
             <li>
               <div class="cgal_list">
                 <div class="cgal_tp"> <a href="/case/show_397.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1511747537.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_388.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1511747537.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_388.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1497264978.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_385.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497264978.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_385.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1497264486.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_384.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497264486.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_384.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1497264297.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_326.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497264297.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_326.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1475028308.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_313.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1475028308.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_313.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1483063729.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1483063729.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
             </li>
             <li>
               <div class="cgal_list">
                 <div class="cgal_tp"> <a href="/case/show_280.html" title="官网设计">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1467966573.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_124.html" title="官网设计">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1467966573.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_124.html" title="官网设计">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1459145106.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_257.html" title="官网设计">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1459145106.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_257.html" title="官网设计">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1458988506.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_327.html" title="官网设计">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1458988506.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_327.html" title="官网设计">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1481097184.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_329.html" title="官网设计">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1481097184.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_329.html" title="官网设计">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1484894005.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_279.html" title="官网设计">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1484894005.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_279.html" title="官网设计">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1467964024.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1467964024.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
             </li>
           </ul>
         </div>
@@ -236,22 +296,22 @@
                 <div class="cgal_tp"> <a href="/case/show_328.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1482402400.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_417.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1482402400.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_417.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_407.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_407.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1512109113.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_405.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1512109113.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_405.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1511235726.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_291.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1511235726.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_291.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1468036253.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_319.html" title="">
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1468036253.jpg" width="358" height="235" alt="" class="case_img"> </div><div class="cgal_tp"> <a href="/case/show_319.html" title="">
                     <h4></h4>
                     <p></p>
-                    </a> <img src="/picture/logo.jpg" data-original="/asp_bin/newimg/1474947530.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
+                    </a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1474947530.jpg" width="358" height="235" alt="" class="case_img"> </div>              </div>
             </li>
             <li style="width:1140px;">
               <div class="cgal_list">
@@ -271,35 +331,35 @@
   <div class="core_list">
     <ul>
       		<li>
-          <div class="core_img"><a href="/service/index_20.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core1.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_20.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core1.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_20.html" title="">企业官网建设</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_108.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core2.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_108.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core2.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_108.html" title="">商城网站建设</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_109.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core3.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_109.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core3.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_109.html" title="">系统平台开发</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_110.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core4.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_110.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core4.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_110.html" title="">微信营销</a></div>		 
         </li><li>
-          <div class="core_img"><a href="/ssl/ssl.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core5.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/ssl/ssl.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core5.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/ssl/ssl.html" title="">SSL证书</a></div>		 
         </li>
 				<li>
-          <div class="core_img"><a href="/service/index_112.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core6.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_112.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core6.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_112.html" title="">APP开发</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_113.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core7.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_113.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core7.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_113.html" title="">商城/网站装修</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_114.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core8.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_114.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core8.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_114.html" title="">平面设计</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_115.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core9.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_115.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core9.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_115.html" title="">盛世云服务器</a></div>		 
         </li>		<li>
-          <div class="core_img"><a href="/service/index_116.html" title=""><img src="/picture/logo.jpg" rel="nofollow" data-original="/Public/images/core10.png" alt="" width="100%" height="100%" /></a> </div>		  
+          <div class="core_img"><a href="/service/index_116.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow" data-original="/index/images/core10.png" alt="" width="100%" height="100%" /></a> </div>		  
           <div class="core_h"><a href="/service/index_116.html" title="">网联天下邮</a></div>		 
         </li>    </ul>
   </div>
@@ -563,14 +623,124 @@
     </div>
   </div>
 </div>
-<!--footer开始-->
-@extends('index.footer')
+<!--main开始-->
+<div class="bbottom" ><div class="bottomTop"></div></div>
+<div class="bottom">
+  <div class="bottombox">
+    <div class="bottom-dh">
+      <ul style="width:200px;">
+        <h4>产品及解决方案</h4>
+        <li><a href="/service/index_20.html" title="企业官网建设">企业官网建设</a></li><li><a href="/service/index_108.html" title="商城网站建设">商城网站建设</a></li><li><a href="/service/index_109.html" title="系统平台开发">系统平台开发</a></li><li><a href="/service/index_110.html" title="微信营销">微信营销</a></li><li><a href="/service/index_111.html" title="SSL证书">SSL证书</a></li>      </ul>
+      <ul>
+        <h4>成功案例</h4>
+        <li><a href="/case/index_17_1.html" title="电子商务平台开发">电子商务平台开发</a></li><li><a href="/case/index_19_1.html" title="视觉形象官网">视觉形象官网</a></li><li><a href="/case/index_11_1.html" title="营销型网站">营销型网站</a></li><li><a href="/case/index_12_1.html" title="商城/分销商城">商城/分销商城</a></li><li><a href="/case/index_22_1.html" title="短视频">短视频</a></li>      </ul>
+      <ul>
+        <h4>网联资讯</h4>
+        <li><a href="/about/news.html" title="网联新闻">网联新闻</a></li>
+        <li><a href="/about/newss_10.html" title="手机网站资讯">手机网站资讯</a></li>
+        <li><a href="/service/seo.html" title="网站建设知识">网站建设知识</a></li>
+        <li><a href="/about/newss_9.html" title="网站营销推广知识">网站营销推广知识</a></li>
+        <li><a href="/about/newss_12.html" title="中标新闻">中标新闻</a></li>
+      </ul>
+      <ul>
+        <h4>关于网联</h4>
+        <li><a href="/about/index_19.html" title="网联概况">网联概况</a></li><li><a href="/about/index_72.html" title="企业文化">企业文化</a></li><li><a href="/about/index_73.html" title="发展历程">发展历程</a></li><li><a href="/about/index_74.html" title="加入网联">加入网联</a></li>      </ul>
+      <ul>
+        <h4>联系网联</h4>
+        <li><a href="/contact/index.html" title="联系方式" rel="nofollow">联系方式</a></li>
+        <li><a href="/contact/pay.html" title="付款方式" rel="nofollow">付款方式</a></li>
+        <li><a href="/contact/download.html" title="网站建设文档下载" rel="nofollow">常用文档下载</a></li>
+        <li><a href="/contact/help.html" title="网站建设帮助中心">帮助中心</a></li>
+      </ul>
+      <div class="ewm" style=" margin-right:16px;">
+        <p><img src="/index/picture/sjewm.jpg" data-original="/index/images/sjewm.jpg" alt="" width="118" height="118"/></p>
+        <span>手机官网</span> </div>
+      <div class="ewm">
+        <p><img src="/index/picture/wxewm.jpg" data-original="/index/images/wxewm.jpg" alt="" width="118" height="118"/></p>
+        <span>官方微信</span> </div>
+    </div>
+    <div class="fx">
+      <ul class="fx-2" style="width:100%;">
+        <li style="background:url(/index/images/sindex.png)  -196px -194px no-repeat; width:240px;">投诉/Suggest：13823188098</li>
+		<li style="background:url(/index/images/sindex.png) -196px -271px no-repeat; width:240px;">电话/Tel：0755-83271881</li>
+        <li style="background:url(/index/images/sindex.png) -196px -220px no-repeat; width:240px;">邮箱/Mail：web@ni8.com</li>
+        <li style="background:url(/index/images/sindex.png)  -196px -245px no-repeat;">地址/Add：深圳市福田区华强南路机械大厦6楼</li>
+      </ul>
+    </div>
+	<div class="yqlj">
+      <h4>友情链接</h4>
+      <ul>
+        <li><a href="http://www.szzghl.cn/" title="深圳网站建设" target="_blank">深圳网站建设</a></li><li><a href="http://www.chang-jiang.com.cn" title="佛山网站建设" target="_blank">佛山网站建设</a></li><li><a href="http://www.bjhyn.cn" title="北京网站建设" target="_blank">北京网站建设</a></li><li><a href="http://www.028net.net" title="成都网站建设" target="_blank">成都网站建设</a></li><li><a href="http://www.fractal-technology.com/index.html" title="北京网站建设公司" target="_blank">北京网站建设公司</a></li><li><a href="http://www.ppssdd.com" title="郑州网站建设" target="_blank">郑州网站建设</a></li><li><a href="https://www.ccxcn.com" title="北京网站建设" target="_blank">北京网站建设</a></li><li><a href="" title="企业网站seo" target="_blank">企业网站seo</a></li><li><a href="http://www.68gainian.com" title="上海网站建设" target="_blank">上海网站建设</a></li><li><a href="http://www.kingwins.com.cn/" title="现金贷系统" target="_blank">现金贷系统</a></li><li><a href="http://www.ni8.net.cn" title="商城网站建设" target="_blank">商城网站建设</a></li><li><a href="http://show.ni8.com" title="网联泥巴秀" target="_blank">网联泥巴秀</a></li><li><a href="http://www.ewont.com" title="服务器托管" target="_blank">服务器托管</a></li><li><a href="http://old.ni8.com" title="网联科技旧版网站" target="_blank">网联科技旧版网站</a></li><li><a href="http://www.0553zsw.com/" title="郑州网站优化" target="_blank">郑州网站优化</a></li>      </ul>
+	  <div class="clear"></div>
+    </div>  </div>
+  <div class="footer">
+    <div class="bqxx" style="position:relative;">
+      <ul>
+        <li class="f1" style="font-family:Arial;">&copy;2016 深圳市网联信息科技开发有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
+</li>
+        <li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">粤ICP备05022732号-1</a>&nbsp;&nbsp;&nbsp;粤B2-20050242</li>
+      </ul>
+	  <div style="position:absolute;width:40px;top:16px;text-align:center;left:360px;"><script id="ebsgovicon" src="/index/js/govicon.js" type="text/javascript" charset="utf-8"></script></div>
+    </div>
+  </div>
+</div>
+<script>
+$(function(){
+   $(".fqq").hover(function(){
+			$(".foot_qq").css("display","block");
+		},function(){
+		  $(".foot_qq").css("display","none");
+   });
+   $(".dhm").hover(function(){
+			$(".kfdh").css("display","block");
+		},function(){
+		  $(".kfdh").css("display","none");
+   });
+   $(".gw").hover(function(){
+			$(".code-side").css("display","block");
+		},function(){
+		  $(".code-side").css("display","none");
+   });
+});
+</script>
+
+
+<div class="guide" style="bottom:40px;">
+  <div class="guide-warp">
+    <ul>
+
+	  <li class="fqq">
+          <a class="zixun1 zixun"title="qq联系网站建设"></a>
+	    <div class="foot_qq">
+        <a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png"/><span>业务经理</span></a><a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img src="/index/picture/q02.png" alt="" width="25" data-original="/index/images/q02.png"/><span>业务经理</span></a><a target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img src="/index/picture/q03.png" alt="" width="25" data-original="/index/images/q03.png"/><span>售后客服</span></a><a target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img src="/index/picture/q04.png" alt="" width="25" data-original="/index/images/q00.png"/><span>售后客服</span></a><a target="_blank" rel="nofollow" title="技术支持" href="http://wpa.qq.com/msgrd?v=3&uin=441579876&site=qq&menu=yes"><img src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png"/><span>技术支持</span></a>        </div>
+	  </li>
+	  <li class="dhm">
+          <a class="zixun2 zixun"title="电话联系网站建设" ></a>
+	    <div class="kfdh">
+		  <p><span>销售热线:</span><span style="width:110px;font-size:13px;color:#fff;">0755-83271919<br/>0755-83271881</span></p>
+		  <p><span>服务热线:</span><span style="width:110px;font-size:13px;color:#fff;">0755-83271606<br/>0755-83658105</span></p>
+		</div>
+	  </li>
+	  <li><a href="Mailto:dzn@ni8.com" class="zixun3 zixun"title=""target="_blank">
+      </a></li>
+	  <li class="gw">
+          <a class="zixun4 zixun"title="扫描二维码联系"></a>
+	    <div class="code-side">
+		  <div><img src="/index/picture/sjewm.jpg" alt="手机官网" data-original="/index/images/sjewm.jpg"/><span>手机官网</span></div>
+		  <div><img src="/index/picture/wxewm.jpg" alt="官网微信" data-original="/index/images/wxewm.jpg"/><span>官网微信</span></div>
+		</div>
+	  </li>
+	  <li><a class="zixun5 zixun" href="javascript:window.scrollTo(0,0)" class="top1" title="回顶部">
+      </a></li>
+	</ul>
+  </div>
+</div>
 
 
 <!--js-->
-<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
-<script src="/js/curnavstyle.js" type="text/javascript"></script>
-<script src="/js/js.js" type="text/javascript"></script>
+<script type="text/javascript" src="/index/js/jquery.flexslider-min.js"></script>
+<script src="/index/js/curnavstyle.js" type="text/javascript"></script>
+<script src="/index/js/js.js" type="text/javascript"></script>
 <script>GetCurStyle("home");</script>
 </body>
 </html>

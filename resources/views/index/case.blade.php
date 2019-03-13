@@ -1,35 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-<title>成功案例_网联科技专业网站建设公司</title>
-<meta name="keywords" content="深圳福田网站建设,视觉形象官网建设,响应式网站制作,营销型商城开发,微信公众号开发,商务平台开发">
-<meta name="description" content="网联科技高品质视觉形象官网，响应式网站开发，营销型商城网站开发，电子商务平台开发成功案例展示。">
-<link rel="shortcut icon" href="/Public/images/favicon.ico">
-<meta name="robots" content="all">
-<link type="text/css" rel="stylesheet" href="/css/style.css" />
-<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
-<script src="/js/curnavstyle.js" type="text/javascript"></script>
-<script type="text/javascript" src="/js/funtion.js"></script>
-<script src="/js/wb.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-<!--top-->
-<script src="/js/jquery.lazyload.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(function() {
-     $("img").lazyload({
-         effect : "fadeIn",
-         failure_limit : 10
-     });
-  });
-</script>
-@extends('index.header')
-
+﻿@extends('index.header')
+@section('content')
 
 <!--banner-->
-<div class="banner" style="background:url(/images/1490868907.jpg) no-repeat center center;"></div>
+<div class="banner" style="background:url(/index/images/1490868907.jpg) no-repeat center center;"></div>
 <!--main开始-->
 <div class="content">
   <div class="case_menu">
@@ -40,74 +13,74 @@
   <div class="case">
     <ul>
     	<li>
-    			<div class="cimg"><img src="/picture/1540193174.png" data-original="/asp_bin/newimg/1540193174.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1540193174.png" data-original="/asp_bin/newimg/1540193174.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_458.html" title="深圳市力驰多汽车技术服务有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市力驰多汽车技术服务有限公司" href="/case/show_458.html"><span class="c1">深圳市力驰多汽车技术服务有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为深圳市力驰多汽车技术服务有限公司提供移动端网站建设服务，在这里祝贺深圳市力驰多汽...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1540192604.jpg" data-original="/asp_bin/newimg/1540192604.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1540192604.jpg" data-original="/asp_bin/newimg/1540192604.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_457.html" title="深圳市洲远电子有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市洲远电子有限公司" href="/case/show_457.html"><span class="c1">深圳市洲远电子有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为深圳市洲远电子有限公司提供响应式网站建设服务，在这里祝贺深圳市深圳市洲远电子有限...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1540192309.png" data-original="/asp_bin/newimg/1540192309.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1540192309.png" data-original="/asp_bin/newimg/1540192309.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_456.html" title="深圳市通天科技有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市通天科技有限公司" href="/case/show_456.html"><span class="c1">深圳市通天科技有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为深圳市通天科技有限公司提供响应式网站建设服务，在这里祝贺深圳市通天科技有限公司官...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1540191003.jpg" data-original="/asp_bin/newimg/1540191003.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1540191003.jpg" data-original="/asp_bin/newimg/1540191003.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_455.html" title="深圳易道济生文化发展有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳易道济生文化发展有限公司" href="/case/show_455.html"><span class="c1">深圳易道济生文化发展有限公司</span><br/><span class="c2">福田网站建设公司网联科技祝贺深圳易道济生文化发展有限公司商城pc端与移动端、微信端三网合一定制商城网站9月10号正式上线...</span><br/><span class="c3">所属行业：商城/分销商城</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1536030507.jpg" data-original="/asp_bin/newimg/1536030507.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1536030507.jpg" data-original="/asp_bin/newimg/1536030507.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_454.html" title=" 深圳市柏瑞凯电子科技有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title=" 深圳市柏瑞凯电子科技有限公司" href="/case/show_454.html"><span class="c1"> 深圳市柏瑞凯电子科技有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为 深圳市柏瑞凯电子科技有限公司提供响应式网站建设服务，在这里祝贺深圳市柏瑞凯电子...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1536040327.jpg" data-original="/asp_bin/newimg/1536040327.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1536040327.jpg" data-original="/asp_bin/newimg/1536040327.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_453.html" title="中金国礼集团有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="中金国礼集团有限公司" href="/case/show_453.html"><span class="c1">中金国礼集团有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为中金国礼集团有限公司提供响应式网站建设服务，在这里祝贺中金国礼集团有限公司官网8...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1535972311.jpg" data-original="/asp_bin/newimg/1535972311.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1535972311.jpg" data-original="/asp_bin/newimg/1535972311.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_452.html" title="哈哈海购（深圳）电子商务有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="哈哈海购（深圳）电子商务有限公司" href="/case/show_452.html"><span class="c1">哈哈海购（深圳）电子商务有限公司</span><br/><span class="c2">福田网站建设公司网联科技祝贺哈哈海购（深圳）电子商务有限公司商城pc端与移动端网站8月29号正式上线。</span><br/><span class="c3">所属行业：电子商务平台开发</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1536046301.jpg" data-original="/asp_bin/newimg/1536046301.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1536046301.jpg" data-original="/asp_bin/newimg/1536046301.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_451.html" title="东莞市青木实业投资有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="东莞市青木实业投资有限公司" href="/case/show_451.html"><span class="c1">东莞市青木实业投资有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为东莞市青木实业投资有限公司提供响应式网站建设服务，在这里祝贺深圳市公路货运与物流...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1542174249.png" data-original="/asp_bin/newimg/1542174249.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1542174249.png" data-original="/asp_bin/newimg/1542174249.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_450.html" title="深圳市多宝硒养生产业有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市多宝硒养生产业有限公司" href="/case/show_450.html"><span class="c1">深圳市多宝硒养生产业有限公司</span><br/><span class="c2">福田网站建设公司网联科技祝贺深圳市多宝硒养生产业有限公司商城pc端与移动端定制商城网站8月15号正式上线。</span><br/><span class="c3">所属行业：商城/分销商城</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1536046083.jpg" data-original="/asp_bin/newimg/1536046083.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1536046083.jpg" data-original="/asp_bin/newimg/1536046083.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_449.html" title="深圳市公路货运与物流行业协会"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市公路货运与物流行业协会" href="/case/show_449.html"><span class="c1">深圳市公路货运与物流行业协会</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为深圳市公路货运与物流行业协会提供响应式网站建设服务，在这里祝贺深圳市公路货运与物...</span><br/><span class="c3">所属行业：视觉形象官网</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1536058750.jpg" data-original="/asp_bin/newimg/1536058750.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1536058750.jpg" data-original="/asp_bin/newimg/1536058750.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_448.html" title="深圳市同方物业管理有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市同方物业管理有限公司" href="/case/show_448.html"><span class="c1">深圳市同方物业管理有限公司</span><br/><span class="c2">深圳福田网站建设公司网联科技很荣幸能够为深圳市同方物业管理有限公司提供微信小程序端的物业管理系统，在这里祝贺深圳市同方物...</span><br/><span class="c3">所属行业：商城/分销商城</span></a></div>
     		</li><li>
-    			<div class="cimg"><img src="/picture/1536062010.jpg" data-original="/asp_bin/newimg/1536062010.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+    			<div class="cimg"><img src="/index/picture/1536062010.jpg" data-original="/asp_bin/newimg/1536062010.jpg" rel="nofollow" alt="网站制作案例" width="320" height="210" />
     				<a href="/case/show_447.html" title="深圳市绿荫汇餐饮科技服务股份有限公司"><h4></h4><p></p></a>
     			</div>
     			<div class="ctext"><a title="深圳市绿荫汇餐饮科技服务股份有限公司" href="/case/show_447.html"><span class="c1">深圳市绿荫汇餐饮科技服务股份有限公司</span><br/><span class="c2">福田网站建设公司网联科技为绿荫汇餐饮提供微信小程序开发服务，绿荫汇餐饮是集厨卫用品的技术开发，营养配餐研发以及提供餐饮管...</span><br/><span class="c3">所属行业：商城/分销商城</span></a></div>
     		</li>	</ul>
   </div>
   <div class="clear"></div>
-  <div class="tcdPageCode">  <span class='current'>1</span><a href='/index.php/../case/index/p/2.html'>2</a><a href='/index.php/../case/index/p/3.html'>3</a><a href='/index.php/../case/index/p/4.html'>4</a><a href='/index.php/../case/index/p/5.html'>5</a> <a href='/index.php/../case/index/p/2.html'><img src="/picture/next.jpg" /></a> </div>
+  <div class="tcdPageCode">  <span class='current'>1</span><a href='/index.php/../case/index/p/2.html'>2</a><a href='/index.php/../case/index/p/3.html'>3</a><a href='/index.php/../case/index/p/4.html'>4</a><a href='/index.php/../case/index/p/5.html'>5</a> <a href='/index.php/../case/index/p/2.html'><img src="/index/picture/next.jpg" /></a> </div>
   <div class="clear"></div>
   <div class="case_tit"><span>最新案例</span><a href="/case/index.html" title="最新网站建设案例">MORE</a></div>
   <div class="case_top">
     <ul>
-    	<li><a href="/case/show_458.html" title="深圳市力驰多汽车技术服务有限公司"><img src="/picture/1540193174.png" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳市力驰多汽车技术服务有限公司</h4></a></li><li><a href="/case/show_457.html" title="深圳市洲远电子有限公司"><img src="/picture/1540192604.jpg" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳市洲远电子有限公司</h4></a></li><li><a href="/case/show_456.html" title="深圳市通天科技有限公司"><img src="/picture/1540192309.png" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳市通天科技有限公司</h4></a></li><li><a href="/case/show_455.html" title="深圳易道济生文化发展有限公司"><img src="/picture/1540191003.jpg" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳易道济生文化发展有限公司</h4></a></li>	</ul>
+    	<li><a href="/case/show_458.html" title="深圳市力驰多汽车技术服务有限公司"><img src="/index/picture/1540193174.png" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳市力驰多汽车技术服务有限公司</h4></a></li><li><a href="/case/show_457.html" title="深圳市洲远电子有限公司"><img src="/index/picture/1540192604.jpg" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳市洲远电子有限公司</h4></a></li><li><a href="/case/show_456.html" title="深圳市通天科技有限公司"><img src="/index/picture/1540192309.png" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳市通天科技有限公司</h4></a></li><li><a href="/case/show_455.html" title="深圳易道济生文化发展有限公司"><img src="/index/picture/1540191003.jpg" alt="网站建设成功案例" rel="nofollow" width="242" height="160" /><h4>深圳易道济生文化发展有限公司</h4></a></li>	</ul>
   </div>
   <div class="clear"></div>
   <div class="case_bottom">
@@ -123,9 +96,9 @@
 	</div>
   </div>
 </div>
-<!--footer-->
-@extends('index.footer')
 
-<script>GetCurStyle("home2");</script>
-</body>
-</html>
+@endsection
+
+@section('home')
+<script>GetCurStyle("home");</script>
+@endsection

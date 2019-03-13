@@ -1,8 +1,8 @@
-﻿
-@extends('index.header')
+﻿@extends('index.header')
+@section('content')
 
 <!--banner-->
-<div class="banner" style="background:url(/images/1490868926.jpg) no-repeat center center;"></div>
+<div class="banner" style="background:url(/index/images/1490868926.jpg) no-repeat center center;"></div>
 <!--main开始-->
 <div class="news_wap">
   <div class="news_menu"> <a href="/about/news.html" title="" class="cur" >网联新闻</a> <a href="/about/newss_10.html" title="" class="" >网站资讯</a> <a href="/service/seo.html" title="" class="" >网站建设知识</a> <a href="/about/newss_9.html" title="" class="" >网站营销推广知识</a> <a href="/about/newss_12.html" title="" class="" >中标新闻</a> 
@@ -14,7 +14,7 @@
 	  <div class="news_list">
 	  	<ul>
 	  		<li>
-	  				<div class="news_l"><a href="/about/show_971.html" title=""><img src="/picture/1551513240.jpg" alt="" width="178" height="117" /></a></div>
+	  				<div class="news_l"><a href="/about/show_971.html" title=""><img src="/index/picture/1551513240.jpg" alt="" width="178" height="117" /></a></div>
 	  				<div class="news_r">
 	  					<h3><a href="/about/show_971.html" title="">又是一年年会趴，欢欢喜喜你我他 ——“2019网联奥斯卡假面舞会”主题年会</a><span>2019-02-28</span></h3>
 	  					<p>在这个热闹不眠、其乐融融的日子。
@@ -23,28 +23,28 @@
 	  					<h6><a href="/about/show_971.html" title="">LEARN MORE</a></h6>
 	  				</div>
 	  			</li><li>
-	  				<div class="news_l"><a href="/about/show_966.html" title=""><img src="/picture/1543985281.png" alt="" width="178" height="117" /></a></div>
+	  				<div class="news_l"><a href="/about/show_966.html" title=""><img src="/index/picture/1543985281.png" alt="" width="178" height="117" /></a></div>
 	  				<div class="news_r">
 	  					<h3><a href="/about/show_966.html" title="">金秋十一月，网联科技户外活动行</a><span>2018-12-05</span></h3>
 	  					<p>为了促进公司各部门间的交流，培养办公室人员的团队精神，进一步增强公司的凝聚力，在办公室的格子间中缺乏运动，所以特意组织了办公室人员户外集体活动。</p>
 	  					<h6><a href="/about/show_966.html" title="">LEARN MORE</a></h6>
 	  				</div>
 	  			</li><li>
-	  				<div class="news_l"><a href="/about/show_888.html" title=""><img src="/picture/1534822551.jpg" alt="" width="178" height="117" /></a></div>
+	  				<div class="news_l"><a href="/about/show_888.html" title=""><img src="/index/picture/1534822551.jpg" alt="" width="178" height="117" /></a></div>
 	  				<div class="news_r">
 	  					<h3><a href="/about/show_888.html" title="">网联科技2018年员工聚餐</a><span>2018-08-21</span></h3>
 	  					<p>为了增进员工之间的友情，交流彼此的工作经验，以“与同事分享一件难忘的事”为主题的聚餐活动在8月18号顺利进行。</p>
 	  					<h6><a href="/about/show_888.html" title="">LEARN MORE</a></h6>
 	  				</div>
 	  			</li><li>
-	  				<div class="news_l"><a href="/about/show_887.html" title=""><img src="/picture/1542349574.png" alt="" width="178" height="117" /></a></div>
+	  				<div class="news_l"><a href="/about/show_887.html" title=""><img src="/index/picture/1542349574.png" alt="" width="178" height="117" /></a></div>
 	  				<div class="news_r">
 	  					<h3><a href="/about/show_887.html" title="">网联科技温泉漂流2日游</a><span>2018-08-13</span></h3>
 	  					<p>风华正茂的我们在灿漫的人生路上不断寻觅，寻觅我们生命的亮点。五月的春风是温暖的，五月的阳光是和煦的。</p>
 	  					<h6><a href="/about/show_887.html" title="">LEARN MORE</a></h6>
 	  				</div>
 	  			</li><li>
-	  				<div class="news_l"><a href="/about/show_873.html" title=""><img src="/picture/1531991122.jpg" alt="" width="178" height="117" /></a></div>
+	  				<div class="news_l"><a href="/about/show_873.html" title=""><img src="/index/picture/1531991122.jpg" alt="" width="178" height="117" /></a></div>
 	  				<div class="news_r">
 	  					<h3><a href="/about/show_873.html" title="">网联科技2018年员工夏季生日会</a><span>2018-07-19</span></h3>
 	  					<p>7月7号，网联科技特别为2018年夏季度过生日的同事们组织举办了一场集体生日会。为了增进同事们之间的了解及友情，让员工感受到公司的温暖和关爱。</p>
@@ -52,11 +52,11 @@
 	  				</div>
 	  			</li>	  	</ul>
 	  </div>
-      <div class="tcdPageCode">  <span class='current'>1</span><a href='/index.php/about/news/p/2.html'>2</a><a href='/index.php/about/news/p/3.html'>3</a><a href='/index.php/about/news/p/4.html'>4</a><a href='/index.php/about/news/p/5.html'>5</a> <a href='/index.php/about/news/p/2.html'><img src="/picture/next.jpg" /></a> </div>
+      <div class="tcdPageCode">  <span class='current'>1</span><a href='/index.php/about/news/p/2.html'>2</a><a href='/index.php/about/news/p/3.html'>3</a><a href='/index.php/about/news/p/4.html'>4</a><a href='/index.php/about/news/p/5.html'>5</a> <a href='/index.php/about/news/p/2.html'><img src="/index/picture/next.jpg" /></a> </div>
     </div>
 	<div class="case_right">
-	  <p><a href="/contact/index.html" title=""><img src="/picture/icon1.jpg" alt="" width="300" /></a></p>
-	  <p style="padding-top:20px;"><a href="/case/index.html" title=""><img src="/picture/icon2.jpg" alt="" width="300" /></a></p>
+	  <p><a href="/contact/index.html" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>
+	  <p style="padding-top:20px;"><a href="/case/index.html" title=""><img src="/index/picture/icon2.jpg" alt="" width="300" /></a></p>
 	  <h4>网站建设知识</h4>
 	  <ul>
 	  	<li><a href="/about/show_947.html" title="">手机网站制作的重要性<br/><span>2018-11-05</span></a></li><li><a href="/about/show_939.html" title="">商城网站建设需要注意哪些<br/><span>2018-10-22</span></a></li><li><a href="/about/show_918.html" title="">深圳做网站公司--------首选网联科技<br/><span>2018-09-30</span></a></li><li><a href="/about/show_910.html" title="">2018年最值得学习的前端技术<br/><span>2018-09-25</span></a></li><li><a href="/about/show_681.html" title="">为什么做网站必须选择做响应式网站<br/><span>2017-08-26</span></a></li><li><a href="/about/show_675.html" title="">深圳网站建设哪家好<br/><span>2017-08-04</span></a></li>	  </ul>
@@ -64,7 +64,7 @@
 	  <p style="color:#333;font-weight:bold;font-size:13px;">咨询</p>
 	  <p style="color:#666;line-height:30px;">电话：0755-83658105</p>
 	  <p class="qq"><span>QQ：</span>
-	  	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img src="/picture/q1.jpg" alt="" width="25" /></a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img src="/picture/q2.jpg" alt="" width="25" /></a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img src="/picture/q3.jpg" alt="" width="25" /></a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img src="/picture/q4.jpg" alt="" width="25" /></a>	  </p>
+	  	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img src="/index/picture/q1.jpg" alt="" width="25" /></a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img src="/index/picture/q2.jpg" alt="" width="25" /></a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img src="/index/picture/q3.jpg" alt="" width="25" /></a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img src="/index/picture/q4.jpg" alt="" width="25" /></a>	  </p>
 	  <p style="color:#666;line-height:30px;">邮箱：web@ni8.com</p>
 	</div>
   </div>
@@ -72,7 +72,7 @@
   <div class="case_tit"><span>最新案例</span><a href="/case/index.html" title="">MORE</a></div>
   <div class="case_top">
     <ul>
-    	<li><a href="/case/show_458.html" target="_blank" title=""><img src="/picture/1540193174.png" alt="" width="242" height="160" /><h4>深圳市力驰多汽车技术服务有限公司</h4></a></li><li><a href="/case/show_457.html" target="_blank" title=""><img src="/picture/1540192604.jpg" alt="" width="242" height="160" /><h4>深圳市洲远电子有限公司</h4></a></li><li><a href="/case/show_456.html" target="_blank" title=""><img src="/picture/1540192309.png" alt="" width="242" height="160" /><h4>深圳市通天科技有限公司</h4></a></li><li><a href="/case/show_455.html" target="_blank" title=""><img src="/picture/1540191003.jpg" alt="" width="242" height="160" /><h4>深圳易道济生文化发展有限公司</h4></a></li>    </ul>
+    	<li><a href="/case/show_458.html" target="_blank" title=""><img src="/index/picture/1540193174.png" alt="" width="242" height="160" /><h4>深圳市力驰多汽车技术服务有限公司</h4></a></li><li><a href="/case/show_457.html" target="_blank" title=""><img src="/index/picture/1540192604.jpg" alt="" width="242" height="160" /><h4>深圳市洲远电子有限公司</h4></a></li><li><a href="/case/show_456.html" target="_blank" title=""><img src="/index/picture/1540192309.png" alt="" width="242" height="160" /><h4>深圳市通天科技有限公司</h4></a></li><li><a href="/case/show_455.html" target="_blank" title=""><img src="/index/picture/1540191003.jpg" alt="" width="242" height="160" /><h4>深圳易道济生文化发展有限公司</h4></a></li>    </ul>
   </div>
   <div class="clear"></div>
   <div class="case_bottom">
@@ -88,12 +88,9 @@
 	</div>
   </div>
 </div>
-<!--footer-->
-@extends('index.footer')
 
+@endsection
 
-<script>GetCurStyle("home3");</script>
-</body>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.page.js"></script>
-</html>
+@section('home')
+<script>GetCurStyle("home");</script>
+@endsection

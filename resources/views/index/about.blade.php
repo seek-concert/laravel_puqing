@@ -1,5 +1,6 @@
-﻿
-@extends('index.header')
+﻿@extends('index.header')
+@section('content')
+ 
 <!--banner-->
 <div class="banner" style="background:url(index/images/1490868939.jpg) no-repeat center center;position:relative;">
   <div class="dot">
@@ -128,9 +129,8 @@ $(function(){
   </div>
 </div>
 
-@extends('index.footer')
+@endsection
 
-
-<script>GetCurStyle("home4");</script>
-</body>
-</html>
+@section('home')
+<script>GetCurStyle("home6");</script>
+@endsection
