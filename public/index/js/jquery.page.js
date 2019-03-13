@@ -16,14 +16,14 @@
 				obj.empty();
 				//<
 				if(args.current > 1){
-					obj.append('<a href="javascript:;" class="prevPage"><img src="../images/prev.jpg" ></a>');
+					obj.append('<a href="js:;" class="prevPage"><img src="../images/prev.jpg" ></a>');
 				}else{
 					obj.remove('.prevPage');
 					obj.append('<span class="disabled"><img src="../images/prev.jpg" ></span>');
 				}
 				//中间页码
 				if(args.current != 1 && args.current >= 4 && args.pageCount != 4){
-					obj.append('<a href="javascript:;" class="tcdNumber">'+1+'</a>');
+					obj.append('<a href="js:;" class="tcdNumber">'+1+'</a>');
 				}
 				if(args.current-2 > 2 && args.current <= args.pageCount && args.pageCount > 5){
 					obj.append('<span>...</span>');
@@ -38,7 +38,7 @@
 				for (;start <= end; start++) {
 					if(start <= args.pageCount && start >= 1){
 						if(start != args.current){
-							obj.append('<a href="javascript:;" class="tcdNumber">'+ start +'</a>');
+							obj.append('<a href="js:;" class="tcdNumber">'+ start +'</a>');
 						}else{
 							obj.append('<span class="current">'+ start +'</span>');
 						}
@@ -48,11 +48,11 @@
 					obj.append('<span>...</span>');
 				}
 				if(args.current != args.pageCount && args.current < args.pageCount -2  && args.pageCount != 4){
-					obj.append('<a href="javascript:;" class="tcdNumber">'+args.pageCount+'</a>');
+					obj.append('<a href="js:;" class="tcdNumber">'+args.pageCount+'</a>');
 				}
 				//>
 				if(args.current < args.pageCount){
-					obj.append('<a href="javascript:;" class="nextPage"><img src="../images/next.jpg" ></a>');
+					obj.append('<a href="js:;" class="nextPage"><img src="../images/next.jpg" ></a>');
 				}else{
 					obj.remove('.nextPage');
 					obj.append('<span class="disabled"><img src="../images/next.jpg" ></span>');

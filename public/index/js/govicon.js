@@ -10,8 +10,8 @@ function GetRequest() {
     return retstr;
 }
 var webprefix = "https://szcert.ebs.org.cn/"
-var iconImageURL = "https://szcert.ebs.org.cn/Images/govIcon.gif";
-var niconImageURL = "https://szcert.ebs.org.cn/Images/newGovIcon.gif";
+var iconImageURL = "https://szcert.ebs.org.cn/images/govIcon.gif";
+var niconImageURL = "https://szcert.ebs.org.cn/images/newGovIcon.gif";
 var tempiconImageURL = "";
 
 var params = GetRequest();
@@ -24,5 +24,5 @@ if (params.type == "2") {
 document.write('<a href="' + webprefix + params.id + '" target="_blank"><img src="' + tempiconImageURL + '" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" width="' + params.width + '" height="' + params.height + '"border="0" style="border-width:0px;border:hidden; border:none;"></a>');
 
 //在页面加载完成后，获取信息并且异步post到cert.gov.com
-//document.write('<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>');
+//document.write('<script type="text/js" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>');
 
