@@ -29,7 +29,3 @@ Route::namespace('Index')->group(function () {
     Route::any('solution', 'SolutionController@index');
 });
 
-//后台目录
-Route::namespace('pqadmin')->group(function (){
-
-});
