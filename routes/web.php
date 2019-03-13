@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::get('foo', function () {
+//     return 'Hello World';
+// });
+//个人信息设置
+
+Route::namespace('Index')->group(function () {
+    Route::any('index', 'IndexController@index');
 });
