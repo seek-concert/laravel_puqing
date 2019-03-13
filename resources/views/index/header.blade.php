@@ -13,8 +13,8 @@
 <script type="text/javascript" src="{{asset('index/js/jquery-1.8.3.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('index/js/jquery.tabso_yeso.js')}}"></script>
 <script src="{{asset('index/js/curnavstyle.js')}}" type="text/javascript"></script>
-<script type="text/javascript" src="{{asset('index/js/js/funtion.js')}}"></script>
-<script src="{{asset('index/js/js/wb.js')}}" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="{{asset('index/js/funtion.js')}}"></script>
+<script src="{{asset('index/js/wb.js')}}" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <!--top-->
@@ -52,7 +52,7 @@
       <h3 class="nav_h2"><a href="{{url('/about')}}" id="in04" class="hover" title="网站资讯">网站资讯</a>
 
       </h3>
-      <h3 class="nav_h2"><a href="{{url('/index')}}" id="in05" class="hover" title="关于网联网站开发" rel="nofollow">关于网联</a>
+      <h3 class="nav_h2"><a href="{{url('/about')}}" id="in05" class="hover" title="关于网联网站开发" rel="nofollow">关于网联</a>
 
       </h3>
       <h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系网联</a>

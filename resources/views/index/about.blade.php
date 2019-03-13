@@ -1,53 +1,7 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-<title>网联概况_网联科技(ni8.com)</title>
-<meta name="keywords" content="网联科技网站建设服务理念。">
-<meta name="description" content="网联科技是专业的网站建设公司，提供高品质网站策划,个性化网站建设，13年来锐意进取为2万多家企业本地化的顾问式服务，欢迎电话咨询：0755-83271881
-">
-<link rel="shortcut icon" href="/Public/images/favicon.ico">
-<link type="text/css" rel="stylesheet" href="/css/style.css" />
-<link type="text/css" rel="stylesheet" href="/css/validationengine.jquery.css">
-<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
-<script src="/js/curnavstyle.js" type="text/javascript"></script>
-<script type="text/javascript" src="/js/funtion.js"></script>
-<script type="text/javascript" src="/js/jquery-1.10.1.js"></script>
-<script type="text/javascript" src="/js/jquery.validationengine-zh_cn.js"></script> 
-<script type="text/javascript" src="/js/jquery.validationengine.js"></script>
-<script src="/js/wb.js" type="text/javascript" charset="utf-8"></script>
-<style>
-.dot{width:161px;position:absolute;left:50%;margin-left:400px;height:395px;}
-.dot_bg{width:161px;height:161px;float:left;margin-top:30px;background: transparent url(/images/clock-shape.svg) no-repeat;position:relative;}
-.center_dot{position: absolute;width: 10px;height: 10px;background: black;left: 50%;;top:50%;border-radius:10px;display:none;left:75.5px;}
-.minute{display:none;}
-.text{display:none;}
-.secend_zhen{position: absolute; background: transparent url(/images/clock-sec.svg) no-repeat;width:11px;height:161px;left:75px;}
-.minute_zhen{position: absolute;background: transparent url(/images/clock-min.svg) no-repeat;width:11px;height:161px;left:75px;}
-.hour_zhen{position: absolute;width:11px;height:161px;background: transparent url(/images/clock-hour.svg) no-repeat;left:75px;}
-</style>
-<script type="text/javascript">
-$(function(){
-	$('#myform').validationEngine(); 
-})
-</script>
-</head>
-<body>
-<!--top-->
-<script src="/js/jquery.lazyload.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(function() {
-     $("img").lazyload({
-         effect : "fadeIn",
-         failure_limit : 10
-     });
-  });
-</script>
+﻿
 @extends('index.header')
-
 <!--banner-->
-<div class="banner" style="background:url(/images/1490868939.jpg) no-repeat center center;position:relative;">
+<div class="banner" style="background:url(index/images/1490868939.jpg) no-repeat center center;position:relative;">
   <div class="dot">
     <div class="dot_bg">
       <div class="secend_zhen"></div>
@@ -152,7 +106,7 @@ $(function(){
   	<p style="color:#666;font-size:28px;margin-top:50px;" align="center">卓越的创意思维、<span style="color:#20b7f4;">为您创造出一流的品牌互联网形象！</span> </p>
     <p style="color:#b4b4b4;line-height:22px;margin-top:30px;text-indent:3em;" align="center">深圳市网联信息科技开发有限公司成立于2003年，公司自成立以来始终致力于为企业提供信息化服务。涵盖品牌策划、<a href="/service/index_20.html" target="_blank"><span style="color:#000000;">高品质网站建设</span></a>、<a href="/service/index_108.html" target="_blank"><span style="color:#000000;">电商平台开发</span></a>、移动互联网业务开发运营（<a href="/service/index_110.html" target="_blank"><span style="color:#000000;">微信二次开发</span></a>、<a href="/service/index_112.html" target="_blank"><span style="color:#000000;">手机网站建设</span></a>、APP开发等）、互联网基础服务、云主机托管及其他IT信息技术外包服务。经过长期的市场培育和技术积累，2万多客户的共同见证，网联科技凝聚了行业领先的业务优势。 </p>
     <p style="color:#b4b4b4;line-height:22px;text-indent:3em;" align="center">基于对中国企业的特点和其信息化需求的深刻理解以及中国经济的迅猛发展和企业信息化的推进，深圳<a href="" target="_blank"><span style="color:#000000;">网联科技</span></a>先后在深圳、广州、惠州、东莞、河源等地设立了分公司，员工总数贰百余人。他们分别是富有创意的前端开发工程师，认真闷骚的后台开发工程师，耐心细致的售后客服人员，业务娴熟的一线销售顾问。无论是哪一位网联人，无一不是对互联网行业有着丰富的经验及饱满的热情。我们奋不顾身，我们锐意进取，我们力争成为您理想的合作伙伴。</p>
-    <p style="margin-top:50px;" align="center"><img src="/picture/20160325100344_65123.jpg" alt="" border="0" /></p>
+    <p style="margin-top:50px;" align="center"><img src="" alt="" border="0" /></p>
     <p style="color:#333;font-size:16px;margin-top:50px;" align="center">开拓创新、锐意进取、不断提高研发能力</p>
     <p style="color:#b4b4b4;line-height:24px;margin-top:30px;" align="center">2004年自主研发产品“网联天下邮”为千万家企业提供全球商务邮件系统服务；<br />
       2005年自主研发“Ni8-shop商城系统”，为新、老客户提供在线商城服务；<br />

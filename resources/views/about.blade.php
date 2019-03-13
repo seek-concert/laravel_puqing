@@ -46,7 +46,7 @@ $(function(){
 </script>
 <div class="top1">
   <div class="topbox">
-    <div class="logo f1"><a href="/" title="网联科技"><img src="static/picture/logo1.png" id="logo" data-original="/Public/images/logo1.png"/></a></div>
+    <div class="logo f1"><a href="/" title="网联科技"><img src="/index/static/picture/logo1.png" id="logo" data-original="/Public/images/logo1.png"/></a></div>
     <div class="dh f2">
       <ul class="dh-top f2" style="height:22px;">
         <li class="f2"><span style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span> <span>服务：0755-83271606、83658105</span></li>
@@ -186,7 +186,7 @@ $(function(){
   	<p style="color:#666;font-size:28px;margin-top:50px;" align="center">卓越的创意思维、<span style="color:#20b7f4;">为您创造出一流的品牌互联网形象！</span> </p>
     <p style="color:#b4b4b4;line-height:22px;margin-top:30px;text-indent:3em;" align="center">深圳市网联信息科技开发有限公司成立于2003年，公司自成立以来始终致力于为企业提供信息化服务。涵盖品牌策划、<a href="/service/index_20.html" target="_blank"><span style="color:#000000;">高品质网站建设</span></a>、<a href="/service/index_108.html" target="_blank"><span style="color:#000000;">电商平台开发</span></a>、移动互联网业务开发运营（<a href="/service/index_110.html" target="_blank"><span style="color:#000000;">微信二次开发</span></a>、<a href="/service/index_112.html" target="_blank"><span style="color:#000000;">手机网站建设</span></a>、APP开发等）、互联网基础服务、云主机托管及其他IT信息技术外包服务。经过长期的市场培育和技术积累，2万多客户的共同见证，网联科技凝聚了行业领先的业务优势。 </p>
     <p style="color:#b4b4b4;line-height:22px;text-indent:3em;" align="center">基于对中国企业的特点和其信息化需求的深刻理解以及中国经济的迅猛发展和企业信息化的推进，深圳<a href="" target="_blank"><span style="color:#000000;">网联科技</span></a>先后在深圳、广州、惠州、东莞、河源等地设立了分公司，员工总数贰百余人。他们分别是富有创意的前端开发工程师，认真闷骚的后台开发工程师，耐心细致的售后客服人员，业务娴熟的一线销售顾问。无论是哪一位网联人，无一不是对互联网行业有着丰富的经验及饱满的热情。我们奋不顾身，我们锐意进取，我们力争成为您理想的合作伙伴。</p>
-    <p style="margin-top:50px;" align="center"><img src="static/picture/20160325100344_65123.jpg" alt="" border="0" /></p>
+    <p style="margin-top:50px;" align="center"><img src="/index/static/picture/20160325100344_65123.jpg" alt="" border="0" /></p>
     <p style="color:#333;font-size:16px;margin-top:50px;" align="center">开拓创新、锐意进取、不断提高研发能力</p>
     <p style="color:#b4b4b4;line-height:24px;margin-top:30px;" align="center">2004年自主研发产品“网联天下邮”为千万家企业提供全球商务邮件系统服务；<br />
       2005年自主研发“Ni8-shop商城系统”，为新、老客户提供在线商城服务；<br />
@@ -237,10 +237,10 @@ $(function(){
         <li><a href="/contact/help.html" title="网站建设帮助中心">帮助中心</a></li>
       </ul>
       <div class="ewm" style=" margin-right:16px;">
-        <p><img src="static/picture/sjewm.jpg" data-original="/Public/images/sjewm.jpg" alt="" width="118" height="118"/></p>
+        <p><img src="/index/static/picture/sjewm.jpg" data-original="/Public/images/sjewm.jpg" alt="" width="118" height="118"/></p>
         <span>手机官网</span> </div>
       <div class="ewm">
-        <p><img src="static/picture/wxewm.jpg" data-original="/Public/images/wxewm.jpg" alt="" width="118" height="118"/></p>
+        <p><img src="/index/static/picture/wxewm.jpg" data-original="/Public/images/wxewm.jpg" alt="" width="118" height="118"/></p>
         <span>官方微信</span> </div>
     </div>
     <div class="fx">
@@ -259,7 +259,7 @@ $(function(){
 </li>
         <li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">粤ICP备05022732号-1</a>&nbsp;&nbsp;&nbsp;粤B2-20050242</li>
       </ul>
-	  <div style="position:absolute;width:40px;top:16px;text-align:center;left:360px;"><script id="ebsgovicon" src="static/js/govicon.js" type="text/javascript" charset="utf-8"></script></div>
+	  <div style="position:absolute;width:40px;top:16px;text-align:center;left:360px;"><script id="ebsgovicon" src="index/static/js/govicon.js" type="text/javascript" charset="utf-8"></script></div>
     </div>
   </div>
 </div>
@@ -291,7 +291,7 @@ $(function(){
 	  <li class="fqq">
           <a class="zixun1 zixun"title="qq联系网站建设"></a>
 	    <div class="foot_qq">
-        <a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img src="static/picture/q01.png" alt="" width="25" data-original="/Public/images/q01.png"/><span>业务经理</span></a><a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img src="static/picture/q02.png" alt="" width="25" data-original="/Public/images/q02.png"/><span>业务经理</span></a><a target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img src="static/picture/q03.png" alt="" width="25" data-original="/Public/images/q03.png"/><span>售后客服</span></a><a target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img src="static/picture/q04.png" alt="" width="25" data-original="/Public/images/q00.png"/><span>售后客服</span></a><a target="_blank" rel="nofollow" title="技术支持" href="http://wpa.qq.com/msgrd?v=3&uin=441579876&site=qq&menu=yes"><img src="static/picture/q01.png" alt="" width="25" data-original="/Public/images/q01.png"/><span>技术支持</span></a>        </div>
+        <a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img src="/index/static/picture/q01.png" alt="" width="25" data-original="/Public/images/q01.png"/><span>业务经理</span></a><a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img src="/index/static/picture/q02.png" alt="" width="25" data-original="/Public/images/q02.png"/><span>业务经理</span></a><a target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img src="/index/static/picture/q03.png" alt="" width="25" data-original="/Public/images/q03.png"/><span>售后客服</span></a><a target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img src="/index/static/picture/q04.png" alt="" width="25" data-original="/Public/images/q00.png"/><span>售后客服</span></a><a target="_blank" rel="nofollow" title="技术支持" href="http://wpa.qq.com/msgrd?v=3&uin=441579876&site=qq&menu=yes"><img src="/index/static/picture/q01.png" alt="" width="25" data-original="/Public/images/q01.png"/><span>技术支持</span></a>        </div>
 	  </li>
 	  <li class="dhm">
           <a class="zixun2 zixun"title="电话联系网站建设" ></a>
@@ -305,8 +305,8 @@ $(function(){
 	  <li class="gw">
           <a class="zixun4 zixun"title="扫描二维码联系"></a>
 	    <div class="code-side">
-		  <div><img src="static/picture/sjewm.jpg" alt="手机官网" data-original="/Public/images/sjewm.jpg"/><span>手机官网</span></div>
-		  <div><img src="static/picture/wxewm.jpg" alt="官网微信" data-original="/Public/images/wxewm.jpg"/><span>官网微信</span></div>
+		  <div><img src="/index/static/picture/sjewm.jpg" alt="手机官网" data-original="/Public/images/sjewm.jpg"/><span>手机官网</span></div>
+		  <div><img src="/index/static/picture/wxewm.jpg" alt="官网微信" data-original="/Public/images/wxewm.jpg"/><span>官网微信</span></div>
 		</div>
 	  </li>
 	  <li><a class="zixun5 zixun" href="javascript:window.scrollTo(0,0)" class="top1" title="回顶部">
