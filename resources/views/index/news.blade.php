@@ -1,29 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-<title>网联新闻_网站建设公司网联科技</title>
-<meta name="keywords" content="网联新闻">
-<meta name="description" content="网联科技有你更精彩！深圳市网联信息科技开发有限公司18年建站经验，专注于网站设计，网站开发，网站托管服务，我们追求卓越，锐意进取，只为获得您100%的满意。">
-<link rel="shortcut icon" href="/Public/images/favicon.ico">
-<link type="text/css" rel="stylesheet" href="/css/style.css" />
-<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
-<script src="/js/curnavstyle.js" type="text/javascript"></script>
-<script type="text/javascript" src="/js/funtion.js"></script>
-<script src="/js/wb.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-<!--top-->
-<script src="/js/jquery.lazyload.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(function() {
-     $("img").lazyload({
-         effect : "fadeIn",
-         failure_limit : 10
-     });
-  });
-</script>
+﻿
 @extends('index.header')
 
 <!--banner-->

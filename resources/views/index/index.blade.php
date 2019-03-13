@@ -1,30 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>深圳网站建设,深圳网页制作,深圳网站开发-深圳网站外包公司网联科技</title>
-<meta name="description" content="网联科技是深圳专业的网站制作外包公司,提供高品质网页策划,个性化网站开发服务,17年来为2万多家企业打造高品质网站建设服务,电话咨询：0755-83271881。">
-<meta name="keywords" content="深圳网站建设,深圳网页制作,深圳网站开发、深圳网站外包、深圳网站公司、深圳官网定制">
-<link rel="shortcut icon" href="/Public/images/favicon.ico">
-<link type="text/css" rel="stylesheet" href="/css/style.css" />
-  <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
-  <script src="/js/jquery1.js" type="text/javascript"></script>
-<style>
-</style>
-<meta name="wlhlauth" content="a46c1c8fe737488a5c7202e9d8abec49"/>
-<meta name="robots" content="all">
-</head>
-<body style="background:url(/images/1491531510.jpg) no-repeat center top;background-attachment:fixed;">
-<script src="/js/jquery.lazyload.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(function() {
-     $("img").lazyload({
-         effect : "fadeIn",
-         failure_limit : 10,
-
-     });
-  });
-</script>
+﻿
 @extends('index.header')
 
 <!--banner开始-->

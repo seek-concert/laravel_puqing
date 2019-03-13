@@ -46,7 +46,7 @@
   <div class="footer">
     <div class="bqxx" style="position:relative;">
       <ul>
-        <li class="f1" style="font-family:Arial;">&copy;2016 深圳市网联信息科技开发有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_3140605'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D3140605%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7eaaa90f118c6a7255012073291e21ee' type='text/javascript'%3E%3C/script%3E")) </script>
+        <li class="f1" style="font-family:Arial;">&copy;2016 深圳市网联信息科技开发有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
 </li>
         <li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">粤ICP备05022732号-1</a>&nbsp;&nbsp;&nbsp;粤B2-20050242</li>
       </ul>

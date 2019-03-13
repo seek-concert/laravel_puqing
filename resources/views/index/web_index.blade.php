@@ -1,46 +1,18 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<title>福田高品质网站建设_企业官网建设_网联科技(ni8.com)！</title>
-<meta name="keywords" content="企业网站建设,企业官网建设">
-<meta name="description" content="网联科技是专业的网站建设公司,提供高品质网站建设,企业官网建设,视觉形象展示官网,营销型官网,响应式官网,商城网站开发服务!">
-<link rel="shortcut icon" href="/Public/images/favicon.ico">
-<link type="text/css" rel="stylesheet" href="/css/about.css" />
-<link type="text/css" rel="stylesheet" href="/css/tab.css" />
-<link type="text/css" rel="stylesheet" href="/css/style.css" />
-<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/js/jquery.tabso_yeso.js"></script>
-<script src="/js/curnavstyle.js" type="text/javascript"></script>
-<script type="text/javascript" src="/js/funtion.js"></script>
-<script src="/js/wb.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-<!--top-->
-<script src="/js/jquery.lazyload.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(function() {
-     $("img").lazyload({
-         effect : "fadeIn",
-         failure_limit : 10
-     });
-  });
-</script>
+﻿
 @extends('index.header')
 
 <!--banner-->
-<div class="banner" style="background:url(/images/1490869083.jpg) no-repeat center center;"></div>
+<div class="banner" style="background:url(/index/images/1490869083.jpg) no-repeat center center;"></div>
 <!--main开始-->
 <div class="pro_wap">
   <div class="pro_menu">
     <ul style="margin-left: 322px;width: 620px;">
-	  <li class="cur"><a href="/service/index_20.html" title="" class="phover"><img src="/picture/picon1.png" alt="" width="22" height="22" class="pr1"/><br/><span>高品质网站建设</span></a></li>
-	  <li ><a href="/service/index_108.html" title="" class="phover"><img src="/picture/picon2.png" alt="" width="22" height="22" class="pr2"/><br/><span>商城网站建设</span></a></li>
-	  <li ><a href="/service/index_109.html" title="" class="phover"><img src="/picture/picon3.png" alt="" width="23" height="22" class="pr3"/><br/><span>系统平台开发</span></a></li>
-	  <li ><a href="/service/index_110.html" title="" class="phover"><img src="/picture/picon4.png" alt="" width="26" height="22" class="pr4"/><br/><span>微信营销</span></a></li>
-	  <li ><a href="/service/index_111.html" title="" class="phover"><img src="/picture/picon5.png" alt="" width="31" height="22" class="pr5"/><br/><span>P2P众筹平台</span></a></li>
-	 <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/picture/picon6.png" alt="" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
+	  <li class="cur"><a href="/service/index_20.html" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1"/><br/><span>高品质网站建设</span></a></li>
+	  <li ><a href="/service/index_108.html" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2"/><br/><span>商城网站建设</span></a></li>
+	  <li ><a href="/service/index_109.html" title="" class="phover"><img src="/index/picture/picon3.png" alt="" width="23" height="22" class="pr3"/><br/><span>系统平台开发</span></a></li>
+	  <li ><a href="/service/index_110.html" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4"/><br/><span>微信营销</span></a></li>
+	  <li ><a href="/service/index_111.html" title="" class="phover"><img src="/index/picture/picon5.png" alt="" width="31" height="22" class="pr5"/><br/><span>P2P众筹平台</span></a></li>
+	 <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
 	</ul>
   </div>
   </div>
@@ -51,7 +23,7 @@
     <li><a title="响应式官网" href="/service/index_128.html">响应式官网</a></li>
   </ul>
 </div>
-<div class="pro_option">  <div class="pro_box" style="display:block;">    <div class="pro_con" style="padding:155px 0px;"> <span style="width:528px;float:left;"><img src="/picture/pimg1.jpg" width="528" height="412" alt="" border="0" /></span> <span style="width:467px;text-align:right;margin-top:50px;float:right;"><font color="#333333"><span style="font-size:32px;line-height:48px;">企业官网建设</span></font><br />
+<div class="pro_option">  <div class="pro_box" style="display:block;">    <div class="pro_con" style="padding:155px 0px;"> <span style="width:528px;float:left;"><img src="/index/picture/pimg1.jpg" width="528" height="412" alt="" border="0" /></span> <span style="width:467px;text-align:right;margin-top:50px;float:right;"><font color="#333333"><span style="font-size:32px;line-height:48px;">企业官网建设</span></font><br />
 <br />
       <br />
       <p style="color:#7a7a7a;line-height:24px;font-size:14px;">我们帮助客户策划、构想、实施和运营关键性的互联网业务，<span style="color:#767173;font-size:14px;line-height:1.5;text-align:start;">涵盖</span><span style="color:#767173;font-size:14px;line-height:1.5;text-align:start;">企业网站开发、高端网站建设、</span><a href="/service/index_112.html" target="_blank" style="font-size:12px;line-height:1.5;text-align:start;"><span style="font-size:14px;color:#000000;">手机网站建设</span></a><span style="color:#767173;font-size:14px;line-height:1.5;text-align:start;">、</span><a href="/service/index_108.html" target="_blank" style="font-size:12px;line-height:1.5;text-align:start;"><span style="font-size:14px;color:#000000;">电子商务平台开发</span></a><span style="color:#767173;font-size:14px;line-height:1.5;text-align:start;">、</span><a href="/service/index_109.html" target="_blank" style="font-size:12px;line-height:1.5;text-align:start;"><span style="font-size:14px;color:#000000;">系统平台开发</span></a><span style="color:#767173;font-size:14px;line-height:1.5;text-align:start;">、</span><a href="/service/index_110.html" target="_blank" style="font-size:12px;line-height:1.5;text-align:start;"><span style="font-size:14px;color:#000000;">微信应用开发</span></a>、VI设计、互联网基础服务、云主机托管及其他IT信息技术外包服务。经过长期的市场培育和技术积累，2万多客户的共同见证，网联科技凝聚了行业领先的业务优势，并服务过众多知名企业。 <br />
@@ -68,7 +40,7 @@
     </div>
     <div class="pro_con" style="padding:90px 0px;">      <h3 style="text-align:center;color:#333333;font-size:32px;font-weight:500;">我们的能力</h3>
       <p style="padding:30px 0px;text-align:center;color:#999999;line-height:26px;font-size:14px;"><a href="/" target="_blank"><span style="color:#000000;">网联信息</span></a>帮助客户策划、构想、实施和运营关键性的互联网业务，涵盖高端网站建设、电子商务、媒介代理、VI设计、互联网基础服务、云主机托管及其他IT信息技术外包服务。经过17年的市场培育和技术积累，2万多客户的共同见证，网联科技凝聚了网站建设行业领先的业务优势，并服务过众多知名企业。</p>
-      <p> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/picture/pf1.jpg" data-original="/Public/images/pf1.jpg" height="114" width="114" /></span> <span style="width:344px;text-align:center;float:left;display:block;"><img alt="" src="/picture/pf2.jpg" data-original="/Public/images/pf2.jpg" height="114" width="114" /></span> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/picture/20160301010331_10565.jpg" data-original="/asp_bin/UploadFile/20160301010331_10565.jpg" border="0" /></span> </p>
+      <p> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf1.jpg" data-original="/Public/index/images/pf1.jpg" height="114" width="114" /></span> <span style="width:344px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf2.jpg" data-original="/Public/index/images/pf2.jpg" height="114" width="114" /></span> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/20160301010331_10565.jpg" data-original="/asp_bin/UploadFile/20160301010331_10565.jpg" border="0" /></span> </p>
      <p> <span style="width:330px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">PROFESSIONALS</span><br />
         专业</span> <span style="width:344px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">EXPERIENCE</span><br />
         经验</span> <span style="width:330px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">CREATIVE</span><br />
