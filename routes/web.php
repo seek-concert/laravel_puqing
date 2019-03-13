@@ -16,9 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 //个人信息设置
-
 Route::namespace('Index')->group(function () {
     Route::any('/', 'IndexController@index');
     Route::any('index', 'IndexController@index');
