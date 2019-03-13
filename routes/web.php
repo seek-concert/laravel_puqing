@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//个人信息设置
+//前台目录
 Route::namespace('Index')->group(function () {
     Route::any('/', 'IndexController@index');
     Route::any('index', 'IndexController@index');
@@ -27,4 +27,9 @@ Route::namespace('Index')->group(function () {
     Route::any('news', 'NewsController@index');
     Route::any('about', 'AboutController@index');
     Route::any('solution', 'SolutionController@index');
+});
+
+//后台目录
+Route::namespace('pqadmin')->group(function (){
+
 });
