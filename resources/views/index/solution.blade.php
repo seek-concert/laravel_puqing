@@ -86,5 +86,5 @@
 @endsection
 
 @section('home')
-<script>GetCurStyle("home");</script>
+<script>GetCurStyle("home6");</script>
 @endsection

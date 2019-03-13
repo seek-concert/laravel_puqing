@@ -54,6 +54,7 @@ $(function(){
       <div class="clear"></div>
       <span class="dh-main">
       <h3 class="nav_h2"><a href="/" id="in01" class="hover" title="首页">首页</a></h3>
+
       <h3 class="nav_h2"><a href="{{url('/web')}}" id="in02" class="hover" title="网站建设">网站建设</a></h3>
 
 
