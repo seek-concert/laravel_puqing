@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Index;
 
 
 
-class IndexController
+class AppController
 {
     /*
     |--------------------------------------------------------------------------
@@ -28,6 +28,6 @@ class IndexController
 
     }
     public function index(){
-        return view('index/index');
+        return view('index/app_index');
     }
 }
