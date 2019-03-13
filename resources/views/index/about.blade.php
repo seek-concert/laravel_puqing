@@ -132,5 +132,5 @@ $(function(){
 @endsection
 
 @section('home')
-<script>GetCurStyle("home6");</script>
+<script>GetCurStyle("home4");</script>
 @endsection
