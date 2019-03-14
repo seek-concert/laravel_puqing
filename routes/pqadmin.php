@@ -30,6 +30,7 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('index', 'IndexController@index');
     //网站设置
     Route::any('web_setting','WebController@index');
-
+    //客户信息
+    Route::any('customer_lists','CustomerController@customer_lists');
 });
 

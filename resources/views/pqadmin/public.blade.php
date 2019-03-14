@@ -250,9 +250,9 @@
                 </a>
             </li>
             <li class="i_32_ui">
-                <a href="ui.html" title="Kit elements">
-                    <span class="tab_label">UI</span>
-                    <span class="tab_info">Kit elements</span>
+                <a href="{{url('pqadmin/customer_lists')}}" title="Kit elements">
+                    <span class="tab_label">客户列表</span>
+                    <span class="tab_info">查看客户信息</span>
                 </a>
             </li>
             <li class="i_32_tables">
