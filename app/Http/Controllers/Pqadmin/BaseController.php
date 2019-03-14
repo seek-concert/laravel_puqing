@@ -19,4 +19,17 @@ Class BaseController extends Controller
             return $next($request);
         });
     }
+
+    public function upload($img){
+        // 获取后缀名
+        $ext = $img->extension();
+        // 新文件名
+        $saveName =time().rand().".".$ext;
+        // 存储文件 已经不使用 move 这种方式
+        // $img->move('./uploads/'.date('Ymd'),$saveName);
+        // 使用 store 存储文件
+        $path = $img->store(date('Ymd'));
+
+        return 'uploads/'.$path;
+    }
 }
