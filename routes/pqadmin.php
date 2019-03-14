@@ -32,5 +32,7 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('web_setting','WebController@index');
     //客户信息
     Route::any('customer_lists','CustomerController@customer_lists');
+    //添加新客户
+    Route::any('customer_add','CustomerController@customer_add');
 });
 

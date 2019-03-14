@@ -48,7 +48,7 @@
 							<!-- Drop Menu -->
 							<ul class="drop_menu menu_with_icons right_direction">
 								<li>
-									<a class="i_16_add" href="#" title="New Flie">
+									<a class="i_16_add" href="customer_add" title="New Flie">
 										<span class="label">新增客户</span>
 									</a>									
 								</li>

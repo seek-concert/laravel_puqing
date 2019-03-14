@@ -25,17 +25,22 @@ Class CustomerController extends BaseController
     /*
     *   客户列表
     *   Date：2019/3/14
-    *   param page int 页码
     *   
     */
     public function customer_lists(Request $request)
     {   
-       
-        $param = $request->all();
-        $page = isset($param['page'])?(int)$param['page']:1;
         //数据查询
         $list = DB::table('customer')->get();
         
         return view('pqadmin.customer_lists',['list'=>$list]);
+    }
+
+    /*
+    *   添加新客户
+    *   Date：2019/3/14
+    *   
+    */
+    public function customer_add(){
+        
     }
 }
