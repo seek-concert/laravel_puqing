@@ -1,113 +1,128 @@
-<!DOCTYPE html>
-<html lang="zh-cn" >
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <title>提示_通用平台</title>
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="/bootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="/bootstrap/bower_components/font-awesome/css/font-awesome.min.css">
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="/bootstrap/bower_components/Ionicons/css/ionicons.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="/bootstrap/dist/css/AdminLTE.min.css">
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-         folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="/bootstrap/dist/css/skins/_all-skins.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>普擎科技-提示</title>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="js/Flot/excanvas.js"></script>
+	<![endif]-->
+	<!-- The Fonts -->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="/bootstrap/js/html5shiv.min.js"></script>
-    <script src="/bootstrap/js/respond.min.js"></script>
-    <![endif]-->
-    <!-- Google Font -->
-    <link rel="stylesheet" href="/bootstrap/css/googlefonts.css">
-    <style>
-        .color-palette {
-            height: 35px;
-            line-height: 35px;
-            text-align: center;
-        }
-        .color-palette-set {
-            margin-bottom: 15px;
-        }
-        .color-palette span {
-            display: none;
-            font-size: 12px;
-        }
-        .color-palette:hover span {
-            display: block;
-        }
-        .color-palette-box h4 {
-            position: absolute;
-            top: 100%;
-            left: 25px;
-            margin-top: -40px;
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 12px;
-            display: block;
-            z-index: 7;
-        }
-    </style>
+	<!-- The Main css File -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- jQuery -->
+	<script src="js/jQuery/jquery-1.7.2.min.js"></script>
 </head>
+<style>
+.g_2{
+ width:100%;
+}
+a{
+    color:#000000
+}
+</style>
 <body>
-<div style="margin:auto; width: 50%; height: auto; overflow: hidden;">
-    <div class="box box-default" style="margin-top: 20%;">
-        <div class="box-header with-border">
-            <i class="fa fa-bullhorn"></i>
-            <h3 class="box-title">提示</h3>
+	<!-- Change Pattern -->
+	<div class="changePattern">
+		<span id="pattern1"></span>
+		<span id="pattern2"></span>
+		<span id="pattern3"></span>
+		<span id="pattern4"></span>
+		<span id="pattern5"></span>
+		<span id="pattern6"></span>
+	</div>
+	<!-- Top Panel -->
+
+	<div class="wrapper contents_wrapper">
+    @if ($data['status']=='error')
+		<div class="login">
+			<div class="widget_header">
+				<h4 class="widget_header_title wwIcon ">错误</h4>
+			</div>
+			<div class="widget_contents lgNoPadding">
+				<div class="line_grid">
+					<div class="g_2 g_2M"><span class="label">{{$data['message']}}</span></div>
+					<div class="clear"></div>
+				</div>
+				<div class="line_grid">
+					<div class="g_2 g_2M"><span class="label">浏览器页面将在<b id="loginTime_error">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a></span></div>
+					<div class="clear"></div>
+				</div>
+				
+			</div>
+		</div>
+    @endif
+    @if ($data['status']=='continue')
+        <div class="login">
+            <div class="widget_header">
+                <h4 class="widget_header_title wwIcon ">未完成,继续</h4>
+            </div>
+            <div class="widget_contents lgNoPadding">
+                <div class="line_grid">
+                    <div class="g_2 g_2M"><span class="label">{{$data['message']}}</span></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line_grid">
+                    <div class="g_2 g_2M"><span class="label">浏览器页面将在<b id="loginTime_continue">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a></span></div>
+                    <div class="clear"></div>
+                </div>
+                
+            </div>
         </div>
-        <!-- /.box-header -->
-        <div class="box-body">
-            @if ($data['status']=='error')
-                <div class="callout callout-danger">
-                    <h4>错误</h4>
-                    <p>{{$data['message']}}</p>
-                    <p>浏览器页面将在<b id="loginTime_error">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a> </p>
+    @endif
+    @if ($data['status']=='warning')
+        <div class="login">
+            <div class="widget_header">
+                <h4 class="widget_header_title wwIcon ">警告</h4>
+            </div>
+            <div class="widget_contents lgNoPadding">
+                <div class="line_grid">
+                    <div class="g_2 g_2M"><span class="label">{{$data['message']}}</span></div>
+                    <div class="clear"></div>
                 </div>
-            @endif
-            @if ($data['status']=='continue')
-                <div class="callout callout-info">
-                    <h4>未完成，继续</h4>
-                    <p>{{$data['message']}}</p>
-                    <p>浏览器页面将在<b id="loginTime_continue">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a> </p>
+                <div class="line_grid">
+                    <div class="g_2 g_2M"><span class="label">浏览器页面将在<b id="loginTime_warning">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a></span></div>
+                    <div class="clear"></div>
                 </div>
-            @endif
-            @if ($data['status']=='warning')
-                <div class="callout callout-warning">
-                    <h4>警告</h4>
-                    <p>{{$data['message']}}</p>
-                    <p>浏览器页面将在<b id="loginTime_warning">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a> </p>
-                </div>
-            @endif
-            @if ($data['status']=='success')
-                <div class="callout callout-success">
-                    <h4>成功</h4>
-                    <p>{{$data['message']}}</p>
-                    <p>浏览器页面将在<b id="loginTime_success">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a> </p>
-                </div>
-            @endif
+                
+            </div>
         </div>
-        <!-- /.box-body -->
-    </div>
-    <!-- /.box -->
-</div>
+    @endif
+    @if ($data['status']=='success')
+        <div class="login">
+            <div class="widget_header">
+                <h4 class="widget_header_title wwIcon ">成功</h4>
+            </div>
+            <div class="widget_contents lgNoPadding">
+                <div class="line_grid">
+                    <div class="g_2 g_2M"><span class="label">{{$data['message']}}</span></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line_grid">
+                    <div class="g_2 g_2M"><span class="label">浏览器页面将在<b id="loginTime_success">{{ $data['jumpTime'] }}</b>秒后跳转......<a href="javascript:void(0);" class="jump_now">立即跳转</a></span></div>
+                    <div class="clear"></div>
+                </div>
+                
+            </div>
+        </div>
+    @endif
+	</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='js' charset='gb2312'></script></div>
 </body>
 </html>
-<!-- jQuery 3 -->
-<script src="js/jquery.min.js"></script>
-<!--本页JS-->
 <script type="text/javascript">
     $(function(){
         //循环倒计时，并跳转
         var url = "{{ $data['url'] }}";
         var loginTimeID='loginTime_'+'{{$data['status']}}';
+        console.log('{{$data['status']}}');
+        console.log(url);
         //alert(loginTimeID);return;
         var loginTime = parseInt($('#'+loginTimeID).text());
-        console.log(loginTime);
+        console.log($('#'+loginTimeID));
         var time = setInterval(function(){
             loginTime = loginTime-1;
             $('#'+loginTimeID).text(loginTime);
