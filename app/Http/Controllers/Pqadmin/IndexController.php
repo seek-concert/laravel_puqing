@@ -1,21 +1,17 @@
 <?php
 
 namespace App\Http\Controllers\Pqadmin;
-use App\Http\Controllers\Controller;
 
-Class IndexController extends Controller
+Class IndexController extends BaseController
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+
     public function __construct()
     {
-
+        parent::__construct();
     }
 
-    public function index(){
+    public function index()
+    {
         return view('pqadmin.index');
     }
 }

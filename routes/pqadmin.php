@@ -18,6 +18,16 @@ Route::get('foo', function () {
 
 //后台目录
 Route::namespace('Pqadmin')->group(function () {
+    //跳转提示页
+    Route::resource('prompt','PromptController');
+    //登录页
+    Route::any('login', 'LoginController@login');
+    //登录
+    Route::any('passport', 'LoginController@passport');
+    //退出登录
+    Route::any('loginOut', 'LoginController@loginOut');
+    //后台首页
     Route::any('index', 'IndexController@index');
+
 });
 
