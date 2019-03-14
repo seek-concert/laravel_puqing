@@ -49,19 +49,8 @@
 							<ul class="drop_menu menu_with_icons right_direction">
 								<li>
 									<a class="i_16_add" href="#" title="New Flie">
-										<span class="label">New File</span>
+										<span class="label">新增客户</span>
 									</a>									
-								</li>
-								<li>
-									<a class="i_16_progress" href="#" title="2 Files Left">
-										<span class="label">Files Left</span>
-										<span class="small_count">2</span>
-									</a>
-								</li>
-								<li>
-									<a class="i_16_files" href="#" title="Browse Files">
-										<span class="label">Browse Files</span>
-									</a>
 								</li>
 							</ul>
 						</div>
