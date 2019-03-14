@@ -28,6 +28,8 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('loginOut', 'LoginController@loginOut');
     //后台首页
     Route::any('index', 'IndexController@index');
+    //网站设置
+    Route::any('web_setting','WebController@index');
 
 });
 
