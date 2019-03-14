@@ -86,7 +86,7 @@
 				<div class="line_grid">
 					<div class="g_2 g_2M"><span class="label">Pass</span></div>
 					<div class="g_10 g_10M">
-						<input class="simple_field tooltip" title="Your Password" name="password" type="password" value="password">
+						<input class="simple_field tooltip" title="Your Password" name="password" type="password" >
 					</div>
 					<div class="clear"></div>
 				</div>
