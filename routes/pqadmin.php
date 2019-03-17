@@ -33,13 +33,13 @@ Route::namespace('Pqadmin')->group(function () {
 	//网站设置修改
     Route::any('web_save','WebController@save');
     //案例分类
-    Route::any('case_category','WebController@index');
+    Route::any('case_category','CaseCategoryController@index');
     //案例分类新增
-    Route::any('case_category_add','WebController@add');
+    Route::any('case_category_add','CaseCategoryController@add');
     //案例分类修改
-    Route::any('case_category_edit','WebController@edit');
+    Route::any('case_category_edit/{id}','CaseCategoryController@edit');
     //案例分类删除
-    Route::any('case_category_del','WebController@del');
+    Route::any('case_category_del/{id}','CaseCategoryController@del');
     //客户信息
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户

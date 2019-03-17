@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Pqadmin;
 
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -25,7 +24,7 @@ Class WebController extends BaseController
             ])
             ->first();
         //页面展示
-        return view('pqadmin.web_setting', ['list'=>$list]);
+        return view('pqadmin.web_setting.web_setting', ['list'=>$list]);
     }
 
     /*

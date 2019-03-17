@@ -15,6 +15,6 @@ Class IndexController extends BaseController
      */
     public function index()
     {
-        return view('pqadmin.index');
+        return view('pqadmin.index.index');
     }
 }
