@@ -3,10 +3,9 @@
 
     <div class="contents">
         <div class="grid_wrapper">
-
             <div class="g_6 contents_header">
-                <h3 class="i_16_forms tab_label">新增客户</h3>
-                <div><span class="label">新增客户信息</span></div>
+                <h3 class="i_16_forms tab_label">查看客户</h3>
+                <div><span class="label">查看客户信息</span></div>
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
@@ -37,14 +36,13 @@
                     </div>
                 </div>
             </div>
-
             <div class="g_12 separator"><span></span></div>
             <form action="{{url('pqadmin/customer_edit')}}" method="post">
-            {{ csrf_field() }}
-            <input class="simple_field" type="hidden" name="id" value="{{$info->id}}"/>
+                {{ csrf_field() }}
+                <input class="simple_field" type="hidden" name="id" value="{{$info->id}}"/>
                 <div class="g_12">
                     <div class="widget_header">
-                        <h4 class="widget_header_title wwIcon i_16_forms">添加客户信息</h4>
+                        <h4 class="widget_header_title wwIcon i_16_forms">查看客户信息</h4>
                     </div>
                     <div class="widget_contents noPadding">
                         <div class="line_grid">
@@ -93,7 +91,7 @@
                             <div class="g_3"><span class="label ">云服务器账户登录账号</span></div>
                             <div class="g_9">
                                 <input class="simple_field fiwIcon" name="yun_username" value="{{$info->yun_username}}" disabled/>
-                            
+
                             </div>
                         </div>
                         <div class="line_grid">
@@ -132,6 +130,5 @@
             </form>
         </div>
     </div>
-
 
 @endsection

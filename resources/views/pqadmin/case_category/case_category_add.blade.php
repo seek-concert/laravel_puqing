@@ -57,12 +57,11 @@
                 <div class="line_grid">
                     <div class="g_3"><span class="label"></span></div>
                     <div class="g_9">
-                        <input type="submit" value="提交" class="submitIt simple_buttons" />
+                        <input type="submit" value="提交" class="submitIt simple_buttons"/>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-
 
 @endsection

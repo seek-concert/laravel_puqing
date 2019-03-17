@@ -1,10 +1,8 @@
-
 @extends('pqadmin.public')
 @section('content')
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <div class="contents">
         <div class="grid_wrapper">
-
             <div class="g_6 contents_header">
                 <h3 class="i_16_table tab_label">案例分类</h3>
                 <div><span class="label">查看所有案例分类</span></div>
@@ -38,7 +36,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Separator -->
             <div class="g_12 separator"><span></span></div>
             <div class="g_12">
@@ -89,18 +86,18 @@
         </div>
     </div>
     <script>
-        function customer_del(id){
+        function customer_del(id) {
             var d = dialog({
                 title: '提示',
                 content: '是否确定删除本条数据,该操作不可逆,请谨慎操作',
                 okValue: '确定',
                 ok: function () {
                     $.ajaxSetup({
-                        url:"{{url('pqadmin/case_category_del')}}"+"/"+id,
-                        headers:{
+                        url: "{{url('pqadmin/case_category_del')}}" + "/" + id,
+                        headers: {
                             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                         },
-                        success:function(result){
+                        success: function (result) {
                             var dia = dialog({
                                 title: '提示',
                                 content: result.msg,
@@ -116,7 +113,8 @@
                     $.ajax();
                 },
                 cancelValue: '取消',
-                cancel: function () {}
+                cancel: function () {
+                }
             });
             d.show();
         }

@@ -3,7 +3,6 @@
 
     <div class="contents">
         <div class="grid_wrapper">
-
             <div class="g_6 contents_header">
                 <h3 class="i_16_forms tab_label">修改分类</h3>
                 <div><span class="label">修改分类信息</span></div>
@@ -57,12 +56,11 @@
                 <div class="line_grid">
                     <div class="g_3"><span class="label"></span></div>
                     <div class="g_9">
-                        <input type="submit" value="提交" class="submitIt simple_buttons" />
+                        <input type="submit" value="提交" class="submitIt simple_buttons"/>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-
 
 @endsection
