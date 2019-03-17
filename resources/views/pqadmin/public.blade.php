@@ -48,12 +48,28 @@
     <script src="{{URL::asset('pqadmin/js/ColorBox/jquery.colorbox.js')}}"></script>
     <!-- Kanrisha Script -->
     <script src="{{URL::asset('pqadmin/js/kanrisha.js')}}"></script>
+    <script src="{{URL::asset('pqadmin/js/dialog/dialog-plus.js')}}"></script>
     <style>
         .welcome_class{
             text-align: center;
             margin-top: 30%;
             color: #a9a9a9;
             font-size: 24px;
+        }
+        a{
+            color:#a9a9a9;
+        }
+        table tbody tr:nth-child(2n){
+            color: #a9a9a9;
+        }
+        .ui-dialog-content{
+            width: 340px;
+        }
+        .ui-dialog-body{
+           background-color:#fff;
+        }
+        .ui-dialog-footer button{
+            color: #a9a9a9;
         }
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>

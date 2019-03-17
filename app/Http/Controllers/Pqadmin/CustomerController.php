@@ -13,8 +13,14 @@ Class CustomerController extends BaseController
     | 用户管理客户信息
     | function customer_lists     查看所有客户
     | function customer_add       添加新客户
+    | function customer_add       修改客户资料
+    | function customer_detail    查看客户详情
+    | function customer_del       删除客户信息
+    |
+    |--------------------------------------------------------------------------
     |
     | Author:1285653363@qq.com    Leimon  
+    |
     */
     public function __construct()
     {
@@ -32,7 +38,7 @@ Class CustomerController extends BaseController
         //数据查询
         $list = DB::table('customer')->get();
         
-        return view('pqadmin.customer_lists',['list'=>$list]);
+        return view('pqadmin.customer.customer_lists',['list'=>$list]);
     }
 
     /*
@@ -70,6 +76,7 @@ Class CustomerController extends BaseController
            $sqlmap['services_end_time'] = isset($param['services_end_time'])?strtotime($param['services_end_time']):'';
            $sqlmap['description'] = isset($param['description'])?$param['description']:'';
            $sqlmap['input_time'] = time();
+           //插入新数据
            $ret = DB::table('customer')->insert($sqlmap);
            if($ret){
                 return redirect('pqadmin/prompt')->with(['message' => '添加新客户成功!', 'url' => '/pqadmin/customer_lists', 'jumpTime' => 3, 'status' => 'success']);
@@ -77,7 +84,7 @@ Class CustomerController extends BaseController
                 return redirect('pqadmin/prompt')->with(['message' => '添加出错,请稍后再试!', 'url' => '/pqadmin/customer_add', 'jumpTime' => 3, 'status' => 'error']);
            }
         }
-        return view('pqadmin.customer_add');
+        return view('pqadmin.customer.customer_add');
     }
 
     /*
@@ -116,6 +123,7 @@ Class CustomerController extends BaseController
             $sqlmap['services_end_time'] = isset($param['services_end_time'])?strtotime($param['services_end_time']):'';
             $sqlmap['description'] = isset($param['description'])?$param['description']:'';
             $sqlmap['update_time'] = time();
+            //修改数据
             $ret = DB::table('customer')->where(['id'=>$param['id']])->update($sqlmap);
            if($ret){
                 return redirect('pqadmin/prompt')->with(['message' => '修改客户信息成功!', 'url' => '/pqadmin/customer_lists', 'jumpTime' => 3, 'status' => 'success']);
@@ -123,8 +131,41 @@ Class CustomerController extends BaseController
                 return redirect('pqadmin/prompt')->with(['message' => '修改信息出错!', 'url' => '/pqadmin/customer_edit/'.$param['id'], 'jumpTime' => 3, 'status' => 'error']);
            }
         }else{
-            return view('pqadmin.customer_edit',['info'=>$info]);
+            return view('pqadmin.customer.customer_edit',['info'=>$info]);
         }
         
+    }
+
+
+    /*
+    *   查看客户信息客户信息
+    *   @Date：2019/3/17
+    *   @param id int 客户id
+    */
+    public function customer_detail($id = 0){
+        if($id == 0){
+            return redirect('pqadmin/prompt')->with(['message' => '请勿非法访问!', 'url' => '/pqadmin/customer_lists/', 'jumpTime' => 3, 'status' => 'error']);
+        }
+        $info = DB::table('customer')->where(['id'=>$id])->first();
+        return view('pqadmin.customer.customer_detail',['info'=>$info]);
+    }
+
+
+     /*
+    *   删除客户信息
+    *   @Date：2019/3/17
+    *   @param id int 客户id
+    */
+    public function customer_del(Request $request){
+        $id = $request->id;
+        if($id == 0){
+            return redirect('pqadmin/prompt')->with(['message' => '请勿非法访问!', 'url' => '/pqadmin/customer_lists/', 'jumpTime' => 3, 'status' => 'error']);
+        }
+        $ret = DB::table('customer')->where(['id'=>$id])->delete();
+        if($ret){
+            return ['data'=>1,'msg'=>'删除数据成功'];
+        }else{
+            return ['data'=>-1,'msg'=>'删除数据失败'];
+        }
     }
 }

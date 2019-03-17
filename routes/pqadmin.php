@@ -46,5 +46,9 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('customer_add','CustomerController@customer_add');
     //修改客户信息
     Route::any('customer_edit/{id?}','CustomerController@customer_edit');
+    //查看客户详情
+    Route::any('customer_detail/{id?}','CustomerController@customer_detail');
+    //删除客户详情
+    Route::any('customer_del/{id?}','CustomerController@customer_del');
 });
 

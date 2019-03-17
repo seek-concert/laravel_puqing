@@ -1,7 +1,7 @@
 
 @extends('pqadmin.public')
 @section('content')
-
+<meta name="csrf-token" content="{{ csrf_token() }}">
 		<div class="contents">
 			<div class="grid_wrapper">
 
@@ -66,24 +66,28 @@
 								</tr>
 							</thead>
 							<tbody>
-                               
+							{{csrf_field()}}
                             @foreach ($list as $value)
 								<tr>
 									<td>{{$value->id}}</td>
 									<td>{{$value->web_name}}</td>
 									<td> <a href="{{$value->web_url}}" target="_blank" rel="noopener noreferrer">{{$value->web_url}}</a> </td>
 									<td>
-                                        <div class="simple_buttons" id="customer_detail" original-title="查看客户详细信息">
-									        <div>查看</div>
-                                        </div>
+										<a href="{{url('pqadmin/customer_detail/'.$value->id)}}">
+											<div class="simple_buttons" id="customer_detail" original-title="查看客户详细信息">
+												<div>查看</div>
+											</div>
+										</a>
                                         <a href="{{url('pqadmin/customer_edit/'.$value->id)}}">
 											<div class="simple_buttons" id="customer_edit" original-title="编辑客户信息">
 												<div>编辑</div>
 											</div>
 										</a>
-                                        <div class="simple_buttons" id="customer_del" original-title="删除该客户信息,请谨慎操作">
-									        <div>删除</div>
-                                        </div>
+										
+										<div class="simple_buttons" onclick="customer_del({{$value->id}})" id="customer_del" original-title="删除该客户信息,请谨慎操作">
+											<div>删除</div>
+										</div>
+										
                                     </td>
                                 </tr>
                             
@@ -96,4 +100,42 @@
 			</div>		
 		</div>
 	</div>
+	<script>
+		function customer_del(id){
+			
+			var d = dialog({
+			title: '提示',
+			content: '是否确定删除本条数据,该操作不可逆,请谨慎操作',
+			okValue: '确定',
+			ok: function () {
+				$.ajaxSetup({
+					url:"{{url('pqadmin/customer_del/')}}",
+					headers:{
+							'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+						},
+					data:{
+						id:id
+					},
+					success:function(result){
+						
+							var dia = dialog({
+								title: '提示',
+								content: result.msg,
+								ok: function () {
+									window.location.reload();
+									return false;
+								},
+							});
+							dia.show();
+						
+					},
+				});
+				$.ajax();
+			},
+			cancelValue: '取消',
+			cancel: function () {}
+		});
+		d.show();
+	}
+	</script>
     @endsection
