@@ -76,9 +76,11 @@
                                         <div class="simple_buttons" id="customer_detail" original-title="查看客户详细信息">
 									        <div>查看</div>
                                         </div>
-                                        <div class="simple_buttons" id="customer_edit" original-title="编辑客户信息">
-									        <div><a href="{{url('pqadmin/customer_edit/'.$value->id)}}">编辑</a></div>
-                                        </div>
+                                        <a href="{{url('pqadmin/customer_edit/'.$value->id)}}">
+											<div class="simple_buttons" id="customer_edit" original-title="编辑客户信息">
+												<div>编辑</div>
+											</div>
+										</a>
                                         <div class="simple_buttons" id="customer_del" original-title="删除该客户信息,请谨慎操作">
 									        <div>删除</div>
                                         </div>
