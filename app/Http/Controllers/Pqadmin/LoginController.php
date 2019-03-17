@@ -22,7 +22,7 @@ Class LoginController extends Controller
      */
     public function login()
     {
-        return view('pqadmin.login');
+        return view('pqadmin.login.login');
     }
 
     /*
