@@ -34,8 +34,20 @@ class CaseCategoryController extends BaseController
      */
     public function add(Request $request)
     {
+        //判断是否post提交
         if($request->isMethod('post')){
-
+            //数据新增
+            $list = DB::table('case_category')
+                ->insert([
+                    'name' => $request->name,
+                    'input_time' => time()
+                ]);
+            //新增是否成功
+            if ($list) {
+                return redirect('pqadmin/prompt')->with(['message' => '新增成功!', 'url' => '/pqadmin/case_category', 'jumpTime' => 3, 'status' => 'success']);
+            } else {
+                return redirect('pqadmin/prompt')->with(['message' => '新增失败!', 'url' => '/pqadmin/case_category', 'jumpTime' => 3, 'status' => 'error']);
+            }
         }
 
         return view('pqadmin.case_category.case_category_add');
@@ -44,9 +56,33 @@ class CaseCategoryController extends BaseController
     /*
      * 案例分类--修改
      */
-    public function edit()
+    public function edit(Request $request,$id = 0)
     {
-
+        //判断是否post提交
+        if($request->isMethod('post')){
+            //数据修改
+            $list = DB::table('case_category')
+                ->where([
+                    'id' => $id
+                ])
+                ->update([
+                    'name' => $request->name,
+                    'update_time' => time()
+                ]);
+            //修改是否成功
+            if ($list) {
+                return redirect('pqadmin/prompt')->with(['message' => '修改成功!', 'url' => '/pqadmin/case_category', 'jumpTime' => 3, 'status' => 'success']);
+            } else {
+                return redirect('pqadmin/prompt')->with(['message' => '修改失败!', 'url' => '/pqadmin/case_category_edit/'.$id, 'jumpTime' => 3, 'status' => 'error']);
+            }
+        }
+        //数据获取
+        $list = DB::table('case_category')
+            ->where([
+                'id' => $id
+            ])
+            ->first();
+        return view('pqadmin.case_category.case_category_edit',['list' => $list]);
     }
 
     /*
