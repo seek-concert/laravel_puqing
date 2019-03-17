@@ -5,8 +5,8 @@
         <div class="grid_wrapper">
 
             <div class="g_6 contents_header">
-                <h3 class="i_16_forms tab_label">新增客户</h3>
-                <div><span class="label">新增客户信息</span></div>
+                <h3 class="i_16_forms tab_label">修改客户</h3>
+                <div><span class="label">修改客户信息</span></div>
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
