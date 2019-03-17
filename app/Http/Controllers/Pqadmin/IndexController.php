@@ -10,6 +10,9 @@ Class IndexController extends BaseController
         parent::__construct();
     }
 
+    /*
+     * 首页
+     */
     public function index()
     {
         return view('pqadmin.index');

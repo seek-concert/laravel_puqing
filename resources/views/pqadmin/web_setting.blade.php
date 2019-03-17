@@ -47,60 +47,64 @@
                 <h4 class="widget_header_title wwIcon i_16_valid">网站设置</h4>
             </div>
             <div class="widget_contents noPadding">
-                <form action="web_save" method="post" enctype="multipart/form-data">
+                <form action="web_save" method="post" enctype="multipart/form-data" >
                     {{ csrf_field() }}
                     <div class="line_grid">
                         <div class="g_3"><span class="label">网站logo<span class="must">*</span></span>
                         </div>
                         <div class="g_9">
                             <input type="file" name="logo" class="simple_form" />
+                            @if(!empty($list->logo))
+                                <img src="../{{$list->logo}}" alt="">
+                                <input type="hidden" name="logo" value="{{$list->logo}}">
+                            @endif
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">网站名称 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <input type="text" placeholder="网站名称" name="name" class="simple_field" required/>
+                            <input type="text" placeholder="网站名称" name="name" value="{{$list->name}}" class="simple_field" required/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">网站标题 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <input type="text" placeholder="网站标题" name="title" class="simple_field" required/>
+                            <input type="text" placeholder="网站标题" name="title" value="{{$list->title}}" class="simple_field" required/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">网站关键字 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <input type="text" placeholder="网站关键字" name="keywords" class="simple_field" required/>
+                            <input type="text" placeholder="网站关键字" name="keywords" value="{{$list->keywords}}" class="simple_field" required/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">网站描述 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <textarea class="simple_field" name="description"></textarea>
+                            <textarea class="simple_field" name="description">{{$list->description}}</textarea>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">网站版权 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <input type="text" placeholder="网站版权" name="copyrights" class="simple_field" required/>
+                            <input type="text" placeholder="网站版权" name="copyrights" value="{{$list->copyrights}}" class="simple_field" required/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">统计代码 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <textarea class="simple_field" name="statistical"></textarea>
+                            <textarea class="simple_field" name="statistical">{{$list->statistical}}</textarea>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">ICP备案号 <span class="must">*</span></span></div>
                         <div class="g_9">
-                            <input type="text" placeholder="ICP备案号" name="copyright" class="simple_field" required/>
+                            <input type="text" placeholder="ICP备案号" name="copyright" value="{{$list->copyright}}" class="simple_field" required/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_9">
-                            <input type="submit" value="提交" class="submitIt simple_buttons"/>
+                            <input type="submit" value="修改" class="submitIt simple_buttons"/>
                         </div>
                     </div>
                 </form>

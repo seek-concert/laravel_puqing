@@ -20,6 +20,9 @@ Class BaseController extends Controller
         });
     }
 
+    /*
+     * 文件上传
+     */
     public function upload($img){
         // 获取后缀名
         $ext = $img->extension();

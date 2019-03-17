@@ -11,23 +11,23 @@ use Illuminate\Support\Facades\Validator;
 
 Class LoginController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+
     public function __construct()
     {
 
     }
 
-    //登录页面
+    /*
+     * 后台登录页
+     */
     public function login()
     {
         return view('pqadmin.login');
     }
 
-    //登录操作
+    /*
+     * 登录操作
+     */
     public function passport(Request $request)
     {
         //自定义验证规则
@@ -68,7 +68,9 @@ Class LoginController extends Controller
         }
     }
 
-    //退出登录
+    /*
+     * 退出登录
+     */
     public function loginOut(Request $request)
     {
         $request->session()->forget('username');

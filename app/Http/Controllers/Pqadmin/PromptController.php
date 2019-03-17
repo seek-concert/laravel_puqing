@@ -7,7 +7,10 @@ use App\Http\Controllers\Controller;
 
 Class PromptController extends Controller
 {
-    //跳转提示页
+
+    /*
+     * 跳转提示页
+     */
     public function index(){
         if(!empty(session('message')) && !empty(session('url')) && !empty(session('jumpTime'))){
             $data = [
