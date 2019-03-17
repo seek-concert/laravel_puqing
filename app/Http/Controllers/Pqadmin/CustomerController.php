@@ -37,10 +37,69 @@ Class CustomerController extends BaseController
 
     /*
     *   添加新客户
-    *   Date：2019/3/14
-    *   
+    *   @Date：2019/3/14
+    *   @param username string 客户姓名
+    *   @param phone string 客户手机号
+    *   @param web_name string 网站名称
+    *   @param web_url string 网站链接
+    *   @param bt_url string 宝塔链接
+    *   @param bt_username string 宝塔用户名
+    *   @param bt_password string 宝塔密码
+    *   @param yun_username string 云服务器账户用户名
+    *   @param yun_password string 云服务器账户密码
+    *   @param yun_services_username string 云服务器账户
+    *   @param yun_services_password string 云服务器密码
+    *   @param services_end_time string 服务到期时间
+    *   @param description string 其他
     */
-    public function customer_add(){
-        
+    public function customer_add(Request $request){
+        if ($request->isMethod('post')) {
+           $param = $request->all();
+           $sqlmap = [];
+           $sqlmap['username'] = isset($param['username'])?$param['username']:'';
+           $sqlmap['phone'] = isset($param['phone'])?$param['phone']:'';
+           $sqlmap['web_name'] = isset($param['web_name'])?$param['web_name']:'';
+           $sqlmap['web_url'] = isset($param['web_url'])?$param['web_url']:'';
+           $sqlmap['bt_url'] = isset($param['bt_url'])?$param['bt_url']:'';
+           $sqlmap['bt_username'] = isset($param['bt_username'])?$param['bt_username']:'';
+           $sqlmap['bt_password'] = isset($param['bt_password'])?$param['bt_password']:'';
+           $sqlmap['yun_username'] = isset($param['yun_username'])?$param['yun_username']:'';
+           $sqlmap['yun_password'] = isset($param['yun_password'])?$param['yun_password']:'';
+           $sqlmap['yun_services_username'] = isset($param['yun_services_username'])?$param['yun_services_username']:'';
+           $sqlmap['yun_services_password'] = isset($param['yun_services_password'])?$param['yun_services_password']:'';
+           $sqlmap['services_end_time'] = isset($param['services_end_time'])?strtotime($param['services_end_time']):'';
+           $sqlmap['description'] = isset($param['description'])?$param['description']:'';
+           $sqlmap['input_time'] = time();
+           $ret = DB::table('customer')->insert($sqlmap);
+           if($ret){
+                return redirect('pqadmin/prompt')->with(['message' => '添加新客户成功!', 'url' => '/pqadmin/customer_lists', 'jumpTime' => 3, 'status' => 'success']);
+           }else{
+                return redirect('pqadmin/prompt')->with(['message' => '添加出错,请稍后再试!', 'url' => '/pqadmin/customer_add', 'jumpTime' => 3, 'status' => 'error']);
+           }
+        }
+        return view('pqadmin.customer_add');
+    }
+
+    /*
+    *   修改客户信息
+    *   @Date：2019/3/17
+    *   @param username string 客户姓名
+    *   @param phone string 客户手机号
+    *   @param web_name string 网站名称
+    *   @param web_url string 网站链接
+    *   @param bt_url string 宝塔链接
+    *   @param bt_username string 宝塔用户名
+    *   @param bt_password string 宝塔密码
+    *   @param yun_username string 云服务器账户用户名
+    *   @param yun_password string 云服务器账户密码
+    *   @param yun_services_username string 云服务器账户
+    *   @param yun_services_password string 云服务器密码
+    *   @param services_end_time string 服务到期时间
+    *   @param description string 其他
+    */
+    public function customer_edit(Request $request,$id){
+        $param = $request->all();
+        $info = DB::table('customer')->where(['id'=>$id])->first();
+        return view('pqadmin.customer_edit',['info'=>$info]);
     }
 }

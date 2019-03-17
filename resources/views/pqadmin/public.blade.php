@@ -5,48 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanrisha - A Premium HTML5 Responsive Admin Template</title>
     <!--[if lt IE 9]>
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="js/Flot/excanvas.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js')}}"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js')}}"></script>
+    <script src="{{URL::asset('pqadmin/js/Flot/excanvas.js')}}"></script>
     <![endif]-->
     <!-- The Fonts -->
 
     <!-- The Main css File -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{URL::asset('pqadmin/css/style.css')}}" />
+    
     <!-- jQuery -->
-    <script src="js/jQuery/jquery-1.7.2.min.js"></script>
+    <script src="{{URL::asset('pqadmin/js/jQuery/jquery-1.7.2.min.js')}}"></script>
     <!-- Flot -->
-    <script src="js/Flot/jquery.flot.js"></script>
-    <script src="js/Flot/jquery.flot.resize.js"></script>
-    <script src="js/Flot/jquery.flot.pie.js"></script>
+    <script src="{{URL::asset('pqadmin/js/Flot/jquery.flot.js')}}"></script>
+    <script src="{{URL::asset('pqadmin/js/Flot/jquery.flot.resize.js')}}"></script>
+    <script src="{{URL::asset('pqadmin/js/Flot/jquery.flot.pie.js')}}"></script>
     <!-- DataTables -->
-    <script src="js/DataTables/jquery.dataTables.min.js"></script>
+    <script src="{{URL::asset('pqadmin/js/DataTables/jquery.dataTables.min.js')}}"></script>
     <!-- ColResizable -->
-    <script src="js/ColResizable/colResizable-1.3.js"></script>
+    <script src="{{URL::asset('pqadmin/js/ColResizable/colResizable-1.3.js')}}"></script>
     <!-- jQuryUI -->
-    <script src="js/jQueryUI/jquery-ui-1.8.21.min.js"></script>
+    <script src="{{URL::asset('pqadmin/js/jQueryUI/jquery-ui-1.8.21.min.js')}}"></script>
     <!-- Uniform -->
-    <script src="js/Uniform/jquery.uniform.js"></script>
+    <script src="{{URL::asset('pqadmin/js/Uniform/jquery.uniform.js')}}"></script>
     <!-- Tipsy -->
-    <script src="js/Tipsy/jquery.tipsy.js"></script>
+    <script src="{{URL::asset('pqadmin/js/Tipsy/jquery.tipsy.js')}}"></script>
     <!-- Elastic -->
-    <script src="js/Elastic/jquery.elastic.js"></script>
+    <script src="{{URL::asset('pqadmin/js/Elastic/jquery.elastic.js')}}"></script>
     <!-- ColorPicker -->
-    <script src="js/ColorPicker/colorpicker.js"></script>
+    <script src="{{URL::asset('pqadmin/js/ColorPicker/colorpicker.js')}}"></script>
     <!-- SuperTextarea -->
-    <script src="js/SuperTextarea/jquery.supertextarea.min.js"></script>
+    <script src="{{URL::asset('pqadmin/js/SuperTextarea/jquery.supertextarea.min.js')}}"></script>
     <!-- UISpinner -->
-    <script src="js/UISpinner/ui.spinner.js"></script>
+    <script src="{{URL::asset('pqadmin/js/UISpinner/ui.spinner.js')}}"></script>
     <!-- MaskedInput -->
-    <script src="js/MaskedInput/jquery.maskedinput-1.3.js"></script>
+    <script src="{{URL::asset('pqadmin/js/MaskedInput/jquery.maskedinput-1.3.js')}}"></script>
     <!-- ClEditor -->
-    <script src="js/ClEditor/jquery.cleditor.js"></script>
+    <script src="{{URL::asset('pqadmin/js/ClEditor/jquery.cleditor.js')}}"></script>
     <!-- Full Calendar -->
-    <script src="js/FullCalendar/fullcalendar.js"></script>
+    <script src="{{URL::asset('pqadmin/js/FullCalendar/fullcalendar.js')}}"></script>
     <!-- Color Box -->
-    <script src="js/ColorBox/jquery.colorbox.js"></script>
+    <script src="{{URL::asset('pqadmin/js/ColorBox/jquery.colorbox.js')}}"></script>
     <!-- Kanrisha Script -->
-    <script src="js/kanrisha.js"></script>
+    <script src="{{URL::asset('pqadmin/js/kanrisha.js')}}"></script>
     <style>
         .welcome_class{
             text-align: center;
@@ -70,7 +71,7 @@
 <div class="top_panel">
     <div class="wrapper">
         <div class="user">
-            <img src="images/user_avatar.png" alt="user_avatar" class="user_avatar" />
+            <img src="{{URL::asset('pqadmin/images/user_avatar.png')}}" alt="user_avatar" class="user_avatar" />
             <span class="label">John Alex</span>
             <!-- Top Tooltip -->
             <div class="top_tooltip">
@@ -159,7 +160,7 @@
     <div class="wrapper">
         <div class="logo">
             <a href="#" title="Kanrisha Home">
-                <img src="images/kanrisha_logo.png" alt="kanrisha_logo" />
+                <img src="{{URL::asset('pqadmin/images/kanrisha_logo.png')}}" alt="kanrisha_logo" />
             </a>
         </div>
         <nav class="top_buttons">

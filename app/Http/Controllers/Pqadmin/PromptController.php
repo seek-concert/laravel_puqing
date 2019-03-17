@@ -28,4 +28,6 @@ Class PromptController extends Controller
         return view('pqadmin.prompt',compact('data'));
     }
 
+    
+
 }
