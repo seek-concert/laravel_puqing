@@ -32,6 +32,14 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('web_setting','WebController@index');
 	//网站设置修改
     Route::any('web_save','WebController@save');
+    //案例分类
+    Route::any('case_category','WebController@index');
+    //案例分类新增
+    Route::any('case_category_add','WebController@add');
+    //案例分类修改
+    Route::any('case_category_edit','WebController@edit');
+    //案例分类删除
+    Route::any('case_category_del','WebController@del');
     //客户信息
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户

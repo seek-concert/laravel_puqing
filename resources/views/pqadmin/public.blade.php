@@ -233,21 +233,21 @@
     <aside class="sidebar">
         <ul class="tab_nav">
             <li class="i_32_dashboard">
-                <a href="web_setting" title="General Info">
+                <a href="{{url('pqadmin/web_setting')}}" title="General Info">
                     <span class="tab_label">网站设置</span>
                     <span class="tab_info">修改网站信息</span>
                 </a>
             </li>
             <li class="i_32_inbox">
-                <a href="inbox.html" title="Your Messages">
-                    <span class="tab_label">Inbox</span>
-                    <span class="tab_info">Your Messages</span>
+                <a href="{{url('pqadmin/case_category')}}" title="Your Messages">
+                    <span class="tab_label">案例分类</span>
+                    <span class="tab_info">新增、修改案例</span>
                 </a>
             </li>
             <li class="i_32_charts">
-                <a href="charts.html" title="Visual Data">
-                    <span class="tab_label">Charts</span>
-                    <span class="tab_info">Visual Data</span>
+                <a href="{{url('pqadmin/case')}}" title="Visual Data">
+                    <span class="tab_label">案例管理</span>
+                    <span class="tab_info">新增、修改、删除</span>
                 </a>
             </li>
             <li class="i_32_ui">
