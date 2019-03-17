@@ -26,7 +26,7 @@ class CaseCategoryController extends BaseController
         //数据查询
         $list = DB::table('case_category')->get();
 
-        return view('pqadmin.case_category.case_category',['list'=>$list]);
+        return view('pqadmin.case_category.case_category', ['list' => $list]);
     }
 
     /*
@@ -35,7 +35,7 @@ class CaseCategoryController extends BaseController
     public function add(Request $request)
     {
         //判断是否post提交
-        if($request->isMethod('post')){
+        if ($request->isMethod('post')) {
             //数据新增
             $list = DB::table('case_category')
                 ->insert([
@@ -56,10 +56,10 @@ class CaseCategoryController extends BaseController
     /*
      * 案例分类--修改
      */
-    public function edit(Request $request,$id = 0)
+    public function edit(Request $request, $id = 0)
     {
         //判断是否post提交
-        if($request->isMethod('post')){
+        if ($request->isMethod('post')) {
             //数据修改
             $list = DB::table('case_category')
                 ->where([
@@ -73,7 +73,7 @@ class CaseCategoryController extends BaseController
             if ($list) {
                 return redirect('pqadmin/prompt')->with(['message' => '修改成功!', 'url' => '/pqadmin/case_category', 'jumpTime' => 3, 'status' => 'success']);
             } else {
-                return redirect('pqadmin/prompt')->with(['message' => '修改失败!', 'url' => '/pqadmin/case_category_edit/'.$id, 'jumpTime' => 3, 'status' => 'error']);
+                return redirect('pqadmin/prompt')->with(['message' => '修改失败!', 'url' => '/pqadmin/case_category_edit/' . $id, 'jumpTime' => 3, 'status' => 'error']);
             }
         }
         //数据获取
@@ -82,15 +82,24 @@ class CaseCategoryController extends BaseController
                 'id' => $id
             ])
             ->first();
-        return view('pqadmin.case_category.case_category_edit',['list' => $list]);
+        return view('pqadmin.case_category.case_category_edit', ['list' => $list]);
     }
 
     /*
      * 案例分类--删除
      */
-    public function del()
+    public function del($id)
     {
-
+        $list = DB::table('case_category')
+            ->where([
+                'id' => $id
+            ])
+            ->delete();
+        if ($list) {
+            return ['data' => 1, 'msg' => '删除数据成功'];
+        } else {
+            return ['data' => -1, 'msg' => '删除数据失败'];
+        }
     }
 
 }
