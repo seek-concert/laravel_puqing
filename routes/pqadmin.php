@@ -37,6 +37,6 @@ Route::namespace('Pqadmin')->group(function () {
     //添加新客户
     Route::any('customer_add','CustomerController@customer_add');
     //修改客户信息
-    Route::any('customer_edit/{id}','CustomerController@customer_edit');
+    Route::any('customer_edit/{id?}','CustomerController@customer_edit');
 });
 

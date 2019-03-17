@@ -97,9 +97,34 @@ Class CustomerController extends BaseController
     *   @param services_end_time string 服务到期时间
     *   @param description string 其他
     */
-    public function customer_edit(Request $request,$id){
-        $param = $request->all();
+    public function customer_edit(Request $request,$id=0){
+        
         $info = DB::table('customer')->where(['id'=>$id])->first();
-        return view('pqadmin.customer_edit',['info'=>$info]);
+        if ($request->isMethod('post')) {
+            $param = $request->all();
+            $sqlmap['username'] = isset($param['username'])?$param['username']:'';
+            $sqlmap['phone'] = isset($param['phone'])?$param['phone']:'';
+            $sqlmap['web_name'] = isset($param['web_name'])?$param['web_name']:'';
+            $sqlmap['web_url'] = isset($param['web_url'])?$param['web_url']:'';
+            $sqlmap['bt_url'] = isset($param['bt_url'])?$param['bt_url']:'';
+            $sqlmap['bt_username'] = isset($param['bt_username'])?$param['bt_username']:'';
+            $sqlmap['bt_password'] = isset($param['bt_password'])?$param['bt_password']:'';
+            $sqlmap['yun_username'] = isset($param['yun_username'])?$param['yun_username']:'';
+            $sqlmap['yun_password'] = isset($param['yun_password'])?$param['yun_password']:'';
+            $sqlmap['yun_services_username'] = isset($param['yun_services_username'])?$param['yun_services_username']:'';
+            $sqlmap['yun_services_password'] = isset($param['yun_services_password'])?$param['yun_services_password']:'';
+            $sqlmap['services_end_time'] = isset($param['services_end_time'])?strtotime($param['services_end_time']):'';
+            $sqlmap['description'] = isset($param['description'])?$param['description']:'';
+            $sqlmap['update_time'] = time();
+            $ret = DB::table('customer')->where(['id'=>$param['id']])->update($sqlmap);
+           if($ret){
+                return redirect('pqadmin/prompt')->with(['message' => '修改客户信息成功!', 'url' => '/pqadmin/customer_lists', 'jumpTime' => 3, 'status' => 'success']);
+           }else{
+                return redirect('pqadmin/prompt')->with(['message' => '修改信息出错!', 'url' => '/pqadmin/customer_edit/'.$param['id'], 'jumpTime' => 3, 'status' => 'error']);
+           }
+        }else{
+            return view('pqadmin.customer_edit',['info'=>$info]);
+        }
+        
     }
 }
