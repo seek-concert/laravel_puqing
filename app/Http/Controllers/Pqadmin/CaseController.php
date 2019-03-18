@@ -32,7 +32,6 @@ class CaseController extends BaseController
                     'id' => $v->category_id
                 ])
                 ->value('name');
-            $list[$k]->input_time = date('Y-m-d H:i:s',$v->input_time);
         }
         return view('pqadmin.case.case', ['list' => $list]);
     }
@@ -81,6 +80,14 @@ class CaseController extends BaseController
     public function edit()
     {
 
+    }
+
+    /*
+     * 案例--查看
+     */
+    public function detail()
+    {
+        
     }
 
     /*

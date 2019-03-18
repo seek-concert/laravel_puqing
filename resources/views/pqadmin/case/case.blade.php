@@ -9,7 +9,7 @@
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
-                    <div class="bwIcon i_16_help">Help</div>
+                    <a href="javascript:;" onclick="get_cache('')"><div class="bwIcon i_16_help">更新缓存</div></a>
                 </div>
                 <div class="simple_buttons">
                     <div class="bwIcon i_16_settings">Settings</div>
@@ -57,11 +57,8 @@
                         <thead>
                         <tr>
                             <th>ID</th>
-                            <th>案例封面</th>
                             <th>案例标题</th>
                             <th>所属分类</th>
-                            <th>添加时间</th>
-                            <th>修改时间</th>
                             <th>操作</th>
                         </tr>
                         </thead>
@@ -69,12 +66,14 @@
                         @foreach ($list as $value)
                             <tr>
                                 <td>{{$value->id}}</td>
-                                <td><img src="../{{$value->thumbnail}}" alt="" style="width: 130px;height: 70px;"></td>
                                 <td>{{$value->title}}</td>
                                 <td>{{$value->category_name}}</td>
-                                <td>{{$value->input_time}}</td>
-                                <td>{{$value->update_time}}</td>
                                 <td>
+                                    <a href="{{url('pqadmin/case_detail/',[$value->id])}}">
+                                        <div class="simple_buttons" id="customer_detail" original-title="查看案例详细信息">
+                                            <div>查看</div>
+                                        </div>
+                                    </a>
                                     <a href="{{url('pqadmin/case_edit',[$value->id])}}">
                                         <div class="simple_buttons" id="customer_edit" original-title="编辑该案例">
                                             <div>编辑</div>

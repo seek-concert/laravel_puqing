@@ -46,10 +46,11 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('case_add','CaseController@add');
     //案例修改
     Route::any('case_edit/{id}','CaseController@edit');
+    //查看案例详情
+    Route::any('case_detail/{id}','CaseController@detail');
     //案例删除
     Route::any('case_del/{id}','CaseController@del');
     //客户信息
-
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户
     Route::any('customer_add','CustomerController@customer_add');
