@@ -40,7 +40,16 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('case_category_edit/{id}','CaseCategoryController@edit');
     //案例分类删除
     Route::any('case_category_del/{id}','CaseCategoryController@del');
+    //案例
+    Route::any('case','CaseController@index');
+    //案例新增
+    Route::any('case_add','CaseController@add');
+    //案例修改
+    Route::any('case_edit/{id}','CaseController@edit');
+    //案例删除
+    Route::any('case_del/{id}','CaseController@del');
     //客户信息
+
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户
     Route::any('customer_add','CustomerController@customer_add');
