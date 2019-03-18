@@ -273,9 +273,9 @@
                 </a>
             </li>
             <li class="i_32_tables">
-                <a href="tables.html" title="Some Rows">
-                    <span class="tab_label">Tables</span>
-                    <span class="tab_info">Some Rows</span>
+                <a href="{{url('pqadmin/contact_setting')}}" title="Some Rows">
+                    <span class="tab_label">联系设置</span>
+                    <span class="tab_info">服务联系设置</span>
                 </a>
             </li>
             <li class="i_32_forms">
@@ -299,5 +299,28 @@
     </div>
 </footer>
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='js' charset='gb2312'></script></div>
+<script>
+function get_cache(){
+    $.ajaxSetup({
+        url: "{{url('pqadmin/get_cache/')}}",
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        success: function (result) {
+            var dia = dialog({
+                title: '提示',
+                content: result,
+                ok: function () {
+                    window.location.reload();
+                    return false;
+                },
+            });
+            dia.show();
+        },
+    });
+    $.ajax();
+}
+</script>
+
 </body>
 </html>

@@ -5,8 +5,8 @@
         <div class="grid_wrapper">
             {{-- 头部开始 --}}
             <div class="g_6 contents_header">
-                <h3 class="i_16_forms tab_label">网站设置</h3>
-                <div><span class="label">修改网站信息</span></div>
+                <h3 class="i_16_forms tab_label">联系设置</h3>
+                <div><span class="label">设置联系我们</span></div>
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
@@ -43,66 +43,58 @@
             {{-- 正文开始 --}}
             <div class="g_12">
                 <div class="widget_header">
-                    <h4 class="widget_header_title wwIcon i_16_valid">网站设置</h4>
+                    <h4 class="widget_header_title wwIcon i_16_valid">联系设置</h4>
                 </div>
                 <div class="widget_contents noPadding">
-                    <form action="web_save" method="post" enctype="multipart/form-data">
+                    <form action="{{url('pqadmin/contact_setting')}}" method="post" enctype="multipart/form-data">
                         {{ csrf_field() }}
+                        
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">网站logo<span class="must">*</span></span>
-                            </div>
+                            <div class="g_3"><span class="label">售前专线 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="file" name="logo" class="simple_form"/>
-                                @if(!empty($list->logo))
-                                    <img src="../{{$list->logo}}" alt="">
-                                    <input type="hidden" name="logo" value="{{$list->logo}}">
-                                @endif
-                            </div>
-                        </div>
-                        <div class="line_grid">
-                            <div class="g_3"><span class="label">网站名称 <span class="must">*</span></span></div>
-                            <div class="g_9">
-                                <input type="text" placeholder="网站名称" name="name" value="{{$list->name}}"
+                                <input type="text" placeholder="售前专线" name="before_service_phone" value=""
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">网站标题 <span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">售前QQ<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="网站标题" name="title" value="{{$list->title}}"
+                                <input type="text" placeholder="售前QQ" name="before_service_qq" value=""
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">网站关键字 <span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">售后专线 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="网站关键字" name="keywords" value="{{$list->keywords}}"
+                                <input type="text" placeholder="售后专线" name="after_service_phone" value=""
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">网站描述 <span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">售后QQ <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <textarea class="simple_field" name="description">{{$list->description}}</textarea>
-                            </div>
-                        </div>
-                        <div class="line_grid">
-                            <div class="g_3"><span class="label">网站版权 <span class="must">*</span></span></div>
-                            <div class="g_9">
-                                <input type="text" placeholder="网站版权" name="copyrights" value="{{$list->copyrights}}"
+                            <input type="text" placeholder="售后QQ" name="after_service_qq" value=""
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">统计代码 <span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">联系地址 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <textarea class="simple_field" name="statistical">{{$list->statistical}}</textarea>
+                                <input type="text" placeholder="联系地址" name="address" value=""
+                                       class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">ICP备案号 <span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">邮政编码 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="ICP备案号" name="copyright" value="{{$list->copyright}}"
+                                <input type="text" placeholder="邮政编码" name="post_code" value=""
+                                       class="simple_field" required/>
+                            </div>
+                        </div>
+                        <div class="line_grid">
+                            <div class="g_3"><span class="label">企业邮箱 <span class="must">*</span></span></div>
+                            <div class="g_9">
+                                <input type="text" placeholder="企业邮箱" name="company_email" value=""
                                        class="simple_field" required/>
                             </div>
                         </div>

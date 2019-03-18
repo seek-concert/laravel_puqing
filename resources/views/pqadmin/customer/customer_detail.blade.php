@@ -9,7 +9,7 @@
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
-                    <div class="bwIcon i_16_help">Help</div>
+                    <a href="javascript:;" onclick="get_cache('')"><div class="bwIcon i_16_help">更新缓存</div></a>
                 </div>
                 <div class="simple_buttons">
                     <div class="bwIcon i_16_settings">Settings</div>
