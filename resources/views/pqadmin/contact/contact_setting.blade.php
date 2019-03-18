@@ -52,49 +52,49 @@
                         <div class="line_grid">
                             <div class="g_3"><span class="label">售前专线 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="售前专线" name="before_service_phone" value=""
+                                <input type="text" placeholder="售前专线" name="before_service_phone" value="{{isset($contact_info['before_service_phone'])?$contact_info['before_service_phone']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">售前QQ<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="售前QQ" name="before_service_qq" value=""
+                                <input type="text" placeholder="售前QQ" name="before_service_qq" value="{{isset($contact_info['before_service_qq'])?$contact_info['before_service_qq']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">售后专线 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="售后专线" name="after_service_phone" value=""
+                                <input type="text" placeholder="售后专线" name="after_service_phone" value="{{isset($contact_info['after_service_phone'])?$contact_info['after_service_phone']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">售后QQ <span class="must">*</span></span></div>
                             <div class="g_9">
-                            <input type="text" placeholder="售后QQ" name="after_service_qq" value=""
+                            <input type="text" placeholder="售后QQ" name="after_service_qq" value="{{isset($contact_info['after_service_qq'])?$contact_info['after_service_qq']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">联系地址 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="联系地址" name="address" value=""
+                                <input type="text" placeholder="联系地址" name="address" value="{{isset($contact_info['address'])?$contact_info['address']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">邮政编码 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="邮政编码" name="post_code" value=""
+                                <input type="text" placeholder="邮政编码" name="post_code" value="{{isset($contact_info['post_code'])?$contact_info['post_code']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">企业邮箱 <span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input type="text" placeholder="企业邮箱" name="company_email" value=""
+                                <input type="text" placeholder="企业邮箱" name="company_email" value="{{isset($contact_info['company_email'])?$contact_info['company_email']:''}}"
                                        class="simple_field" required/>
                             </div>
                         </div>

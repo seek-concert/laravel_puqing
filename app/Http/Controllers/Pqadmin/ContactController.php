@@ -63,7 +63,11 @@ Class ContactController extends BaseController
                 //配置写入永久缓存
                 Cache::forever($key, $value);
             }
+            return redirect('pqadmin/prompt')->with(['message' => '修改成功!', 'url' => '/pqadmin/contact_setting', 'jumpTime' => 3, 'status' => 'success']);
+        }else{
+            $contact_info = DB::table('contact')->pluck( 'value','key');
+            return view('pqadmin.contact.contact_setting',['contact_info'=>$contact_info]);
         }
-        return view('pqadmin.contact.contact_setting');
+        
     }
 }
