@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>深圳网站建设,深圳网页制作,深圳网站开发-深圳网站外包公司网联科技</title>
-<meta name="description" content="网联科技是深圳专业的网站制作外包公司,提供高品质网页策划,个性化网站开发服务,17年来为2万多家企业打造高品质网站建设服务,电话咨询：0755-83271881。">
-<meta name="keywords" content="深圳网站建设,深圳网页制作,深圳网站开发、深圳网站外包、深圳网站公司、深圳官网定制">
+<title>{{Cache('title')}}-首页</title>
+<meta name="description" content="{{Cache('description')}}">
+<meta name="keywords" content="{{Cache('keywords')}}">
 <link rel="shortcut icon" href="/index/images/favicon.ico">
 <link type="text/css" rel="stylesheet" href="/index/css/style.css" />
   <script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
@@ -28,7 +28,7 @@
 </script>
 <div class="top" id="top">
   <div class="topbox">
-    <div class="logo f1"><a href="/" title="网联科技"><img src="/index/picture/logo.png" id="logo" data-original="/index/images/logo.png"/></a></div>
+    <div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}"/></a></div>
     <div class="dh f2">
       <ul class="dh-top f2" style="height:22px;">
         <li class="f2"><span style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span> <span>服务：0755-83271606、83658105</span></li>
