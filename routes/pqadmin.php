@@ -59,5 +59,9 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('customer_detail/{id?}','CustomerController@customer_detail');
     //删除客户详情
     Route::any('customer_del/{id?}','CustomerController@customer_del');
+    //设置网站联系方式
+    Route::any('contact_setting','ContactController@contact_setting');
+    //更新缓存
+    Route::any('get_cache','CacheController@get_cache');
 });
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Pqadmin;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Cache;
 
 Class WebController extends BaseController
 {
@@ -58,9 +59,24 @@ Class WebController extends BaseController
             ]);
         //修改是否成功
         if ($list) {
+            $this->get_setting_cache($data);
             return redirect('pqadmin/prompt')->with(['message' => '修改成功!', 'url' => '/pqadmin/web_setting', 'jumpTime' => 3, 'status' => 'success']);
         } else {
             return redirect('pqadmin/prompt')->with(['message' => '修改失败!', 'url' => '/pqadmin/web_setting', 'jumpTime' => 3, 'status' => 'error']);
         }
+    }
+
+    /*
+     * 网站设置写入永久缓存
+     */
+    public function get_setting_cache($data){
+        Cache::forever('logo', $data['logo']);
+        Cache::forever('name', $data['name']);
+        Cache::forever('title', $data['title']);
+        Cache::forever('keywords', $data['keywords']);
+        Cache::forever('description', $data['description']);
+        Cache::forever('copyrights', $data['copyrights']);
+        Cache::forever('statistical', $data['statistical']);
+        Cache::forever('copyright', $data['copyright']);
     }
 }

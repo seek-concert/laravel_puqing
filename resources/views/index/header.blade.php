@@ -3,10 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-<title>网联概况_网联科技(ni8.com)</title>
-<meta name="keywords" content="网联科技网站建设服务理念。">
-<meta name="description" content="网联科技是专业的网站建设公司，提供高品质网站策划,个性化网站建设，13年来锐意进取为2万多家企业本地化的顾问式服务，欢迎电话咨询：0755-83271881
-">
+<title>{{Cache('title')}}</title>
+<meta name="keywords" content="{{Cache('title')}}">
+<meta name="description" content="{{Cache('description')}}">
 <link rel="shortcut icon" href="/index/images/favicon.ico">
 <link type="text/css" rel="stylesheet" href="/index/css/style.css" />
 <link type="text/css" rel="stylesheet" href="/index/css/validationengine.jquery.css">
@@ -46,7 +45,7 @@ $(function(){
 </script>
 <div class="top1">
   <div class="topbox">
-    <div class="logo f1"><a href="/" title="网联科技"><img src="/index/picture/logo1.png" id="logo" data-original="/index/images/logo1.png"/></a></div>
+    <div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}"/></a></div>
     <div class="dh f2">
       <ul class="dh-top f2" style="height:22px;">
         <li class="f2"><span style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span> <span>服务：0755-83271606、83658105</span></li>
@@ -132,7 +131,7 @@ $(function(){
   <div class="footer">
     <div class="bqxx" style="position:relative;">
       <ul>
-        <li class="f1" style="font-family:Arial;">&copy;2016 深圳市网联信息科技开发有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="f1" style="font-family:Arial;">&copy;{{Cache('copyrights')}}&nbsp;&nbsp;&nbsp;&nbsp;
 </li>
         <li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">粤ICP备05022732号-1</a>&nbsp;&nbsp;&nbsp;粤B2-20050242</li>
       </ul>

@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>深圳网站建设,深圳网页制作,深圳网站开发-深圳网站外包公司网联科技</title>
-<meta name="description" content="网联科技是深圳专业的网站制作外包公司,提供高品质网页策划,个性化网站开发服务,17年来为2万多家企业打造高品质网站建设服务,电话咨询：0755-83271881。">
-<meta name="keywords" content="深圳网站建设,深圳网页制作,深圳网站开发、深圳网站外包、深圳网站公司、深圳官网定制">
+<title>{{Cache('title')}}-首页</title>
+<meta name="description" content="{{Cache('description')}}">
+<meta name="keywords" content="{{Cache('keywords')}}">
 <link rel="shortcut icon" href="/index/images/favicon.ico">
 <link type="text/css" rel="stylesheet" href="/index/css/style.css" />
   <script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
@@ -28,10 +28,10 @@
 </script>
 <div class="top" id="top">
   <div class="topbox">
-    <div class="logo f1"><a href="/" title="网联科技"><img src="/index/picture/logo.png" id="logo" data-original="/index/images/logo.png"/></a></div>
+    <div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}"/></a></div>
     <div class="dh f2">
       <ul class="dh-top f2" style="height:22px;">
-        <li class="f2"><span style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span> <span>服务：0755-83271606、83658105</span></li>
+        <li class="f2"><span style="margin-right:20px;display:inline-block;">售前热线：{{Cache('before_service_phone')}}</span> <span>售后专线：{{Cache('after_service_phone')}}</span></li>
       </ul>
       <div class="clear"></div>
       <span class="dh-main">
@@ -717,8 +717,8 @@ $(function(){
 	  <li class="dhm">
           <a class="zixun2 zixun"title="电话联系网站建设" ></a>
 	    <div class="kfdh">
-		  <p><span>销售热线:</span><span style="width:110px;font-size:13px;color:#fff;">0755-83271919<br/>0755-83271881</span></p>
-		  <p><span>服务热线:</span><span style="width:110px;font-size:13px;color:#fff;">0755-83271606<br/>0755-83658105</span></p>
+		  <p><span>销售热线:</span><span style="width:110px;font-size:13px;color:#fff;">{{Cache('before_service_phone')}}</span></p>
+		  <p><span>服务热线:</span><span style="width:110px;font-size:13px;color:#fff;">{{Cache('after_service_phone')}}</span></p>
 		</div>
 	  </li>
 	  <li><a href="Mailto:dzn@ni8.com" class="zixun3 zixun"title=""target="_blank">
