@@ -8,6 +8,7 @@
 <meta name="description" content="{{Cache('description')}}">
 <link rel="shortcut icon" href="/index/images/favicon.ico">
 <link type="text/css" rel="stylesheet" href="/index/css/style.css" />
+<link type="text/css" rel="stylesheet" href="/index/css/css.css" />
 <link type="text/css" rel="stylesheet" href="/index/css/validationengine.jquery.css">
 <script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
 <script src="/index/js/curnavstyle.js" type="text/javascript"></script>

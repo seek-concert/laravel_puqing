@@ -1,0 +1,60 @@
+﻿/* CSS Document */
+.app_all { width:100%; margin:80px 0  120px;}
+.app_all .list_s { width:100%; margin:0 auto; text-align:center;}
+.app_all .list_s h2 { font-family:"微软雅黑"; font-size:32px; color:#333; height:80px; line-height:30px; font-weight:normal;}
+.app_all .list_s p {font-family:"微软雅黑"; font-size:12px; color:#666; line-height:27px;}
+.app_all .list_01 { padding:0 100px; width:940px;}
+.app_all .list_01 p { text-align:left; margin-bottom:120px;}
+
+.app_all .listss { width:100%;}
+.app_all .listss  .app_l { float:left; width:48%;}
+.app_all .listss .app_r { float:right; width:48%;}
+.app_all .listss .list_02s { width:1140px; margin:0 auto;}
+.app_all .listss h2 { margin-top:145px; height:50px; line-height:50px; margin-bottom:30px;font-family:"微软雅黑"; font-size:32px; font-weight:normal;}
+.app_all .listss p {ont-family:"微软雅黑"; font-size:12px; line-height:25px; color:#666;}
+.app_all .listss p span { font-size:16px;}
+.app_all .listss img { max-width:100%; height:auto;}
+
+
+.app_all .list_02 { height:793px; color:#fff;}
+.app_all .list_02 p { color:#fff;}
+.app_all .list_02 img { margin-top:157px;}
+
+.app_all .list_03 { height:843px;}
+.app_all .list_03 .app_l img { margin-left:40px; margin-top:150px;}
+
+.app_all .list_04{ height:793px; color:#fff;}
+.app_all .list_04 p { color:#fff}
+.app_all .list_04 .app_r img { margin-left:40px; margin-top:80px;}
+
+
+.app_all .list_05 { height:843px;}
+.app_all .list_05 .app_l img { margin-top:150px;}
+
+.app_all .list_06 { height:713px; color:#fff; padding-top:80px;}
+.app_all .list_06 .list_02s { width:1040px; margin:0 auto; padding:0 50px;}
+.app_all .list_06 .list_02s h2 { color:#fff;}
+.app_all .list_06 p { color:#fff;} 
+.app_all .list_06 p  img { margin-top:60px;}
+
+.app_all .list_07 { padding-top:120px;} 
+
+
+.solutionss { width:100%;}
+.solutionss .solu_list { width:100%; padding:80px 0 100px;}
+.solutionss .solu_list .solu_l { float:left; text-align:left; width:50%;}
+.solutionss .solu_list .solu_l h2 { color:#ccc; font-size:85px; font-family:"微软雅黑"; line-height:85px; margin-bottom:10px; margin-top:45px; width:100%; text-align:left; }
+.solutionss .solu_list .solu_l h3 {color:#000; font-size:36px; font-family:"微软雅黑"; height:40px; margin-bottom:20px;width:100%; text-align:left;font-weight:normal;}
+.solutionss .solu_list .solu_l p { color:#666666;font-size:12px; font-family:"微软雅黑"; line-height:27px;width:100%; text-align:left;}
+.solutionss .solu_list .solu_l img { max-width:100%; height:auto;}
+.solutionss .solu_list .solu_r { text-align:right;}
+
+
+
+
+
+
+
+
+
+

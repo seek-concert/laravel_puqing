@@ -30,4 +30,24 @@ class AppController
     public function index(){
         return view('index/app_index');
     }
+
+    public function app_html5(){
+        return view('index/app_html5');
+    }
+
+    public function app_ios(){
+        return view('index/app_ios');
+    }
+
+    public function app_android(){
+        return view('index/app_android');
+    }
+
+    public function app_solution(){
+        return view('index/app_solution');
+    }
+
+    public function app_project(){
+        return view('index/app_project');
+    }
 }

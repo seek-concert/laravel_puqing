@@ -17,11 +17,12 @@
   </div>
   </div>
 <div class="pro_item" >
-	<style>.pro_wap { display:none;}</style><div class="pro_list">  <ul>    <li><a href="/app/html5.html" title="HTML5">HTML5</a></li>
-	<li><a href="/app/iosapp.html" title="IOS App 开发">IOS App 开发</a></li>
-	<li><a href="/app/androidapp.html" title="安卓 App 开发">安卓 App 开发</a></li>
-	<li><a href="/app/solution.html" title="解决方案">解决方案</a></li>
-	<li><a href="/app/project.html" title="项目流程">项目流程</a></li>
+	<style>.pro_wap { display:none;}</style><div class="pro_list">  <ul>   
+	  <li><a href="{{url('app_html5')}}" title="HTML5" >HTML5</a></li>
+            <li><a href="{{url('app_ios')}}" title="IOS App 开发">IOS App 开发</a></li>
+            <li><a href="{{url('app_android')}}" title="安卓 App 开发">安卓 App 开发</a></li>
+            <li><a href="{{url('app_solution')}}" title="解决方案">解决方案</a></li>
+            <li><a href="{{url('app_project')}}" title="项目流程">项目流程</a></li>
   </ul>
 </div>
 <div class="pro_option">  <div class="pro_box" style="display:block;"><div class="ser07">    <div class="ser07_l" style="margin-top:120px;">      <h3 style="margin-top:50px;">APP 开发应用</h3>

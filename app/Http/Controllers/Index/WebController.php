@@ -30,4 +30,36 @@ class WebController
     public function index(){
         return view('index/web_index');
     }
+
+    public function view_web(){
+        return view('index/view_web');
+    }
+
+    public function sale_web(){
+        return view('index/sale_web');
+    }
+
+    public function all_web(){
+        return view('index/all_web');
+    }
+
+    public function mall_b2b(){
+        return view('index/mall_b2b');
+    }
+
+
+    public function mall_b2b2c(){
+        return view('index/mall_b2b2c');
+    }
+
+
+    public function mall_more(){
+        return view('index/mall_more');
+    }
+
+
+
+    public function wechat(){
+        return view('index/wechat');
+    }
 }
