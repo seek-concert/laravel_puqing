@@ -39,7 +39,7 @@ class CaseCategoryController extends BaseController
             //数据新增
             $list = DB::table('case_category')
                 ->insert([
-                    'name' => $request->name,
+                    'name' => $request->input('name',''),
                     'input_time' => time()
                 ]);
             //新增是否成功
@@ -66,7 +66,7 @@ class CaseCategoryController extends BaseController
                     'id' => $id
                 ])
                 ->update([
-                    'name' => $request->name,
+                    'name' => $request->input('name',''),
                     'update_time' => time()
                 ]);
             //修改是否成功

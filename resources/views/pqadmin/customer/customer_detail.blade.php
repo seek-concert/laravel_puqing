@@ -121,7 +121,7 @@
                         <div class="line_grid">
                             <div class="g_3"><span class="label">其他</span></div>
                             <div class="g_9">
-                                <textarea class="simple_field elastic" name="description" disabled value="{{$info->description}}"></textarea>
+                                <textarea class="simple_field elastic" name="description" disabled >{{$info->description}}</textarea>
                             </div>
                         </div>
                     </div>

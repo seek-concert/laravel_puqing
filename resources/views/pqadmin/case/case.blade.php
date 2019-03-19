@@ -69,7 +69,7 @@
                                 <td>{{$value->title}}</td>
                                 <td>{{$value->category_name}}</td>
                                 <td>
-                                    <a href="{{url('pqadmin/case_detail/',[$value->id])}}">
+                                    <a href="{{url('pqadmin/case_detail',[$value->id])}}">
                                         <div class="simple_buttons" id="customer_detail" original-title="查看案例详细信息">
                                             <div>查看</div>
                                         </div>

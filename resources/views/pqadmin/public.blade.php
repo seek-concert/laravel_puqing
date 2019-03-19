@@ -257,13 +257,13 @@
             <li class="i_32_inbox">
                 <a href="{{url('pqadmin/case_category')}}" title="Your Messages">
                     <span class="tab_label">案例分类</span>
-                    <span class="tab_info">新增、修改案例</span>
+                    <span class="tab_info">新增、修改</span>
                 </a>
             </li>
             <li class="i_32_charts">
                 <a href="{{url('pqadmin/case')}}" title="Visual Data">
                     <span class="tab_label">案例管理</span>
-                    <span class="tab_info">新增、修改、删除</span>
+                    <span class="tab_info">新增、修改</span>
                 </a>
             </li>
             <li class="i_32_ui">

@@ -33,13 +33,12 @@ Class WebController extends BaseController
      */
     public function save(Request $request)
     {
-        //接收前台提交数据
-        $data = $request->all();
         //判断是否有文件上传
         if ($request->hasFile('logo')) {
             //logo路径
             $logo = $this->upload($request->file('logo'));
-            $data['logo'] = $logo;
+        }else{
+            $logo = $request->input('logo','');
         }
         //数据修改
         $list = DB::table('web')
@@ -47,14 +46,14 @@ Class WebController extends BaseController
                 'id' => 1
             ])
             ->update([
-                'logo' => $data['logo'],
-                'name' => $data['name'],
-                'title' => $data['title'],
-                'keywords' => $data['keywords'],
-                'description' => $data['description'],
-                'copyrights' => $data['copyrights'],
-                'statistical' => $data['statistical'],
-                'copyright' => $data['copyright'],
+                'logo' => $logo,
+                'name' => $request->input('name',''),
+                'title' => $request->input('title',''),
+                'keywords' => $request->input('keywords',''),
+                'description' => $request->input('description',''),
+                'copyrights' => $request->input('copyrights',''),
+                'statistical' => $request->input('statistical',''),
+                'copyright' => $request->input('copyright',''),
                 'update_time' => time()
             ]);
         //修改是否成功
