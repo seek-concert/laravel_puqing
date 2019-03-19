@@ -32,6 +32,14 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('web_setting','WebController@index');
 	//网站设置修改
     Route::any('web_save','WebController@save');
+    //banner图
+    Route::any('banner','BannerController@index');
+    //banner图新增
+    Route::any('banner_add','BannerController@add');
+    //banner图修改
+    Route::any('banner_edit/{id}','BannerController@edit');
+    //banner图删除
+    Route::any('banner_del/{id}','BannerController@del');
     //案例分类
     Route::any('case_category','CaseCategoryController@index');
     //案例分类新增

@@ -88,7 +88,7 @@
     <div class="wrapper">
         <div class="user">
             <img src="{{URL::asset('pqadmin/images/user_avatar.png')}}" alt="user_avatar" class="user_avatar" />
-            <span class="label">John Alex</span>
+            <span class="label">{{ Session::get('username') }}</span>
             <!-- Top Tooltip -->
             <div class="top_tooltip">
                 <div>
@@ -254,6 +254,12 @@
                     <span class="tab_info">修改网站信息</span>
                 </a>
             </li>
+            <li class="i_32_forms">
+                <a href="{{url('pqadmin/banner')}}" title="Some Fields">
+                    <span class="tab_label">banner图</span>
+                    <span class="tab_info">新增、修改</span>
+                </a>
+            </li>
             <li class="i_32_inbox">
                 <a href="{{url('pqadmin/case_category')}}" title="Your Messages">
                     <span class="tab_label">案例分类</span>
@@ -276,12 +282,6 @@
                 <a href="{{url('pqadmin/contact_setting')}}" title="Some Rows">
                     <span class="tab_label">联系设置</span>
                     <span class="tab_info">服务联系设置</span>
-                </a>
-            </li>
-            <li class="i_32_forms">
-                <a href="forms.html" title="Some Fields">
-                    <span class="tab_label">Forms</span>
-                    <span class="tab_info">Some Fields</span>
                 </a>
             </li>
         </ul>
