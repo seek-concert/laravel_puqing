@@ -55,12 +55,14 @@ class CaseController
             ->where([
                 ['id', '<', $id]
             ])
+            ->orderBy('id','desc')
             ->first();
         $next = DB::table('case')
             ->select('id', 'title')
             ->where([
                 ['id', '>', $id]
             ])
+            ->orderBy('id','asc')
             ->first();
         //最新案例
         $case = DB::table('case')
