@@ -28,6 +28,8 @@ Route::namespace('Index')->group(function () {
     Route::any('web', 'WebController@index');
     //成功案例
     Route::any('case', 'CaseController@index');
+    //成功案例--详情页
+    Route::any('case_show/{id}', 'CaseController@show');
     //联系我们
     Route::any('contact', 'ContactController@index');
     //网站资讯
@@ -53,13 +55,13 @@ Route::namespace('Index')->group(function () {
 
     //html5app开发
     Route::any('app_html5', 'AppController@app_html5');
-     //ios app开发
-     Route::any('app_ios', 'AppController@app_ios');
-      //android app开发
+    //ios app开发
+    Route::any('app_ios', 'AppController@app_ios');
+    //android app开发
     Route::any('app_android', 'AppController@app_android');
-     //app 解决方案
-     Route::any('app_solution', 'AppController@app_solution');
-      //app 项目流程
+    //app 解决方案
+    Route::any('app_solution', 'AppController@app_solution');
+    //app 项目流程
     Route::any('app_project', 'AppController@app_project');
 
 });

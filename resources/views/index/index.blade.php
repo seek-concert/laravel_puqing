@@ -263,7 +263,7 @@
 							<li>
 								<div class="cgal_list">
 									@foreach($case_lists as $value)
-									<div class="cgal_tp"> <a href="/case/show_446.html" title="建站案例">
+									<div class="cgal_tp"> <a href="{{url('case_show',[$value->id])}}" title="建站案例">
 											<h4></h4>
 											<p></p>
 										</a> <img src="/index/picture/logo.jpg" data-original="{{$value->thumbnail}}" width="358" height="235"

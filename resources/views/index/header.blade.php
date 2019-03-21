@@ -46,7 +46,7 @@ $(function(){
 </script>
 <div class="top1">
   <div class="topbox">
-    <div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}"/></a></div>
+    <div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="../{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}"/></a></div>
     <div class="dh f2">
       <ul class="dh-top f2" style="height:22px;">
         <li class="f2"><span style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span> <span>服务：0755-83271606、83658105</span></li>
