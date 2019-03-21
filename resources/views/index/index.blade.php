@@ -399,72 +399,52 @@
 			<ul>
 				<li>
 					<div class="core_img"><a href="/service/index_20.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core1.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_20.html" title="">企业官网建设</a></div>
-					<div class="core_h"><a href="/service/index_20.html" title="">企业官网建设</a></div>
+							 data-original="/index/images/2019321174401.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_20.html" title="">企业官网建设</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_108.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core2.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_108.html" title="">商城网站建设</a></div>
-					<div class="core_h"><a href="/service/index_108.html" title="">商城网站建设</a></div>
+							 data-original="/index/images/2019321174406.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_108.html" title="">商城网站建设</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_109.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core3.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_109.html" title="">系统平台开发</a></div>
-					<div class="core_h"><a href="/service/index_109.html" title="">系统平台开发</a></div>
+							 data-original="/index/images/2019321174408.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_109.html" title="">系统平台开发</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_110.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core4.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_110.html" title="">微信营销</a></div>
-					<div class="core_h"><a href="/service/index_110.html" title="">微信营销</a></div>
+							 data-original="/index/images/2019321174404.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_110.html" title="">微信营销</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/ssl/ssl.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core5.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/ssl/ssl.html" title="">SSL证书</a></div>
-					<div class="core_h"><a href="/ssl/ssl.html" title="">SSL证书</a></div>
+							 data-original="/index/images/2019321174403.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/ssl/ssl.html" title="">SSL证书</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_112.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core6.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_112.html" title="">APP开发</a></div>
-					<div class="core_h"><a href="/service/index_112.html" title="">APP开发</a></div>
+							 data-original="/index/images/2019321174402.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_112.html" title="">APP开发</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_113.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core7.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_113.html" title="">商城/网站装修</a></div>
-					<div class="core_h"><a href="/service/index_113.html" title="">商城/网站装修</a></div>
+							 data-original="/index/images/2019321174410.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_113.html" title="">商城/网站装修</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_114.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core8.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_114.html" title="">平面设计</a></div>
-					<div class="core_h"><a href="/service/index_114.html" title="">平面设计</a></div>
-					<div class="core_h"><a href="/service/index_114.html" title="">平面设计</a></div>
+							 data-original="/index/images/2019321174407.png" alt="" width="100%" height="100%" /></a> </div>
+					<div class="core_h"><a href="/service/2019321174407.html" title="">平面设计</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_115.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core9.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_115.html" title="">盛世云服务器</a></div>
-					<div class="core_h"><a href="/service/index_115.html" title="">盛世云服务器</a></div>
-					<div class="core_h"><a href="/service/index_115.html" title="">盛世云服务器</a></div>
+							 data-original="/index/images/2019321174405.png" alt="" width="100%" height="100%" /></a> </div>
+					<div class="core_h"><a href="/service/index_115.html" title="">阿里云服务器</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="/service/index_116.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/core10.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_116.html" title="">网联天下邮</a></div>
-					<div class="core_h"><a href="/service/index_116.html" title="">网联天下邮</a></div>
+							 data-original="/index/images/2019321174409.png" alt="" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="/service/index_116.html" title="">网联天下邮</a></div>
 				</li>
 			</ul>
