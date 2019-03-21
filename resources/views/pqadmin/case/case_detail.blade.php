@@ -61,6 +61,12 @@
                         </div>
                     </div>
                     <div class="line_grid">
+                        <div class="g_3"><span class="label">案例网址</span></div>
+                        <div class="g_9">
+                            <input type="text" class="simple_field" name="url" value="{{$list->url}}" disabled/>
+                        </div>
+                    </div>
+                    <div class="line_grid">
                         <div class="g_3"><span class="label">关键字</span></div>
                         <div class="g_9">
                             <input type="text" class="simple_field atC" name="keywords" value="{{$list->keywords}}" disabled/>
