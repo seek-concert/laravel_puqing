@@ -55,6 +55,7 @@ class CaseController extends BaseController
                 ->insert([
                     'thumbnail' => $thumbnail,
                     'title' => $request->input('title', ''),
+                    'url' => $request->input('url',''),
                     'keywords' => $request->input('keywords', ''),
                     'description' => $request->input('description', ''),
                     'category_id' => $request->input('category_id', 0),
@@ -97,6 +98,7 @@ class CaseController extends BaseController
                 ->update([
                     'thumbnail' => $thumbnail,
                     'title' => $request->input('title', ''),
+                    'url' => $request->input('url', ''),
                     'keywords' => $request->input('keywords', ''),
                     'description' => $request->input('description', ''),
                     'category_id' => $request->input('category_id', 0),

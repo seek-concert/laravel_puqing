@@ -64,6 +64,12 @@
                             </div>
                         </div>
                         <div class="line_grid">
+                            <div class="g_3"><span class="label">案例网址<span class="must">*</span></span></div>
+                            <div class="g_9">
+                                <input class="simple_field" type="text" name="url" value="{{$list->url}}" required/>
+                            </div>
+                        </div>
+                        <div class="line_grid">
                             <div class="g_3"><span class="label">关键字<span class="must">*</span></span></div>
                             <div class="g_9">
                                 <input class="simple_field" type="text" name="keywords" value="{{$list->keywords}}" required/>
