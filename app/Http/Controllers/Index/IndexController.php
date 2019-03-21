@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Index;
-
+use Illuminate\Support\Facades\DB;
 
 
 class IndexController
@@ -28,6 +28,13 @@ class IndexController
 
     }
     public function index(){
-        return view('index/index');
+        //获取banner图
+        $banner_lists = DB::table('banner')->get();
+        
+        //获取部分案例
+        $case_lists = DB::table('case')->limit(4)->get();
+        
+        return view('index/index',['banner_lists'=>$banner_lists,'case_lists'=>$case_lists]);
+        
     }
 }

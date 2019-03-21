@@ -40,6 +40,8 @@ Class WebController extends BaseController
         }else{
             $logo = $request->input('logo','');
         }
+        $data = $request->all();
+        $data['logo'] = $logo;
         //数据修改
         $list = DB::table('web')
             ->where([
