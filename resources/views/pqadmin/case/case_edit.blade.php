@@ -52,7 +52,7 @@
                             <div class="g_9">
                                 <input type="file" name="thumbnail" class="simple_form"/>
                                 @if(!empty($list->thumbnail))
-                                    <img src="../../{{$list->thumbnail}}" alt="">
+                                    <img src="../../{{$list->thumbnail}}" alt="" style="width: 75%;height: 50%">
                                     <input type="hidden" name="thumbnail" value="{{$list->thumbnail}}">
                                 @endif
                             </div>

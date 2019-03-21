@@ -49,8 +49,8 @@
                         </div>
                         <div class="g_9">
                             @if(!empty($list->thumbnail))
-                                <img src="../../{{$list->thumbnail}}" alt="">
-                                <input type="hidden" name="thumbnail" value="{{$list->thumbnail}}">
+                                <img src="../../{{$list->thumbnail}}" alt="" style="width: 75%;height: 50%">
+                                <input type="hidden" name="thumbnail" value="{{$list->thumbnail}}" >
                             @endif
                         </div>
                     </div>
