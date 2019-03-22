@@ -36,7 +36,7 @@
             <div class="ser01">
                 <div class="ser01_l">
                     <h3>个性化网站建设</h3>
-                    <h4>顶尖的创意团队为您量身定制个性化<a href="/case/index_19_1.html" target="_blank">企业网站建设</a>，用最前沿的思维制作用户体验的高端网站，正是网联的优势所在</h4>
+                    <h4>顶尖的创意团队为您量身定制个性化<a href="/case/index_19_1.html" target="_blank">企业网站建设</a>，用最前沿的思维制作用户体验的高端网站，正是普擎的优势所在</h4>
                     <p class="ser01_one"><span>创意</span>您的专用私人创意设计供应商</p>
                     <p class="ser01_two"><span>视野</span>国际化视野、独树一帜的风格体现</p>
                     <p class="ser01_three"><span>团队</span>强大的设计力量和技术团队</p>
@@ -50,7 +50,7 @@
                     border="0" data-original="/asp_bin/UploadFile/20160322090327_86154.png" />
                 <div>
                     <p><span style="width:100%;height:50px;font-size:32px;display:block;">关于个性化网站定制</span>您需要我们给您打造一个有文化、有价值的企业网站<br />
-                        网联科技，为您量身定制您的赚钱<span style="line-height:1.5;">企业</span><span style="line-height:1.5;">网站</span></p>
+                        普擎科技，为您量身定制您的赚钱<span style="line-height:1.5;">企业</span><span style="line-height:1.5;">网站</span></p>
                     <p style="line-height:26px;font-size:12px;margin-top:40px;">•不知道怎么利用网站赚钱？ <br />
                         •有了网站，不过网站实在看不下去？ <br />
                         •网站没有功能，时常出现问题，不能用？ <br />

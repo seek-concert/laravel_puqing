@@ -25,8 +25,8 @@
     <div class="pro_box" style="display:block;">
       <div class="ser07">
         <div class="ser07_l">
-          <h3 style="margin-top:105px;">网联<span style="color:#ff9900;"><a href="/case/index_17_1.html" target="_blank">B2B电商平台</a></span>网站开发</h3>
-          <p style="margin-top:30px;">在传统B2B<a href="/case/index_17_1.html" target="_blank"><span style="color:#a7a4a4;">电子商务平台</span></a>构架的基础上，应用先进计算机软件技术，结合各企业的具体实情，通过严格地定制开发、精准的市场定位等，为企业搭建匹配度高、安全高效、实用性强的电子商务平台。网联B2B电子商务平台能够与其他各软件系统兼容，实现与ERP系统、CRM系统等无缝链接，确保企业通过电子商务平台有序运转的信息实现超强集成，为企业实现利润最大化提供坚实的技术支撑。</p>
+          <h3 style="margin-top:105px;">普擎<span style="color:#ff9900;"><a href="/case/index_17_1.html" target="_blank">B2B电商平台</a></span>网站开发</h3>
+          <p style="margin-top:30px;">在传统B2B<a href="/case/index_17_1.html" target="_blank"><span style="color:#a7a4a4;">电子商务平台</span></a>构架的基础上，应用先进计算机软件技术，结合各企业的具体实情，通过严格地定制开发、精准的市场定位等，为企业搭建匹配度高、安全高效、实用性强的电子商务平台。普擎B2B电子商务平台能够与其他各软件系统兼容，实现与ERP系统、CRM系统等无缝链接，确保企业通过电子商务平台有序运转的信息实现超强集成，为企业实现利润最大化提供坚实的技术支撑。</p>
         </div>
         <div class="ser07_r"><img alt="" src="/index/picture/20160323100337_68065.jpg" data-original="/asp_bin/UploadFile/20160323100337_68065.jpg"
             border="0" /></div>
@@ -41,12 +41,12 @@
             data-original="/asp_bin/UploadFile/20160323100301_54763.png" border="0" /></p>
       </div>
       <div class="ser08">
-        <h3>网联B2B<span style="color:#ff6600;">业务</span>流程图</h3>
-        <p>网联充分利用互联网根据企业的不同类型、规模、产品类型、发展战略等，进行专业化的<a href="/case/index_17_1.html" target="_blank"><span style="color:#767173;">电商平台开发</span></a>，帮助传统企业进入电子化市场，让企业获得更多信息资源和商机；实现多种信息沟通渠道的集成，协助企业实现与客户直接对接与交流，在企业与客户之间建立良性交互渠道，提升企业客户服务水平、客户满意度和忠实度，实现企业网络形象的提升和网络市场的开拓与扩展。</p>
+        <h3>普擎B2B<span style="color:#ff6600;">业务</span>流程图</h3>
+        <p>普擎充分利用互联网根据企业的不同类型、规模、产品类型、发展战略等，进行专业化的<a href="/case/index_17_1.html" target="_blank"><span style="color:#767173;">电商平台开发</span></a>，帮助传统企业进入电子化市场，让企业获得更多信息资源和商机；实现多种信息沟通渠道的集成，协助企业实现与客户直接对接与交流，在企业与客户之间建立良性交互渠道，提升企业客户服务水平、客户满意度和忠实度，实现企业网络形象的提升和网络市场的开拓与扩展。</p>
         <p><img alt="" src="/index/picture/20160323100321_26597.jpg" data-original="/asp_bin/UploadFile/20160323100321_26597.jpg"
             border="0" /></p>
         <h3>B2B电子商务网站<span style="color:#33cc99;">特点</span></h3>
-        <p>网联充分利用互联网根据企业的不同类型、规模、产品类型、发展战略等，进行专业化的电子商务网站开发，帮助传统企业进入电子化市场，让企业获得更多信息资源和商机；实现多种信息沟通渠道的集成，协助企业实现与客户直接对接与交流，在企业与客户之间建立良性交互渠道，提升企业客户服务水平、客户满意度和忠实度，实现企业网络形象的提升和网络市场的开拓与扩展。</p>
+        <p>普擎充分利用互联网根据企业的不同类型、规模、产品类型、发展战略等，进行专业化的电子商务网站开发，帮助传统企业进入电子化市场，让企业获得更多信息资源和商机；实现多种信息沟通渠道的集成，协助企业实现与客户直接对接与交流，在企业与客户之间建立良性交互渠道，提升企业客户服务水平、客户满意度和忠实度，实现企业网络形象的提升和网络市场的开拓与扩展。</p>
         <p style="padding:0px;margin-top:20px;"><img alt="" src="/index/picture/20160323100334_93825.jpg" data-original="/asp_bin/UploadFile/20160323100334_93825.jpg"
             border="0" /></p>
         <p style="padding:0px 0px 90px;margin-top:10px;"><span style="color:#7f7f7f;line-height:20px;font-size:14px;">信息资源的高<br />
@@ -72,9 +72,9 @@
       </div>
       <div class="pro_con">
         <div class="ser_l">
-          <h3>网联B2B电子商务<br />
+          <h3>普擎B2B电子商务<br />
             网站的行业应用</h3>
-          <p>网联强大的电子商务平台研发实力以及定制开发服务着眼，即可知其在面向集团、跨国公司、大型企业时，能够打造出适合各种规模、各个行业中企业发展壮大的B2B电子商务平台。网联B2B电子商务平台支持集团和跨国公司实现产品销售与企业协作，并为集团用户实现电子商务化发展提供解决方案。网联B2B电子商务网站应用行业广泛，从日化行业到汽车制造行业等均有成功案例。</p>
+          <p>普擎强大的电子商务平台研发实力以及定制开发服务着眼，即可知其在面向集团、跨国公司、大型企业时，能够打造出适合各种规模、各个行业中企业发展壮大的B2B电子商务平台。普擎B2B电子商务平台支持集团和跨国公司实现产品销售与企业协作，并为集团用户实现电子商务化发展提供解决方案。普擎B2B电子商务网站应用行业广泛，从日化行业到汽车制造行业等均有成功案例。</p>
           <p style="margin-top:35px;"><img alt="" src="/index/picture/20160323100304_41261.jpg" data-original="/asp_bin/UploadFile/20160323100304_41261.jpg"
               border="0" /></p>
           <p style="margin-top:5px;"><span style="margin-left:-27px;">汽车制造行业</span><span>日化行业</span><span>服装行业</span><span>IC行业</span></p>

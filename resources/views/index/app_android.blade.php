@@ -19,7 +19,7 @@
 	      <h2>一、安卓软件开发概述</h2>
 		  <p style=" text-align:center;">AndroidAPP是一种手机应用软件，是使用在安卓手机上或者是Android系统的第三方应用程序。APP的英文Application的简称，通常是指iphone，安卓等手机应用软件，现在的APP多指智能手机的第三方应用程序。<br /><br />
 目前国内的Android APP商店众多，最新的十大安卓应用市场排名：360手机助手、百度手机助手、应用宝、豌豆荚、小米商店、安卓市场、91市场、淘宝手机助手、安智市场、移动MM市场。<br /><br />
-网联科技安卓软件开发团队熟练掌握安卓应用开发技术，以及包括：c# .NET wince/windows mobile、Java、C++三大语言在安卓操作系统下的应用程序开发，VC++和C#在多媒体和GIS应用系统开发，Delphi,aspx,php 在电子商务应用中的开发。</p>
+普擎科技安卓软件开发团队熟练掌握安卓应用开发技术，以及包括：c# .NET wince/windows mobile、Java、C++三大语言在安卓操作系统下的应用程序开发，VC++和C#在多媒体和GIS应用系统开发，Delphi,aspx,php 在电子商务应用中的开发。</p>
 	  </div> 
       <div class="listss list_b list_02" style=" background:url(/index/images/c1.jpg) no-repeat center center; height:747px;">
 	       <div class="list_02s clearfix">
@@ -74,8 +74,8 @@
 	  </div>
 	  <div class="list_s list_06" style=" background:url(/index/images/c5.jpg) no-repeat center center; padding-top:120px; height:673px;">
 			 <div class="list_02s clearfix">
-			  <h2>六、网联科技开发安卓APP能给企业/个人带来什么</h2>
-			  <p>网联科技的安卓应用软件开发人员都有着5年以上的Java开发经验，能够完成任何复杂的Android应用程序。对于酷蜂来说，Android软件开发仅仅是整个开发流程的一部分，在这里我们使用行业标准的Android软件测试方法和流程，以最大限度地提高软件的质量、性能和可用性，以确保它能够快速部署到安卓市场（google market）上。<br />
+			  <h2>六、普擎科技开发安卓APP能给企业/个人带来什么</h2>
+			  <p>普擎科技的安卓应用软件开发人员都有着5年以上的Java开发经验，能够完成任何复杂的Android应用程序。对于酷蜂来说，Android软件开发仅仅是整个开发流程的一部分，在这里我们使用行业标准的Android软件测试方法和流程，以最大限度地提高软件的质量、性能和可用性，以确保它能够快速部署到安卓市场（google market）上。<br />
 UI设计：符合Google官方UI设计建议，新颖时尚，美观大方。<br />
 研发：采用原生程序，符合Android软件研发规范和流程，程序经多种优化，内存控制良好，运行流畅。<br />
 测试：分别就系统版本，分辨率，硬件匹配进行全方位测试。<br />

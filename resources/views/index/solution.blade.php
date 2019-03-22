@@ -53,7 +53,7 @@
 	  <p style="padding-top:20px;"><a href="/case/index.html" title=""><img src="/index/picture/icon2.jpg" alt="" width="300" /></a></p>
 	  <h4>网站建设知识</h4>
 	  <ul>
-	  	<li><a href="/about/show_947.html" title="">手机网站制作的重要性<br/><span>2018-11-05</span></a></li><li><a href="/about/show_939.html" title="">商城网站建设需要注意哪些<br/><span>2018-10-22</span></a></li><li><a href="/about/show_918.html" title="">深圳做网站公司--------首选网联科技<br/><span>2018-09-30</span></a></li><li><a href="/about/show_910.html" title="">2018年最值得学习的前端技术<br/><span>2018-09-25</span></a></li><li><a href="/about/show_681.html" title="">为什么做网站必须选择做响应式网站<br/><span>2017-08-26</span></a></li><li><a href="/about/show_675.html" title="">深圳网站建设哪家好<br/><span>2017-08-04</span></a></li>	  </ul>
+	  	<li><a href="/about/show_947.html" title="">手机网站制作的重要性<br/><span>2018-11-05</span></a></li><li><a href="/about/show_939.html" title="">商城网站建设需要注意哪些<br/><span>2018-10-22</span></a></li><li><a href="/about/show_918.html" title="">深圳做网站公司--------首选普擎科技<br/><span>2018-09-30</span></a></li><li><a href="/about/show_910.html" title="">2018年最值得学习的前端技术<br/><span>2018-09-25</span></a></li><li><a href="/about/show_681.html" title="">为什么做网站必须选择做响应式网站<br/><span>2017-08-26</span></a></li><li><a href="/about/show_675.html" title="">深圳网站建设哪家好<br/><span>2017-08-04</span></a></li>	  </ul>
 	  <div class="clear"></div>
 	  <p style="color:#333;font-weight:bold;font-size:13px;">咨询</p>
 	  <p style="color:#666;line-height:30px;">电话：0755-83658105</p>
@@ -71,9 +71,9 @@
   <div class="clear"></div>
   <div class="case_bottom">
     <div class="case_news">
-	  <div class="case_news_t"><h3>网联<span>新闻</span></h3><a href="/about/news.html" title="">MORE</a></div>
+	  <div class="case_news_t"><h3>普擎<span>新闻</span></h3><a href="/about/news.html" title="">MORE</a></div>
 	  <ul>
-	  	<li><a href="/about/show_888.html" title="">网联科技2018年员工聚餐</a><span>2018-08-21</span></li><li><a href="/about/show_887.html" title="">网联科技温泉漂流2日游</a><span>2018-08-13</span></li><li><a href="/about/show_873.html" title="">网联科技2018年员工夏季生日会</a><span>2018-07-19</span></li><li><a href="/about/show_849.html" title="">红树林-深圳湾海边徒步活动</a><span>2018-04-10</span></li><li><a href="/about/show_782.html" title="">网联科技2018年春节放假通知</a><span>2018-02-06</span></li><li><a href="/about/show_566.html" title="">一场属于网联人的活动日</a><span>2017-03-14</span></li>	  </ul>
+	  	<li><a href="/about/show_888.html" title="">普擎科技2018年员工聚餐</a><span>2018-08-21</span></li><li><a href="/about/show_887.html" title="">普擎科技温泉漂流2日游</a><span>2018-08-13</span></li><li><a href="/about/show_873.html" title="">普擎科技2018年员工夏季生日会</a><span>2018-07-19</span></li><li><a href="/about/show_849.html" title="">红树林-深圳湾海边徒步活动</a><span>2018-04-10</span></li><li><a href="/about/show_782.html" title="">普擎科技2018年春节放假通知</a><span>2018-02-06</span></li><li><a href="/about/show_566.html" title="">一场属于普擎人的活动日</a><span>2017-03-14</span></li>	  </ul>
 	</div>
 	<div class="case_trade">
 	  <div class="case_news_t"><h3>行业案例<span style="color:#ff4817;">检索</span></h3><a href="/case/index.html" title="">MORE</a></div>

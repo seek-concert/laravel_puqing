@@ -54,10 +54,10 @@
 					<h3 class="nav_h2"><a href="{{url('/news')}}" id="in04" class="hover" title="网站资讯">网站资讯</a>
 
 					</h3>
-					<h3 class="nav_h2"><a href="{{url('/about')}}" id="in05" class="hover" title="关于网联网站开发" rel="nofollow">关于网联</a>
+					<h3 class="nav_h2"><a href="{{url('/about')}}" id="in05" class="hover" title="关于普擎网站开发" rel="nofollow">关于普擎</a>
 
 					</h3>
-					<h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系网联</a>
+					<h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系普擎</a>
 
 					</h3>
 				</span>
@@ -179,7 +179,7 @@
 				<li class="business-fiv">
 					<p></p>
 					<div><a title="网站托管服务"><span class="wzt1">网站托管服务</span><br />
-							<span class="wzt2">网站托管后网联科技为该系统提供免费技术支持和维护，包含：内容维护、设计维护、系统维护.</span></a></div> <img src="/index/images/wangzhantuoguan.jpg"
+							<span class="wzt2">网站托管后普擎科技为该系统提供免费技术支持和维护，包含：内容维护、设计维护、系统维护.</span></a></div> <img src="/index/images/wangzhantuoguan.jpg"
 					data-original="asp_bin/photo/1459317057.jpg" width="285" height="285" alt="网站代运营" class="bimg5">
 				</li>
 		<li style="position:absolute;right:0;bottom:0;width:700px;height:140px;margin:0;"> <img src="/index/picture/logo.jpg"
@@ -190,7 +190,7 @@
 	<div class="swhy" style="background:url(/index/images/1523601722.jpg) no-repeat center center;"></div>
 	<div class="zbxw">
 		<div class="zbxw_top">
-			<h3> 网站新闻 <span>WEB NEWS</span></h3>
+			<h3> 中标新闻 <span>WINING NEWS</span></h3>
 		</div>
 		<div class="zbxwbox">
 			<!--move-->
@@ -204,18 +204,18 @@
 								<div class="picImg"><a href="/about/show_714.html" rel="nofollow" title=""><img src="/index/picture/1510820276.jpg"
 										 data-original="/asp_bin/newimg/1510820276.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
 								<div class="pic_cont"><a href="/about/show_714.html" rel="nofollow" title=""><span class="b1">总监三千平台开发
-											B2B2C平台开发</span><span class="b2">深圳市网联信息科技开发有限公司有幸为总监三千（深圳文化投资有限公司）服务，提供b2b2c商城建设解决方案，“总监三千”平台是总监三千（深圳文化投资有限公司）集结全球顶级创意设计人士的互动、创业创收的平台。开创总监经济人模式，专注服务高品质企业对品牌策划设计推广需求。</span></a></div>
+											B2B2C平台开发</span><span class="b2">重庆普擎科技有限公司有幸为总监三千（深圳文化投资有限公司）服务，提供b2b2c商城建设解决方案，“总监三千”平台是总监三千（深圳文化投资有限公司）集结全球顶级创意设计人士的互动、创业创收的平台。开创总监经济人模式，专注服务高品质企业对品牌策划设计推广需求。</span></a></div>
 							</div>
 							<div class="pic">
 								<div class="picImg"><a href="/about/show_701.html" rel="nofollow" title=""><img src="/index/picture/1505977886.jpg"
 										 data-original="/asp_bin/newimg/1505977886.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_701.html" rel="nofollow" title=""><span class="b1">网联科技中标研祥智能科技股份有限公司商城建设项目</span><span
+								<div class="pic_cont"><a href="/about/show_701.html" rel="nofollow" title=""><span class="b1">普擎科技中标研祥智能科技股份有限公司商城建设项目</span><span
 										 class="b2">随着数字经济时代的到来，我们看到全球制造业正在发生着深刻的变革。传统的大批量、少批次的生产方式已经不能满足当今消费者对个性化的追求，而小批量、定制化的柔性生产正在成为制造业中的时尚。</span></a></div>
 							</div>
 							<div class="pic">
 								<div class="picImg"><a href="/about/show_615.html" rel="nofollow" title=""><img src="/index/picture/1492830255.jpg"
 										 data-original="/asp_bin/newimg/1492830255.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_615.html" rel="nofollow" title=""><span class="b1">网联科技中标B2C深圳鹿嘴旅游平台网站建设项目</span><span
+								<div class="pic_cont"><a href="/about/show_615.html" rel="nofollow" title=""><span class="b1">普擎科技中标B2C深圳鹿嘴旅游平台网站建设项目</span><span
 										 class="b2">深圳鹿嘴山庄是一家 型度假村，位于大鹏半岛杨梅坑片区，深圳
 											东端，面朝大亚湾，背倚深圳第二高峰七娘山。充满诗情画意的月夜钓螃蟹；游艇出海捕鱼；快艇冲浪；海钓、露营、烧烤；骑行鹿嘴观海大道；外岛浮潜窥探五光十色海底世界；迎接深圳
 											缕阳光；喜欢挑战的来一场攀崖比赛更是不错的选择；还可以包一栋海边别墅举行生日PARTY或朋友聚会；不管你是否学过摄影，只需你拿起相机，按下快门，都是一幅精美
@@ -224,7 +224,7 @@
 							<div class="pic">
 								<div class="picImg"><a href="/about/show_543.html" rel="nofollow" title=""><img src="/index/picture/1487574894.jpg"
 										 data-original="/asp_bin/newimg/1487574894.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_543.html" rel="nofollow" title=""><span class="b1">网联科技中标大桥化工官方商城网站建设项目</span><span
+								<div class="pic_cont"><a href="/about/show_543.html" rel="nofollow" title=""><span class="b1">普擎科技中标大桥化工官方商城网站建设项目</span><span
 										 class="b2">中山大桥化工有限公司成立于1985年3月，总部位于伟人孙中山先生的故乡——广东省中山市，是集研发、生产和销售于一体的中港合资高新技术企业。2008年3月，正式组建成立了中山大桥化工企业集团（简称“大桥化工集团”）。
 											　　经过多年发展，大桥化工集团实力不断增强，同时，旗下拥有众多子公司和控股公司，并先后在中山市、重庆市、上海市、合肥市、韶关市等地兴建了现代化的生产基地。公司生产和经营的各类高性能专用涂料系列产品，包括汽车涂料、工程机械涂料、大中巴涂料、摩托车涂料、电子电器涂料、机车涂料、重防腐涂料、粉末涂料、电泳涂料等，产品性能优越，具有很高的市场知名度和强大的客户基础，在行业内拥有良好的口碑，部分产品进入国际市场。
 										</span></a></div>
@@ -232,7 +232,7 @@
 							<div class="pic">
 								<div class="picImg"><a href="/about/show_405.html" rel="nofollow" title=""><img src="/index/picture/1483063842.jpg"
 										 data-original="/asp_bin/newimg/1483063842.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_405.html" rel="nofollow" title=""><span class="b1">网联科技中标中联广深集团公司官网建设项目</span><span
+								<div class="pic_cont"><a href="/about/show_405.html" rel="nofollow" title=""><span class="b1">普擎科技中标中联广深集团公司官网建设项目</span><span
 										 class="b2">中联广深医药（集团）有限公司成立于一九八三年，是由全国医药行业几十家企业与本集团公司职工共同持有股份的混合所有制企业。公司坚持人才战略、创新机制，现已发展成为以医药为主，集科、工、贸为一体，具有一定实力和知名度的大型企业集团。</span></a></div>
 							</div> <!-- 图片列表 end -->
 						</div>
@@ -270,74 +270,6 @@
 										 alt="" class="case_img"> 
 									</div>
 									@endforeach
-								</div>
-							</li>
-							<li>
-								<div class="cgal_list">
-									<div class="cgal_tp"> <a href="/case/show_397.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1511747537.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_388.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497264978.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_385.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497264486.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_384.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1497264297.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_326.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1475028308.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_313.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1483063729.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-								</div>
-							</li>
-							<li>
-								<div class="cgal_list">
-									<div class="cgal_tp"> <a href="/case/show_280.html" title="官网设计">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1467966573.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_124.html" title="官网设计">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1459145106.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_257.html" title="官网设计">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1458988506.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_327.html" title="官网设计">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1481097184.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_329.html" title="官网设计">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1484894005.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_279.html" title="官网设计">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1467964024.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
 								</div>
 							</li>
 						</ul>
@@ -445,7 +377,7 @@
 				<li>
 					<div class="core_img"><a href="/service/index_116.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174409.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_116.html" title="">网联天下邮</a></div>
+					<div class="core_h"><a href="/service/index_116.html" title="">普擎天下邮</a></div>
 				</li>
 			</ul>
 		</div>
@@ -558,7 +490,7 @@
 						</li>
 						<li>
 							<h5><a href="/about/show_939.html" title="网站建站知识">商城网站建设需要注意哪些</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">现如今传统零售业在电商的猛烈冲击下生意越来越才惨淡，可见做一个电子商城网站的重要性，网联科技的小编今天和大家谈谈做一个商...</p>
+							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">现如今传统零售业在电商的猛烈冲击下生意越来越才惨淡，可见做一个电子商城网站的重要性，普擎科技的小编今天和大家谈谈做一个商...</p>
 						</li>
 					</ul>
 				</div>
@@ -569,8 +501,8 @@
 							<span>2018 SEP</span>
 						</li>
 						<li>
-							<h5><a href="/about/show_918.html" title="网站建站知识">深圳做网站公司--------首选网联科技</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">网联公司诞生于1999年，是电子商务网站的先驱者，2003年改名为深圳市网联科技有限公司发展至今已经有十八九年的历史了,...</p>
+							<h5><a href="/about/show_918.html" title="网站建站知识">深圳做网站公司--------首选普擎科技</a></h5>
+							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">普擎公司诞生于1999年，是电子商务网站的先驱者，2003年改名为深圳市普擎科技有限公司发展至今已经有十八九年的历史了,...</p>
 						</li>
 					</ul>
 				</div>
@@ -594,7 +526,7 @@
 						</li>
 						<li>
 							<h5><a href="/about/show_681.html" title="网站建站知识">为什么做网站必须选择做响应式网站</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">网联科技专业做PC+微站+手机+APP四网合一站,满意度99%.
+							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">普擎科技专业做PC+微站+手机+APP四网合一站,满意度99%.
 								html5响应式深圳网站建设公司,提供响应式深圳网站设...</p>
 						</li>
 					</ul>
@@ -721,9 +653,9 @@
 								我们齐肩并歩，再一次为超越梦想而改变。<br />
 								从真实行动，到共赢未来。每一次前行，责任都将成为永恒的使命。<br />
 								<br />
-								2016，网联与你一起，赢.聚变......</p>
+								2016，普擎与你一起，赢.聚变......</p>
 						</li>
-						<li style="color:#999999; height:50px; width:155px; line-height:50px; margin-top:45px;">网联全体同仁</li>
+						<li style="color:#999999; height:50px; width:155px; line-height:50px; margin-top:45px;">普擎全体同仁</li>
 						<li><span></span></li>
 					</ul>
 				</div>
@@ -731,85 +663,56 @@
 		</div>
 	</div>
 	<!--main开始-->
-	<div class="bbottom">
-		<div class="bottomTop"></div>
-	</div>
+
 	<div class="bottom">
 		<div class="bottombox">
 			<div class="bottom-dh">
 				<ul style="width:200px;">
 					<h4>产品及解决方案</h4>
-					<li><a href="/service/index_20.html" title="企业官网建设">企业官网建设</a></li>
-					<li><a href="/service/index_108.html" title="商城网站建设">商城网站建设</a></li>
-					<li><a href="/service/index_109.html" title="系统平台开发">系统平台开发</a></li>
-					<li><a href="/service/index_110.html" title="微信营销">微信营销</a></li>
-					<li><a href="/service/index_111.html" title="SSL证书">SSL证书</a></li>
+					<li><a href="{{ url('/web') }}" title="企业官网建设">企业官网建设</a></li>
+					<li><a href="{{ url('/mall_b2b') }}" title="商城网站建设">商城网站建设</a></li>
+					<li><a href="{{ url('/app') }}" title="APP开发">APP开发</a></li>
+					<li><a href="{{ url('/wechat') }}" title="微信营销">微信营销</a></li>
 				</ul>
 				<ul>
 					<h4>成功案例</h4>
-					<li><a href="/case/index_17_1.html" title="电子商务平台开发">电子商务平台开发</a></li>
-					<li><a href="/case/index_19_1.html" title="视觉形象官网">视觉形象官网</a></li>
-					<li><a href="/case/index_11_1.html" title="营销型网站">营销型网站</a></li>
-					<li><a href="/case/index_12_1.html" title="商城/分销商城">商城/分销商城</a></li>
-					<li><a href="/case/index_22_1.html" title="短视频">短视频</a></li>
+					@foreach ($case_category_lists as $value)
+					<li><a href="{{ url('case/'.$value->id) }}" title="{{ $value->name }}">{{ $value->name }}</a></li>
+					@endforeach
 				</ul>
 				<ul>
-					<h4>网联资讯</h4>
-					<li><a href="/about/news.html" title="网联新闻">网联新闻</a></li>
+					<h4>普擎资讯</h4>
+					<li><a href="{{ url('/news') }}" title="普擎新闻">普擎新闻</a></li>
 					<li><a href="/about/newss_10.html" title="手机网站资讯">手机网站资讯</a></li>
 					<li><a href="/service/seo.html" title="网站建设知识">网站建设知识</a></li>
 					<li><a href="/about/newss_9.html" title="网站营销推广知识">网站营销推广知识</a></li>
 					<li><a href="/about/newss_12.html" title="中标新闻">中标新闻</a></li>
 				</ul>
 				<ul>
-					<h4>关于网联</h4>
-					<li><a href="/about/index_19.html" title="网联概况">网联概况</a></li>
-					<li><a href="/about/index_72.html" title="企业文化">企业文化</a></li>
-					<li><a href="/about/index_73.html" title="发展历程">发展历程</a></li>
-					<li><a href="/about/index_74.html" title="加入网联">加入网联</a></li>
+					<h4>关于普擎</h4>
+					<li><a href="{{ url('/about') }}" title="普擎概况">普擎概况</a></li>
+					<li><a href="{{ url('/about/1') }}" title="企业文化">企业文化</a></li>
+					<li><a href="{{ url('/about/2') }}" title="发展历程">发展历程</a></li>
+					<li><a href="{{ url('/about/3') }}" title="加入普擎">加入普擎</a></li>
 				</ul>
 				<ul>
-					<h4>联系网联</h4>
-					<li><a href="/contact/index.html" title="联系方式" rel="nofollow">联系方式</a></li>
-					<li><a href="/contact/pay.html" title="付款方式" rel="nofollow">付款方式</a></li>
-					<li><a href="/contact/download.html" title="网站建设文档下载" rel="nofollow">常用文档下载</a></li>
-					<li><a href="/contact/help.html" title="网站建设帮助中心">帮助中心</a></li>
+					<h4>联系普擎</h4>
+					<li><a href="{{ url('/contact') }}" title="联系方式" rel="nofollow">联系方式</a></li>
+					<li><a href="{{ url('/pay') }}" title="付款方式" rel="nofollow">付款方式</a></li>
+					<li><a href="{{ url('/help') }}" title="网站建设帮助中心">帮助中心</a></li>
 				</ul>
-				<div class="ewm" style=" margin-right:16px;">
-					<p><img src="/index/picture/sjewm.jpg" data-original="/index/images/sjewm.jpg" alt="" width="118" height="118" /></p>
-					<span>手机官网</span>
-				</div>
+			
 				<div class="ewm">
 					<p><img src="/index/picture/wxewm.jpg" data-original="/index/images/wxewm.jpg" alt="" width="118" height="118" /></p>
 					<span>官方微信</span>
 				</div>
 			</div>
-			<div class="fx">
-				<ul class="fx-2" style="width:100%;">
-					<li style="background:url(/index/images/sindex.png)  -196px -194px no-repeat; width:240px;">投诉/Suggest：13823188098</li>
-					<li style="background:url(/index/images/sindex.png) -196px -271px no-repeat; width:240px;">电话/Tel：0755-83271881</li>
-					<li style="background:url(/index/images/sindex.png) -196px -220px no-repeat; width:240px;">邮箱/Mail：web@ni8.com</li>
-					<li style="background:url(/index/images/sindex.png)  -196px -245px no-repeat;">地址/Add：深圳市福田区华强南路机械大厦6楼</li>
-				</ul>
-			</div>
+		
 			<div class="yqlj">
-				<h4>友情链接</h4>
 				<ul>
-					<li><a href="http://www.szzghl.cn/" title="深圳网站建设" target="_blank">深圳网站建设</a></li>
-					<li><a href="http://www.chang-jiang.com.cn" title="佛山网站建设" target="_blank">佛山网站建设</a></li>
-					<li><a href="http://www.bjhyn.cn" title="北京网站建设" target="_blank">北京网站建设</a></li>
-					<li><a href="http://www.028net.net" title="成都网站建设" target="_blank">成都网站建设</a></li>
-					<li><a href="http://www.fractal-technology.com/index.html" title="北京网站建设公司" target="_blank">北京网站建设公司</a></li>
-					<li><a href="http://www.ppssdd.com" title="郑州网站建设" target="_blank">郑州网站建设</a></li>
-					<li><a href="https://www.ccxcn.com" title="北京网站建设" target="_blank">北京网站建设</a></li>
-					<li><a href="" title="企业网站seo" target="_blank">企业网站seo</a></li>
-					<li><a href="http://www.68gainian.com" title="上海网站建设" target="_blank">上海网站建设</a></li>
-					<li><a href="http://www.kingwins.com.cn/" title="现金贷系统" target="_blank">现金贷系统</a></li>
-					<li><a href="http://www.ni8.net.cn" title="商城网站建设" target="_blank">商城网站建设</a></li>
-					<li><a href="http://show.ni8.com" title="网联泥巴秀" target="_blank">网联泥巴秀</a></li>
-					<li><a href="http://www.ewont.com" title="服务器托管" target="_blank">服务器托管</a></li>
-					<li><a href="http://old.ni8.com" title="网联科技旧版网站" target="_blank">网联科技旧版网站</a></li>
-					<li><a href="http://www.0553zsw.com/" title="郑州网站优化" target="_blank">郑州网站优化</a></li>
+					<li><a href="https://www.baidu.com/" title="百度搜索" target="_blank">百度搜索</a></li>
+					<li><a href="https://www.aliyun.com/" title="阿里云服务器" target="_blank">阿里云服务器</a></li>
+					<li><a href="https://www.weibo.com/" title="新浪微博" target="_blank">新浪微博</a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>
@@ -817,7 +720,7 @@
 		<div class="footer">
 			<div class="bqxx" style="position:relative;">
 				<ul>
-					<li class="f1" style="font-family:Arial;">&copy;2016 深圳市网联信息科技开发有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
+					<li class="f1" style="font-family:Arial;">&copy;2019 重庆市普擎科技有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
 					</li>
 					<li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">粤ICP备05022732号-1</a>&nbsp;&nbsp;&nbsp;粤B2-20050242</li>
 				</ul>
@@ -874,13 +777,12 @@
 						<p><span>服务热线:</span><span style="width:110px;font-size:13px;color:#fff;">{{Cache('after_service_phone')}}</span></p>
 					</div>
 				</li>
-				<li><a href="Mailto:dzn@ni8.com" class="zixun3 zixun" title="" target="_blank">
+				<li><a href="Mailto:leimon@p7ing.com" class="zixun3 zixun" title="" target="_blank">
 					</a></li>
 				<li class="gw">
 					<a class="zixun4 zixun" title="扫描二维码联系"></a>
 					<div class="code-side">
-						<div><img src="/index/picture/sjewm.jpg" alt="手机官网" data-original="/index/images/sjewm.jpg" /><span>手机官网</span></div>
-						<div><img src="/index/picture/wxewm.jpg" alt="官网微信" data-original="/index/images/wxewm.jpg" /><span>官网微信</span></div>
+						<div><img src="/index/picture/wxewm.jpg" width="118px" height="118px" alt="官网微信" data-original="/index/images/wxewm.jpg" /><span>官网微信</span></div>
 					</div>
 				</li>
 				<li><a class="zixun5 zixun" href="javascript:window.scrollTo(0,0)" class="top1" title="回顶部">

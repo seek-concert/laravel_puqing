@@ -7,8 +7,8 @@
 <div class="pro_wap">
   <div class="pro_menu">
     <ul>
-	  <li class="cur"><a href="/contact/index.html" title="网联网站建设联系方式" class="phover"><img src="/index/picture/cont1.png" alt="网联网站建设联系方式" rel="nofollow" width="23" height="27" class="pr01"/><br/><span>联系方式</span></a></li>
-	  <li><a href="/contact/pay.html" title="网联付款方式" class="phover"rel="nofollow"><img src="/index/picture/cont2.png" alt="网联付款方式" rel="nofollow"width="23" height="27" class="pr02"/><br/><span>付款方式</span></a></li>
+	  <li class="cur"><a href="/contact/index.html" title="普擎网站建设联系方式" class="phover"><img src="/index/picture/cont1.png" alt="普擎网站建设联系方式" rel="nofollow" width="23" height="27" class="pr01"/><br/><span>联系方式</span></a></li>
+	  <li><a href="/contact/pay.html" title="普擎付款方式" class="phover"rel="nofollow"><img src="/index/picture/cont2.png" alt="普擎付款方式" rel="nofollow"width="23" height="27" class="pr02"/><br/><span>付款方式</span></a></li>
 	  <li><a href="/contact/download.html" title="网站建设文档下载" class="phover"rel="nofollow"><img src="/index/picture/cont3.png" alt="网站建设文档下载"rel="nofollow" width="28" height="27" class="pr03"/><br/><span>常用文档下载</span></a></li>
 	  <li><a href="/contact/help.html" title="网站建设帮助中心" class="phover" rel="nofollow"><img src="/index/picture/cont4.png" alt="网站建设帮助中心" rel="nofollow"width="24" height="27" class="pr04"/><br/><span>帮助中心</span></a></li>
 	</ul>
@@ -18,7 +18,7 @@
   <div class="contact">
     <div class="contact_l">
 	  <div class="contact_tit">深圳(总部）<br/><span>SHENZHEN</span></div>
-	  <h3>深圳市网联信息科技开发有限公司</h3>
+	  <h3>重庆普擎科技有限公司</h3>
 	  <p><span class="cc" style="letter-spacing:28px;">地址</span><span>：&nbsp;&nbsp;&nbsp;深圳市福田区华强南路机械大厦6楼</span></p>
 	  <p><span class="cc" style="letter-spacing:28px;">邮编</span><span>：&nbsp;&nbsp;&nbsp;518031</span></p>
 	  <p><span class="cc" style="letter-spacing:28px;">业务</span><span>：&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="line-height:1.5;">（0755）83271919 / 83271901 / 83271636&nbsp;/ 83271905</span></p>
