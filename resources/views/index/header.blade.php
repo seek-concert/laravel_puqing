@@ -70,10 +70,10 @@ $(function(){
       <h3 class="nav_h2"><a href="{{url('/news')}}" id="in04" class="hover" title="网站资讯">网站资讯</a>
 
       </h3>
-      <h3 class="nav_h2"><a href="{{url('/about')}}" id="in05" class="hover" title="关于网联网站开发" rel="nofollow">关于网联</a>
+      <h3 class="nav_h2"><a href="{{url('/about')}}" id="in05" class="hover" title="关于普擎网站开发" rel="nofollow">关于普擎</a>
 
       </h3>
-      <h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系网联</a>
+      <h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系普擎</a>
 
       </h3>
       </span> </div>
@@ -96,18 +96,18 @@ $(function(){
         <h4>成功案例</h4>
         <li><a href="/case/index_17_1.html" title="电子商务平台开发">电子商务平台开发</a></li><li><a href="/case/index_19_1.html" title="视觉形象官网">视觉形象官网</a></li><li><a href="/case/index_11_1.html" title="营销型网站">营销型网站</a></li><li><a href="/case/index_12_1.html" title="商城/分销商城">商城/分销商城</a></li><li><a href="/case/index_22_1.html" title="短视频">短视频</a></li>      </ul>
       <ul>
-        <h4>网联资讯</h4>
-        <li><a href="/about/news.html" title="网联新闻">网联新闻</a></li>
+        <h4>普擎资讯</h4>
+        <li><a href="/about/news.html" title="普擎新闻">普擎新闻</a></li>
         <li><a href="/about/newss_10.html" title="手机网站资讯">手机网站资讯</a></li>
         <li><a href="/service/seo.html" title="网站建设知识">网站建设知识</a></li>
         <li><a href="/about/newss_9.html" title="网站营销推广知识">网站营销推广知识</a></li>
         <li><a href="/about/newss_12.html" title="中标新闻">中标新闻</a></li>
       </ul>
       <ul>
-        <h4>关于网联</h4>
-        <li><a href="/about/index_19.html" title="网联概况">网联概况</a></li><li><a href="/about/index_72.html" title="企业文化">企业文化</a></li><li><a href="/about/index_73.html" title="发展历程">发展历程</a></li><li><a href="/about/index_74.html" title="加入网联">加入网联</a></li>      </ul>
+        <h4>关于普擎</h4>
+        <li><a href="/about/index_19.html" title="普擎概况">普擎概况</a></li><li><a href="/about/index_72.html" title="企业文化">企业文化</a></li><li><a href="/about/index_73.html" title="发展历程">发展历程</a></li><li><a href="/about/index_74.html" title="加入普擎">加入普擎</a></li>      </ul>
       <ul>
-        <h4>联系网联</h4>
+        <h4>联系普擎</h4>
         <li><a href="/contact/index.html" title="联系方式" rel="nofollow">联系方式</a></li>
         <li><a href="/contact/pay.html" title="付款方式" rel="nofollow">付款方式</a></li>
         <li><a href="/contact/download.html" title="网站建设文档下载" rel="nofollow">常用文档下载</a></li>

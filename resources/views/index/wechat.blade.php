@@ -48,7 +48,7 @@
     <div class="pro_con">
       <p style="text-align:center;color:#333333;padding-top:70px;font-size:32px;">最牛的营销互动功能</p>
       <p style="text-align:center;color:#999999;line-height:26px;padding-top:20px;font-size:14px;">每个人都有自己的光荣时刻，每个产品也有自己的辉煌瞬间，但所有的成就都属于过去<br />
-        在这个不断创新的世界，网联科技和您一起，书写新的篇章</p>
+        在这个不断创新的世界，普擎科技和您一起，书写新的篇章</p>
     </div>
     <div class="round4">
       <ul>
@@ -125,7 +125,7 @@
         </li>
         <li><img alt="" src="/index/picture/20160324090356_45304.jpg" border="0" />
           <p>微名片</p>
-          <span style="color:#827e7f;"><a href="/" target="_blank"><span style="color:#827e7f;">网联</span><span style="color:#827e7f;">科技</span></a></span>为您打造属于您的独一无二微名片
+          <span style="color:#827e7f;"><a href="/" target="_blank"><span style="color:#827e7f;">普擎</span><span style="color:#827e7f;">科技</span></a></span>为您打造属于您的独一无二微名片
         </li>
       </ul>
     </div>

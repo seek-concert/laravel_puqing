@@ -351,7 +351,7 @@ ul{list-style-type: none}
 .kfdh{display:none;position:absolute;right:46px;background:#00adef;padding:10px 15px;}
 .kfdh p{float:left;width:180px;}
 .kfdh p span{float:left;width:70px;line-height:26px;font-size:14px;color:#fff;}
-.code-side{display:none;position:absolute;right:46px;background:#00adef;padding:15px 9px;width:272px;}
+.code-side{display:none;position:absolute;right:46px;background:#00adef;padding:15px 9px;width:136px;}
 .code-side div{float:left;width:120px;text-align:center;padding:0 8px;}
 .code-side div span{display:block;width:100%;text-align:center;font-size:14px;color:#fff;margin-top:8px;}
 /*page*/
@@ -440,7 +440,7 @@ ul{list-style-type: none}
 .qq a{display:inline-table;float:left;width:25px;height:25px;margin-right:10px;margin-top:3px;}
 .case_page{width:100%;height:80px;}
 .case_page a{display:block;float:left;line-height:24px;color:#666;width:100%;}
-/*网联资讯*/
+/*普擎资讯*/
 .news_wap{width:100%;margin:0 auto;height:63px;border-bottom:2px solid #f3f3f3;background:#f4f7fa;}
 .news_menu{float:left;width:100%;text-align: center;}
 .news_menu a{display: inline-block;color:#a1abaf;height:63px;line-height:63px;padding:0 30px;vertical-align: middle;font-size:14px;}
@@ -460,7 +460,7 @@ ul{list-style-type: none}
 .news_list ul .hover a{color:#20b7f4;}
 .news_txt{width:100%;height:40px;}
 .news_txt h6{width:460px;height:30px;font-size:12px;line-height:30px;float:left;margin-top:10px;color:#999;font-weight:500;}
-/*关于网联*/
+/*关于普擎*/
 .about{width:1004px;margin:0 auto;}
 .contact{width:1140px;margin:0 auto;padding:50px 0;}
 .contact_l{float:left;width:460px;margin-top: 50px;}
@@ -489,7 +489,7 @@ ul{list-style-type: none}
 .prof{float:left;padding:40px 40px 60px 40px;}
 .prof h2{float:left;width:200px;text-indent:20px;font-size:16px;color:#FFF;font-weight:500;background-color:#747474;border-radius:5px;line-height:40px;}
 .prof p{float:left;width:885px;margin-top:20px;font-size:12px;font-weight:500;color:#333;}
-/*联系网联*/
+/*联系普擎*/
 .pay{width:100%;height:60px;}
 .pay h3{float:left;font-size:24px;font-weight:400;color:#333;height:36px;line-height:36px;}
 .pay h4{float:left;font-size:20px;font-weight:400;color:#666;margin-left:8px;line-height:24px;margin-top:10px;}

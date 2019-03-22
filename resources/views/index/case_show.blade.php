@@ -63,9 +63,9 @@
     <div class="clear"></div>
     <div class="case_bottom">
         <div class="case_news">
-            <div class="case_news_t"><h3>网联<span>新闻</span></h3><a href="/about/news.html" title="">MORE</a></div>
+            <div class="case_news_t"><h3>普擎<span>新闻</span></h3><a href="/about/news.html" title="">MORE</a></div>
             <ul>
-                <li><a href="/about/show_888.html" title="网联科技2018年员工聚餐">网联科技2018年员工聚餐</a><span>2018-08-21</span></li><li><a href="/about/show_887.html" title="网联科技温泉漂流2日游">网联科技温泉漂流2日游</a><span>2018-08-13</span></li><li><a href="/about/show_873.html" title="网联科技2018年员工夏季生日会">网联科技2018年员工夏季生日会</a><span>2018-07-19</span></li><li><a href="/about/show_849.html" title="红树林-深圳湾海边徒步活动">红树林-深圳湾海边徒步活动</a><span>2018-04-10</span></li><li><a href="/about/show_782.html" title="网联科技2018年春节放假通知">网联科技2018年春节放假通知</a><span>2018-02-06</span></li><li><a href="/about/show_566.html" title="一场属于网联人的活动日">一场属于网联人的活动日</a><span>2017-03-14</span></li>	  </ul>
+                <li><a href="/about/show_888.html" title="普擎科技2018年员工聚餐">普擎科技2018年员工聚餐</a><span>2018-08-21</span></li><li><a href="/about/show_887.html" title="普擎科技温泉漂流2日游">普擎科技温泉漂流2日游</a><span>2018-08-13</span></li><li><a href="/about/show_873.html" title="普擎科技2018年员工夏季生日会">普擎科技2018年员工夏季生日会</a><span>2018-07-19</span></li><li><a href="/about/show_849.html" title="红树林-深圳湾海边徒步活动">红树林-深圳湾海边徒步活动</a><span>2018-04-10</span></li><li><a href="/about/show_782.html" title="普擎科技2018年春节放假通知">普擎科技2018年春节放假通知</a><span>2018-02-06</span></li><li><a href="/about/show_566.html" title="一场属于普擎人的活动日">一场属于普擎人的活动日</a><span>2017-03-14</span></li>	  </ul>
         </div>
         <div class="case_trade">
             <div class="case_news_t"><h3>行业案例<span style="color:#ff4817;">检索</span></h3><a href="/case/index.html" title="">MORE</a></div>

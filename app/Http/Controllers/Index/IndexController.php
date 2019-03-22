@@ -33,8 +33,11 @@ class IndexController
         
         //获取部分案例
         $case_lists = DB::table('case')->limit(4)->get();
+
+        //获取案例分类
+        $case_category_lists = DB::table('case_category')->get();
         
-        return view('index/index',['banner_lists'=>$banner_lists,'case_lists'=>$case_lists]);
+        return view('index/index',['banner_lists'=>$banner_lists,'case_lists'=>$case_lists,'case_category_lists'=>$case_category_lists]);
         
     }
 }

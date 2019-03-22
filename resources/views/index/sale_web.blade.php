@@ -38,7 +38,7 @@
                 <div class="ser03_r">
                     <h3>企业<span style="color:#000000;"><a href="/case/index_11_1.html" target="_blank"><span style="color:#767173;">营销型网站</span><span
                                     style="color:#767173;">建设</span></a></span></h3>
-                    <h4><a href="/" target="_blank"><span style="color:#5c585a;">网联科技</span></a>专家团队以多年的实操经验总结</h4>
+                    <h4><a href="/" target="_blank"><span style="color:#5c585a;">普擎科技</span></a>专家团队以多年的实操经验总结</h4>
                     <h6><img alt="" src="/index/picture/20160322100321_40948.jpg" data-original="/asp_bin/UploadFile/20160322100321_40948.jpg"
                             border="0" />
                         <p><span>用户体验</span><span>站内优化</span><span>营销功能</span><span style="margin-right:0px;">后台灵活</span></p>
@@ -52,7 +52,7 @@
             <div class="ser04"><img class="simg1" alt="" src="/index/picture/20160322100346_80339.jpg" data-original="/asp_bin/UploadFile/20160322100346_80339.jpg"
                     border="0" />
                 <div class="ser_con">
-                    <h3>什么是SEO服务？<span>网联科技专家团队以多年的实操经验总结</span></h3>
+                    <h3>什么是SEO服务？<span>普擎科技专家团队以多年的实操经验总结</span></h3>
                     <p>SEO，就是<a href="/about/show_721.html" target="_blank"><span style="color:#5c585a;">搜索引擎优化</span></a>；通过对您网站的内部调整，以及网站内外的持续优化，使您的潜在客户在百度等搜索引擎搜索相应关键字时，您的网站显示在搜索引擎的靠前位置，从而提高网站访问量，促进企业在线销售扩大品牌知名度和影响力，提高行业地位！
                         是一种最实用的网站推广方法。</p>
                 </div>
