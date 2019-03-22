@@ -76,6 +76,16 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('news_category_edit','NewsCategoryController@edit');
     //新闻分类删除
     Route::any('news_category_del','NewsCategoryController@del');
+    //新闻
+    Route::any('news','NewsController@index');
+    //新闻新增
+    Route::any('news_add','NewsController@add');
+    //新闻修改
+    Route::any('news_edit','NewsController@edit');
+    //新闻详情
+    Route::any('news_detail','NewsController@detail');
+    //新闻删除
+    Route::any('news_del','NewsController@del');
     //客户信息
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户
