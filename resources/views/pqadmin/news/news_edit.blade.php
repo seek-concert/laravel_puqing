@@ -5,8 +5,8 @@
         <div class="grid_wrapper">
 
             <div class="g_6 contents_header">
-                <h3 class="i_16_forms tab_label">修改案例</h3>
-                <div><span class="label">修改案例信息</span></div>
+                <h3 class="i_16_forms tab_label">修改新闻</h3>
+                <div><span class="label">修改新闻信息</span></div>
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
@@ -39,15 +39,15 @@
             </div>
 
             <div class="g_12 separator"><span></span></div>
-            <form action="{{url('pqadmin/case_edit',[$list->id])}}" method="post" enctype="multipart/form-data">
+            <form action="{{url('pqadmin/news_edit',[$list->id])}}" method="post" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <div class="g_12">
                     <div class="widget_header">
-                        <h4 class="widget_header_title wwIcon i_16_forms">修改案例信息</h4>
+                        <h4 class="widget_header_title wwIcon i_16_forms">修改新闻信息</h4>
                     </div>
                     <div class="widget_contents noPadding">
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">案例封面<span class="must">*</span></span>
+                            <div class="g_3"><span class="label">新闻封面<span class="must">*</span></span>
                             </div>
                             <div class="g_9">
                                 <input type="file" name="thumbnail" class="simple_form"/>
@@ -58,15 +58,9 @@
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">案例标题<span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">新闻标题<span class="must">*</span></span></div>
                             <div class="g_9">
                                 <input class="simple_field" type="text" name="title" value="{{$list->title}}" required/>
-                            </div>
-                        </div>
-                        <div class="line_grid">
-                            <div class="g_3"><span class="label">案例网址<span class="must">*</span></span></div>
-                            <div class="g_9">
-                                <input class="simple_field" type="text" name="url" value="{{$list->url}}" required/>
                             </div>
                         </div>
                         <div class="line_grid">
@@ -76,7 +70,7 @@
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">案例描述<span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">新闻描述<span class="must">*</span></span></div>
                             <div class="g_9">
                                 <textarea class="simple_field" name="description">{{$list->description}}</textarea>
                             </div>
@@ -93,14 +87,14 @@
                             </div>
                         </div>
                         {{--<div class="line_grid">--}}
-                            {{--<div class="g_3"><span class="label">案例内容<span class="must">*</span></span></div>--}}
+                            {{--<div class="g_3"><span class="label">新闻内容<span class="must">*</span></span></div>--}}
                             {{--<div class="g_9">--}}
                                 {{--<textarea class="simple_field" id="editor_id" name="content"></textarea>--}}
                             {{--</div>--}}
                         {{--</div>--}}
                         <div class="g_12">
                             <div class="widget_header">
-                                <h4 class="widget_header_title wwIcon i_16_wysiwyg">案例内容<span class="must">*</span></h4>
+                                <h4 class="widget_header_title wwIcon i_16_wysiwyg">新闻内容<span class="must">*</span></h4>
                             </div>
                             <div class="widget_contents noPadding">
                                 <div class="line_grid">

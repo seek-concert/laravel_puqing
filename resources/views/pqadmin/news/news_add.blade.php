@@ -5,8 +5,8 @@
         <div class="grid_wrapper">
 
             <div class="g_6 contents_header">
-                <h3 class="i_16_forms tab_label">修改案例</h3>
-                <div><span class="label">修改案例信息</span></div>
+                <h3 class="i_16_forms tab_label">新增新闻</h3>
+                <div><span class="label">新增新闻信息</span></div>
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
@@ -39,73 +39,63 @@
             </div>
 
             <div class="g_12 separator"><span></span></div>
-            <form action="{{url('pqadmin/case_edit',[$list->id])}}" method="post" enctype="multipart/form-data">
+            <form action="{{url('pqadmin/news_add')}}" method="post" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <div class="g_12">
                     <div class="widget_header">
-                        <h4 class="widget_header_title wwIcon i_16_forms">修改案例信息</h4>
+                        <h4 class="widget_header_title wwIcon i_16_forms">添加新闻信息</h4>
                     </div>
                     <div class="widget_contents noPadding">
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">案例封面<span class="must">*</span></span>
+                            <div class="g_3"><span class="label">新闻封面<span class="must">*</span></span>
                             </div>
                             <div class="g_9">
                                 <input type="file" name="thumbnail" class="simple_form"/>
-                                @if(!empty($list->thumbnail))
-                                    <img src="../../{{$list->thumbnail}}" alt="" style="width: 75%;height: 50%">
-                                    <input type="hidden" name="thumbnail" value="{{$list->thumbnail}}">
-                                @endif
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">案例标题<span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">新闻标题<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input class="simple_field" type="text" name="title" value="{{$list->title}}" required/>
-                            </div>
-                        </div>
-                        <div class="line_grid">
-                            <div class="g_3"><span class="label">案例网址<span class="must">*</span></span></div>
-                            <div class="g_9">
-                                <input class="simple_field" type="text" name="url" value="{{$list->url}}" required/>
+                                <input class="simple_field" type="text" name="title" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">关键字<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input class="simple_field" type="text" name="keywords" value="{{$list->keywords}}" required/>
+                                <input class="simple_field" type="text" name="keywords" required/>
                             </div>
                         </div>
                         <div class="line_grid">
-                            <div class="g_3"><span class="label">案例描述<span class="must">*</span></span></div>
+                            <div class="g_3"><span class="label">新闻描述<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <textarea class="simple_field" name="description">{{$list->description}}</textarea>
+                                <textarea class="simple_field" name="description"></textarea>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">所属分类<span class="must">*</span></span></div>
                             <div class="g_9">
                                 <select class="simple_form" name="category_id">
-                                    <option value="" />请选择所属分类!
-                                    @foreach ($category as $value)
-                                        <option value="{{$value->id}}" @if($list->category_id == $value->id) selected="selected" @endif />{{$value->name}}
+                                    <option value="" selected="selected"/>请选择所属分类!
+                                    @foreach ($list as $value)
+                                        <option value="{{$value->id}}"/>{{$value->name}}
                                     @endforeach
                                 </select>
                             </div>
                         </div>
                         {{--<div class="line_grid">--}}
-                            {{--<div class="g_3"><span class="label">案例内容<span class="must">*</span></span></div>--}}
+                            {{--<div class="g_3"><span class="label">新闻内容<span class="must">*</span></span></div>--}}
                             {{--<div class="g_9">--}}
                                 {{--<textarea class="simple_field" id="editor_id" name="content"></textarea>--}}
                             {{--</div>--}}
                         {{--</div>--}}
                         <div class="g_12">
                             <div class="widget_header">
-                                <h4 class="widget_header_title wwIcon i_16_wysiwyg">案例内容<span class="must">*</span></h4>
+                                <h4 class="widget_header_title wwIcon i_16_wysiwyg">新闻内容<span class="must">*</span></h4>
                             </div>
                             <div class="widget_contents noPadding">
                                 <div class="line_grid">
                                     <div class="g_12">
-                                        <textarea class="simple_field" id="editor_id" name="content" style="height:300px;">{!! $list->content !!}</textarea>
+                                        <textarea class="simple_field" id="editor_id" name="content" style="height:300px;"></textarea>
                                     </div>
                                 </div>
                             </div>

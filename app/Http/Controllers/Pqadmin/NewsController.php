@@ -11,7 +11,7 @@ namespace App\Http\Controllers\Pqadmin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class CaseController extends BaseController
+class NewsController extends BaseController
 {
     public function __construct()
     {
@@ -19,24 +19,24 @@ class CaseController extends BaseController
     }
 
     /*
-     * 案例--显示页
+     * 新闻--显示页
      */
     public function index()
     {
         //数据查询
-        $list = DB::table('case')->get();
+        $list = DB::table('news')->get();
         foreach ($list as $k => $v) {
-            $list[$k]->category_name = DB::table('case_category')
+            $list[$k]->category_name = DB::table('news_category')
                 ->where([
                     'id' => $v->category_id
                 ])
                 ->value('name');
         }
-        return view('pqadmin.case.case', ['list' => $list]);
+        return view('pqadmin.news.news', ['list' => $list]);
     }
 
     /*
-     * 案例--新增
+     * 新闻--新增
      */
     public function add(Request $request)
     {
@@ -50,11 +50,10 @@ class CaseController extends BaseController
                 $thumbnail = '';
             }
             //新增数据
-            $list = DB::table('case')
+            $list = DB::table('news')
                 ->insert([
                     'thumbnail' => $thumbnail,
                     'title' => $request->input('title', ''),
-                    'url' => $request->input('url',''),
                     'keywords' => $request->input('keywords', ''),
                     'description' => $request->input('description', ''),
                     'category_id' => $request->input('category_id', 0),
@@ -63,19 +62,19 @@ class CaseController extends BaseController
                 ]);
             //判断是否新增成功
             if ($list) {
-                return redirect('pqadmin/prompt')->with(['message' => '新增成功!', 'url' => '/pqadmin/case', 'jumpTime' => 3, 'status' => 'success']);
+                return redirect('pqadmin/prompt')->with(['message' => '新增成功!', 'url' => '/pqadmin/news', 'jumpTime' => 3, 'status' => 'success']);
             } else {
-                return redirect('pqadmin/prompt')->with(['message' => '新增失败!', 'url' => '/pqadmin/case_add', 'jumpTime' => 3, 'status' => 'error']);
+                return redirect('pqadmin/prompt')->with(['message' => '新增失败!', 'url' => '/pqadmin/news_add', 'jumpTime' => 3, 'status' => 'error']);
             }
         }
 
         //获取分类
-        $list = DB::table('case_category')->get();
-        return view('pqadmin.case.case_add', ['list' => $list]);
+        $list = DB::table('news_category')->get();
+        return view('pqadmin.news.news_add', ['list' => $list]);
     }
 
     /*
-     * 案例--修改
+     * 新闻--修改
      */
     public function edit(Request $request, $id)
     {
@@ -90,14 +89,13 @@ class CaseController extends BaseController
             }
 
             //修改数据
-            $list = DB::table('case')
+            $list = DB::table('news')
                 ->where([
                     'id' => $id
                 ])
                 ->update([
                     'thumbnail' => $thumbnail,
                     'title' => $request->input('title', ''),
-                    'url' => $request->input('url', ''),
                     'keywords' => $request->input('keywords', ''),
                     'description' => $request->input('description', ''),
                     'category_id' => $request->input('category_id', 0),
@@ -106,49 +104,49 @@ class CaseController extends BaseController
                 ]);
             //判断是否新增成功
             if ($list) {
-                return redirect('pqadmin/prompt')->with(['message' => '修改成功!', 'url' => '/pqadmin/case', 'jumpTime' => 3, 'status' => 'success']);
+                return redirect('pqadmin/prompt')->with(['message' => '修改成功!', 'url' => '/pqadmin/news', 'jumpTime' => 3, 'status' => 'success']);
             } else {
-                return redirect('pqadmin/prompt')->with(['message' => '修改失败!', 'url' => '/pqadmin/case_edit' . $id, 'jumpTime' => 3, 'status' => 'error']);
+                return redirect('pqadmin/prompt')->with(['message' => '修改失败!', 'url' => '/pqadmin/news_edit' . $id, 'jumpTime' => 3, 'status' => 'error']);
             }
         }
 
         //获取数据
-        $list = DB::table('case')
+        $list = DB::table('news')
             ->where([
                 'id' => $id
             ])
             ->first();
         //获取分类
-        $category = DB::table('case_category')->get();
-        return view('pqadmin.case.case_edit', ['list' => $list, 'category' => $category]);
+        $category = DB::table('news_category')->get();
+        return view('pqadmin.news.news_edit', ['list' => $list, 'category' => $category]);
     }
 
     /*
-     * 案例--查看
+     * 新闻--查看
      */
     public function detail($id)
     {
         //数据查询
-        $list = DB::table('case')
+        $list = DB::table('news')
             ->where([
                 'id' => $id
             ])
             ->first();
-        $list->category_name = DB::table('case_category')
+        $list->category_name = DB::table('news_category')
             ->where([
                 'id' => $list->category_id
             ])
             ->value('name');
-        return view('pqadmin.case.case_detail', ['list' => $list]);
+        return view('pqadmin.news.news_detail', ['list' => $list]);
     }
 
     /*
-     * 案例--删除
+     * 新闻--删除
      */
     public function del($id)
     {
         //删除数据
-        $list = DB::table('case')
+        $list = DB::table('news')
             ->where([
                 'id' => $id
             ])

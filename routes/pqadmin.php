@@ -40,6 +40,16 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('banner_edit/{id}','BannerController@edit');
     //banner图删除
     Route::any('banner_del/{id}','BannerController@del');
+    //解决方案
+    Route::any('solution','SolutionController@index');
+    //解决方案新增
+    Route::any('solution_add','SolutionController@add');
+    //解决方案修改
+    Route::any('solution_edit','SolutionController@edit');
+    //解决方案查看
+    Route::any('solution_detail','SolutionController@detail');
+    //解决方案删除
+    Route::any('solution_del','SolutionController@del');
     //案例分类
     Route::any('case_category','CaseCategoryController@index');
     //案例分类新增
@@ -58,6 +68,24 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('case_detail/{id}','CaseController@detail');
     //案例删除
     Route::any('case_del/{id}','CaseController@del');
+    //新闻分类
+    Route::any('news_category','NewsCategoryController@index');
+    //新闻分类新增
+    Route::any('news_category_add','NewsCategoryController@add');
+    //新闻分类修改
+    Route::any('news_category_edit','NewsCategoryController@edit');
+    //新闻分类删除
+    Route::any('news_category_del','NewsCategoryController@del');
+    //新闻
+    Route::any('news','NewsController@index');
+    //新闻新增
+    Route::any('news_add','NewsController@add');
+    //新闻修改
+    Route::any('news_edit','NewsController@edit');
+    //新闻详情
+    Route::any('news_detail','NewsController@detail');
+    //新闻删除
+    Route::any('news_del','NewsController@del');
     //客户信息
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户
