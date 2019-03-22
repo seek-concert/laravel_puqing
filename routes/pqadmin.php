@@ -40,6 +40,16 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('banner_edit/{id}','BannerController@edit');
     //banner图删除
     Route::any('banner_del/{id}','BannerController@del');
+    //解决方案
+    Route::any('solution','SolutionController@index');
+    //解决方案新增
+    Route::any('solution_add','SolutionController@add');
+    //解决方案修改
+    Route::any('solution_edit','SolutionController@edit');
+    //解决方案查看
+    Route::any('solution_detail','SolutionController@detail');
+    //解决方案删除
+    Route::any('solution_del','SolutionController@del');
     //案例分类
     Route::any('case_category','CaseCategoryController@index');
     //案例分类新增

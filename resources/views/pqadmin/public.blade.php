@@ -52,7 +52,7 @@
     <style>
         .welcome_class{
             text-align: center;
-            margin-top: 30%;
+            margin-top: 40%;
             color: #a9a9a9;
             font-size: 24px;
         }
@@ -249,37 +249,55 @@
     <aside class="sidebar">
         <ul class="tab_nav">
             <li class="i_32_dashboard">
-                <a href="{{url('pqadmin/web_setting')}}" title="General Info">
+                <a href="{{url('pqadmin/web_setting')}}" title="网站设置">
                     <span class="tab_label">网站设置</span>
                     <span class="tab_info">修改网站信息</span>
                 </a>
             </li>
             <li class="i_32_forms">
-                <a href="{{url('pqadmin/banner')}}" title="Some Fields">
+                <a href="{{url('pqadmin/banner')}}" title="banner图">
                     <span class="tab_label">banner图</span>
                     <span class="tab_info">新增、修改</span>
                 </a>
             </li>
-            <li class="i_32_inbox">
-                <a href="{{url('pqadmin/case_category')}}" title="Your Messages">
+            <li class="i_32_tables">
+                <a href="{{url('pqadmin/solution')}}" title="解决方案">
+                    <span class="tab_label">解决方案</span>
+                    <span class="tab_info">新增、修改</span>
+                </a>
+            </li>
+            <li class="i_32_tables">
+                <a href="{{url('pqadmin/case_category')}}" title="案例分类">
                     <span class="tab_label">案例分类</span>
                     <span class="tab_info">新增、修改</span>
                 </a>
             </li>
-            <li class="i_32_charts">
-                <a href="{{url('pqadmin/case')}}" title="Visual Data">
+            <li class="i_32_tables">
+                <a href="{{url('pqadmin/case')}}" title="案例管理">
                     <span class="tab_label">案例管理</span>
                     <span class="tab_info">新增、修改</span>
                 </a>
             </li>
-            <li class="i_32_ui">
-                <a href="{{url('pqadmin/customer_lists')}}" title="Kit elements">
+            <li class="i_32_tables">
+                <a href="{{url('pqadmin/new_category')}}" title="新闻分类">
+                    <span class="tab_label">新闻分类</span>
+                    <span class="tab_info">新增、修改</span>
+                </a>
+            </li>
+            <li class="i_32_tables">
+                <a href="{{url('pqadmin/new')}}" title="新闻管理">
+                    <span class="tab_label">新闻管理</span>
+                    <span class="tab_info">新增、修改</span>
+                </a>
+            </li>
+            <li class="i_32_tables">
+                <a href="{{url('pqadmin/customer_lists')}}" title="客户列表">
                     <span class="tab_label">客户列表</span>
                     <span class="tab_info">查看客户信息</span>
                 </a>
             </li>
-            <li class="i_32_tables">
-                <a href="{{url('pqadmin/contact_setting')}}" title="Some Rows">
+            <li class="i_32_charts">
+                <a href="{{url('pqadmin/contact_setting')}}" title="联系设置">
                     <span class="tab_label">联系设置</span>
                     <span class="tab_info">服务联系设置</span>
                 </a>
@@ -293,9 +311,9 @@
 
 <footer>
     <div class="wrapper">
-			<span class="copyright">
-				&copy; Copyright &copy; 2013.Company name All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
-			</span>
+        <span class="copyright">
+            &copy; Copyright &copy; 2013.Company name All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+        </span>
     </div>
 </footer>
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='js' charset='gb2312'></script></div>

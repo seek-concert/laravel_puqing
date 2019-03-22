@@ -1171,7 +1171,7 @@
 		padding: 10px;
 		width: auto;
 		height: auto;
-		min-height: 496px; /* You can change here if you have more than 6 buttons on the sidebar */
+		min-height: 750px; /* You can change here if you have more than 6 buttons on the sidebar */
 	}
 
 	.g_12, .g_10, .g_9, .g_8, .g_6, .g_4, .g_3, .g_2 {
