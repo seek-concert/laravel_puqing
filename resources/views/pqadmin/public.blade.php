@@ -279,13 +279,13 @@
                 </a>
             </li>
             <li class="i_32_tables">
-                <a href="{{url('pqadmin/new_category')}}" title="新闻分类">
+                <a href="{{url('pqadmin/news_category')}}" title="新闻分类">
                     <span class="tab_label">新闻分类</span>
                     <span class="tab_info">新增、修改</span>
                 </a>
             </li>
             <li class="i_32_tables">
-                <a href="{{url('pqadmin/new')}}" title="新闻管理">
+                <a href="{{url('pqadmin/news')}}" title="新闻管理">
                     <span class="tab_label">新闻管理</span>
                     <span class="tab_info">新增、修改</span>
                 </a>

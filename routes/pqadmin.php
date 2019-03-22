@@ -68,6 +68,14 @@ Route::namespace('Pqadmin')->group(function () {
     Route::any('case_detail/{id}','CaseController@detail');
     //案例删除
     Route::any('case_del/{id}','CaseController@del');
+    //新闻分类
+    Route::any('news_category','NewsCategoryController@index');
+    //新闻分类新增
+    Route::any('news_category_add','NewsCategoryController@add');
+    //新闻分类修改
+    Route::any('news_category_edit','NewsCategoryController@edit');
+    //新闻分类删除
+    Route::any('news_category_del','NewsCategoryController@del');
     //客户信息
     Route::any('customer_lists','CustomerController@customer_lists');
     //添加新客户
