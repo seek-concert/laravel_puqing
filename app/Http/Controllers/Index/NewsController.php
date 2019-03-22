@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers\Index;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\Controller;
 
-
-
-class NewsController
+class NewsController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
@@ -27,7 +27,20 @@ class NewsController
     {
 
     }
-    public function index(){
-        return view('index/news');
+    public function index($id = 0){
+        if($id == 0){
+            $id = 1;
+        }
+        //获取新闻分类
+        $news_category_lists = DB::table('news_category')->get();
+
+        //获取改分类下 的新闻
+        $news_lists = DB::table('news')->paginate(1);
+    
+        $return_data = [];
+        $return_data['news_category_lists'] = $news_category_lists;
+        $return_data['id'] = $id;
+        $return_data['news_lists'] = $news_lists;
+        return view('index/news',$return_data);
     }
 }

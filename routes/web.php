@@ -33,7 +33,7 @@ Route::namespace('Index')->group(function () {
     //联系我们
     Route::any('contact', 'ContactController@index');
     //网站资讯
-    Route::any('news', 'NewsController@index');
+    Route::any('news/{id?}', 'NewsController@index');
     //关于我们
     Route::any('about', 'AboutController@index');
     //解决方案

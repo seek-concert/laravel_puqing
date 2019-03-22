@@ -682,11 +682,9 @@
 				</ul>
 				<ul>
 					<h4>普擎资讯</h4>
-					<li><a href="{{ url('/news') }}" title="普擎新闻">普擎新闻</a></li>
-					<li><a href="/about/newss_10.html" title="手机网站资讯">手机网站资讯</a></li>
-					<li><a href="/service/seo.html" title="网站建设知识">网站建设知识</a></li>
-					<li><a href="/about/newss_9.html" title="网站营销推广知识">网站营销推广知识</a></li>
-					<li><a href="/about/newss_12.html" title="中标新闻">中标新闻</a></li>
+					@foreach ( $news_category_lists as $value)
+					<li><a href="{{ url('/news/'.$value->id) }}" title="{{ $value->name }}">{{ $value->name }}</a></li>
+					@endforeach
 				</ul>
 				<ul>
 					<h4>关于普擎</h4>

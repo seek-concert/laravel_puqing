@@ -361,6 +361,14 @@ ul{list-style-type: none}
 .tcdPageCode span.current{display: inline-block;color: #fff;display: inline-block;height: 40px; line-height: 40px;width:40px;margin: 0 4px;vertical-align: middle;font-size:14px;background:#00adef;}
 .tcdPageCode span.disabled{ display: inline-block;height: 40px;width:40px;margin: 0 4px;vertical-align: top;}
 
+.pagination {float:left;width:100%;text-align:center;color: #ccc;padding:60px 0;}
+.pagination li{display: inline-block;color:#999;display:inline-block;height: 40px;line-height:40px;  margin:0 4px;vertical-align: middle;font-size:14px;background:#f0f0f0;width:40px;}
+.pagination li:hover{cursor:pointer;color:#fff;font-size:14px;background:#00adef;}
+.pagination a{display: inline-block;color:#999;display:inline-block;height: 40px;line-height:40px;  margin:0 4px;vertical-align: middle;font-size:14px;background:#f0f0f0;width:40px;}
+.pagination li:hover,a:hover{cursor:pointer;color:#fff;font-size:14px;background:#00adef;}
+
+.pagination .active {display: inline-block;color: #fff;display: inline-block;height: 40px; line-height: 40px;width:40px;margin: 0 4px;vertical-align: middle;font-size:14px;background:#00adef;}
+
 /*产品及解决方案*/
 .banner{width:100%;margin:0 auto;min-width:1140px;height:395px;}
 .pro_wap{width:100%;margin:0 auto;height:84px;border-bottom:2px solid #f3f3f3;background:#f4f7fa;}
