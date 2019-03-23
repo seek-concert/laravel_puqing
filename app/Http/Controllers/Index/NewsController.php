@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Index;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 
+
 class NewsController extends BaseController
 {
     /*
@@ -28,6 +29,10 @@ class NewsController extends BaseController
         parent::__construct();
     }
 
+
+    /*
+     * 网站资讯
+     */
     public function index($id = 0){
         if($id == 0){
             $id = 1;
@@ -35,11 +40,13 @@ class NewsController extends BaseController
         //获取新闻分类
         $news_category_lists = DB::table('news_category')->get();
 
-        //获取改分类下 的新闻
-        $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(10);
+
+        //获取改分类下的新闻
+        $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(5);
     
         //获取热推新闻
-        $hot_news_lists = DB::table('news')->where('category_id','=',$id)->limit(6)->orderBy('number','desc')->get();
+
+        $hot_news_lists = DB::table('news')->limit(6)->orderBy('number','desc')->get();
 
         //获取四条最新案例
         $new_case_lists = DB::table('case')->limit(4)->get();
@@ -52,6 +59,7 @@ class NewsController extends BaseController
         //案例分类
         $case_category_lists = DB::table('case_category')->get();
         $return_data = [];
+        
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
         $return_data['id'] = $id;
@@ -60,7 +68,46 @@ class NewsController extends BaseController
         $return_data['new_case_lists'] = $new_case_lists;
         $return_data['four_news_lists'] = $four_news_lists;
         $return_data['six_case_lists'] = $six_case_lists;
+     
         
         return view('index/news',$return_data);
+    }
+
+    /*
+     * 网站资讯--详情页
+     */
+    public function show($id){
+        //详细内容
+        $list = DB::table('news')
+            ->select('title', 'content', 'url')
+            ->where([
+                'id' => $id
+            ])
+            ->first();
+        if(empty($list)){
+            return redirect('/');
+        }
+        //上下新闻
+        $previous = DB::table('news')
+            ->select('id', 'title')
+            ->where([
+                ['id', '<', $id]
+            ])
+            ->orderBy('id','desc')
+            ->first();
+        $next = DB::table('news')
+            ->select('id', 'title')
+            ->where([
+                ['id', '>', $id]
+            ])
+            ->orderBy('id','asc')
+            ->first();
+        //最新案例
+        $case = DB::table('case')
+            ->select('id', 'title', 'thumbnail')
+            ->orderBy('id', 'desc')
+            ->limit(4)
+            ->get();
+        return view('index/news_show', ['list' => $list, 'case' => $case, 'previous' => $previous, 'next' => $next]);
     }
 }

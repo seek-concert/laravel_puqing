@@ -51,9 +51,10 @@
 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('before_service_qq') }}&site=qq&menu=yes">
 					<img src="/index/picture/q1.jpg" alt="" width="25" />
 				</a>
-					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('after_service_qq') }}&site=qq&menu=yes">
-						<img src="/index/picture/q2.jpg" alt="" width="25" />
-					</a></p>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('after_service_qq') }}&site=qq&menu=yes">
+					<img src="/index/picture/q2.jpg" alt="" width="25" />
+				</a>
+			</p>
 			<p style="color:#666;line-height:30px;">邮箱：{{ Cache('company_email') }}</p>
 		</div>
 	</div>
