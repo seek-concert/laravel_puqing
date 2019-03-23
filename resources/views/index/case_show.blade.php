@@ -39,10 +39,14 @@
             </ul>
             <div class="clear"></div>
             <p style="color:#333;font-weight:bold;font-size:13px;">咨询</p>
-            <p style="color:#666;line-height:30px;">电话：0755-83658105</p>
+            <p style="color:#666;line-height:30px;">电话：{{ Cache('before_service_phone') }}</p>
             <p class="qq"><span>QQ：</span>
-                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img src="/index/picture/q1.jpg" alt="" width="25" /></a>
-                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img src="/index/picture/q4.jpg" alt="" width="25" /></a>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('before_service_qq') }}&site=qq&menu=yes">
+                    <img src="/index/picture/q1.jpg" alt="" width="25" />
+                </a>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('after_service_qq') }}&site=qq&menu=yes">
+                    <img src="/index/picture/q2.jpg" alt="" width="25" />
+                </a>
             </p>
             <p style="color:#666;line-height:30px;">邮箱：web@ni8.com</p>
         </div>

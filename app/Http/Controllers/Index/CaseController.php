@@ -76,7 +76,7 @@ class CaseController extends BaseController
         $hot_news = DB::table('news')
             ->select('id', 'title')
             ->limit(6)
-            ->orderBy('id', 'desc')
+            ->orderBy('number', 'desc')
             ->get();
         //最新案例
         $case = DB::table('case')
