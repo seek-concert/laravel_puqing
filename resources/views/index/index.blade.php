@@ -765,16 +765,10 @@
 				<li class="fqq">
 					<a class="zixun1 zixun" title="qq联系网站建设"></a>
 					<div class="foot_qq">
-						<a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img
-							 src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png" /><span>业务经理</span></a><a
-						 target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img
-							 src="/index/picture/q02.png" alt="" width="25" data-original="/index/images/q02.png" /><span>业务经理</span></a><a
-						 target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img
-							 src="/index/picture/q03.png" alt="" width="25" data-original="/index/images/q03.png" /><span>售后客服</span></a><a
-						 target="_blank" rel="nofollow" title="售后客服" href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img
-							 src="/index/picture/q04.png" alt="" width="25" data-original="/index/images/q00.png" /><span>售后客服</span></a><a
-						 target="_blank" rel="nofollow" title="技术支持" href="http://wpa.qq.com/msgrd?v=3&uin=441579876&site=qq&menu=yes"><img
-							 src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png" /><span>技术支持</span></a>
+						<a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('before_service_qq')}}&site=qq&menu=yes">
+							<img src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png" /><span>业务经理</span></a>
+						<a target="_blank" rel="nofollow" title="业务经理" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('after_service_qq')}}&site=qq&menu=yes">
+							<img src="/index/picture/q02.png" alt="" width="25" data-original="/index/images/q02.png" /><span>业务经理</span></a>
 					</div>
 				</li>
 				<li class="dhm">
