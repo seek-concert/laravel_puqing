@@ -36,7 +36,7 @@ Class WebController extends BaseController
         //判断是否有文件上传
         if ($request->hasFile('logo')) {
             //logo路径
-            $logo = $this->upload($request->file('logo'));
+            $logo = $this->upload($request->file('logo'),'logo');
         }else{
             $logo = $request->input('logo','');
         }

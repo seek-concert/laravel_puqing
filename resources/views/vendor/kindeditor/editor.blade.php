@@ -3,7 +3,7 @@
 <script>
     KindEditor.ready(function (K) {
         window.editor = K.create('#'+'{{$editor}}', {
-            uploadJson: "{{asset('kindeditor/upload')}}",
+            uploadJson: "{{asset('kindeditor/upload')}}"+'?id='+"{{$id}}",
             //fileManagerJson: '',
             allowFileManager: false,
             formatUploadUrl: false

@@ -6,8 +6,8 @@
  */
 
 return [
-    "default"     => 'local', //默认返回存储位置url
-    "dirver"      => ['local'], //存储平台
+    "default"     => 'aliyun', //默认返回存储位置url
+    "dirver"      => ['aliyun'], //存储平台
     "connections" => [
         "local"  => [
             'prefix' => 'uploads/kindeditor',
@@ -20,10 +20,10 @@ return [
             'domain'     => ''
         ],
         "aliyun" => [
-            'ak_id'     => '',
-            'ak_secret' => '',
-            'end_point' => '',
-            'bucket'    => '',
+            'ak_id'     => 'LTAICczkrnEG4RSM',
+            'ak_secret' => '1gbjh40c3YZvmo56rthLQwP1nyQvk9',
+            'end_point' => 'oss-cn-shenzhen.aliyuncs.com',
+            'bucket'    => 'puqing',
             'prefix'    => '',
         ],
     ],

@@ -50,7 +50,7 @@ class Kindeditor
                     }
                     //同步到阿里云
                     if (in_array('aliyun', config('kindeditor.dirver', []))) {
-                        self::_aliyun();
+                        self::_aliyun($_GET['id']);
                     }
                 } else {
                     self::addError('The file is invalid');
@@ -99,8 +99,17 @@ class Kindeditor
     }
 
     //上传到阿里云
-    private static function _aliyun()
+    private static function _aliyun($id)
     {
+        $name = '';
+        switch ($id){
+            case 1 : $name = 'case/';
+                break;
+            case 2 : $name = 'news/';
+                break;
+            default:
+                $name = 'imgs/';
+        }
         try{
             $aliyun = config('kindeditor.connections.aliyun');
             if(!$aliyun) throw new \Exception('config kindeditor.aliyun exception.');
@@ -110,11 +119,12 @@ class Kindeditor
             $endpoint = $aliyun['end_point'];
             $bucket = $aliyun['bucket'];
             //上传阿里云后的文件名
-            $object = $aliyun['prefix'].basename(self::$_url['local']);
+            $object = $name.basename(self::$_url['local']);
             //实例化阿里云处理类
             $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
             $result = $ossClient->uploadFile($bucket, $object, self::$real_path);
             if(isset($result['info']['url'])){
+                unlink(self::$real_path);
                 self::$_url['aliyun'] = $result['info']['url'];
             }else{
                 throw new \Exception('aliyun upload fail.');
