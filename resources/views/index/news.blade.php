@@ -20,12 +20,12 @@
 					@foreach ($news_lists as $value)
 						
 					<li>
-						<div class="news_l"><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}"><img
+						<div class="news_l"><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}"><img
 									src="{{ $value->thumbnail }}" alt="{{ $value->keywords }}" width="178" height="117" /></a></div>
 						<div class="news_r">
-							<h3><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
+							<h3><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
 							<p>{{ $value->description }}</p>
-							<h6><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}">LEARN MORE</a></h6>
+							<h6><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}">LEARN MORE</a></h6>
 						</div>
 					</li>
 					@endforeach
@@ -41,7 +41,7 @@
 			<h4>热推新闻</h4>
 			<ul>
 				@foreach ( $hot_news_lists as $value)
-					<li><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}<br /><span>{{ date('Y-m-d',$value->input_time) }}</span></a></li>
+					<li><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}<br /><span>{{ date('Y-m-d',$value->input_time) }}</span></a></li>
 				@endforeach
 			</ul>
 			<div class="clear"></div>
