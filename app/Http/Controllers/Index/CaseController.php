@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Index;
 
 use Illuminate\Support\Facades\DB;
 
-class CaseController
+class CaseController extends BaseController
 {
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ class CaseController
      */
     public function __construct()
     {
-
+        parent::__construct();
     }
 
     /*
@@ -34,7 +34,10 @@ class CaseController
      */
     public function index()
     {
-        return view('index/case');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/case',$return_data);
     }
 
     /*
@@ -70,6 +73,14 @@ class CaseController
             ->orderBy('id', 'desc')
             ->limit(4)
             ->get();
-        return view('index/case_show', ['list' => $list, 'case' => $case, 'previous' => $previous, 'next' => $next]);
+            $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        $return_data['list'] = $list;
+        $return_data['case'] = $case;
+        $return_data['previous'] = $previous;
+        $return_data['next'] = $next;
+
+        return view('index/case_show', $return_data);
     }
 }

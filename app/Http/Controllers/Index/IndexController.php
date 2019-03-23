@@ -25,7 +25,7 @@ class IndexController extends Controller
      */
     public function __construct()
     {
-
+        parent::__construct();
     }
     public function index(){
         //获取banner图
@@ -43,7 +43,9 @@ class IndexController extends Controller
         //中标新闻
         $news = DB::table('news')->limit(4)->select('id','thumbnail','title','keywords','description')->where('category_id','=',4)->get();
 
-        $reutrn_data = [];
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
         $reutrn_data['banner_lists'] = $banner_lists;
         $reutrn_data['case_lists'] = $case_lists;
         $reutrn_data['case_category_lists'] = $case_category_lists;

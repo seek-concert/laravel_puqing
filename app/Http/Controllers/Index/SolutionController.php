@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Index;
 
 
 
-class SolutionController
+class SolutionController extends BaseController
 {
     /*
     |--------------------------------------------------------------------------
@@ -25,9 +25,12 @@ class SolutionController
      */
     public function __construct()
     {
-
+        parent::__construct();
     }
     public function index(){
-        return view('index/solution');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/solution',$return_data);
     }
 }
