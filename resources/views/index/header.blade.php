@@ -1,94 +1,46 @@
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
-
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-	<title>{{Cache('title')}}</title>
-	<meta name="keywords" content="{{Cache('title')}}">
-	<meta name="description" content="{{Cache('description')}}">
-	<link rel="shortcut icon" href="/index/images/favicon.ico">
-	<link type="text/css" rel="stylesheet" href="/index/css/style.css" />
-	<link type="text/css" rel="stylesheet" href="/index/css/css.css" />
-	<link type="text/css" rel="stylesheet" href="/index/css/validationengine.jquery.css">
-	<script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
-	<script src="/index/js/curnavstyle.js" type="text/javascript"></script>
-	<script type="text/javascript" src="/index/js/funtion.js"></script>
-	<script type="text/javascript" src="/index/js/jquery-1.10.1.js"></script>
-	<script type="text/javascript" src="/index/js/jquery.validationengine-zh_cn.js"></script>
-	<script type="text/javascript" src="/index/js/jquery.validationengine.js"></script>
-	<script src="/index/js/wb.js" type="text/javascript" charset="utf-8"></script>
-	<style>
-		.dot {
-			width: 161px;
-			position: absolute;
-			left: 50%;
-			margin-left: 400px;
-			height: 395px;
-		}
-
-		.dot_bg {
-			width: 161px;
-			height: 161px;
-			float: left;
-			margin-top: 30px;
-			background: transparent url(/index/images/clock-shape.svg) no-repeat;
-			position: relative;
-		}
-
-		.center_dot {
-			position: absolute;
-			width: 10px;
-			height: 10px;
-			background: black;
-			left: 50%;
-			;
-			top: 50%;
-			border-radius: 10px;
-			display: none;
-			left: 75.5px;
-		}
-
-		.minute {
-			display: none;
-		}
-
-		.text {
-			display: none;
-		}
-
-		.secend_zhen {
-			position: absolute;
-			background: transparent url(/index/images/clock-sec.svg) no-repeat;
-			width: 11px;
-			height: 161px;
-			left: 75px;
-		}
-
-		.minute_zhen {
-			position: absolute;
-			background: transparent url(/index/images/clock-min.svg) no-repeat;
-			width: 11px;
-			height: 161px;
-			left: 75px;
-		}
-
-		.hour_zhen {
-			position: absolute;
-			width: 11px;
-			height: 161px;
-			background: transparent url(/index/images/clock-hour.svg) no-repeat;
-			left: 75px;
-		}
-	</style>
-	<script type="text/javascript">
-		$(function () {
-			$('#myform').validationEngine();
-		})
-	</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{{Cache('title')}}</title>
+<meta name="keywords" content="{{Cache('title')}}">
+<meta name="description" content="{{Cache('description')}}">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=yes"/>
+<link rel="canonical" href="/"/>
+<meta name="location" content="province=重庆;city=重庆">
+<link rel="shortcut icon" href="/favicon.ico">
+<link type="text/css" rel="stylesheet" href="/index/css/style.css" />
+<link type="text/css" rel="stylesheet" href="/index/css/css.css" />
+<link type="text/css" rel="stylesheet" href="/index/css/validationengine.jquery.css">
+<script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
+<script src="/index/js/curnavstyle.js" type="text/javascript"></script>
+<script type="text/javascript" src="/index/js/funtion.js"></script>
+<script type="text/javascript" src="/index/js/jquery-1.10.1.js"></script>
+<script type="text/javascript" src="/index/js/jquery.validationengine-zh_cn.js"></script> 
+<script type="text/javascript" src="/index/js/jquery.validationengine.js"></script>
+<script src="/index/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<style>
+.dot{width:161px;position:absolute;left:50%;margin-left:400px;height:395px;}
+.dot_bg{width:161px;height:161px;float:left;margin-top:30px;background: transparent url(/index/images/clock-shape.svg) no-repeat;position:relative;}
+.center_dot{position: absolute;width: 10px;height: 10px;background: black;left: 50%;;top:50%;border-radius:10px;display:none;left:75.5px;}
+.minute{display:none;}
+.text{display:none;}
+.secend_zhen{position: absolute; background: transparent url(/index/images/clock-sec.svg) no-repeat;width:11px;height:161px;left:75px;}
+.minute_zhen{position: absolute;background: transparent url(/index/images/clock-min.svg) no-repeat;width:11px;height:161px;left:75px;}
+.hour_zhen{position: absolute;width:11px;height:161px;background: transparent url(/index/images/clock-hour.svg) no-repeat;left:75px;}
+</style>
+<script type="text/javascript">
+$(function(){
+	$('#myform').validationEngine(); 
+})
+</script>
 </head>
-
 <body>
 	<!--top-->
 	<script src="/index/js/jquery.lazyload.js"></script>
@@ -182,13 +134,13 @@
 						<li><a href="{{ url('/pay') }}" title="付款方式" rel="nofollow">付款方式</a></li>
 						<li><a href="{{ url('/help') }}" title="网站建设帮助中心">帮助中心</a></li>
 					</ul>
-				
+
 					<div class="ewm">
 						<p><img src="/index/picture/wxewm.jpg" data-original="/index/images/wxewm.jpg" alt="" width="118" height="118" /></p>
 						<span>官方微信</span>
 					</div>
 				</div>
-			
+
 				<div class="yqlj">
 					<ul>
 						<li><a href="https://www.baidu.com/" title="百度搜索" target="_blank">百度搜索</a></li>

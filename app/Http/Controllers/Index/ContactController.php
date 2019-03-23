@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Index;
 
 
 
-class ContactController
+class ContactController extends BaseController
 {
     /*
     |--------------------------------------------------------------------------
@@ -25,9 +25,12 @@ class ContactController
      */
     public function __construct()
     {
-
+        parent::__construct();
     }
     public function index(){
-        return view('index/contact');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/contact',$return_data);
     }
 }

@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Index;
 
 
 
-class WebController
+class WebController extends BaseController
 {
     /*
     |--------------------------------------------------------------------------
@@ -25,41 +25,65 @@ class WebController
      */
     public function __construct()
     {
-
+        parent::__construct();
     }
     public function index(){
-        return view('index/web_index');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/web_index',$return_data);
     }
 
     public function view_web(){
-        return view('index/view_web');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/view_web',$return_data);
     }
 
     public function sale_web(){
-        return view('index/sale_web');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/sale_web',$return_data);
     }
 
     public function all_web(){
-        return view('index/all_web');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/all_web',$return_data);
     }
 
     public function mall_b2b(){
-        return view('index/mall_b2b');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/mall_b2b',$return_data);
     }
 
 
     public function mall_b2b2c(){
-        return view('index/mall_b2b2c');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/mall_b2b2c',$return_data);
     }
 
 
     public function mall_more(){
-        return view('index/mall_more');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/mall_more',$return_data);
     }
 
 
 
     public function wechat(){
-        return view('index/wechat');
+        $return_data = [];
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        return view('index/wechat',$return_data);
     }
 }
