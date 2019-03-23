@@ -27,6 +27,10 @@ class NewsController extends Controller
     {
 
     }
+
+    /*
+     * 网站资讯
+     */
     public function index($id = 0){
         if($id == 0){
             $id = 1;
@@ -34,16 +38,54 @@ class NewsController extends Controller
         //获取新闻分类
         $news_category_lists = DB::table('news_category')->get();
 
-        //获取改分类下 的新闻
+        //获取改分类下的新闻
         $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(10);
     
         //获取热推新闻
-        $hot_news_lists = DB::table('news')->where('category_id','=',$id)->limit(6)->orderBy('number','desc')->get();
+        $hot_news_lists = DB::table('news')->limit(6)->orderBy('number','desc')->get();
         $return_data = [];
         $return_data['news_category_lists'] = $news_category_lists;
         $return_data['id'] = $id;
         $return_data['news_lists'] = $news_lists;
         $return_data['hot_news_lists'] = $hot_news_lists;
         return view('index/news',$return_data);
+    }
+
+    /*
+     * 网站资讯--详情页
+     */
+    public function show($id){
+        //详细内容
+        $list = DB::table('news')
+            ->select('title', 'content', 'url')
+            ->where([
+                'id' => $id
+            ])
+            ->first();
+        if(empty($list)){
+            return redirect('/');
+        }
+        //上下新闻
+        $previous = DB::table('news')
+            ->select('id', 'title')
+            ->where([
+                ['id', '<', $id]
+            ])
+            ->orderBy('id','desc')
+            ->first();
+        $next = DB::table('news')
+            ->select('id', 'title')
+            ->where([
+                ['id', '>', $id]
+            ])
+            ->orderBy('id','asc')
+            ->first();
+        //最新案例
+        $case = DB::table('case')
+            ->select('id', 'title', 'thumbnail')
+            ->orderBy('id', 'desc')
+            ->limit(4)
+            ->get();
+        return view('index/news_show', ['list' => $list, 'case' => $case, 'previous' => $previous, 'next' => $next]);
     }
 }
