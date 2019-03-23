@@ -17,33 +17,22 @@
 		<div class="case_left">
 			<div class="news_list">
 				<ul>
+					@foreach ($news_lists as $value)
+						
 					<li>
 						<div class="news_l"><a href="/about/show_971.html" title=""><img
-									src="/index/picture/1551513240.jpg" alt="" width="178" height="117" /></a></div>
+									src="{{ $value->thumbnail }}" alt="" width="178" height="117" /></a></div>
 						<div class="news_r">
-							<h3><a href="/about/show_971.html" title="">又是一年年会趴，欢欢喜喜你我他
-									——“2019普擎奥斯卡假面舞会”主题年会</a><span>2019-02-28</span></h3>
-							<p>在这个热闹不眠、其乐融融的日子。
-								总有一些仪式感，提醒我们：新的一年又到啦~
-								普擎科技在2019年1月26日迎来了普擎奥斯卡假面舞会，主题年会在深圳鹿嘴山庄如期举行。</p>
+							<h3><a href="/about/show_971.html" title="">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
+							<p>{{ $value->description }}</p>
 							<h6><a href="/about/show_971.html" title="">LEARN MORE</a></h6>
 						</div>
 					</li>
-
+					@endforeach
 				</ul>
 			</div>
 			{{ $news_lists->links() }}
-			<div class="tcdPageCode"> 
-				<span class='current'>1</span>
-				<a href='/index.php/about/news/p/2.html'>2</a>
-				<a href='/index.php/about/news/p/3.html'>3</a>
-				<a href='/index.php/about/news/p/4.html'>4</a>
-				<a href='/index.php/about/news/p/5.html'>5</a> 
-				<a href='/index.php/about/news/p/2.html'>
-					<img src="/index/picture/next.jpg" />
-				</a> 
-				
-			</div>
+			
 		</div>
 		<div class="case_right">
 			<p><a href="/contact/index.html" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>

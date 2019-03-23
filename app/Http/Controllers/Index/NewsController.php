@@ -35,7 +35,7 @@ class NewsController extends Controller
         $news_category_lists = DB::table('news_category')->get();
 
         //获取改分类下 的新闻
-        $news_lists = DB::table('news')->paginate(1);
+        $news_lists = DB::table('news')->paginate(10);
     
         $return_data = [];
         $return_data['news_category_lists'] = $news_category_lists;
