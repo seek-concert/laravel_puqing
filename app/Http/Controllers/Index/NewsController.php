@@ -41,29 +41,16 @@ class NewsController extends BaseController
 
         //获取改分类下的新闻
         $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(5);
-    
-        //获取热推新闻
-        $hot_news_lists = DB::table('news')->limit(6)->orderBy('number','desc')->get();
-
-        //获取四条最新案例
-        $new_case_lists = DB::table('case')->limit(4)->get();
-
-        //获取4条本站新闻
-        $four_news_lists = DB::table('news')->where('category_id','=',1)->limit(4)->get();
-
-        //6条案例
-        $six_case_lists = DB::table('case')->limit(6)->get();
-
+        //聚合数据
         $return_data = [];
-        $return_data['news_category_lists'] = $this->get_news_category_lists();
-        $return_data['case_category_lists'] = $this->get_case_category_lists();
         $return_data['id'] = $id;
         $return_data['news_lists'] = $news_lists;
-        $return_data['hot_news_lists'] = $hot_news_lists;
-        $return_data['new_case_lists'] = $new_case_lists;
-        $return_data['four_news_lists'] = $four_news_lists;
-        $return_data['six_case_lists'] = $six_case_lists;
-        
+        $return_data['news_category_lists'] = $this->get_news_category_lists();
+        $return_data['case_category_lists'] = $this->get_case_category_lists();
+        $return_data['hot_news'] = $this->get_hot_news();
+        $return_data['new_case'] = $this->get_new_case();
+        $return_data['pq_news'] = $this->get_pq_news();
+        $return_data['case'] = $this->get_case();
         return view('index/news',$return_data);
     }
 

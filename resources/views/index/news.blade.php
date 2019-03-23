@@ -32,16 +32,15 @@
 				</ul>
 			</div>
 			{{ $news_lists->links() }}
-			
 		</div>
+		{{--右侧--}}
 		<div class="case_right">
-		<p><a href="{{ url('contact') }}" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>
-			<p style="padding-top:20px;"><a href="{{ url('case') }}" title=""><img src="/index/picture/icon2.jpg" alt=""
-						width="300" /></a></p>
+			<p><a href="{{url('contact')}}" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>
+			<p style="padding-top:20px;"><a href="{{url('case')}}" title=""><img src="/index/picture/icon2.jpg" alt="" width="300" /></a></p>
 			<h4>热推新闻</h4>
 			<ul>
-				@foreach ( $hot_news_lists as $value)
-					<li><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}">{{ $value->title }}<br /><span>{{ date('Y-m-d',$value->input_time) }}</span></a></li>
+				@foreach($hot_news as $value)
+					<li><a href="{{url('news_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}<br/><span>2018-11-05</span></a></li>
 				@endforeach
 			</ul>
 			<div class="clear"></div>
@@ -58,43 +57,32 @@
 			<p style="color:#666;line-height:30px;">邮箱：{{ Cache('company_email') }}</p>
 		</div>
 	</div>
+	{{--底部--}}
 	<div class="clear"></div>
-	<div class="case_tit"><span>最新案例</span><a href="/case/index.html" title="">MORE</a></div>
+	<div class="case_tit"><span>最新案例</span><a href="{{url('case')}}" title="">MORE</a></div>
 	<div class="case_top">
 		<ul>
-			@foreach ($new_case_lists as $value)
-			<li><a href="{{ url('case_show',$value->id) }}" target="_blank" title="{{ $value->title }}"><img src="../{{ $value->thumbnail }}" alt="{{ $value->keywords }}"
-				width="242" height="160" />
-				<h4>{{ $value->title }}</h4>
-			</a></li>
+			@foreach($new_case as $value)
+				<li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="../{{$value->thumbnail}}" alt="" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
 			@endforeach
-			
 		</ul>
 	</div>
 	<div class="clear"></div>
 	<div class="case_bottom">
 		<div class="case_news">
-			<div class="case_news_t">
-				<h3>普擎<span>新闻</span></h3><a href="{{ url('news') }}" title="">MORE</a>
-			</div>
+			<div class="case_news_t"><h3>普擎<span>新闻</span></h3><a href="{{url('news')}}" title="">MORE</a></div>
 			<ul>
-				@foreach ($four_news_lists as $value)
-					<li><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></li>
+				@foreach($pq_news as $value)
+					<li><a href="{{url('news_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}</a><span>{{date('Y-m-d',$value->input_time)}}</span></li>
 				@endforeach
-				
 			</ul>
 		</div>
 		<div class="case_trade">
-			<div class="case_news_t">
-				<h3>行业案例<span style="color:#ff4817;">检索</span></h3><a href="{{ url('case') }}" title="">MORE</a>
-			</div>
+			<div class="case_news_t"><h3>行业案例<span style="color:#ff4817;">检索</span></h3><a href="{{url('case')}}" title="">MORE</a></div>
 			<p>
-				<ul>
-					@foreach ($six_case_lists as $value)
-						<li><a href="{{ url('case_show',$value->id) }}" title="">{{  $value->title}}</a></li>
-					@endforeach
-				</ul>
-				
+				@foreach($case as $value)
+					<a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}</a>
+				@endforeach
 			</p>
 		</div>
 	</div>
