@@ -56,7 +56,7 @@
     <div class="case_tit"><span>最新案例</span><a href="{{url('case')}}" title="">MORE</a></div>
     <div class="case_top">
         <ul>
-            @foreach($case as $value)
+            @foreach($new_case as $value)
             <li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="../{{$value->thumbnail}}" alt="" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
             @endforeach
         </ul>
@@ -74,7 +74,7 @@
         <div class="case_trade">
             <div class="case_news_t"><h3>行业案例<span style="color:#ff4817;">检索</span></h3><a href="{{url('case')}}" title="">MORE</a></div>
             <p>
-                @foreach($new_case as $value)
+                @foreach($case as $value)
                 <a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}</a>
                 @endforeach
             </p>
