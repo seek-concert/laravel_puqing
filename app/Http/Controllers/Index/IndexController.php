@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Index;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 
-class IndexController extends Controller
+class IndexController extends BaseController
 {
     /*
     |--------------------------------------------------------------------------
