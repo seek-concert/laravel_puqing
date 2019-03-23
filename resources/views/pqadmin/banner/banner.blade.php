@@ -66,7 +66,7 @@
                         @foreach ($list as $value)
                             <tr>
                                 <td>{{$value->id}}</td>
-                                <td><img src="../{{$value->img}}" alt="" style="width: 150px;height: 70px;"></td>
+                                <td><img src="{{$value->img}}" alt="" style="width: 150px;height: 70px;"></td>
                                 <td>{{$value->url}}</td>
                                 <td>
                                     {{--<a href="{{url('pqadmin/case_detail',[$value->id])}}">--}}

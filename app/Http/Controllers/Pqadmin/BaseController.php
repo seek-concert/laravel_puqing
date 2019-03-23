@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Pqadmin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Redirect;
+use OSS\OssClient;
 
 Class BaseController extends Controller
 {
@@ -23,16 +24,13 @@ Class BaseController extends Controller
     /*
      * 文件上传
      */
-    public function upload($img){
-        // 获取后缀名
-        $ext = $img->extension();
-        // 新文件名
-        $saveName =time().rand().".".$ext;
-        // 存储文件 已经不使用 move 这种方式
-        // $img->move('./uploads/'.date('Ymd'),$saveName);
-        // 使用 store 存储文件
-        $path = $img->store(date('Ymd'));
-
-        return 'uploads/'.$path;
+    public function upload($img,$category){
+        $aliyun = config('kindeditor.connections.aliyun');
+        $object = $category.'/'.date('YmdHis') . random_int(1, 100000) . '.' . $img->getClientOriginalExtension(); //生成日期+随机数字的文件名 $tmFile->getClientOriginalExtension();获取文件后缀名
+        $filePath = $img->getPath() . '/' . $img->getFilename();// 获取临时文件
+        $ossClient = new OssClient($aliyun['ak_id'], $aliyun['ak_secret'], $aliyun['end_point']);
+        $info = $ossClient->uploadFile($aliyun['bucket'], $object, $filePath); //为了获取上传后的文件信息
+        $fileRequestUrl = $info['oss-request-url'];
+        return $fileRequestUrl;
     }
 }

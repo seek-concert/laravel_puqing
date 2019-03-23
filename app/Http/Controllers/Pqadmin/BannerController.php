@@ -40,7 +40,7 @@ class BannerController extends BaseController
             //判断是否有文件上传
             if ($request->hasFile('img')) {
                 //缩略图路径
-                $img = $this->upload($request->file('img'));
+                $img = $this->upload($request->file('img'),'banner');
             } else {
                 $img = '';
             }
@@ -71,7 +71,7 @@ class BannerController extends BaseController
             //判断是否有文件上传
             if ($request->hasFile('img')) {
                 //缩略图路径
-                $img = $this->upload($request->file('img'));
+                $img = $this->upload($request->file('img'),'banner');
             } else {
                 $img = $request->input('img', '');
             }

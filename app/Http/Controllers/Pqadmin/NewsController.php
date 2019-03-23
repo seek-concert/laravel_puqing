@@ -45,7 +45,7 @@ class NewsController extends BaseController
             //判断是否有文件上传
             if ($request->hasFile('thumbnail')) {
                 //缩略图路径
-                $thumbnail = $this->upload($request->file('thumbnail'));
+                $thumbnail = $this->upload($request->file('thumbnail'),'news');
             } else {
                 $thumbnail = '';
             }
@@ -83,7 +83,7 @@ class NewsController extends BaseController
             //判断是否有文件上传
             if ($request->hasFile('thumbnail')) {
                 //缩略图路径
-                $thumbnail = $this->upload($request->file('thumbnail'));
+                $thumbnail = $this->upload($request->file('thumbnail'),'news');
             } else {
                 $thumbnail = $request->input('thumbnail', '');
             }
