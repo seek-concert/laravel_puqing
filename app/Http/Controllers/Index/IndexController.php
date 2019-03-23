@@ -40,12 +40,15 @@ class IndexController extends Controller
         //获取新闻分类
         $news_category_lists = DB::table('news_category')->get();
 
-        
+        //中标新闻
+        $news = DB::table('news')->limit(4)->select('id','thumbnail','title','keywords','description')->where('category_id','=',4)->get();
+
         $reutrn_data = [];
         $reutrn_data['banner_lists'] = $banner_lists;
         $reutrn_data['case_lists'] = $case_lists;
         $reutrn_data['case_category_lists'] = $case_category_lists;
         $reutrn_data['news_category_lists'] = $news_category_lists;
+        $reutrn_data['news'] = $news;
         return view('index/index',$reutrn_data);
         
     }

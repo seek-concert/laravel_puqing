@@ -200,41 +200,28 @@
 					<div class="ScrCont">
 						<div id="List1">
 							<!-- 图片列表 begin -->
+							@foreach ($news as $value)
 							<div class="pic">
-								<div class="picImg"><a href="/about/show_714.html" rel="nofollow" title=""><img src="/index/picture/1510820276.jpg"
-										 data-original="/asp_bin/newimg/1510820276.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_714.html" rel="nofollow" title=""><span class="b1">总监三千平台开发
-											B2B2C平台开发</span><span class="b2">重庆普擎科技有限公司有幸为总监三千（深圳文化投资有限公司）服务，提供b2b2c商城建设解决方案，“总监三千”平台是总监三千（深圳文化投资有限公司）集结全球顶级创意设计人士的互动、创业创收的平台。开创总监经济人模式，专注服务高品质企业对品牌策划设计推广需求。</span></a></div>
-							</div>
-							<div class="pic">
-								<div class="picImg"><a href="/about/show_701.html" rel="nofollow" title=""><img src="/index/picture/1505977886.jpg"
-										 data-original="/asp_bin/newimg/1505977886.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_701.html" rel="nofollow" title=""><span class="b1">普擎科技中标研祥智能科技股份有限公司商城建设项目</span><span
-										 class="b2">随着数字经济时代的到来，我们看到全球制造业正在发生着深刻的变革。传统的大批量、少批次的生产方式已经不能满足当今消费者对个性化的追求，而小批量、定制化的柔性生产正在成为制造业中的时尚。</span></a></div>
-							</div>
-							<div class="pic">
-								<div class="picImg"><a href="/about/show_615.html" rel="nofollow" title=""><img src="/index/picture/1492830255.jpg"
-										 data-original="/asp_bin/newimg/1492830255.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_615.html" rel="nofollow" title=""><span class="b1">普擎科技中标B2C深圳鹿嘴旅游平台网站建设项目</span><span
-										 class="b2">深圳鹿嘴山庄是一家 型度假村，位于大鹏半岛杨梅坑片区，深圳
-											东端，面朝大亚湾，背倚深圳第二高峰七娘山。充满诗情画意的月夜钓螃蟹；游艇出海捕鱼；快艇冲浪；海钓、露营、烧烤；骑行鹿嘴观海大道；外岛浮潜窥探五光十色海底世界；迎接深圳
-											缕阳光；喜欢挑战的来一场攀崖比赛更是不错的选择；还可以包一栋海边别墅举行生日PARTY或朋友聚会；不管你是否学过摄影，只需你拿起相机，按下快门，都是一幅精美
-											伦的画面……。或伫立山崖或游走于海岸边，听着海浪击石的声音，心底一片轻灵、空明。”</span></a></div>
-							</div>
-							<div class="pic">
-								<div class="picImg"><a href="/about/show_543.html" rel="nofollow" title=""><img src="/index/picture/1487574894.jpg"
-										 data-original="/asp_bin/newimg/1487574894.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_543.html" rel="nofollow" title=""><span class="b1">普擎科技中标大桥化工官方商城网站建设项目</span><span
-										 class="b2">中山大桥化工有限公司成立于1985年3月，总部位于伟人孙中山先生的故乡——广东省中山市，是集研发、生产和销售于一体的中港合资高新技术企业。2008年3月，正式组建成立了中山大桥化工企业集团（简称“大桥化工集团”）。
-											　　经过多年发展，大桥化工集团实力不断增强，同时，旗下拥有众多子公司和控股公司，并先后在中山市、重庆市、上海市、合肥市、韶关市等地兴建了现代化的生产基地。公司生产和经营的各类高性能专用涂料系列产品，包括汽车涂料、工程机械涂料、大中巴涂料、摩托车涂料、电子电器涂料、机车涂料、重防腐涂料、粉末涂料、电泳涂料等，产品性能优越，具有很高的市场知名度和强大的客户基础，在行业内拥有良好的口碑，部分产品进入国际市场。
-										</span></a></div>
-							</div>
-							<div class="pic">
-								<div class="picImg"><a href="/about/show_405.html" rel="nofollow" title=""><img src="/index/picture/1483063842.jpg"
-										 data-original="/asp_bin/newimg/1483063842.jpg" alt="深圳网站外包业务" rel="nofollow" width="362" height="238" /></a></div>
-								<div class="pic_cont"><a href="/about/show_405.html" rel="nofollow" title=""><span class="b1">普擎科技中标中联广深集团公司官网建设项目</span><span
-										 class="b2">中联广深医药（集团）有限公司成立于一九八三年，是由全国医药行业几十家企业与本集团公司职工共同持有股份的混合所有制企业。公司坚持人才战略、创新机制，现已发展成为以医药为主，集科、工、贸为一体，具有一定实力和知名度的大型企业集团。</span></a></div>
-							</div> <!-- 图片列表 end -->
+									<div class="picImg">
+										<a href="{{ url('news_show',$value->id) }}" rel="nofollow" title="">
+											<img src="{{ $value->thumbnail }}" data-original="{{ $value->thumbnail }}" alt="{{ $value->title }}" rel="nofollow" width="362" height="238" />
+										</a>
+									</div>
+									<div class="pic_cont">
+										<a href="{{ url('news_show',$value->id) }}" rel="nofollow" title="">
+											<span class="b1">
+													{{ $value->title }}
+											</span>
+											<span class="b2">
+												{{ $value->description }}											
+											</span>
+										</a>
+								</div>
+								</div>
+							@endforeach
+							
+
+							 <!-- 图片列表 end -->
 						</div>
 						<!--<div id="List2"></div>-->
 					</div>
@@ -263,7 +250,7 @@
 							<li>
 								<div class="cgal_list">
 									@foreach($case_lists as $value)
-									<div class="cgal_tp"> <a href="{{url('case_show',[$value->id])}}" title="建站案例">
+									<div class="cgal_tp"> <a href="{{url('case_show',[$value->id])}}" title="{{ $value->keywords }}">
 											<h4></h4>
 											<p></p>
 										</a> <img src="/index/picture/logo.jpg" data-original="{{$value->thumbnail}}" width="358" height="235"
@@ -330,54 +317,54 @@
 		<div class="core_list">
 			<ul>
 				<li>
-					<div class="core_img"><a href="/service/index_20.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174401.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_20.html" title="">企业官网建设</a></div>
+					<div class="core_h"><a href="javascript:;" title="">企业官网建设</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_108.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174406.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_108.html" title="">商城网站建设</a></div>
+					<div class="core_h"><a href="javascript:;" title="">商城网站建设</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_109.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174408.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_109.html" title="">系统平台开发</a></div>
+					<div class="core_h"><a href="javascript:;" title="">系统平台开发</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_110.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174404.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_110.html" title="">微信营销</a></div>
+					<div class="core_h"><a href="javascript:;" title="">微信营销</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/ssl/ssl.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174403.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/ssl/ssl.html" title="">SSL证书</a></div>
+					<div class="core_h"><a href="javascript:;" title="">SSL证书</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_112.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174402.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_112.html" title="">APP开发</a></div>
+					<div class="core_h"><a href="javascript:;" title="">APP开发</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_113.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174410.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_113.html" title="">商城/网站装修</a></div>
+					<div class="core_h"><a href="javascript:;" title="">商城/网站装修</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_114.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174407.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/2019321174407.html" title="">平面设计</a></div>
+					<div class="core_h"><a href="javascript:;" title="">平面设计</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_115.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174405.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_115.html" title="">阿里云服务器</a></div>
+					<div class="core_h"><a href="javascript:;" title="">阿里云服务器</a></div>
 				</li>
 				<li>
-					<div class="core_img"><a href="/service/index_116.html" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
+					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
 							 data-original="/index/images/2019321174409.png" alt="" width="100%" height="100%" /></a> </div>
-					<div class="core_h"><a href="/service/index_116.html" title="">普擎天下邮</a></div>
+					<div class="core_h"><a href="javascript:;" title="">普擎天下邮</a></div>
 				</li>
 			</ul>
 		</div>
