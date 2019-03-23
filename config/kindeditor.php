@@ -20,11 +20,11 @@ return [
             'domain'     => ''
         ],
         "aliyun" => [
-            'ak_id'     => 'LTAICczkrnEG4RSM',
-            'ak_secret' => '1gbjh40c3YZvmo56rthLQwP1nyQvk9',
-            'end_point' => 'oss-cn-shenzhen.aliyuncs.com',
-            'bucket'    => 'puqing',
-            'prefix'    => '',
+            'ak_id'     => env('ALI_AK_ID',''),
+            'ak_secret' => env('ALI_AK_SECRET',''),
+            'end_point' => env('ALI_END_POINT',''),
+            'bucket'    => env('ALI_BUCKET',''),
+            'prefix'    => env('ALI_PREFIX',''),
         ],
     ],
 ];
