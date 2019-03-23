@@ -2,11 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
 <title>{{Cache('title')}}</title>
 <meta name="keywords" content="{{Cache('title')}}">
 <meta name="description" content="{{Cache('description')}}">
-<link rel="shortcut icon" href="/index/images/favicon.ico">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=yes"/>
+<link rel="canonical" href="/"/>
+<meta name="location" content="province=重庆;city=重庆">
+<link rel="shortcut icon" href="/favicon.ico">
 <link type="text/css" rel="stylesheet" href="/index/css/style.css" />
 <link type="text/css" rel="stylesheet" href="/index/css/css.css" />
 <link type="text/css" rel="stylesheet" href="/index/css/validationengine.jquery.css">
