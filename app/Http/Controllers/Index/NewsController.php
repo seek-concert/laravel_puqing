@@ -35,12 +35,15 @@ class NewsController extends Controller
         $news_category_lists = DB::table('news_category')->get();
 
         //获取改分类下 的新闻
-        $news_lists = DB::table('news')->paginate(10);
+        $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(10);
     
+        //获取热推新闻
+        $hot_news_lists = DB::table('news')->where('category_id','=',$id)->limit(6)->orderBy('number','desc')->get();
         $return_data = [];
         $return_data['news_category_lists'] = $news_category_lists;
         $return_data['id'] = $id;
         $return_data['news_lists'] = $news_lists;
+        $return_data['hot_news_lists'] = $hot_news_lists;
         return view('index/news',$return_data);
     }
 }

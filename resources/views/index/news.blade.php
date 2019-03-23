@@ -20,12 +20,12 @@
 					@foreach ($news_lists as $value)
 						
 					<li>
-						<div class="news_l"><a href="/about/show_971.html" title=""><img
-									src="{{ $value->thumbnail }}" alt="" width="178" height="117" /></a></div>
+						<div class="news_l"><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}"><img
+									src="{{ $value->thumbnail }}" alt="{{ $value->keywords }}" width="178" height="117" /></a></div>
 						<div class="news_r">
-							<h3><a href="/about/show_971.html" title="">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
+							<h3><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
 							<p>{{ $value->description }}</p>
-							<h6><a href="/about/show_971.html" title="">LEARN MORE</a></h6>
+							<h6><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}">LEARN MORE</a></h6>
 						</div>
 					</li>
 					@endforeach
@@ -35,17 +35,14 @@
 			
 		</div>
 		<div class="case_right">
-			<p><a href="/contact/index.html" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>
-			<p style="padding-top:20px;"><a href="/case/index.html" title=""><img src="/index/picture/icon2.jpg" alt=""
+		<p><a href="{{ url('contact') }}" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>
+			<p style="padding-top:20px;"><a href="{{ url('case') }}" title=""><img src="/index/picture/icon2.jpg" alt=""
 						width="300" /></a></p>
-			<h4>网站建设知识</h4>
+			<h4>热推新闻</h4>
 			<ul>
-				<li><a href="/about/show_947.html" title="">手机网站制作的重要性<br /><span>2018-11-05</span></a></li>
-				<li><a href="/about/show_939.html" title="">商城网站建设需要注意哪些<br /><span>2018-10-22</span></a></li>
-				<li><a href="/about/show_918.html" title="">深圳做网站公司--------首选普擎科技<br /><span>2018-09-30</span></a></li>
-				<li><a href="/about/show_910.html" title="">2018年最值得学习的前端技术<br /><span>2018-09-25</span></a></li>
-				<li><a href="/about/show_681.html" title="">为什么做网站必须选择做响应式网站<br /><span>2017-08-26</span></a></li>
-				<li><a href="/about/show_675.html" title="">深圳网站建设哪家好<br /><span>2017-08-04</span></a></li>
+				@foreach ( $hot_news_lists as $value)
+					<li><a href="{{ url('nes_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}<br /><span>{{ date('Y-m-d',$value->input_time) }}</span></a></li>
+				@endforeach
 			</ul>
 			<div class="clear"></div>
 			<p style="color:#333;font-weight:bold;font-size:13px;">咨询</p>
