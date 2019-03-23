@@ -4,9 +4,18 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>{{Cache('title')}}-首页</title>
-	<meta name="description" content="{{Cache('description')}}">
 	<meta name="keywords" content="{{Cache('keywords')}}">
-	<link rel="shortcut icon" href="/index/images/favicon.ico">
+	<meta name="description" content="{{Cache('description')}}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+	<meta name="applicable-device" content="pc,mobile">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="format-detection" content="telephone=yes"/>
+	<link rel="canonical" href="/"/>
+	<meta name="location" content="province=重庆;city=重庆">
+	<link rel="shortcut icon" href="/favicon.ico">
 	<link type="text/css" rel="stylesheet" href="/index/css/style.css" />
 	<script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
 	<script src="/index/js/jquery1.js" type="text/javascript"></script>
