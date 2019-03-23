@@ -72,19 +72,13 @@ $(function(){
 					<h3 class="nav_h2"><a href="{{url('/app')}}" id="in08" class="hover" title="APP开发">APP开发</a>
 
 					</h3>
-					<h3 class="nav_h2"><a href="{{url('/solution')}}" id="in07" class="hover" title="解决方案">解决方案</a>
-
-					</h3>
 					<h3 class="nav_h2"><a href="{{url('/case')}}" id="in03" class="hover" title="成功案例">成功案例</a>
 
 					</h3>
 					<h3 class="nav_h2"><a href="{{url('/news')}}" id="in04" class="hover" title="网站资讯">网站资讯</a>
 
 					</h3>
-					<h3 class="nav_h2"><a href="{{url('/about')}}" id="in05" class="hover" title="关于普擎网站开发"
-							rel="nofollow">关于普擎</a>
-
-					</h3>
+					
 					<h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系普擎</a>
 
 					</h3>

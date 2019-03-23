@@ -66,7 +66,7 @@ ul{list-style-type: none}
 .dh .dh-top li a{ color:#f0f0f0;} 
 .dh .dh-top li a:hover{ color:#20b7f4;}
 .dh-main{float:right;margin-right:-20px;}
-.dh-main .nav_h2{float:left;padding-left:20px;height:60px;font-size: 1.5em;}
+.dh-main .nav_h2{float:left;padding-left:65px;height:60px;font-size: 1.5em;}
 .dh-main .nav_h2 a.hover{ font-size:14px;  color:#f0f0f0; display:block;padding:0 20px;line-height:46px;font-weight:500;height:60px;}
 .dh-main .nav_h2 a.hover:hover{ color:#20b7f4;}
 .dh-main .nav_h2 a.cur{ color:#20b7f4;}

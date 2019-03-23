@@ -43,6 +43,17 @@ class IndexController extends BaseController
         //中标新闻
         $news = DB::table('news')->limit(4)->select('id','thumbnail','title','keywords','description')->where('category_id','=',4)->get();
 
+
+        //相关资讯6条
+        $sjwzzx = DB::table('news')->limit(6)->select('title','description')->where('category_id','=',2)->get();
+
+        //学新姿势6条
+        $sjwzzx = DB::table('news')->limit(6)->select('title','description')->where('category_id','=',3)->get();
+
+        //互联网安全6条
+        $sjwzzx = DB::table('news')->limit(6)->select('title','description')->where('category_id','=',6)->get();
+
+
         $return_data = [];
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
