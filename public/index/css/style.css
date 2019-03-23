@@ -425,6 +425,7 @@ ul{list-style-type: none}
 .case_news ul{float:left;width:570px;padding:18px 19px;}
 .case_news ul li{float:left;width:100%;background:url(../images/arr7.png) no-repeat left center;}
 .case_news ul li a{display:block;float:left;width:450px;padding-left:10px;color:#666;line-height:30px;height:30px;}
+.case_trade ul li a{display:block;float:left;width:450px;padding-left:10px;color:#666;line-height:30px;height:30px;}
 .case_news ul li span{float:right;color:#999;line-height:30px;height:30px;}
 .case_trade{float:right;width:370px;border:1px solid #e4e4e4;margin-top:45px;height:278px;}
 .case_trade p{float:left;width:332px;padding:18px 19px;}

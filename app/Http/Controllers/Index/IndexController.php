@@ -40,6 +40,7 @@ class IndexController extends Controller
         //获取新闻分类
         $news_category_lists = DB::table('news_category')->get();
 
+        
         $reutrn_data = [];
         $reutrn_data['banner_lists'] = $banner_lists;
         $reutrn_data['case_lists'] = $case_lists;
