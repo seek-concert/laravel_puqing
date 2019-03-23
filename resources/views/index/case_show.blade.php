@@ -48,7 +48,7 @@
                     <img src="/index/picture/q2.jpg" alt="" width="25" />
                 </a>
             </p>
-            <p style="color:#666;line-height:30px;">邮箱：web@ni8.com</p>
+            <p style="color:#666;line-height:30px;">邮箱：{{ Cache('company_email') }}</p>
         </div>
     </div>
     {{--底部--}}
