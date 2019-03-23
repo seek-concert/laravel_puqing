@@ -42,7 +42,7 @@ class NewsController extends BaseController
 
 
         //获取改分类下的新闻
-        $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(10);
+        $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(5);
     
         //获取热推新闻
 
