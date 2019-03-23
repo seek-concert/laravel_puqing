@@ -49,27 +49,50 @@ class CaseController
                 'id' => $id
             ])
             ->first();
+        if (empty($list)) {
+            return redirect('/');
+        }
         //上下案例
         $previous = DB::table('case')
             ->select('id', 'title')
             ->where([
                 ['id', '<', $id]
             ])
-            ->orderBy('id','desc')
+            ->orderBy('id', 'desc')
             ->first();
         $next = DB::table('case')
             ->select('id', 'title')
             ->where([
                 ['id', '>', $id]
             ])
-            ->orderBy('id','asc')
+            ->orderBy('id', 'asc')
             ->first();
+        //热销新闻
+        $hot_news = DB::table('news')
+            ->select('id', 'title')
+            ->limit(6)
+            ->orderBy('id', 'desc')
+            ->get();
         //最新案例
         $case = DB::table('case')
             ->select('id', 'title', 'thumbnail')
             ->orderBy('id', 'desc')
             ->limit(4)
             ->get();
-        return view('index/case_show', ['list' => $list, 'case' => $case, 'previous' => $previous, 'next' => $next]);
+        //普擎新闻
+        $pq_news = DB::table('news')
+            ->select('id', 'title', 'input_time')
+            ->where([
+                ['category_id', '=', 1]
+            ])
+            ->orderBy('id', 'desc')
+            ->limit(6)
+            ->get();
+        //行业案例检索
+        $new_case = DB::table('case')
+            ->orderBy('id', 'desc')
+            ->limit(15)
+            ->get();
+        return view('index/case_show', ['list' => $list, 'hot_news' => $hot_news, 'case' => $case, 'pq_news' => $pq_news, 'new_case' => $new_case, 'previous' => $previous, 'next' => $next]);
     }
 }

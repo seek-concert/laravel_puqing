@@ -34,6 +34,8 @@ Route::namespace('Index')->group(function () {
     Route::any('contact', 'ContactController@index');
     //网站资讯
     Route::any('news/{id?}', 'NewsController@index');
+    //网站资讯--详情页
+    Route::any('news_show/{id}', 'NewsController@show');
     //关于我们
     Route::any('about', 'AboutController@index');
     //解决方案
