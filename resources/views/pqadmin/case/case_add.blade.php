@@ -117,5 +117,5 @@
             </form>
         </div>
     </div>
-    @include('kindeditor::editor',['editor'=>'editor_id'])
+    @include('kindeditor::editor',['editor'=>'editor_id','id'=>'1'])
 @endsection
