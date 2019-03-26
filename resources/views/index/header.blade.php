@@ -117,16 +117,14 @@ $(function(){
 					</ul>
 					<ul>
 						<h4>关于普擎</h4>
-						<li><a href="{{ url('/about') }}" title="普擎概况">普擎概况</a></li>
-						<li><a href="{{ url('/about/1') }}" title="企业文化">企业文化</a></li>
-						<li><a href="{{ url('/about/2') }}" title="发展历程">发展历程</a></li>
-						<li><a href="{{ url('/about/3') }}" title="加入普擎">加入普擎</a></li>
+						<li><a href="{{ url('/contact') }}" title="普擎概况">普擎概况</a></li>
+						<li><a href="{{ url('/contact') }}" title="企业文化">企业文化</a></li>
+						<li><a href="{{ url('/contact') }}" title="加入普擎">加入普擎</a></li>
 					</ul>
 					<ul>
 						<h4>联系普擎</h4>
 						<li><a href="{{ url('/contact') }}" title="联系方式" rel="nofollow">联系方式</a></li>
-						<li><a href="{{ url('/pay') }}" title="付款方式" rel="nofollow">付款方式</a></li>
-						<li><a href="{{ url('/help') }}" title="网站建设帮助中心">帮助中心</a></li>
+						<li><a href="{{ url('/contact') }}#pay" title="付款方式" rel="nofollow">付款方式</a></li>
 					</ul>
 
 					<div class="ewm">
@@ -185,47 +183,31 @@ $(function(){
 				<li class="fqq">
 					<a class="zixun1 zixun" title="qq联系网站建设"></a>
 					<div class="foot_qq">
-						<a target="_blank" rel="nofollow" title="业务经理"
-							href="http://wpa.qq.com/msgrd?v=3&uin=983492695&site=qq&menu=yes"><img
-								src="/index/picture/q01.png" alt="" width="25"
-								data-original="/index/images/q01.png" /><span>业务经理</span></a><a target="_blank"
-							rel="nofollow" title="业务经理"
-							href="http://wpa.qq.com/msgrd?v=3&uin=1014060040&site=qq&menu=yes"><img
-								src="/index/picture/q02.png" alt="" width="25"
-								data-original="/index/images/q02.png" /><span>业务经理</span></a><a target="_blank"
-							rel="nofollow" title="售后客服"
-							href="http://wpa.qq.com/msgrd?v=3&uin=1014641734&site=qq&menu=yes"><img
-								src="/index/picture/q03.png" alt="" width="25"
-								data-original="/index/images/q03.png" /><span>售后客服</span></a><a target="_blank"
-							rel="nofollow" title="售后客服"
-							href="http://wpa.qq.com/msgrd?v=3&uin=995338667&site=qq&menu=yes"><img
-								src="/index/picture/q04.png" alt="" width="25"
-								data-original="/index/images/q00.png" /><span>售后客服</span></a><a target="_blank"
-							rel="nofollow" title="技术支持"
-							href="http://wpa.qq.com/msgrd?v=3&uin=441579876&site=qq&menu=yes"><img
-								src="/index/picture/q01.png" alt="" width="25"
-								data-original="/index/images/q01.png" /><span>技术支持</span></a> </div>
+							<a target="_blank" rel="nofollow" title="售前联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('before_service_qq')}}&site=qq&menu=yes">
+								<img src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png" /><span>售前联系</span></a>
+							<a target="_blank" rel="nofollow" title="售后联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('after_service_qq')}}&site=qq&menu=yes">
+								<img src="/index/picture/q02.png" alt="" width="25" data-original="/index/images/q02.png" /><span>售后联系</span></a>
+						</div>
 				</li>
 				<li class="dhm">
-					<a class="zixun2 zixun" title="电话联系网站建设"></a>
+					<a class="zixun2 zixun" title="电话联系普擎科技"></a>
 					<div class="kfdh">
-						<p><span>销售热线:</span><span
-								style="width:110px;font-size:13px;color:#fff;">0755-83271919<br />0755-83271881</span>
+						<p><span>售前服务:</span><span
+								style="width:110px;font-size:13px;color:#fff;">{{Cache('before_service_phone')}}</span>
 						</p>
-						<p><span>服务热线:</span><span
-								style="width:110px;font-size:13px;color:#fff;">0755-83271606<br />0755-83658105</span>
+						<p><span>售后专线:</span><span
+								style="width:110px;font-size:13px;color:#fff;">{{Cache('after_service_phone')}}</span>
 						</p>
 					</div>
 				</li>
-				<li><a href="Mailto:dzn@ni8.com" class="zixun3 zixun" title="" target="_blank">
+				<li><a href="Mailto:{{ Cache('company_email') }}" class="zixun3 zixun" title="" target="_blank">
 					</a></li>
 				<li class="gw">
 					<a class="zixun4 zixun" title="扫描二维码联系"></a>
 					<div class="code-side">
-						<div><img src="/index/picture/sjewm.jpg" alt="手机官网"
-								data-original="/index/images/sjewm.jpg" /><span>手机官网</span></div>
-						<div><img src="/index/picture/wxewm.jpg" alt="官网微信"
-								data-original="/index/images/wxewm.jpg" /><span>官网微信</span></div>
+						<div><img width="118px" src="/index/picture/wxewm.jpg" alt="微信公众号"
+								data-original="/index/images/wxewm.jpg" /><span>微信公众号</span></div>
+					
 					</div>
 				</li>
 				<li><a class="zixun5 zixun" href="javascript:window.scrollTo(0,0)" class="top1" title="回顶部">

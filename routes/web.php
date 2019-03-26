@@ -27,7 +27,7 @@ Route::namespace('Index')->group(function () {
     //网站开发
     Route::any('web', 'WebController@index');
     //成功案例
-    Route::any('case', 'CaseController@index');
+    Route::any('case/{id?}', 'CaseController@index');
     //成功案例--详情页
     Route::any('case_show/{id}', 'CaseController@show');
     //联系我们

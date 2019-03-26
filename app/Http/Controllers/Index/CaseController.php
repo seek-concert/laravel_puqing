@@ -33,12 +33,27 @@ class CaseController extends BaseController
     /*
      * 成功案例
      */
-    public function index()
+    public function index($id = 0)
     {
+        //产品分类
+        $category_lists = DB::table('case_category')->select('id','name')->get();
+        //产品列表
+        if($id == 0){
+            $lists = DB::table('case')->select('id','thumbnail','title','keywords','description','category_id')->paginate(12);
+        }else{
+            $lists = DB::table('case')->select('id','thumbnail','title','keywords','description','category_id')->where('category_id','=',$id)->paginate(12);
+        }
+
         //聚合数据
         $return_data = [];
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
+        $return_data['category_lists'] = $category_lists;
+        $return_data['new_case'] = $this->get_new_case();
+        $return_data['pq_news'] = $this->get_pq_news();
+        $return_data['case'] = $this->get_case();
+        $return_data['lists'] = $lists;
+        $return_data['id'] = $id;
         return view('index/case', $return_data);
     }
 

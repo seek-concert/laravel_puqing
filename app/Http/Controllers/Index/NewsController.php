@@ -43,7 +43,7 @@ class NewsController extends BaseController
         $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(5);
         //聚合数据
         $return_data = [];
-        $return_data['id'] = $id;
+        $return_data['id'] = (int)$id;
         $return_data['news_lists'] = $news_lists;
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
@@ -51,6 +51,7 @@ class NewsController extends BaseController
         $return_data['new_case'] = $this->get_new_case();
         $return_data['pq_news'] = $this->get_pq_news();
         $return_data['case'] = $this->get_case();
+        
         return view('index/news',$return_data);
     }
 
@@ -60,7 +61,7 @@ class NewsController extends BaseController
     public function show($id){
         //详细内容
         $list = DB::table('news')
-            ->select('title', 'content', 'url')
+            ->select('title', 'content')
             ->where([
                 'id' => $id
             ])
@@ -89,6 +90,17 @@ class NewsController extends BaseController
             ->orderBy('id', 'desc')
             ->limit(4)
             ->get();
-        return view('index/news_show', ['list' => $list, 'case' => $case, 'previous' => $previous, 'next' => $next]);
+            $return_data =  [];
+            $return_data['news_category_lists'] = $this->get_news_category_lists();
+            $return_data['case_category_lists'] = $this->get_case_category_lists();
+            $return_data['hot_news'] = $this->get_hot_news();
+            $return_data['new_case'] = $this->get_new_case();
+            $return_data['pq_news'] = $this->get_pq_news();
+            $return_data['case'] = $this->get_case();
+            $return_data['list'] = $list;
+            $return_data['case'] = $case;
+            $return_data['previous'] = $previous;
+            $return_data['next'] = $next;
+        return view('index/news_show', $return_data);
     }
 }

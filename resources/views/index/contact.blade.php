@@ -59,7 +59,7 @@
 
 
 		</div>
-		<div style="float: left; width: 100%; margin-top: 35px; padding-top: 39px;">
+		<div id="pay" style="float: left; width: 100%; margin-top: 35px; padding-top: 39px;">
 				<h3 style="    font-size: 22px;">付款方式</h3>
 				<div class="payTab" style="width: 100%; border: 1px solid #f3f3f3; margin-top: 16px;">
 					<table border="0" cellpadding="0" cellspacing="0" width="100%">
