@@ -25,7 +25,7 @@
 						<div class="news_r">
 							<h3><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
 							<p>{{ $value->description }}</p>
-							<h6><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}">LEARN MORE</a></h6>
+							<h6><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}">MORE</a></h6>
 						</div>
 					</li>
 					@endforeach
