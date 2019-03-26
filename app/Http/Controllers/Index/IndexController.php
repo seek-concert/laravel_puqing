@@ -45,15 +45,17 @@ class IndexController extends BaseController
 
 
         //相关资讯6条
-        $sjwzzx = DB::table('news')->limit(6)->select('title','description')->where('category_id','=',2)->get();
-
+        $new_zxun = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',2)->get();
+       
         //学新姿势6条
-        $sjwzzx = DB::table('news')->limit(6)->select('title','description')->where('category_id','=',3)->get();
-
+        $new_zshi = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',3)->get();
+       
         //互联网安全6条
-        $sjwzzx = DB::table('news')->limit(6)->select('title','description')->where('category_id','=',6)->get();
-
-
+        $new_hlwang = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',6)->get();
+      
+        //最新案例
+        $new_case_lists =  DB::table('case')->limit(6)->orderby('input_time','desc')->get();
+       
         $return_data = [];
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
@@ -62,6 +64,10 @@ class IndexController extends BaseController
         $reutrn_data['case_category_lists'] = $case_category_lists;
         $reutrn_data['news_category_lists'] = $news_category_lists;
         $reutrn_data['news'] = $news;
+        $reutrn_data['new_zxun'] = $new_zxun;
+        $reutrn_data['new_zshi'] = $new_zshi;
+        $reutrn_data['new_hlwang'] = $new_hlwang;
+        $reutrn_data['new_case_lists'] = $new_case_lists;
         return view('index/index',$reutrn_data);
         
     }

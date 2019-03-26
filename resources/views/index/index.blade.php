@@ -270,42 +270,17 @@
 						<ul class="slides">
 							<li style="width:1140px;">
 								<div class="cgal_list">
-									<div class="cgal_tp"> <a href="/case/show_328.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1482402400.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_417.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/" width="358" height="235" alt="" class="case_img">
-									</div>
-									<div class="cgal_tp"> <a href="/case/show_407.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1512109113.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_405.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1511235726.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_291.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1468036253.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
-									<div class="cgal_tp"> <a href="/case/show_319.html" title="">
-											<h4></h4>
-											<p></p>
-										</a> <img src="/index/picture/logo.jpg" data-original="/asp_bin/newimg/1474947530.jpg" width="358" height="235"
-										 alt="" class="case_img"> </div>
+									@foreach ($new_case_lists as $value)
+										<div class="cgal_tp"> <a href="{{url('case_show',[$value->id])}}" title="{{ $value->keywords }}">
+												<h4></h4>
+												<p></p>
+											</a> <img src="/index/picture/logo.jpg" data-original="{{$value->thumbnail}}" width="358" height="235"
+											alt="" class="case_img"> </div>
+									@endforeach
 								</div>
+								
 							</li>
-							<li style="width:1140px;">
-								<div class="cgal_list">
-								</div>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -385,230 +360,62 @@
 					<li id="wlyxtg">互联网安全</li>
 				</ul>
 			</div>
-			<div class="xwzx-main" id="sjwzzxbox" style="display:block;">
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>10</p>
-							<span>2018 NOV</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_953.html" title="网站建设相关资讯">5G网络资费标准曝光，和4g相比差太远！</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">随着互联网和科技的不断更新换代与快速崛起，人们对于智能化和快网速的需求越来越大，早已成熟和普及度较高的4G时代远远不能满...</p>
-						</li>
-					</ul>
+				<div class="xwzx-main" id="sjwzzxbox" style="display:block;">
+						@forelse ($new_zxun as $user)
+						<div class="xwlb">
+							<ul>
+								<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
+										<p>{{ date('d',$value->input_time) }}</p>
+										<span>{{ date('Y',$value->input_time) }} OCT</span>
+								</li>
+								<li>
+									<h5><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}</a></h5>
+									<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">{{ $value->description }}</p>
+								</li>
+							</ul>
+						</div>
+					@empty
+
+					@endforelse
 				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>08</p>
-							<span>2018 OCT</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_920.html" title="网站建设相关资讯">脸书数据泄露的罪魁祸首——网站漏洞</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">近日，美国社交媒体巨头“脸书”又一次遭遇了大规模用户数据泄露，近5000万用户的账户可能遭遇入侵、甚至盗用。</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>20</p>
-							<span>2018 SEP</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_907.html" title="网站建设相关资讯">深圳做软件开发的外包公司有哪些？ </a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">要数IT领域近来搜索热度最高的词汇，“软件外包”当之无愧。当企业想要开启一个新项目时，常常会陷入没有专门的技术人员开发项...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>19</p>
-							<span>2018 SEP</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_906.html" title="网站建设相关资讯">微信生态服务商黑马——微赞</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">近期，微信的“三儿子”微赞获得4500万的A轮融资，资方为钜鑫资本。</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>14</p>
-							<span>2018 SEP</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_903.html" title="网站建设相关资讯">支付宝都进军小程序了，你还在等什么？</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">小程序从17年开始就火爆整个市场，小编今天来跟大家说说小程序近日又有什么大动作！</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>18</p>
-							<span>2018 APR</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_859.html" title="网站建设相关资讯">短网址只有前世，没有今生</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">短网址服务在中国的互联网火了很多年，新浪微博和腾讯微博都先后推出过自己的短网址服务，在今天短网址的发展却并不乐观。</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="xwzx-main" id="wzjszsbox" style="display:none;">
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>05</p>
-							<span>2018 NOV</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_947.html" title="网站建站知识">手机网站制作的重要性</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">移动端的发展越来越快，小编今天给大家好好介绍手机端网址的重要性。</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>22</p>
-							<span>2018 OCT</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_939.html" title="网站建站知识">商城网站建设需要注意哪些</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">现如今传统零售业在电商的猛烈冲击下生意越来越才惨淡，可见做一个电子商城网站的重要性，普擎科技的小编今天和大家谈谈做一个商...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>30</p>
-							<span>2018 SEP</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_918.html" title="网站建站知识">深圳做网站公司--------首选普擎科技</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">普擎公司诞生于1999年，是电子商务网站的先驱者，2003年改名为深圳市普擎科技有限公司发展至今已经有十八九年的历史了,...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>25</p>
-							<span>2018 SEP</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_910.html" title="网站建站知识">2018年最值得学习的前端技术</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">如果问你2018年最值得学习的前端技术是什么，你可能立马会去问度娘或者自己身边当程序员的朋友或者同学，我觉得这样都不太准...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>26</p>
-							<span>2017 AUG</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_681.html" title="网站建站知识">为什么做网站必须选择做响应式网站</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">普擎科技专业做PC+微站+手机+APP四网合一站,满意度99%.
-								html5响应式深圳网站建设公司,提供响应式深圳网站设...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>04</p>
-							<span>2017 AUG</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_675.html" title="网站建站知识">深圳网站建设哪家好</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">深圳网站建设哪家好？在深圳，网站建设有上千家，而网站建设行业也没有统一的标准对每一家建站公司进行评分，而且网站建设行业也...</p>
-						</li>
-					</ul>
-				</div>
+				<div class="xwzx-main" id="wzjszsbox" style="display:none;">
+					@forelse ($new_zshi as $value)
+						<div class="xwlb">
+						
+							<ul>
+								<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
+										<p>{{ date('d',$value->input_time) }}</p>
+										<span>{{ date('Y',$value->input_time) }} OCT</span>
+								</li>
+								<li>
+									<h5><a href="{{ url('news_show',[$value->id]) }}" title="{{ $value->keywords }}">{{ $value->title }}</a></h5>
+									<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">{{ $value->description }}</p>
+								</li>
+							</ul>
+						</div>
+					@empty
+
+					@endforelse
+			
 			</div>
 			<div class="xwzx-main" id="wlyxtgbox" style=" display:none;">
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>10</p>
-							<span>2018 OCT</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_921.html" title="网站营销推广"> SEO优化之怎么换取高质量的友链</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">
-								小编在学习网站优化的这些天，看到最多的一句话就是“内容为皇，友链为王”，可见交换高质量的友链的重要性，一条好的友链...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>28</p>
-							<span>2018 SEP</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_916.html" title="网站营销推广">网站权重与SEO优化的瓜葛</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">网站权重是指网站在搜索引擎当中所占的高低，或是说成重要程度（权重是一个相对的概念），一般来说网站的权重越高则网站的排名越...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>16</p>
-							<span>2018 MAR</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_820.html" title="网站营销推广">什么样的网站能够得到搜索引擎的认可</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">作为企业老板或seo工作人员的你，肯能会为自己的网站排名二苦恼。怎样做才能让你的网站被搜索引擎青睐？</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>15</p>
-							<span>2018 JAN</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_758.html" title="网站营销推广">微信营销系统开发</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">什么是微信营销系统开发,怎样用微信营销系统带动微商城微分销？
-							</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>10</p>
-							<span>2018 JAN</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_755.html" title="网站营销推广">你需要开发一款app</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">在互联网时代，随着企业的发展，不可避免的会有开发的需求。那么你为什么会钟情于一款APP网站开发，而不是什么微信小程序，公...</p>
-						</li>
-					</ul>
-				</div>
-				<div class="xwlb" style="margin-right:0px;">
-					<ul>
-						<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
-							<p>24</p>
-							<span>2017 NOV</span>
-						</li>
-						<li>
-							<h5><a href="/about/show_721.html" title="网站营销推广">浅谈网站优化</a></h5>
-							<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">不管你是什么公司,有自己的网站，网站优化就是一个必不可少的工作，网站如何优化值得每一位seo不懈探索</p>
-						</li>
-					</ul>
-				</div>
+				@forelse ($new_hlwang as $value)
+					<div class="xwlb">
+						<ul>
+							<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
+								<p>{{ date('d',$value->input_time) }}</p>
+								<span>{{ date('Y',$value->input_time) }} OCT</span>
+							</li>
+							<li>
+								<h5><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}"> {{ $value->title }}</a></h5>
+								<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">
+										{{ $value->description }}</p>
+							</li>
+						</ul>
+					</div>
+				@empty
+
+				@endforelse
 			</div>
 
 		</div>

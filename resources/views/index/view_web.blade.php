@@ -8,17 +8,9 @@
 <div class="pro_wap" id="pro_wap">
     <div class="pro_menu">
         <ul style="margin-left: 322px;width: 620px;">
-            <li class="cur"><a href="/service/index_20.html" title="" class="phover"><img src="/index/picture/picon1.png"
-                        alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-            <li><a href="/service/index_108.html" title="" class="phover"><img src="/index/picture/picon2.png" alt=""
-                        width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-            <li><a href="/service/index_109.html" title="" class="phover"><img src="/index/picture/picon3.png" alt=""
-                        width="23" height="22" class="pr3" /><br /><span>系统平台开发</span></a></li>
-            <li><a href="/service/index_110.html" title="" class="phover"><img src="/index/picture/picon4.png" alt=""
-                        width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
-            <li><a href="/service/index_111.html" title="" class="phover"><img src="/index/picture/picon5.png" alt=""
-                        width="31" height="22" class="pr5" /><br /><span>P2P众筹平台</span></a></li>
-            <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
+                <li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+                <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+                <li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
         </ul>
     </div>
 </div>
