@@ -88,5 +88,5 @@
             </div>
         </div>
     </div>
-    @include('kindeditor::editor',['editor'=>'editor_id'])
+    @include('kindeditor::editor',['editor'=>'editor_id','id'=>'2'])
 @endsection
