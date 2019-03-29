@@ -4,8 +4,8 @@
 <!--banner-->
 <div class="banner" style="background:url(/index/images/1490869376.jpg) no-repeat center center;"></div>
 <!--main开始-->
-<div class="pro_wap">
-	{{-- <div class="pro_menu">
+{{-- <div class="pro_wap">
+	<div class="pro_menu">
 		<ul>
 			<li class="cur"><a href="/contact/index.html" title="普擎网站建设联系方式" class="phover"><img
 						src="/index/picture/cont1.png" alt="普擎网站建设联系方式" rel="nofollow" width="23" height="27"
@@ -20,8 +20,8 @@
 						src="/index/picture/cont4.png" alt="网站建设帮助中心" rel="nofollow" width="24" height="27"
 						class="pr04" /><br /><span>帮助中心</span></a></li>
 		</ul>
-	</div> --}}
-</div>
+	</div>
+</div> --}}
 <div class="content">
 	<div class="contact">
 		<div class="contact_l">

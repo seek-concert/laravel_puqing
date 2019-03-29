@@ -46,7 +46,7 @@ class IndexController extends BaseController
 
         //相关资讯6条
         $new_zxun = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',2)->get();
-       
+        
         //学新姿势6条
         $new_zshi = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',3)->get();
        
