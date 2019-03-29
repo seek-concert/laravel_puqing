@@ -20,7 +20,8 @@
 			@foreach ($lists as $value)
 				<li>
 					<div class="cimg">
-						<img src="/{{ $value->thumbnail }}" data-original="/asp_bin/newimg/1540193174.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />						<a href="{{ url('show_case',[$value->id]) }}" title="{{ $value->title }}">
+						<img src="/index/picture/logo.jpg" data-original="{{ $value->thumbnail }}" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+						<a href="{{ url('case_show',[$value->id]) }}" title="{{ $value->title }}">
 							<h4></h4>
 							<p></p>
 						</a>

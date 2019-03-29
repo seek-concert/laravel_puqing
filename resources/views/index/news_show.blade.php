@@ -39,7 +39,7 @@
                 <h4>热推新闻</h4>
                 <ul>
                     @foreach($hot_news as $value)
-                        <li><a href="{{url('news_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}<br/><span>2018-11-05</span></a>
+                        <li><a href="{{url('news_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}<br/><span>{{ date('Y-m-d',$value->input_time) }}</span></a>
                         </li>
                     @endforeach
                 </ul>
@@ -65,8 +65,8 @@
         <div class="case_top">
             <ul>
                 @foreach($new_case as $value)
-                    <li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img
-                                    src="../{{$value->thumbnail}}" alt="" width="242" height="160"/>
+                    <li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}">
+                            <img src="{{$value->thumbnail}}" alt="" width="242" height="160"/>
                             <h4>{{$value->title}}</h4></a></li>
                 @endforeach
             </ul>
@@ -84,8 +84,8 @@
                 </ul>
             </div>
             <div class="case_trade">
-                <div class="case_news_t"><h3>行业案例<span style="color:#ff4817;">检索</span></h3><a href="{{url('case')}}"
-                                                                                               title="">MORE</a></div>
+                <div class="case_news_t"><h3>行业案例<span style="color:#ff4817;">检索</span></h3>
+                    <a href="{{url('case')}}" title="">MORE</a></div>
                 <p>
                     @foreach($case as $value)
                         <a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}</a>
