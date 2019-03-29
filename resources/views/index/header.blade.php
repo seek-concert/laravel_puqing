@@ -59,8 +59,8 @@ $(function(){
 			<div class="dh f2">
 				<ul class="dh-top f2" style="height:22px;">
 					<li class="f2"><span
-							style="margin-right:20px;display:inline-block;">销售：0755-83271919、83271881</span>
-						<span>服务：0755-83271606、83658105</span></li>
+							style="margin-right:20px;display:inline-block;">销售热线：{{Cache('before_service_phone')}}</span>
+						<span>售后专线：{{Cache('after_service_phone')}}</span></li>
 				</ul>
 				<div class="clear"></div>
 				<span class="dh-main">

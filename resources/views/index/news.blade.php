@@ -20,8 +20,7 @@
 					@foreach ($news_lists as $value)
 						
 					<li>
-						<div class="news_l"><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}"><img
-									src="{{ $value->thumbnail }}" alt="{{ $value->keywords }}" width="178" height="117" /></a></div>
+						<div class="news_l"><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}"><img data-original="{{ $value->thumbnail }}" src="/index/picture/logo.jpg" alt="{{ $value->keywords }}" width="178" height="117" /></a></div>
 						<div class="news_r">
 							<h3><a href="{{ url('news_show',$value->id) }}" title="{{ $value->title }}">{{ $value->title }}</a><span>{{ date('Y-m-d',$value->input_time) }}</span></h3>
 							<p>{{ $value->description }}</p>

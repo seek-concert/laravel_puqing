@@ -87,7 +87,7 @@
 			<div class="mp">
 				<ul>
 					<li class="hover"><a href="{{url('/contact')}}" title="联系网站设计" rel="nofollow">CONTACT US</a></li>
-					<li><a href="{{url('/about')}}" title="了解更多网站设计" rel="nofollow">ABOUT US</a></li>
+					<li><a href="{{url('/contact')}}" title="了解更多网站设计" rel="nofollow">ABOUT US</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
@@ -362,7 +362,7 @@
 				</ul>
 			</div>
 				<div class="xwzx-main" id="sjwzzxbox" style="display:block;">
-						@forelse ($new_zxun as $user)
+						@forelse ($new_zxun as $value)
 						<div class="xwlb">
 							<ul>
 								<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
@@ -443,7 +443,7 @@
 				<div class="wmdkh-main-right">
 					<ul>
 						<li>
-							<p>17载，历久而弥新。<br />
+							<p>梦想，历久而弥新。<br />
 								你我携手的身影，曾出现在一次次互联网变迁中。<br />
 								从携手共进，到相聚共赢。每一次认可，对我们而言都弥足珍贵。<br />
 								<br />
@@ -451,7 +451,7 @@
 								我们齐肩并歩，再一次为超越梦想而改变。<br />
 								从真实行动，到共赢未来。每一次前行，责任都将成为永恒的使命。<br />
 								<br />
-								2016，普擎与你一起，赢.聚变......</p>
+								2019，普擎与你一起，赢.聚变......</p>
 						</li>
 						<li style="color:#999999; height:50px; width:155px; line-height:50px; margin-top:45px;">普擎全体同仁</li>
 						<li><span></span></li>
@@ -486,16 +486,14 @@
 				</ul>
 				<ul>
 					<h4>关于普擎</h4>
-					<li><a href="{{ url('/about') }}" title="普擎概况">普擎概况</a></li>
-					<li><a href="{{ url('/about/1') }}" title="企业文化">企业文化</a></li>
-					<li><a href="{{ url('/about/2') }}" title="发展历程">发展历程</a></li>
-					<li><a href="{{ url('/about/3') }}" title="加入普擎">加入普擎</a></li>
+					<li><a href="{{ url('/contact') }}" title="普擎概况">普擎概况</a></li>
+						<li><a href="{{ url('/contact') }}" title="企业文化">企业文化</a></li>
+						<li><a href="{{ url('/contact') }}" title="加入普擎">加入普擎</a></li>
 				</ul>
 				<ul>
 					<h4>联系普擎</h4>
 					<li><a href="{{ url('/contact') }}" title="联系方式" rel="nofollow">联系方式</a></li>
-					<li><a href="{{ url('/pay') }}" title="付款方式" rel="nofollow">付款方式</a></li>
-					<li><a href="{{ url('/help') }}" title="网站建设帮助中心">帮助中心</a></li>
+					<li><a href="{{ url('/contact') }}#pay" title="付款方式" rel="nofollow">付款方式</a></li>
 				</ul>
 			
 				<div class="ewm">
