@@ -279,7 +279,7 @@ $(function(){
     var MoveTimeObj;
     var Comp = 0;
     var AutoPlayObj = null;
-    GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+    // GetObj("List2").innerHTML = GetObj("List1").innerHTML;
     GetObj('ISL_Cont').scrollLeft = fill;
     GetObj("ISL_Cont").onmouseover = function(){clearInterval(AutoPlayObj);}
     function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}

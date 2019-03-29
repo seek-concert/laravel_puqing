@@ -20,13 +20,13 @@
 			@foreach ($lists as $value)
 				<li>
 					<div class="cimg">
-						<img src="/{{ $value->thumbnail }}" data-original="/asp_bin/newimg/1540193174.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
+						<img src="{{ $value->thumbnail }}" data-original="/asp_bin/newimg/1540193174.png" rel="nofollow" alt="网站制作案例" width="320" height="210" />
 						<a href="{{ url('show_case',[$value->id]) }}" title="{{ $value->title }}">
 							<h4></h4>
 							<p></p>
 						</a>
 					</div>
-					<div class="ctext"><a title="{{ $value->title }}" href="/case/show_458.html"><span
+					<div class="ctext"><a title="{{ $value->title }}" href="{{ url('case_show',[$value->id]) }}"><span
 								class="c1">{{ $value->title }}</span><br /><span
 								class="c2">{{ $value->description }}...</span><br />
 								</a></div>
@@ -41,7 +41,7 @@
 	<div class="case_top">
 		<ul>
 			@foreach($new_case as $value)
-				<li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="../{{$value->thumbnail}}" alt="" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
+				<li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="{{$value->thumbnail}}" alt="" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
 			@endforeach
 		</ul>
 	</div>

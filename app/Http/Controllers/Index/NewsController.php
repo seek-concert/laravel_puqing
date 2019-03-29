@@ -34,11 +34,9 @@ class NewsController extends BaseController
      * 网站资讯
      */
     public function index($id = 0){
-
         if($id == 0){
             $id = 1;
         }
-
         //获取改分类下的新闻
         $news_lists = DB::table('news')->where('category_id','=',$id)->paginate(5);
         //聚合数据
@@ -101,6 +99,7 @@ class NewsController extends BaseController
             $return_data['case'] = $case;
             $return_data['previous'] = $previous;
             $return_data['next'] = $next;
+
         return view('index/news_show', $return_data);
     }
 }

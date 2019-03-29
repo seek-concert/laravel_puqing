@@ -183,7 +183,7 @@
 					<p></p>
 					<div><a title="网站托管服务"><span class="wzt1">网站托管服务</span><br />
 							<span class="wzt2">网站托管后普擎科技为该系统提供免费技术支持和维护，包含：内容维护、设计维护、系统维护.</span></a></div> <img src="/index/images/wangzhantuoguan.jpg"
-					data-original="asp_bin/photo/1459317057.jpg" width="285" height="285" alt="网站代运营" class="bimg5">
+					data-original="/index/images/wangzhantuoguan.jpg" width="285" height="285" alt="网站代运营" class="bimg5">
 				</li>
 		<li style="position:absolute;right:0;bottom:0;width:700px;height:140px;margin:0;"> <img src="/index/picture/logo.jpg"
 			 data-original="index/images/kouhao.jpg" alt="网站托管外包" width="700" height="140" /></li>
@@ -499,7 +499,7 @@
 				</ul>
 			
 				<div class="ewm">
-					<p><img src="/index/picture/wxewm.jpg" data-original="/index/images/wxewm.jpg" alt="" width="118" height="118" /></p>
+					<p><img src="/index/picture/wxewm.jpg" data-original="/index/picture/wxewm.jpg" alt="" width="118" height="118" /></p>
 					<span>官方微信</span>
 				</div>
 			</div>
@@ -572,7 +572,7 @@
 				<li class="gw">
 					<a class="zixun4 zixun" title="扫描二维码联系"></a>
 					<div class="code-side">
-						<div><img src="/index/picture/wxewm.jpg" width="118px" height="118px" alt="官网微信" data-original="/index/images/wxewm.jpg" /><span>官网微信</span></div>
+						<div><img src="/index/picture/wxewm.jpg" width="118px" height="118px" alt="官网微信" data-original="/index/picture/wxewm.jpg" /><span>官网微信</span></div>
 					</div>
 				</li>
 				<li><a class="zixun5 zixun" href="javascript:window.scrollTo(0,0)" class="top1" title="回顶部">

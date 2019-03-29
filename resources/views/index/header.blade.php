@@ -24,7 +24,7 @@
 <script type="text/javascript" src="/index/js/jquery-1.10.1.js"></script>
 <script type="text/javascript" src="/index/js/jquery.validationengine-zh_cn.js"></script> 
 <script type="text/javascript" src="/index/js/jquery.validationengine.js"></script>
-<script src="/index/js/wb.js" type="text/javascript" charset="utf-8"></script>
+{{--<script src="/index/js/wb.js" type="text/javascript" charset="utf-8"></script>--}}
 <style>
 .dot{width:161px;position:absolute;left:50%;margin-left:400px;height:395px;}
 .dot_bg{width:161px;height:161px;float:left;margin-top:30px;background: transparent url(/index/images/clock-shape.svg) no-repeat;position:relative;}
@@ -128,7 +128,7 @@ $(function(){
 					</ul>
 
 					<div class="ewm">
-						<p><img src="/index/picture/wxewm.jpg" data-original="/index/images/wxewm.jpg" alt="" width="118" height="118" /></p>
+						<p><img src="/index/picture/wxewm.jpg" data-original="/index/picture/wxewm.jpg" alt="" width="118" height="118" /></p>
 						<span>官方微信</span>
 					</div>
 				</div>

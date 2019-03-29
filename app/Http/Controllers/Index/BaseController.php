@@ -36,7 +36,7 @@ class BaseController extends Controller
     public function get_hot_news()
     {
         $hot_news = DB::table('news')
-            ->select('id', 'title')
+            ->select('id', 'title','input_time')
             ->limit(6)
             ->orderBy('number', 'desc')
             ->get();

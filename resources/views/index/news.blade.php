@@ -40,7 +40,7 @@
 			<h4>热推新闻</h4>
 			<ul>
 				@foreach($hot_news as $value)
-					<li><a href="{{url('news_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}<br/><span>2018-11-05</span></a></li>
+					<li><a href="{{url('news_show',[$value->id])}}" title="{{$value->title}}">{{$value->title}}<br/><span>{{date('Y-m-d',$value->input_time)}}</span></a></li>
 				@endforeach
 			</ul>
 			<div class="clear"></div>
