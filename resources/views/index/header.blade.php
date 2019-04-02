@@ -147,7 +147,7 @@ $(function(){
 					<ul>
 						<li class="f1" style="font-family:Arial;">&copy;2019 重庆市普擎科技有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
 						</li>
-						<li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">粤ICP备05022732号-1</a>&nbsp;&nbsp;&nbsp;粤B2-20050242</li>
+						<li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">渝ICP备00000000号-1</a>&nbsp;&nbsp;&nbsp;</li>
 					</ul>
 					<div style="position:absolute;width:40px;top:16px;text-align:center;left:360px;">
 						<script id="ebsgovicon" src="/index/js/govicon.js" type="text/javascript" charset="utf-8"></script>
