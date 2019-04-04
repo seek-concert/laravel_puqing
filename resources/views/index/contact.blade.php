@@ -72,7 +72,7 @@
 											style="color:#a7a4a4;">公司名称：</span>重庆市普擎科技有限公司<br>
 										<span style="color:#a7a4a4;">开&nbsp;户&nbsp;行：</span>渝北龙溪支行<br>
 										<span style="color:#a7a4a4;">账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：</span>
-										<span style="color:#f42020;font-size:24px;">8888 8888 8888 888</span></p>
+										<span style="color:#f42020;font-size:24px;">3100 0862 0920 0109 275</span></p>
 								</td>
 							</tr>
 						</tbody>
