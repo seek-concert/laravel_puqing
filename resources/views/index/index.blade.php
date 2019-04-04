@@ -518,9 +518,7 @@
 					</li>
 					<li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">渝ICP备19004069号</a>&nbsp;&nbsp;&nbsp;</li>
 				</ul>
-				<div style="position:absolute;width:40px;top:16px;text-align:center;left:360px;">
-					<script id="ebsgovicon" src="/index/js/govicon.js" type="text/javascript" charset="utf-8"></script>
-				</div>
+
 			</div>
 		</div>
 	</div>
