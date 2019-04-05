@@ -7,6 +7,7 @@
 	<meta name="keywords" content="{{Cache('keywords')}}">
 	<meta name="description" content="{{Cache('description')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="baidu-site-verification" content="ZZddVRzekw" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
 	<meta name="applicable-device" content="pc,mobile">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,11 +20,20 @@
 	<link type="text/css" rel="stylesheet" href="/index/css/style.css" />
 	<script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
 	<script src="/index/js/jquery1.js" type="text/javascript"></script>
-	<style>
-	</style>
-	<meta name="baidu-site-verification" content="2KohppFGFx" />
-	<meta name="wlhlauth" content="a46c1c8fe737488a5c7202e9d8abec49" />
-	<meta name="robots" content="all">
+	<script>
+		(function(){
+			var bp = document.createElement('script');
+			var curProtocol = window.location.protocol.split(':')[0];
+			if (curProtocol === 'https') {
+				bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+			}
+			else {
+				bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+			}
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(bp, s);
+		})();
+	</script>
 </head>
 
 <body style="background:url(/index/images/1491531510.jpg) no-repeat center top;background-attachment:fixed;">
@@ -104,18 +114,6 @@
 					<div>
 						<h2 style=" width:390px;color: #FFFFFF; padding:25px 20px 10px;font-size: 24px;">电商平台开发</h2>
 						<h3 style="width:390px;color: #FFFFFF; padding:0 20px;font-size: 15px; line-height:25px;">B2C网站建设<i>|</i>B2B网站建设<i>|</i>O2O平台开发<i>|</i>电商网站开发<i>|</i>分销平台<i>|</i>app商城开发</h3>
-						{{-- <span class="clear" style="width:390px;color:#fff;padding:0px 20px 15px;">
-							<a href="http://www.ni8.com/case/show_279.html" title="中柏商城开发">中柏商城</a>
-							<a href="http://www.ni8.com/case/show_359.html" title="亚龙眼镜商城网站建设" rel="nofollow">亚龙眼镜商城</a>
-							<a href="http://www.ni8.com/case/show_228.html" title="外贸商城网站设计" rel="nofollow">华朗外贸商城</a>
-							<a href="http://www.ni8.com/case/show_325.html" title="E导游营销型网站建设" rel="nofollow">E导游商城</a>
-							<a href="http://www.ni8.com/case/show_312.html" title="味道湄潭商城建设" rel="nofollow">味道湄潭商城</a>
-							<a href="http://www.ni8.com/case/show_319.html" title="创客智汇商城制作" rel="nofollow">创客智汇商城</a>
-							<a href="http://www.ni8.com/case/show_393.html" title="开餐厅网官网设计" rel="nofollow">开餐厅网</a>
-							<a href="http://www.ni8.com/case/show_394.html" title=" 国坛酒业营销型网站建设" rel="nofollow"> 国坛酒业</a>
-							<a href="http://www.ni8.com/case/show_396.html" title=" 鹿嘴山庄电商平台开发" rel="nofollow">鹿嘴山庄电商平台</a>
-							<a href="http://www.ni8.com/case/show_397.html" title="领略商城开发" rel="nofollow">领略商城网站开发</a>
-						</span> --}}
 					</div>
 					<img src="/index/picture/logo.jpg" data-original="/index/images/dianshang.jpg" rel="nofollow" width="430" height="430"
 					 alt="商城网站建设" class="bimg1">
@@ -125,20 +123,6 @@
 					<div>
 						<h3 style="color: #FFFFFF; padding:25px 20px 10px;font-size: 24px;">网站建设</h3>
 						<h3 style="color: #FFFFFF; padding:0 20px;font-size: 15px; line-height:25px;">营销型网站建设<i>|</i>企业网站建设<i>|</i>高端网站建设<i>|</i>手机网站建设<i>|</i>门户网站建设</h3>
-						{{-- <span class="clear" style="color:#fff;padding:0px 20px 15px;">
-							<a href="http://www.ni8.com/case/show_257.html" title="名家汇网页设计">名家汇</a>
-							<a href="http://www.ni8.com/case/show_327.html" title="瑞和股份网站开发" rel="nofollow">瑞和股份</a>
-							<a href="http://www.ni8.com/case/show_268.html" title="永安期货营销型网站建设" rel="nofollow">永安期货</a>
-							<a href="http://www.ni8.com/case/show_328.html" title="珠海大象企业网站设计" rel="nofollow">珠海大象</a>
-							<a href="http://www.ni8.com/case/show_276.html" title="铭利达网站开发" rel="nofollow">铭利达</a>
-							<a href="http://www.ni8.com/case/show_275.html" title="凯秀企业网站建设" rel="nofollow">凯秀科技</a>
-							<a href="http://www.ni8.com/case/show_380.html" title="大桥营销型网站建设" rel="nofollow">中山大桥</a>
-							<a href="http://www.ni8.com/case/show_381.html" title=" 高巨创新" rel="nofollow"> 高巨创新</a>
-							<a href="http://www.ni8.com/case/show_386.html" title="中联广深网站制作" rel="nofollow">中联广深</a>
-							<a href="http://www.ni8.com/case/show_387.html" title=" 海通期货官网设计" rel="nofollow">海通期货</a>
-							<a href="http://www.ni8.com/case/show_388.html" title=" 国巨通企业网站建设" rel="nofollow">国巨通讯</a>
-							<a href="http://www.ni8.com/case/show_389.html" title="瑞珂玛高端网站建设" rel="nofollow">瑞珂玛机电</a>
-						</span> --}}
 					</div> <img src="/index/picture/logo.jpg" data-original="index/picture/wanzhanjianshe.jpg" width="290" height="290"
 					 alt="品牌网站开发案例" class="bimg2">
 				</li>
@@ -147,20 +131,6 @@
 					<div>
 						<h3 style="color: #FFFFFF; padding:25px 20px 10px;font-size: 24px;">系统平台开发</h3>
 						<h3 style="color: #FFFFFF; padding:0 20px;font-size: 15px; line-height:25px;">P2P金融平台<i>|</i>产品众筹平台<i>|</i>股权众筹平台<br />应用平台开发<i>|</i>论坛管理系统</h3>
-					
-					{{-- <span class="clear" style="color:#fff;padding:0px 20px  15px;">
-						<a href="http://www.ni8.com/case/show_269.html" title="易保宝H5移动端开发">易保宝</a>
-						<a href="http://www.ni8.com/case/show_84.html" title="淘金兄弟移动端网站建设" rel="nofollow">淘金兄弟</a>
-						<a href="http://www.ni8.com/case/show_327.html" title="瑞和集采平台站点开发" rel="nofollow">瑞和集采平台</a>
-						<a href="http://www.ni8.com/case/show_266.html" title="手机报修平台建站" rel="nofollow">天音手机报修平台</a>
-						<a href="http://www.ni8.com/case/show_248.html" title="飞商网移动app开发" rel="nofollow">飞商网</a>
-						<a href="http://www.ni8.com/case/show_291.html" title="管理平台开发" rel="nofollow">欧瑞特供应链管理</a>
-						<a href="http://www.ni8.com/case/show_392.html" title="摇一摇微信公众号开发" rel="nofollow">摇一摇</a>
-						<a href="http://www.ni8.com/case/show_391.html" title=" 兄弟猫共享充电宝手机app开发" rel="nofollow"> 兄弟猫共享充电宝</a>
-						<a href="http://www.ni8.com/case/show_398.html" title="E快菜移动端app开发" rel="nofollow">E快菜</a>
-						<a href="http://www.ni8.com/case/show_390.html" title=" 龙运通移动端web开发" rel="nofollow">龙运通</a>
-						<a href="http://www.ni8.com/case/show_239.html" title="众健供应链网站制作" rel="nofollow">众健供应链</a>
-					</span> --}}
 					</div>
 		 			<img src="/index/picture/logo.jpg" data-original="index/images/appkaifa.jpg" width="440" height="440" alt="服务平台站点开发" class="bimg3">
 				</li>
@@ -169,13 +139,6 @@
 					<div>
 						<h2 style="color: #FFFFFF; padding:25px 20px 10px;font-size: 24px;">微信应用开发</h2>
 						<h3 style="color: #FFFFFF; padding:0 20px;font-size: 15px; line-height:25px;">微官网<i>|</i>微商城<i>|</i>微分销<i>|</i>微活动<i>|</i>微营销<i>|</i>微信小程序</h3>
-						{{-- <span class="clear" style="color:#fff;padding:0px 20px 15px;">
-							<a href="http://www.ni8.com/case/show_326.html" title="饰尚人生微官网">饰尚人生</a>
-							<a href="http://www.ni8.com/case/show_383.html" title="优轲微信建站" rel="nofollow">优轲</a>
-							<a href="http://www.ni8.com/case/show_384.html" title="服饰微商城" rel="nofollow">琳达李服饰</a>
-							<a href="http://www.ni8.com/case/show_385.html" title="懒虫微商城系统开发" rel="nofollow">懒虫商城</a>
-							<a href="http://www.ni8.com/case/show_379.html" title="雄盛业农副产品官网建站" rel="nofollow">雄盛业农副产品</a>
-						</span> --}}
 					</div> <img src="/index/picture/logo.jpg" data-original="/index/images/weixinimg.jpg" width="430" height="430" alt="微信营销网站开发"
 					class="bimg4">
 				</li>
@@ -429,14 +392,14 @@
 			<div class="wmdkh-main">
 				<div class="wmdkh-main-left">
 					<ul>
-						<li><a rel="nofollow" href="" class="a-1" title="创维集团"></a></li>
-						<li><a rel="nofollow" href="" class="a-2" title="华为股份"></a></li>
-						<li><a rel="nofollow" href="" class="a-3" title="THERAPEDIC"></a></li>
-						<li style=" border-right:none;"><a rel="nofollow" href="" class="a-4" title="永安期货"></a></li>
-						<li style=" border-bottom:none;"><a rel="nofollow" href="" class="a-5" title="中钢集团"></a></li>
-						<li style=" border-bottom:none;"><a rel="nofollow" href="" class="a-6" title="联想集团"></a></li>
-						<li style=" border-bottom:none;"><a rel="nofollow" href="" class="a-7" title="洪涛股份"></a></li>
-						<li style=" border:none;"><a rel="nofollow" href="" class="a-8" title="瑞和股份"></a></li>
+						<li><a rel="nofollow" href="javascript:void(0);" class="a-1" title="创维集团"></a></li>
+						<li><a rel="nofollow" href="javascript:void(0);" class="a-2" title="华为股份"></a></li>
+						<li><a rel="nofollow" href="javascript:void(0);" class="a-3" title="THERAPEDIC"></a></li>
+						<li style=" border-right:none;"><a rel="nofollow" href="javascript:void(0);" class="a-4" title="永安期货"></a></li>
+						<li style=" border-bottom:none;"><a rel="nofollow" href="javascript:void(0);" class="a-5" title="中钢集团"></a></li>
+						<li style=" border-bottom:none;"><a rel="nofollow" href="javascript:void(0);" class="a-6" title="联想集团"></a></li>
+						<li style=" border-bottom:none;"><a rel="nofollow" href="javascript:void(0);" class="a-7" title="洪涛股份"></a></li>
+						<li style=" border:none;"><a rel="nofollow" href="javascript:void(0);" class="a-8" title="瑞和股份"></a></li>
 
 					</ul>
 				</div>
