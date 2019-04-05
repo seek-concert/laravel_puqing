@@ -42,7 +42,7 @@
 		<ul>
 			@foreach($new_case as $value)
 				
-				<li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="{{$value->thumbnail}}" alt="" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
+				<li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="{{$value->thumbnail}}" alt="p7ing.com" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
 			@endforeach
 		</ul>
 	</div>

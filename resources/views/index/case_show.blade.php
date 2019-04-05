@@ -29,8 +29,8 @@
         </div>
         {{--右侧--}}
         <div class="case_right">
-            <p><a href="{{url('contact')}}" title=""><img src="/index/picture/icon1.jpg" alt="" width="300" /></a></p>
-            <p style="padding-top:20px;"><a href="{{url('case')}}" title=""><img src="/index/picture/icon2.jpg" alt="" width="300" /></a></p>
+            <p><a href="{{url('contact')}}" title=""><img src="/index/picture/icon1.jpg" alt="p7ing.com" width="300" /></a></p>
+            <p style="padding-top:20px;"><a href="{{url('case')}}" title=""><img src="/index/picture/icon2.jpg" alt="p7ing.com" width="300" /></a></p>
             <h4>热推新闻</h4>
             <ul>
                 @foreach($hot_news as $value)
@@ -42,10 +42,10 @@
             <p style="color:#666;line-height:30px;">电话：{{ Cache('before_service_phone') }}</p>
             <p class="qq"><span>QQ：</span>
                 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('before_service_qq') }}&site=qq&menu=yes">
-                    <img src="/index/picture/q1.jpg" alt="" width="25" />
+                    <img src="/index/picture/q1.jpg" alt="p7ing.com" width="25" />
                 </a>
                 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ Cache('after_service_qq') }}&site=qq&menu=yes">
-                    <img src="/index/picture/q2.jpg" alt="" width="25" />
+                    <img src="/index/picture/q2.jpg" alt="p7ing.com" width="25" />
                 </a>
             </p>
             <p style="color:#666;line-height:30px;">邮箱：{{ Cache('company_email') }}</p>
@@ -57,7 +57,7 @@
     <div class="case_top">
         <ul>
             @foreach($new_case as $value)
-            <li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="{{$value->thumbnail}}" alt="" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
+            <li><a href="{{url('case_show',[$value->id])}}" title="{{$value->title}}"><img src="{{$value->thumbnail}}" alt="p7ing.com" width="242" height="160" /><h4>{{$value->title}}</h4></a></li>
             @endforeach
         </ul>
     </div>

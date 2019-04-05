@@ -7,10 +7,10 @@
 <div class="pro_wap" id="pro_wap">
   <div class="pro_menu">
     <ul style="margin-left: 322px;width: 620px;">
-        <li ><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-        <li class="cur"><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-        <li><a href="{{url('/wechat')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
-      <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
+        <li ><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="p7ing.com" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+        <li class="cur"><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="p7ing.com" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+        <li><a href="{{url('/wechat')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon4.png" alt="p7ing.com" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
+      <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="p7ing.com" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
     </ul>
   </div>
 </div>
@@ -25,7 +25,7 @@
   <div class="pro_option">
     <div class="pro_box" style="display:block;">
       <div class="pro_con" style="height:493px;">
-        <div class="sen01_l"><img alt="" src="/index/picture/20160323100336_65469.jpg" border="0" data-original="/asp_bin/UploadFile/20160323100336_65469.jpg" /></div>
+        <div class="sen01_l"><img alt="p7ing.com" src="/index/picture/20160323100336_65469.jpg" border="0" data-original="/asp_bin/UploadFile/20160323100336_65469.jpg" /></div>
         <div class="sen01_r">
           <h3>B2B2C解决方案优势</h3>
           <p>B2B2C解决方案是指适合大规模、企业型网络运营商进行多元化电子商务服务支持的电子商务平台解决方案。整个解决方案中，不仅包含传统电子商务平台的建设部分，还扩展包含了ERP（CRM）、ERP（RFID会员卡号）、ERP（OMS）等多元化的电子商务辅助管理系统，真正帮助电商平台运营商打通供应商、平台商、分销商、消费者链条化商业管道，获得电子商务平台的纵深式持续化发展。</p>
@@ -41,7 +41,7 @@
           统一的服务。 </p>
       </div>
       <div class="pro_con" style="height:584px;">
-        <div class="sen01_l"><img alt="" src="/index/picture/20160323100351_54508.jpg" border="0" data-original="/asp_bin/UploadFile/20160323100351_54508.jpg" /></div>
+        <div class="sen01_l"><img alt="p7ing.com" src="/index/picture/20160323100351_54508.jpg" border="0" data-original="/asp_bin/UploadFile/20160323100351_54508.jpg" /></div>
         <div class="sen01_r">
           <h3 style="height:74px;">B2B2C模式适用的客户</h3>
           <div class="sen">具有线下货源、物流、仓储或相关资源的大型企业客户。</div>
@@ -64,10 +64,10 @@
           远景及规划：打造专业平台，稳步提升利润 / 充分利用线下运营经验，制定可行的发展计划 / 建立行业内更高的品牌形象 <br />
           线上线下：线上线下业务互补 / 利用线上业务有效推动线下业务加速发展 <br />
           融入电商：电子商务势不可挡，必须更加深刻的了解电子商务给传统行业带来的冲击和机会</p>
-        <p><img alt="" src="/index/picture/20160323110309_28286.jpg" border="0" data-original="/asp_bin/UploadFile/20160323110309_28286.jpg" /></p>
+        <p><img alt="p7ing.com" src="/index/picture/20160323110309_28286.jpg" border="0" data-original="/asp_bin/UploadFile/20160323110309_28286.jpg" /></p>
       </div>
       <div class="pro_con" style="height:472px;">
-        <div class="sen01_l"><img alt="" src="/index/picture/20160323110324_76849.jpg" border="0" data-original="/asp_bin/UploadFile/20160323110324_76849.jpg" /></div>
+        <div class="sen01_l"><img alt="p7ing.com" src="/index/picture/20160323110324_76849.jpg" border="0" data-original="/asp_bin/UploadFile/20160323110324_76849.jpg" /></div>
         <div class="sen01_r">
           <h3 style="color:#000000;">B2B2C平台为<br />
             商家和消费者提供价值</h3>
@@ -85,7 +85,7 @@
           <p style="color:#666;font-size:14px;line-height:26px;margin-top:20px;">通过订单处理模块以及对接第三方WMS系统实现供应商共同参与的订单分派及发货流程</p>
         </div>
         <div class="sen01_r" style="text-align:right;width:640px;"><img src="/index/picture/20160323110342_92485.jpg"
-            alt="" border="0" data-original="/asp_bin/UploadFile/20160323110342_92485.jpg" /></div>
+            alt="p7ing.com" border="0" data-original="/asp_bin/UploadFile/20160323110342_92485.jpg" /></div>
       </div>
     </div>
   </div>

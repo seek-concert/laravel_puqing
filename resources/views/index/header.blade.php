@@ -142,7 +142,7 @@ $(function(){
 					</ul>
 
 					<div class="ewm">
-						<p><img src="/index/picture/wxewm.jpg" data-original="/index/picture/wxewm.jpg" alt="" width="118" height="118" /></p>
+						<p><img src="/index/picture/wxewm.jpg" data-original="/index/picture/wxewm.jpg" alt="p7ing.com" width="118" height="118" /></p>
 						<span>官方微信</span>
 					</div>
 				</div>
@@ -196,9 +196,9 @@ $(function(){
 					<a class="zixun1 zixun" title="qq联系网站建设"></a>
 					<div class="foot_qq">
 							<a target="_blank" rel="nofollow" title="售前联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('before_service_qq')}}&site=qq&menu=yes">
-								<img src="/index/picture/q01.png" alt="" width="25" data-original="/index/images/q01.png" /><span>售前联系</span></a>
+								<img src="/index/picture/q01.png" alt="p7ing.com" width="25" data-original="/index/images/q01.png" /><span>售前联系</span></a>
 							<a target="_blank" rel="nofollow" title="售后联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('after_service_qq')}}&site=qq&menu=yes">
-								<img src="/index/picture/q02.png" alt="" width="25" data-original="/index/images/q02.png" /><span>售后联系</span></a>
+								<img src="/index/picture/q02.png" alt="p7ing.com" width="25" data-original="/index/images/q02.png" /><span>售后联系</span></a>
 						</div>
 				</li>
 				<li class="dhm">

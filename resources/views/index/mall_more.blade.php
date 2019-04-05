@@ -7,10 +7,10 @@
 <div class="pro_wap" id="pro_wap">
   <div class="pro_menu">
     <ul style="margin-left: 322px;width: 620px;">
-        <li ><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-        <li class="cur"><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-        <li><a href="{{url('/wechat')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
-      <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
+        <li ><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="p7ing.com" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+        <li class="cur"><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="p7ing.com" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+        <li><a href="{{url('/wechat')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon4.png" alt="p7ing.com" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
+      <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="p7ing.com" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
     </ul>
   </div>
 </div>
@@ -30,7 +30,7 @@
           <p>分销系统是专门针对PC、微信和移动端客户量身定制的掌上分销商城，是微信商城+手机版商城于一体的移动云商城分销系统，实现了多平台跨渠道统一后台的高效管理。集现有两种固定分销模式及定制开发分销系统于一身。全方位为用户提供合理，适用于您企业实际营销的解决方案.
           </p>
         </div>
-        <div class="ser07_r"><img alt="" src="/index/picture/20160323110356_12309.jpg" data-original="/asp_bin/UploadFile/20160323110356_12309.jpg"
+        <div class="ser07_r"><img alt="p7ing.com" src="/index/picture/20160323110356_12309.jpg" data-original="/asp_bin/UploadFile/20160323110356_12309.jpg"
             border="0" /></div>
         <div class="clear"></div>
       </div>
@@ -38,7 +38,7 @@
         <p style="margin:0px auto;width:1004px;text-align:center;color:#000000;padding-top:72px;font-size:32px;">多终端展现
           玩赚分销</p>
         <p></p>
-        <p style="margin:0px auto;width:1004px;text-align:center;padding-top:30px;"><img alt="" src="/index/picture/20160323110307_69276.png"
+        <p style="margin:0px auto;width:1004px;text-align:center;padding-top:30px;"><img alt="p7ing.com" src="/index/picture/20160323110307_69276.png"
             data-original="/asp_bin/UploadFile/20160323110307_69276.png" border="0" /></p>
       </div>
       <div class="ser07" style="height:555px;">
@@ -47,7 +47,7 @@
           <p>我们的商城平台定位于营销型、互动型、赢利型的企业电子商务系统。提供电子商务标准化、网络支付多样化、售后服务一体化等整套解决方案。将电子商务与传统商业模式紧紧相结合。让您成本更低、实施周期更短、功能更完善、性能更优越、操作更简单等特性。<br />
             整个平台采用大型网站的多站点分布式系统架构方式，由8个子系统构成。 </p>
         </div>
-        <div class="ser07_r"><img alt="" src="/index/picture/20160323110320_72882.jpg" data-original="/asp_bin/UploadFile/20160323110320_72882.jpg"
+        <div class="ser07_r"><img alt="p7ing.com" src="/index/picture/20160323110320_72882.jpg" data-original="/asp_bin/UploadFile/20160323110320_72882.jpg"
             border="0" /></div>
         <div class="clear"></div>
       </div>
@@ -69,13 +69,13 @@
           <p>万店同源，轻松管理；</p>
           <p>零库存压力。</p>
         </div>
-        <div class="sen02_r"><img alt="" src="/index/picture/20160323110335_29055.jpg" data-original="/asp_bin/UploadFile/20160323110335_29055.jpg"
+        <div class="sen02_r"><img alt="p7ing.com" src="/index/picture/20160323110335_29055.jpg" data-original="/asp_bin/UploadFile/20160323110335_29055.jpg"
             border="0" /></div>
       </div>
       <div class="pro_con">
         <p style="text-align:center;color:#333333;font-size:32px;margin-bottom:10px;">万客合一，数据独立<br />
           迅速积累万千粉丝</p>
-        <p align="center"><img alt="" src="/index/picture/20160323110347_17748.jpg" data-original="/asp_bin/UploadFile/20160323110347_17748.jpg"
+        <p align="center"><img alt="p7ing.com" src="/index/picture/20160323110347_17748.jpg" data-original="/asp_bin/UploadFile/20160323110347_17748.jpg"
             border="0" /></p>
       </div>
       <div class="ser04" style="background:url('/index/images/h09.jpg') no-repeat center center;">
@@ -100,7 +100,7 @@
       <div class="pro_con">
         <p style="text-align:center;color:#333333;padding-top:90px;font-size:32px;"><span style="color:#fc6546;font-size:38px;">多种</span>支付方式并存</p>
         <p style="margin:0px auto;width:870px;color:#666666;line-height:22px;padding-top:20px;font-size:14px;" align="center">每一款商品生成独一无二的二维码，即使消费者没有关注商家的公众号，也可下单购买。对接支付宝、微信支付、财付通、信用卡、环迅支付等其他第三方支付通道，实现支付功能，也可以使用银联支付。</p>
-        <p style="padding-top:50px;" align="center"><img alt="" src="/index/picture/20160323110300_82669.jpg"
+        <p style="padding-top:50px;" align="center"><img alt="p7ing.com" src="/index/picture/20160323110300_82669.jpg"
             data-original="/asp_bin/UploadFile/20160323110300_82669.jpg" border="0" /></p>
       </div>
       <div class="ser04_m" style="background:url('/index/images/h11.jpg') no-repeat center center;height:580px;">
@@ -114,12 +114,12 @@
             style="color:#ebcd00;">促销模块</span>，刺激购物<br />
           转化率的强力保障</p>
         <p style="margin:0px auto;width:1004px;text-align:center;color:#ffffff;padding-top:20px;font-size:16px;">多样化的促销功能，满足日常促销活动和大型特卖，灵活简易的的设置轻松搞定。</p>
-        <p style="padding-top:35px;" align="center"><img alt="" src="/index/picture/20160323110313_30772.png"
+        <p style="padding-top:35px;" align="center"><img alt="p7ing.com" src="/index/picture/20160323110313_30772.png"
             data-original="/asp_bin/UploadFile/20160323110313_30772.png" border="0" /></p>
       </div>
       <div class="pro_con">
         <p style="text-align:center;color:#333333;padding-top:90px;font-size:32px;">全网分销子店<span style="color:#cc0650;font-size:40px;">8</span>大特有功能</p>
-        <p style="padding-top:44px;" align="center"><img alt="" src="/index/picture/20160323110324_31379.jpg"
+        <p style="padding-top:44px;" align="center"><img alt="p7ing.com" src="/index/picture/20160323110324_31379.jpg"
             data-original="/asp_bin/UploadFile/20160323110324_31379.jpg" border="0" /></p>
         <p style="margin:0px auto;width:1004px;height:180px;"> <span class="hkh" style="margin-left:-34px;">店铺商品统一管理
           </span> <span class="hkh">二维码+链接，双<br />

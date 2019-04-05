@@ -7,9 +7,9 @@
 <div class="pro_wap" id="pro_wap">
     <div class="pro_menu">
         <ul style="margin-left: 322px;width: 620px;">
-                <li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-                <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-                <li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
+                <li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="p7ing.com" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+                <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="p7ing.com" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+                <li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="p7ing.com" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
         </ul>
     </div>
 </div>
@@ -25,13 +25,13 @@
     <div class="pro_option">
         <div class="pro_box" style="display:block;">
             <div class="ser03">
-                <div class="ser03_l"><img alt="" src="/index/picture/20160322100305_64354.jpg" data-original="/asp_bin/UploadFile/20160322100305_64354.jpg"
+                <div class="ser03_l"><img alt="p7ing.com" src="/index/picture/20160322100305_64354.jpg" data-original="/asp_bin/UploadFile/20160322100305_64354.jpg"
                         border="0" /></div>
                 <div class="ser03_r">
                     <h3>企业<span style="color:#000000;"><a href="/case/index_11_1.html" target="_blank"><span style="color:#767173;">营销型网站</span><span
                                     style="color:#767173;">建设</span></a></span></h3>
                     <h4><a href="/" target="_blank"><span style="color:#5c585a;">普擎科技</span></a>专家团队以多年的实操经验总结</h4>
-                    <h6><img alt="" src="/index/picture/20160322100321_40948.jpg" data-original="/asp_bin/UploadFile/20160322100321_40948.jpg"
+                    <h6><img alt="p7ing.com" src="/index/picture/20160322100321_40948.jpg" data-original="/asp_bin/UploadFile/20160322100321_40948.jpg"
                             border="0" />
                         <p><span>用户体验</span><span>站内优化</span><span>营销功能</span><span style="margin-right:0px;">后台灵活</span></p>
                     </h6>
@@ -41,7 +41,7 @@
                     </p>
                 </div>
             </div>
-            <div class="ser04"><img class="simg1" alt="" src="/index/picture/20160322100346_80339.jpg" data-original="/asp_bin/UploadFile/20160322100346_80339.jpg"
+            <div class="ser04"><img class="simg1" alt="p7ing.com" src="/index/picture/20160322100346_80339.jpg" data-original="/asp_bin/UploadFile/20160322100346_80339.jpg"
                     border="0" />
                 <div class="ser_con">
                     <h3>什么是SEO服务？<span>普擎科技专家团队以多年的实操经验总结</span></h3>
@@ -50,17 +50,17 @@
                 </div>
             </div>
             <div class="ser05">
-                <div class="ser05_l"><img alt="" src="/index/picture/20160322100317_54807.jpg" data-original="/asp_bin/UploadFile/20160322100317_54807.jpg"
+                <div class="ser05_l"><img alt="p7ing.com" src="/index/picture/20160322100317_54807.jpg" data-original="/asp_bin/UploadFile/20160322100317_54807.jpg"
                         border="0" /></div>
                 <div class="ser05_r">
                     <h3>实现效果</h3>
                     <h6>网站是企业的形象窗口，虚拟展厅，与企业形象匹配的良好视觉设计，彰显企业形象。</h6>
-                    <p><img alt="" src="/index/picture/20160322100331_98887.jpg" data-original="/asp_bin/UploadFile/20160322100331_98887.jpg"
+                    <p><img alt="p7ing.com" src="/index/picture/20160322100331_98887.jpg" data-original="/asp_bin/UploadFile/20160322100331_98887.jpg"
                             border="0" /></p>
                     <span>提升推广 ROI</span> <span>持续增长</span> <span>加速网站传播</span> <span>彰显企业形象</span> <span>促成订单</span>
                 </div>
             </div>
-            <div class="ser04"><img class="simg1" alt="" src="/index/picture/20160322110332_30939.jpg" data-original="/asp_bin/UploadFile/20160322110332_30939.jpg"
+            <div class="ser04"><img class="simg1" alt="p7ing.com" src="/index/picture/20160322110332_30939.jpg" data-original="/asp_bin/UploadFile/20160322110332_30939.jpg"
                     border="0" />
                 <div class="inner1">
                     <h3>网站优化内容<span>全方位的优化内容，助您更胜一筹</span></h3>
@@ -73,7 +73,7 @@
             <div class="ser06">
                 <p style="color:#333333;font-size:32px;">我们的优化标准</p>
                 <p style="line-height:26px;margin-top:10px;">以营销效果为导向的网站才能更好的为企业创造更大的利益，最大化地把访客转化为顾客，帮助你留住客户，真正实现好的网络营销效果！</p>
-                <p style="margin-top:30px;"><img alt="" src="/index/picture/20160322110316_76398.jpg" data-original="/asp_bin/UploadFile/20160322110316_76398.jpg"
+                <p style="margin-top:30px;"><img alt="p7ing.com" src="/index/picture/20160322110316_76398.jpg" data-original="/asp_bin/UploadFile/20160322110316_76398.jpg"
                         border="0" /></p>
                 <span style="margin-left:-16px;">正确使用标题</span> <span>更好地使用<br />
                     描述元标签</span><span>优化 URL的结构</span><span>正确使用关<br />

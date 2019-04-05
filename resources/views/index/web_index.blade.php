@@ -69,9 +69,9 @@
 <div class="pro_wap" id="pro_wap">
 	<div class="pro_menu">
 		<ul style="margin-left: 322px;width: 620px;">
-			<li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-			<li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-			<li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
+			<li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="p7ing.com" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+			<li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="p7ing.com" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+			<li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="p7ing.com" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
 		</ul>
 	</div>
 </div>
@@ -88,7 +88,7 @@
 		<div class="pro_box" style="display:block;">
 			<div class="pro_con" style="padding:155px 0px;"> 
 				<span style="width:528px;float:left;">
-					<img src="/index/picture/pimg1.png" width="528" height="412" alt="" border="0" />
+					<img src="/index/picture/pimg1.png" width="528" height="412" alt="p7ing.com" border="0" />
 				</span> 
 				<span style="width:467px;margin-top:50px;float:right;">
 					<font color="#333333"><span style="font-size:32px;line-height:48px;">企业官网建设</span></font><br />
@@ -113,10 +113,10 @@
 				<h3 style="text-align:center;color:#333333;font-size:32px;font-weight:500;">我们的能力</h3>
 				<p style="padding:30px 0px;text-align:center;color:#999999;line-height:26px;font-size:14px;"><a href="/" target="_blank"><span
 						 style="color:#000000;">普擎科技</span></a>帮助客户策划,整理,设计,开发整套网站,涵盖UI设计,公司官网,单用户电子商城,多用户电子商城,小程序商城,服务器主机托管,网站托管,网站二次开发,网站定制,以长达3年的设计,开发经验,为您提供最优质的的服务</p>
-				<p> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/pf1.jpg"
+				<p> <span style="width:330px;text-align:center;float:left;display:block;"><img alt="p7ing.com" src="/index/picture/pf1.jpg"
 						 data-original="/index/images/pf1.jpg" height="114" width="114" /></span> <span style="width:344px;text-align:center;float:left;display:block;"><img
-						 alt="" src="/index/picture/pf2.jpg" data-original="/index/images/pf2.jpg" height="114" width="114" /></span>
-					<span style="width:330px;text-align:center;float:left;display:block;"><img alt="" src="/index/picture/20160301010331_10565.jpg"
+						 alt="p7ing.com" src="/index/picture/pf2.jpg" data-original="/index/images/pf2.jpg" height="114" width="114" /></span>
+					<span style="width:330px;text-align:center;float:left;display:block;"><img alt="p7ing.com" src="/index/picture/20160301010331_10565.jpg"
 						 data-original="/asp_bin/UploadFile/20160301010331_10565.jpg" border="0" /></span> </p>
 				<p> <span style="width:330px;text-align:center;color:#cccccc;font-family:'宋体';float:left;display:block;"><span
 						 style="color:#666666;font-family:arial;margin-top:10px;display:inline-table;">PROFESSIONALS</span><br />

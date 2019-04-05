@@ -7,10 +7,10 @@
 <div class="pro_wap" id="pro_wap">
   <div class="pro_menu">
     <ul style="margin-left: 322px;width: 620px;">
-        <li><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-        <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-        <li class="cur"><a href="{{url('/wechat')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
-      <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
+        <li><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="p7ing.com" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+        <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="p7ing.com" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+        <li class="cur"><a href="{{url('/wechat')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon4.png" alt="p7ing.com" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
+      <!-- <li> ><a href="/service/index_112.html" title="" class="phover"><img src="/index/picture/picon6.png" alt="p7ing.com" width="22" height="22" class="pr6"/><br/><span>APP开发</span></a></li>-->
     </ul>
   </div>
 </div>
@@ -20,9 +20,9 @@
       <div class="ser07_l" style="margin-top:120px;">
         <h3 style="margin-top:30px;">微信网站 轻松打造</h3>
         <p style="margin-top:25px;">通过微信公众号或服务号与手机网站进行对接，轻松打造和手机网站一样的微信营销网站，数据和手机网站同步，轻松实现微信营销。</p>
-        <p><img alt="" src="/index/picture/20160324090352_26232.jpg" border="0" /></p>
+        <p><img alt="p7ing.com" src="/index/picture/20160324090352_26232.jpg" border="0" /></p>
       </div>
-      <div class="ser07_r"><img alt="" src="/index/picture/20160324090310_41813.jpg" border="0" /></div>
+      <div class="ser07_r"><img alt="p7ing.com" src="/index/picture/20160324090310_41813.jpg" border="0" /></div>
       <div class="clear"></div>
     </div>
     <div class="ser04_m" style="background:url(/index/images/wx3.jpg) no-repeat center center;height:530px;">
@@ -38,12 +38,12 @@
     <div class="ser04_m" style="background:url(/index/images/wx4.jpg) no-repeat center center;height:785px;">
       <p style="font-size:32px;color:#333;text-align:center;padding-top:120px;">微信营销 无“微”不至</p>
       <p style="font-size:14px;color:#666;line-height:26px;text-align:center;padding-top:20px;">微信网站将为您的客户带来从售前到售后的全流程服务，让企业与客户的关系更加紧密</p>
-      <p align="center" style="margin-top:40px;"><img src="/index/picture/20160324090328_36751.png" alt="" border="0" /></p>
+      <p align="center" style="margin-top:40px;"><img src="/index/picture/20160324090328_36751.png" alt="p7ing.com" border="0" /></p>
     </div>
     <div class="ser04_m" style="background:url(/index/images/wx7.jpg) no-repeat center center;height:530px;">
       <p style="font-size:32px;color:#fff;text-align:center;padding-top:70px;">8大解决方案，直击行业痛点</p>
       <p style="font-size:14px;color:#fff;text-align:center;padding-top:10px;">解决不同行业深度需求，落地多行业“互联网+”成熟方案</p>
-      <p style="text-align:center;margin-top:20px;"><img src="/index/picture/20160324090342_17967.png" alt="" border="0" /></p>
+      <p style="text-align:center;margin-top:20px;"><img src="/index/picture/20160324090342_17967.png" alt="p7ing.com" border="0" /></p>
     </div>
     <div class="pro_con">
       <p style="text-align:center;color:#333333;padding-top:70px;font-size:32px;">最牛的营销互动功能</p>
@@ -52,78 +52,78 @@
     </div>
     <div class="round4">
       <ul>
-        <li><img alt="" src="/index/picture/20160324090355_98143.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090355_98143.jpg" border="0" />
           <p>全民店</p>
           <span>快速建立微信分销渠道</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090307_27152.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090307_27152.jpg" border="0" />
           <p>转发有礼</p>
           <span>史上最强大的微信吸粉游戏</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090317_72737.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090317_72737.jpg" border="0" />
           <p>微商城</p>
           <span>在微信之中建立的商城</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090328_73223.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090328_73223.jpg" border="0" />
           <p>超级秒杀</p>
           <span>微信竞拍新方式</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090336_23557.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090336_23557.jpg" border="0" />
           <p>新版投票</p>
           <span>同粉丝互动，刺激涨粉最有效</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090347_70383.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090347_70383.jpg" border="0" />
           <p>微社区</p>
           <span>“用户与用户”、“用户与<br />
             平台”双向交流模式</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090356_65563.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090356_65563.jpg" border="0" />
           <p>酒店预订</p>
           <span>微信智能订房系统</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090309_49789.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090309_49789.jpg" border="0" />
           <p>全民经纪人</p>
           <span>全新的拓客渠道</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090317_62393.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090317_62393.jpg" border="0" />
           <p>微信支付</p>
           <span>全新微信收款通道</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090327_34205.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090327_34205.jpg" border="0" />
           <p>微请柬</p>
           <span>基于微信广泛传播的商务邀请函</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090341_20288.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090341_20288.jpg" border="0" />
           <p>微现场</p>
           <span>最热最IN微信互动</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090349_39374.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090349_39374.jpg" border="0" />
           <p>微会员</p>
           <span>商家只要用原有实体卡扫，描枪<br />
             扫描，即可验证会员卡信息</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090358_29654.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090358_29654.jpg" border="0" />
           <p>微贺卡</p>
           <span>用微贺卡在微信中传情</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090320_84119.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090320_84119.jpg" border="0" />
           <p>微游戏</p>
           <span>互动营销小游戏</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090329_76343.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090329_76343.jpg" border="0" />
           <p>微相册</p>
           <span>专属精美动态相册</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090339_26149.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090339_26149.jpg" border="0" />
           <p>微官网</p>
           <span>让你的微网站与众不同</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090348_15495.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090348_15495.jpg" border="0" />
           <p>微外卖</p>
           <span>微信版“淘点点”，操作<br />
             简单，管理方便</span>
         </li>
-        <li><img alt="" src="/index/picture/20160324090356_45304.jpg" border="0" />
+        <li><img alt="p7ing.com" src="/index/picture/20160324090356_45304.jpg" border="0" />
           <p>微名片</p>
           <span style="color:#827e7f;"><a href="/" target="_blank"><span style="color:#827e7f;">普擎</span><span style="color:#827e7f;">科技</span></a></span>为您打造属于您的独一无二微名片
         </li>

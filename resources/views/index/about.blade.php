@@ -107,7 +107,7 @@ $(function(){
   	<p style="color:#666;font-size:28px;margin-top:50px;" align="center">卓越的创意思维、<span style="color:#20b7f4;">为您创造出一流的品牌互联网形象！</span> </p>
     <p style="color:#b4b4b4;line-height:22px;margin-top:30px;text-indent:3em;" align="center">重庆普擎科技有限公司成立于2003年，公司自成立以来始终致力于为企业提供信息化服务。涵盖品牌策划、<a href="/service/index_20.html" target="_blank"><span style="color:#000000;">高品质网站建设</span></a>、<a href="/service/index_108.html" target="_blank"><span style="color:#000000;">电商平台开发</span></a>、移动互联网业务开发运营（<a href="/service/index_110.html" target="_blank"><span style="color:#000000;">微信二次开发</span></a>、<a href="/service/index_112.html" target="_blank"><span style="color:#000000;">手机网站建设</span></a>、APP开发等）、互联网基础服务、云主机托管及其他IT信息技术外包服务。经过长期的市场培育和技术积累，2万多客户的共同见证，普擎科技凝聚了行业领先的业务优势。 </p>
     <p style="color:#b4b4b4;line-height:22px;text-indent:3em;" align="center">基于对中国企业的特点和其信息化需求的深刻理解以及中国经济的迅猛发展和企业信息化的推进，深圳<a href="javascript:void(0);" target="_blank"><span style="color:#000000;">普擎科技</span></a>先后在深圳、广州、惠州、东莞、河源等地设立了分公司，员工总数贰百余人。他们分别是富有创意的前端开发工程师，认真闷骚的后台开发工程师，耐心细致的售后客服人员，业务娴熟的一线销售顾问。无论是哪一位普擎人，无一不是对互联网行业有着丰富的经验及饱满的热情。我们奋不顾身，我们锐意进取，我们力争成为您理想的合作伙伴。</p>
-    <p style="margin-top:50px;" align="center"><img src="" alt="" border="0" /></p>
+    <p style="margin-top:50px;" align="center"><img src="" alt="p7ing.com" border="0" /></p>
     <p style="color:#333;font-size:16px;margin-top:50px;" align="center">开拓创新、锐意进取、不断提高研发能力</p>
     <p style="color:#b4b4b4;line-height:24px;margin-top:30px;" align="center">2004年自主研发产品“普擎天下邮”为千万家企业提供全球商务邮件系统服务；<br />
       2005年自主研发“Ni8-shop商城系统”，为新、老客户提供在线商城服务；<br />

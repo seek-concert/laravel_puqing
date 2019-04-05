@@ -8,9 +8,9 @@
 <div class="pro_wap" id="pro_wap">
     <div class="pro_menu">
         <ul style="margin-left: 322px;width: 620px;">
-                <li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
-                <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
-                <li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
+                <li class="cur"><a href="{{url('/web')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon1.png" alt="p7ing.com" width="22" height="22" class="pr1" /><br /><span>高品质网站建设</span></a></li>
+                <li><a href="{{url('/mall_b2b')}}#pro_wap" title="" class="phover"><img src="/index/picture/picon2.png" alt="p7ing.com" width="22" height="22" class="pr2" /><br /><span>商城网站建设</span></a></li>
+                <li><a href="{{url('/mall_b2b')}}#wechat" title="" class="phover"><img src="/index/picture/picon4.png" alt="p7ing.com" width="26" height="22" class="pr4" /><br /><span>微信营销</span></a></li>
         </ul>
     </div>
 </div>
@@ -34,11 +34,11 @@
                     <p class="ser01_three"><span>团队</span>强大的设计力量和技术团队</p>
                     <p class="ser01_four"><span>服务</span>标准化作业体系，独享的顾问式贴身服务</p>
                 </div>
-                <div class="ser01_r"><img alt="" src="/index/picture/20160322090343_77401.jpg" border="0" data-original="/asp_bin/UploadFile/20160322090343_77401.jpg" /></div>
+                <div class="ser01_r"><img alt="p7ing.com" src="/index/picture/20160322090343_77401.jpg" border="0" data-original="/asp_bin/UploadFile/20160322090343_77401.jpg" /></div>
                 <div class="clear"></div>
             </div>
-            <div class="ser_fix"><img class="simg1" alt="" src="/index/picture/20160322090337_16253.jpg" border="0"
-                    data-original="/asp_bin/UploadFile/20160322090337_16253.jpg" /><img class="simg2" alt="" src="/index/picture/20160322090327_86154.png"
+            <div class="ser_fix"><img class="simg1" alt="p7ing.com" src="/index/picture/20160322090337_16253.jpg" border="0"
+                    data-original="/asp_bin/UploadFile/20160322090337_16253.jpg" /><img class="simg2" alt="p7ing.com" src="/index/picture/20160322090327_86154.png"
                     border="0" data-original="/asp_bin/UploadFile/20160322090327_86154.png" />
                 <div>
                     <p><span style="width:100%;height:50px;font-size:32px;display:block;">关于个性化网站定制</span>您需要我们给您打造一个有文化、有价值的企业网站<br />
@@ -63,12 +63,12 @@
                     <p style="margin:0px;padding:0px;height:26px;color:#888888;line-height:26px;">您需要一个网站来获得大笔订单！</p>
                     <p style="margin:0px;padding:0px;height:26px;color:#888888;line-height:26px;">您需要一个网站来建立一个营销平台！</p>
                 </div>
-                <div class="ser01_r" style="margin-top:60px;"><img alt="" src="/index/picture/20160322090312_82196.jpg"
+                <div class="ser01_r" style="margin-top:60px;"><img alt="p7ing.com" src="/index/picture/20160322090312_82196.jpg"
                         border="0" data-original="/asp_bin/UploadFile/20160322090312_82196.jpg" /></div>
                 <div class="clear"></div>
             </div>
             <div class="ser_fix"><img class="simg1" src="/index/picture/20160322090353_79721.jpg" title="个性定制网站" alt="个性定制网站"
-                    border="0" /><img class="simg3" alt="" src="/index/picture/20160322090346_11862.png" border="0"
+                    border="0" /><img class="simg3" alt="p7ing.com" src="/index/picture/20160322090346_11862.png" border="0"
                     data-original="/asp_bin/UploadFile/20160322090346_11862.png" />
                 <div style="margin-left:20px;">
                     <p style="margin-top:50px;"><span style="width:100%;height:46px;font-size:32px;display:block;">网站太过简单，没什么实际功能？</span>只能看不能用的不叫<a
@@ -80,7 +80,7 @@
             </div>
             <div class="ser02" style="height:280px;">
                 <p style="text-align:center;color:#333333;font-size:32px;">视觉形象展示官网设计制作流程</p>
-                <p style="margin-top:50px;"><img alt="" src="/index/picture/20160322090314_24065.jpg" border="0"
+                <p style="margin-top:50px;"><img alt="p7ing.com" src="/index/picture/20160322090314_24065.jpg" border="0"
                         data-original="/asp_bin/UploadFile/20160322090314_24065.jpg" /></p>
                 <div style="margin-left:-23px;"><span>需求沟通</span>倾听客户需求，了解用<br />
                     户使用环境和操作流程</div>

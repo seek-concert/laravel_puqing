@@ -54,7 +54,7 @@
                             <div class="g_9">
                                 <input type="file" name="logo" class="simple_form"/>
                                 @if(!empty($list->logo))
-                                    <img src="{{$list->logo}}" alt="">
+                                    <img src="{{$list->logo}}" alt="p7ing.com">
                                     <input type="hidden" name="logo" value="{{$list->logo}}">
                                 @endif
                             </div>

@@ -66,7 +66,7 @@
 						<tbody>
 							<tr>
 								<td width="300" align="center"><img src="/index/images/icbc.png"
-										alt="" border="0"></td>
+										alt="p7ing.com" border="0"></td>
 								<td>
 									<p style="font-size:18px;color:#666;line-height:40px;"><span
 											style="color:#a7a4a4;">公司名称：</span>重庆市普擎科技有限公司<br>
