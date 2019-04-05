@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>{{Cache('title')}}</title>
-<meta name="keywords" content="{{Cache('keywords')}}">
-<meta name="description" content="{{Cache('description')}}">
+<title>{{isset($title)?$title:Cache('title')}}</title>
+<meta name="keywords" content="重庆普擎科技，{{isset($keywords)?$keywords:Cache('keywords')}}">
+<meta name="description" content="重庆{{Cache('description')}}">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
 <meta name="applicable-device" content="pc,mobile">
@@ -24,20 +24,20 @@
 <script type="text/javascript" src="/index/js/jquery-1.10.1.js"></script>
 <script type="text/javascript" src="/index/js/jquery.validationengine-zh_cn.js"></script> 
 <script type="text/javascript" src="/index/js/jquery.validationengine.js"></script>
-	<script>
-		(function(){
-			var bp = document.createElement('script');
-			var curProtocol = window.location.protocol.split(':')[0];
-			if (curProtocol === 'https') {
-				bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-			}
-			else {
-				bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-			}
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(bp, s);
-		})();
-	</script>
+<script>
+	(function(){
+		var bp = document.createElement('script');
+		var curProtocol = window.location.protocol.split(':')[0];
+		if (curProtocol === 'https') {
+			bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		}
+		else {
+			bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		}
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(bp, s);
+	})();
+</script>
 {{--<script src="/index/js/wb.js" type="text/javascript" charset="utf-8"></script>--}}
 <style>
 .dot{width:161px;position:absolute;left:50%;margin-left:400px;height:395px;}

@@ -1,5 +1,5 @@
 <?php
-
+/*==========【基础控制器】===========*/
 namespace App\Http\Controllers\Index;
 
 use Illuminate\Support\Facades\DB;
@@ -7,10 +7,11 @@ use App\Http\Controllers\Controller;
 
 class BaseController extends Controller
 {
+    /*==========【标题及关键词】===========*/
+    protected $title;
+    protected $keywords;
 
-    public function __construct()
-    {
-    }
+    public function __construct(){}
 
     /*
      * 新闻分类
