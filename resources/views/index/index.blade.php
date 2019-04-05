@@ -543,8 +543,8 @@
 
 	<!--js-->
 	<script type="text/javascript" src="/index/js/jquery.flexslider-min.js"></script>
-	<script src="/index/js/curnavstyle.js" type="text/javascript"></script>
-	<script src="/index/js/js.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/index/js/curnavstyle.js" ></script>
+	<script type="text/javascript" src="/index/js/js.js" ></script>
 	<script>
 		GetCurStyle("home");
 	</script>
