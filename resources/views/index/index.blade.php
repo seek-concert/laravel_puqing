@@ -48,6 +48,7 @@
 		});
 	</script>
 	<div class="top" id="top">
+		<h2 style="display: none" class="keywords">重庆网站建设</h2>
 		<div class="topbox">
 			<div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}" alt="www.p7ing.com logo" /></a></div>
 			<div class="dh f2">
@@ -466,10 +467,15 @@
 			</div>
 		
 			<div class="yqlj">
+				<p style="color: #FFFFFF">重庆普擎科技提供：<b class="keywords">重庆网站建设开发</b> <b class="keywords">微信小程序开发</b> <b class="keywords">自适应网站外包</b> <b class="keywords">WEB应用设计研发</b> <b class="keywords">电商网站专属定制</b></p>
 				<ul>
 					<li><a href="https://www.baidu.com/" title="百度搜索" target="_blank">百度搜索</a></li>
 					<li><a href="https://www.aliyun.com/" title="阿里云服务器" target="_blank">阿里云服务器</a></li>
 					<li><a href="https://www.weibo.com/" title="新浪微博" target="_blank">新浪微博</a></li>
+					<li><a href="https://www.google.com/" title="google搜索" target="_blank">google搜索</a></li>
+					<li><a href="https://www.west.cn/" title="西部数码" target="_blank">西部数码</a></li>
+					<li><a href="https://www.zbj.com/" title="猪八戒网" target="_blank">猪八戒网</a></li>
+					<li><a href="http://www.icbc.com.cn" title="中国工商银行" target="_blank">中国工商银行</a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>
@@ -477,7 +483,7 @@
 		<div class="footer">
 			<div class="bqxx" style="position:relative;">
 				<ul>
-					<li class="f1" style="font-family:Arial;">&copy;2019 重庆市普擎科技有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
+					<li class="f1" style="font-family:Arial;">&copy;2019 重庆市普擎科技有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;<h2 style="display: none" class="keywords">重庆网站建设</h2>
 					</li>
 					<li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">渝ICP备19004069号</a>&nbsp;&nbsp;&nbsp;</li>
 				</ul>
@@ -509,9 +515,9 @@
 	<div class="guide" style="bottom:40px;">
 		<div class="guide-warp">
 			<ul>
-
+				<h2 style="display: none" class="keywords">重庆网站建设</h2>
 				<li class="fqq">
-					<a class="zixun1 zixun" title="qq联系网站建设"></a>
+					<a class="zixun1 zixun" title="QQ联系重庆网站建设"></a>
 					<div class="foot_qq">
 						<a target="_blank" rel="nofollow" title="售前联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('before_service_qq')}}&site=qq&menu=yes">
 							<img src="/index/picture/q01.png" alt="p7ing.com" width="25" data-original="/index/images/q01.png" /><span>售前联系</span></a>

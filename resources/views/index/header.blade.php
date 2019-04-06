@@ -148,10 +148,15 @@ $(function(){
 				</div>
 
 				<div class="yqlj">
+					<p style="color: #FFFFFF">重庆普擎科技提供：<b class="keywords">重庆网站建设开发</b> <b class="keywords">微信小程序开发</b> <b class="keywords">自适应网站外包</b> <b class="keywords">WEB应用设计研发</b> <b class="keywords">电商网站专属定制</b></p>
 					<ul>
 						<li><a href="https://www.baidu.com/" title="百度搜索" target="_blank">百度搜索</a></li>
 						<li><a href="https://www.aliyun.com/" title="阿里云服务器" target="_blank">阿里云服务器</a></li>
 						<li><a href="https://www.weibo.com/" title="新浪微博" target="_blank">新浪微博</a></li>
+						<li><a href="https://www.google.com/" title="google搜索" target="_blank">google搜索</a></li>
+						<li><a href="https://www.west.cn/" title="西部数码" target="_blank">西部数码</a></li>
+						<li><a href="https://www.zbj.com/" title="猪八戒网" target="_blank">猪八戒网</a></li>
+						<li><a href="http://www.icbc.com.cn" title="中国工商银行" target="_blank">中国工商银行</a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
