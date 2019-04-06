@@ -43,7 +43,7 @@
 			<a target="_blank"
 				href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('after_service_qq')}}&site=qq&menu=yes"><img
 					src="/index/picture/qqtx.jpg" rel="nofollow" width="35" height="35" /></a>
-			
+
 		</div>
 
 		<div class="contact_r">

@@ -28,7 +28,7 @@
 <loc>https://p7ing.com/news</loc>
 <priority>0.80</priority>
 <lastmod>2019-04-06</lastmod>
-<changefreq>weekly</changefreq>
+<changefreq>always</changefreq>
 </url>
 <url>
 <loc>https://p7ing.com/contact</loc>

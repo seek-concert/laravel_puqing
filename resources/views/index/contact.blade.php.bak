@@ -1,0 +1,211 @@
+﻿@extends('index.header')
+<style type="text/css">
+	html,body{margin:0;padding:0;}
+	.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+	.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+@section('content')
+
+<!--banner-->
+<div class="banner" style="background:url(/index/images/1490869376.jpg) no-repeat center center;"></div>
+<!--main开始-->
+{{-- <div class="pro_wap">
+	<div class="pro_menu">
+		<ul>
+			<li class="cur"><a href="/contact/index.html" title="普擎网站建设联系方式" class="phover"><img
+						src="/index/picture/cont1.png" alt="普擎网站建设联系方式" rel="nofollow" width="23" height="27"
+						class="pr01" /><br /><span>联系方式</span></a></li>
+			<li><a href="/contact/pay.html" title="普擎付款方式" class="phover" rel="nofollow"><img
+						src="/index/picture/cont2.png" alt="普擎付款方式" rel="nofollow" width="23" height="27"
+						class="pr02" /><br /><span>付款方式</span></a></li>
+			<li><a href="/contact/download.html" title="网站建设文档下载" class="phover" rel="nofollow"><img
+						src="/index/picture/cont3.png" alt="网站建设文档下载" rel="nofollow" width="28" height="27"
+						class="pr03" /><br /><span>常用文档下载</span></a></li>
+			<li><a href="/contact/help.html" title="网站建设帮助中心" class="phover" rel="nofollow"><img
+						src="/index/picture/cont4.png" alt="网站建设帮助中心" rel="nofollow" width="24" height="27"
+						class="pr04" /><br /><span>帮助中心</span></a></li>
+		</ul>
+	</div>
+</div> --}}
+<div class="content">
+	<div class="contact">
+		<div>
+			<h3 style="margin-top:50px;font-size: 22px;">企业简介</h3><br>
+			<p style="text-indent: 2em;font-size: 16px;color: #5e5d5d;">重庆普擎科技成立于2019年,由4位对生活的充满激情,对工作充满经验的年轻人创建,
+			公司秉承着用最好的态度给客户最好的服务理念,将客户的问题作为自己的目标,把每一位
+			客户心中所想的构架进行组建成他们心中最理想的大厦，我们拥有经验丰厚的网站视觉设计师,从业
+			工作5年以上,经历过社会的毒打,成就了他今日打造视觉盛宴的资本,我们拥有优秀的网站开发团队,人均从业3年以上,
+			他们分别从事过小程序开发,商城开发,定制专题网站开发,以及无数公司官网开发,他们确信着细节决定成败,
+			因此会成为客户心中理想大厦的坚实地基。
+			<br>
+			普擎科技,质量决定信誉
+			</p>
+		</div>
+		<div class="contact_l">
+			<h3>重庆普擎科技有限公司</h3>
+			<p><span class="cc" style="letter-spacing:28px;">地址</span><span>：&nbsp;&nbsp;&nbsp;重庆市渝北区仙桃数据谷中路107号</span>
+			</p>
+			<p><span class="cc" style="letter-spacing:28px;">邮编</span><span>：&nbsp;&nbsp;&nbsp;400000</span></p>
+			<p><span class="cc" style="letter-spacing:28px;">售前</span><span>：&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+				</span><span style="line-height:1.5;">{{Cache('before_service_phone')}}</span></p>
+			<p><span class="cc" style="line-height:1.5;letter-spacing:7px;">售后 &nbsp;</span><span
+					style="line-height:1.5;">：&nbsp;&nbsp;{{Cache('after_service_phone')}}</span></p>
+			<p><span class="cc"
+					style="letter-spacing:28px;">邮箱</span><span>：&nbsp;&nbsp;&nbsp;{{ Cache('company_email') }}</span>
+			</p>
+			<p><span class="cc" style="letter-spacing:28px;">网址</span><span>：&nbsp;&nbsp;&nbsp;www.p7ing.com</span></p>
+			<a target="_blank"
+				href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('before_service_qq')}}&site=qq&menu=yes"><img
+					src="/index/picture/qqtx.jpg" rel="nofollow" width="35" height="35" /></a>
+			<a target="_blank"
+				href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('after_service_qq')}}&site=qq&menu=yes"><img
+					src="/index/picture/qqtx.jpg" rel="nofollow" width="35" height="35" /></a>
+
+		</div>
+
+		<div class="contact_r">
+			<h3 style="margin-top:50px;font-size: 22px;">公司地址</h3>
+			<div id="dituContent" style="margin-top:20px;width:540px;height:290px;border:#ccc solid 1px;"> </div>
+			{{--<p>重庆普擎科技成立于2019年,由4位对生活的充满激情,对工作充满经验的年轻人创建,--}}
+				{{--公司秉承着用最好的态度给客户最好的服务理念,将客户的问题作为自己的目标,把每一位--}}
+				{{--客户心中所想的构架进行组建成他们心中最理想的大厦，我们拥有经验丰厚的网站视觉设计师,从业--}}
+				{{--工作5年以上,经历过社会的毒打,成就了他今日打造视觉盛宴的资本,我们拥有优秀的网站开发团队,人均从业3年以上,--}}
+				{{--他们分别从事过小程序开发,商城开发,定制专题网站开发,以及无数公司官网开发,他们确信着细节决定成败,--}}
+				{{--因此会成为客户心中理想大厦的坚实地基。--}}
+				{{--<br>--}}
+				{{--普擎科技,质量决定信誉--}}
+			{{--</p>--}}
+
+
+		</div>
+		<div id="pay" style="float: left; width: 100%; margin-top: 35px; padding-top: 39px;">
+				<h3 style="    font-size: 22px;">付款方式</h3>
+				<div class="payTab" style="width: 100%; border: 1px solid #f3f3f3; margin-top: 16px;">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr>
+								<td width="300" align="center"><img src="/index/images/icbc.png"
+										alt="p7ing.com" border="0"></td>
+								<td>
+									<p style="font-size:18px;color:#666;line-height:40px;"><span
+											style="color:#a7a4a4;">公司名称：</span>重庆市普擎科技有限公司<br>
+										<span style="color:#a7a4a4;">开&nbsp;户&nbsp;行：</span>渝北龙溪支行<br>
+										<span style="color:#a7a4a4;">账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：</span>
+										<span style="color:#f42020;font-size:24px;">3100 0862 0920 0109 275</span></p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+		</div>
+
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+@endsection
+
+@section('home')
+<script>
+	GetCurStyle("home5");
+</script>
+<script type="text/javascript">
+	//创建和初始化地图函数：
+	function initMap(){
+		createMap();//创建地图
+		setMapEvent();//设置地图事件
+		addMapControl();//向地图添加控件
+		addMarker();//向地图中添加marker
+	}
+
+	//创建地图函数：
+	function createMap(){
+		var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+		var point = new BMap.Point(106.568165,29.748759);//定义一个中心点坐标
+		map.centerAndZoom(point,16);//设定地图的中心点和坐标并将地图显示在地图容器中
+		window.map = map;//将map变量存储在全局
+	}
+
+	//地图事件设置函数：
+	function setMapEvent(){
+		map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+		map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+		map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+		map.enableKeyboard();//启用键盘上下左右键移动地图
+	}
+
+	//地图控件添加函数：
+	function addMapControl(){
+		//向地图中添加缩放控件
+		var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+		map.addControl(ctrl_nav);
+		//向地图中添加缩略图控件
+		var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+		map.addControl(ctrl_ove);
+		//向地图中添加比例尺控件
+		var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT});
+		map.addControl(ctrl_sca);
+	}
+
+	//标注点数组
+	var markerArr = [{title:"重庆普擎科技有限公司",content:"重庆普擎科技有限公司-中路107号",point:"106.562901|29.750445",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+	];
+	//创建marker
+	function addMarker(){
+		for(var i=0;i<markerArr.length;i++){
+			var json = markerArr[i];
+			var p0 = json.point.split("|")[0];
+			var p1 = json.point.split("|")[1];
+			var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+			var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+			map.addOverlay(marker);
+			label.setStyle({
+				borderColor:"#808080",
+				color:"#333",
+				cursor:"pointer"
+			});
+
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+					this.openInfoWindow(_iw);
+				});
+				_iw.addEventListener("open",function(){
+					_marker.getLabel().hide();
+				});
+				_iw.addEventListener("close",function(){
+					_marker.getLabel().show();
+				});
+				label.addEventListener("click",function(){
+					_marker.openInfoWindow(_iw);
+				});
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+		}
+	}
+	//创建InfoWindow
+	function createInfoWindow(i){
+		var json = markerArr[i];
+		var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+		return iw;
+	}
+	//创建一个Icon
+	function createIcon(json){
+		var icon = new BMap.Icon("http://map.baidu.com/image/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+		return icon;
+	}
+
+	initMap();//创建和初始化地图
+</script>
+@endsection
