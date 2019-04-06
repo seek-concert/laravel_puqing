@@ -232,7 +232,7 @@ $(function(){
 			</ul>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="//js.users.51.la/19968729.js"></script>
 	@yield('home')
 </body>
 
