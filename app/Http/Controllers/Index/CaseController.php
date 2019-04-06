@@ -1,30 +1,15 @@
 <?php
-
+/*==========【成功案例】===========*/
 namespace App\Http\Controllers\Index;
-
-
 use Illuminate\Support\Facades\DB;
 
 
 class CaseController extends BaseController
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Password Reset Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller is responsible for handling password reset emails and
-    | includes a trait which assists in sending these notifications from
-    | your application to your users. Feel free to explore this trait.
-    |
-    */
+    /*==========【标题及关键词】===========*/
+    protected $title = '精选案例_微信小程序案例_企业官网案例_APP案例_电商案例-普擎科技';
+    protected $keywords = '精选案例，微信小程序案例，企业官网案例，APP案例，电商案例';
 
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         parent::__construct();
@@ -46,6 +31,8 @@ class CaseController extends BaseController
 
         //聚合数据
         $return_data = [];
+        $return_data['title'] = $this->title;
+        $return_data['keywords'] = $this->keywords;
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
         $return_data['category_lists'] = $category_lists;
@@ -89,6 +76,8 @@ class CaseController extends BaseController
             ->first();
         //聚合数据
         $return_data = [];
+        $return_data['title'] = $this->title;
+        $return_data['keywords'] = $this->keywords;
         $return_data['list'] = $list;
         $return_data['previous'] = $previous;
         $return_data['next'] = $next;

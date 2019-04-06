@@ -1,35 +1,19 @@
 <?php
-
+/*==========【网站资讯】===========*/
 namespace App\Http\Controllers\Index;
-
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 
-
 class NewsController extends BaseController
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Password Reset Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller is responsible for handling password reset emails and
-    | includes a trait which assists in sending these notifications from
-    | your application to your users. Feel free to explore this trait.
-    |
-    */
+    /*==========【标题及关键词】===========*/
+    protected $title = '行业新闻/时事资讯/网站建设/技术文章/教程分享-普擎科技';
+    protected $keywords = '行业新闻,时事资讯,网站建设,技术文章,教程分享';
 
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         parent::__construct();
     }
-
 
     /*
      * 网站资讯
@@ -43,6 +27,8 @@ class NewsController extends BaseController
         $news_lists = DB::table('news')->where('category_id', '=', $id)->paginate(5);
         //聚合数据
         $return_data = [];
+        $return_data['title'] = $this->title;
+        $return_data['keywords'] = $this->keywords;
         $return_data['id'] = (int)$id;
         $return_data['news_lists'] = $news_lists;
         $return_data['news_category_lists'] = $this->get_news_category_lists();
@@ -86,6 +72,8 @@ class NewsController extends BaseController
             ->orderBy('id', 'asc')
             ->first();
         $return_data = [];
+        $return_data['title'] = $this->title;
+        $return_data['keywords'] = $this->keywords;
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
         $return_data['hot_news'] = $this->get_hot_news();

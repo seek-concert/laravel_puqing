@@ -1,32 +1,17 @@
 <?php
-
+/*==========【首页】===========*/
 namespace App\Http\Controllers\Index;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 
 class IndexController extends BaseController
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Password Reset Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller is responsible for handling password reset emails and
-    | includes a trait which assists in sending these notifications from
-    | your application to your users. Feel free to explore this trait.
-    |
-    */
 
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         parent::__construct();
     }
+
     public function index(){
         //获取banner图
         $banner_lists = DB::table('banner')->get();

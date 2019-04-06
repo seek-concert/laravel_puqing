@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>{{Cache('title')}}-首页</title>
 	<meta name="keywords" content="{{Cache('keywords')}}">
-	<meta name="description" content="{{Cache('description')}}">
+	<meta name="description" content="重庆{{Cache('description')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="baidu-site-verification" content="ZZddVRzekw" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
@@ -543,8 +543,8 @@
 
 	<!--js-->
 	<script type="text/javascript" src="/index/js/jquery.flexslider-min.js"></script>
-	<script src="/index/js/curnavstyle.js" type="text/javascript"></script>
-	<script src="/index/js/js.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/index/js/curnavstyle.js" ></script>
+	<script type="text/javascript" src="/index/js/js.js" ></script>
 	<script>
 		GetCurStyle("home");
 	</script>
