@@ -73,7 +73,7 @@ Route::namespace('Pqadmin')->group(function () {
     //新闻分类新增
     Route::any('news_category_add','NewsCategoryController@add');
     //新闻分类修改
-    Route::any('news_category_edit{id}','NewsCategoryController@edit');
+    Route::any('news_category_edit/{id}','NewsCategoryController@edit'); 
     //新闻分类删除
     Route::any('news_category_del/{id}','NewsCategoryController@del');
     //新闻
