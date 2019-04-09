@@ -24,7 +24,7 @@ class NewsController extends BaseController
             $id = 1;
         }
         //获取改分类下的新闻
-        $news_lists = DB::table('news')->where('category_id', '=', $id)->paginate(5);
+        $news_lists = DB::table('news')->where('category_id', '=', $id)->orderBy('id','desc')->paginate(5);
         //聚合数据
         $return_data = [];
         $return_data['title'] = $this->title;
