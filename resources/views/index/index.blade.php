@@ -48,9 +48,8 @@
 		});
 	</script>
 	<div class="top" id="top">
-		<h2 style="display: none" class="keywords">重庆网站建设</h2>
 		<div class="topbox">
-			<div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}" alt="www.p7ing.com logo" /></a></div>
+			<div class="logo f1"><a href="/" title="{{Cache('name')}}"><img src="{{Cache('logo')}}" id="logo" data-original="{{Cache('logo')}}" alt="普擎科技 logo" /></a></div>
 			<div class="dh f2">
 				<ul class="dh-top f2" style="height:22px;">
 					<li class="f2"><span style="margin-right:20px;display:inline-block;">售前热线：{{Cache('before_service_phone')}}</span>
@@ -222,7 +221,7 @@
 											<h4></h4>
 											<p></p>
 										</a>
-										<img src="/index/picture/logo.jpg" data-original="{{$value->thumbnail}}" width="358" height="235" alt="p7ing.com" class="case_img">
+										<img src="/index/picture/logo.jpg" data-original="{{$value->thumbnail}}" width="358" height="235" alt="重庆网站建设" class="case_img">
 									</div>
 									@endforeach
 								</div>
@@ -240,7 +239,7 @@
 												<h4></h4>
 												<p></p>
 											</a> <img src="/index/picture/logo.jpg" data-original="{{$value->thumbnail}}" width="358" height="235"
-											alt="p7ing.com" class="case_img"> </div>
+											alt="定制后台管理系统" class="case_img"> </div>
 									@endforeach
 								</div>
 								
@@ -261,52 +260,52 @@
 			<ul>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174401.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174401.png" alt="企业官网建设" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">企业官网建设</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174406.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174406.png" alt="商城网站建设" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">商城网站建设</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174408.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174408.png" alt="系统平台开发" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">系统平台开发</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174404.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174404.png" alt="微信营销" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">微信营销</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174403.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174403.png" alt="SSL证书" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">SSL证书</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174402.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174402.png" alt="APP开发" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">APP开发</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174410.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174410.png" alt="商城/网站装修" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">商城/网站装修</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174407.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174407.png" alt="平面设计" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">平面设计</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174405.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174405.png" alt="阿里云服务器" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">阿里云服务器</a></div>
 				</li>
 				<li>
 					<div class="core_img"><a href="javascript:;" title=""><img src="/index/picture/logo.jpg" rel="nofollow"
-							 data-original="/index/images/2019321174409.png" alt="p7ing.com" width="100%" height="100%" /></a> </div>
+							 data-original="/index/images/2019321174409.png" alt="普擎天下邮" width="100%" height="100%" /></a> </div>
 					<div class="core_h"><a href="javascript:;" title="">普擎天下邮</a></div>
 				</li>
 			</ul>
@@ -461,7 +460,7 @@
 				</ul>
 			
 				<div class="ewm">
-					<p><img src="/index/picture/wxewm.jpg" data-original="/index/picture/wxewm.jpg" alt="p7ing.com" width="118" height="118" /></p>
+					<p><img src="/index/picture/wxewm.jpg" data-original="/index/picture/wxewm.jpg" alt="网站建设" width="118" height="118" /></p>
 					<span>官方微信</span>
 				</div>
 			</div>
@@ -483,7 +482,7 @@
 		<div class="footer">
 			<div class="bqxx" style="position:relative;">
 				<ul>
-					<li class="f1" style="font-family:Arial;">&copy;2019 重庆市普擎科技有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;<h2 style="display: none" class="keywords">重庆网站建设</h2>
+					<li class="f1" style="font-family:Arial;">&copy;2019 重庆市普擎科技有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;
 					</li>
 					<li class="f2"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color:#fff;">渝ICP备19004069号</a>&nbsp;&nbsp;&nbsp;</li>
 				</ul>
@@ -515,14 +514,13 @@
 	<div class="guide" style="bottom:40px;">
 		<div class="guide-warp">
 			<ul>
-				<h2 style="display: none" class="keywords">重庆网站建设</h2>
 				<li class="fqq">
 					<a class="zixun1 zixun" title="QQ联系重庆网站建设"></a>
 					<div class="foot_qq">
 						<a target="_blank" rel="nofollow" title="售前联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('before_service_qq')}}&site=qq&menu=yes">
-							<img src="/index/picture/q01.png" alt="p7ing.com" width="25" data-original="/index/images/q01.png" /><span>售前联系</span></a>
+							<img src="/index/picture/q01.png" alt="重庆网站建设" width="25" data-original="/index/images/q01.png" /><span>售前联系</span></a>
 						<a target="_blank" rel="nofollow" title="售后联系" href="http://wpa.qq.com/msgrd?v=3&uin={{Cache('after_service_qq')}}&site=qq&menu=yes">
-							<img src="/index/picture/q02.png" alt="p7ing.com" width="25" data-original="/index/images/q02.png" /><span>售后联系</span></a>
+							<img src="/index/picture/q02.png" alt="企业网站定制开发" width="25" data-original="/index/images/q02.png" /><span>售后联系</span></a>
 					</div>
 				</li>
 				<li class="dhm">
