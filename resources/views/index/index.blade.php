@@ -334,7 +334,7 @@
 								</li>
 								<li>
 									<h5><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}</a></h5>
-									<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">{{ $value->description }}</p>
+									<p class="info" style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">{{ $value->description }}</p>
 								</li>
 							</ul>
 						</div>
@@ -353,7 +353,7 @@
 								</li>
 								<li>
 									<h5><a href="{{ url('news_show',[$value->id]) }}" title="{{ $value->keywords }}">{{ $value->title }}</a></h5>
-									<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">{{ $value->description }}</p>
+									<p class="info" style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">{{ $value->description }}</p>
 								</li>
 							</ul>
 						</div>
@@ -372,7 +372,7 @@
 							</li>
 							<li>
 								<h5><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}"> {{ $value->title }}</a></h5>
-								<p style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">
+								<p class="info" style=" font-size:12px; font-family:'宋体'; color:#999999; line-height:20px;">
 										{{ $value->description }}</p>
 							</li>
 						</ul>

@@ -242,6 +242,8 @@ ul{list-style-type: none}
 .xwzx-main .xwlb ul li h5{ font-weight:400; font-size:18px; margin-bottom:10px; margin-top:8px;}
 .xwzx-main .xwlb ul li h5 a{ color:#333;}
 .xwzx-main .xwlb ul li h5 a:hover{ color:#00adef;}
+.xwzx-main .xwlb ul li .info{display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;	overflow: hidden;}
+.xwzx-main .xwlb ul li .info{display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;	overflow: hidden;}
 
 .xwzxbox{ width:1140px; margin:0 auto;}
 .nleft{float:left;width:580px;margin-top:60px;}
