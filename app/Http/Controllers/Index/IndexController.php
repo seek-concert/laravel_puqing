@@ -30,13 +30,13 @@ class IndexController extends BaseController
 
 
         //相关资讯6条
-        $new_zxun = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',2)->get();
+        $new_zxun = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',1)->orderBy('input_time', 'desc')->get();
         
         //学新姿势6条
-        $new_zshi = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',3)->get();
+        $new_zshi = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',2)->orderBy('input_time', 'desc')->get();
        
         //互联网安全6条
-        $new_hlwang = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',6)->get();
+        $new_hlwang = DB::table('news')->limit(6)->select('id','title','description','input_time','keywords')->where('category_id','=',3)->orderBy('input_time', 'desc')->get();
       
         //最新案例
         $new_case_lists =  DB::table('case')->limit(6)->orderby('input_time','desc')->get();
