@@ -23,8 +23,10 @@ class NewsController extends BaseController
         if ($id == 0) {
             $id = 1;
         }
-        //获取改分类下的新闻
+
+        //获取该分类下的新闻
         $news_lists = DB::table('news')->where('category_id', '=', $id)->orderBy('id','desc')->paginate(5);
+
         //聚合数据
         $return_data = [];
         $return_data['title'] = $this->title;
@@ -35,7 +37,7 @@ class NewsController extends BaseController
         $return_data['case_category_lists'] = $this->get_case_category_lists();
         $return_data['hot_news'] = $this->get_hot_news();
         $return_data['new_case'] = $this->get_new_case();
-        $return_data['pq_news'] = $this->get_pq_news();
+        $return_data['all_news'] = $this->get_all_news();
         $return_data['case'] = $this->get_case();
 
         return view('index/news', $return_data);

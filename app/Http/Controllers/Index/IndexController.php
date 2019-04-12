@@ -26,7 +26,7 @@ class IndexController extends BaseController
         $news_category_lists = DB::table('news_category')->get();
 
         //中标新闻
-        $news = DB::table('news')->limit(4)->select('id','thumbnail','title','keywords','description')->where('category_id','=',4)->get();
+        $news = DB::table('news')->limit(4)->select('id','thumbnail','title','keywords','description')->where('category_id','=',5)->orderBy('input_time', 'desc')->get();
 
 
         //相关资讯6条

@@ -58,15 +58,12 @@ class BaseController extends Controller
     }
 
     /*
-     * 普擎新闻
+     * 普擎新闻（所有新闻）
      */
-    public function get_pq_news()
+    public function get_all_news()
     {
         $pq_news = DB::table('news')
             ->select('id', 'title', 'input_time')
-            ->where([
-                ['category_id', '=', 1]
-            ])
             ->orderBy('id', 'desc')
             ->limit(6)
             ->get();
