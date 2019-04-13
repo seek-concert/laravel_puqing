@@ -76,7 +76,7 @@
             <div class="case_news">
                 <div class="case_news_t"><h3>普擎<span>新闻</span></h3><a href="{{url('news')}}" title="">MORE</a></div>
                 <ul>
-                    @foreach($pq_news as $value)
+                    @foreach($all_news as $value)
                         <li><a href="{{url('news_show',[$value->id])}}"
                                title="{{$value->title}}">{{$value->title}}</a><span>{{date('Y-m-d',$value->input_time)}}</span>
                         </li>

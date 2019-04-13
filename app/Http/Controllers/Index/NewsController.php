@@ -80,7 +80,7 @@ class NewsController extends BaseController
         $return_data['case_category_lists'] = $this->get_case_category_lists();
         $return_data['hot_news'] = $this->get_hot_news();
         $return_data['new_case'] = $this->get_new_case();
-        $return_data['pq_news'] = $this->get_pq_news();
+        $return_data['all_news'] = $this->get_all_news();
         $return_data['case'] = $this->get_case();
         $return_data['list'] = $list;
         $return_data['previous'] = $previous;
