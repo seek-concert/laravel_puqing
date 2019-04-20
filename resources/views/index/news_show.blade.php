@@ -19,12 +19,12 @@
 
                 <div class="case_page">
                     @if(!empty($previous))
-                        <a href="{{url('case_show',[$previous->id])}}">上一个新闻：{{$previous->title}}</a>
+                        <a href="{{url('news_show',[$previous->id])}}">上一个新闻：{{$previous->title}}</a>
                     @else
                         上一个新闻：无
                     @endif
                     @if(!empty($next))
-                        <a href="{{url('case_show',[$next->id])}}">下一个新闻：{{$next->title}}</a>
+                        <a href="{{url('news_show',[$next->id])}}">下一个新闻：{{$next->title}}</a>
                     @else
                         下一个新闻：无
                     @endif
