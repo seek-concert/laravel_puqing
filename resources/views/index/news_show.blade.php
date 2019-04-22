@@ -7,8 +7,8 @@
     <div class="content">
         <div class="case_show">
             <div class="case_left">
-                <div class="case_show_t"><h4>{{$list->title}}</h4></div>
-                <div class="case_show_txt">
+                <div class="case_show_t"><h4 style="text-align: center">{{$list->title}}</h4></div>
+                <div class="case_show_txt" style="padding-top: 5%;">
                     {!! $list->content !!}
                     <div style="float:left;color: #999;background-color: #f8f8f8;padding: 2px 10px;font-size: 12px;margin-top: 20px">
                         声明：本站发布的内容以原创、转载、分享网络内容为主，如有侵权，请联系邮箱： {{ Cache('company_email') }}，我们将会在第一时间删除。文章观点不代表本站立场，如需处理请联系我们。

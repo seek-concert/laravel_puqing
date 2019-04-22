@@ -74,7 +74,7 @@ class NewsController extends BaseController
             ->orderBy('id', 'asc')
             ->first();
         $return_data = [];
-        $return_data['title'] = $this->title;
+        $return_data['title'] = isset($list->title)?$list->title.'|重庆网站建设|重庆普擎科技':$this->title;
         $return_data['keywords'] = $this->keywords;
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();
