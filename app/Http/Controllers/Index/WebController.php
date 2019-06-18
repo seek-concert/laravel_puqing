@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Index;
 class WebController extends BaseController
 {
     /*==========【标题及关键词】===========*/
-    protected $title = '网站定制开发,企业官网，自适应网站，H5开发，电商网站一体式开发，营销网站建设-普擎科技';
-    protected $keywords = '网站定制开发,企业官网，自适应网站，H5开发，电商网站一体式开发，营销网站建设,重庆网站建设';
+    protected $title = '网站定制开发_企业官网_重庆网站制作_重庆网站开发_重庆网站建设-普擎科技';
+    protected $keywords = '网站定制开发,企业官网,重庆网站制作,重庆网站开发,重庆网站建设';
 
     public function __construct()
     {

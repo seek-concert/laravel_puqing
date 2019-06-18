@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\DB;
 class CaseController extends BaseController
 {
     /*==========【标题及关键词】===========*/
-    protected $title = '精选案例_微信小程序案例_企业官网案例_APP案例_电商案例-普擎科技';
-    protected $keywords = '精选案例，微信小程序案例，企业官网案例，APP案例，电商案例';
+    protected $title = '网站开发案例_微信小程序案例_企业官网案例_软件开发案例_电商案例-普擎科技';
+    protected $keywords = '网站建设案例,微信小程序案例,企业官网案例,软件开发案例,电商案例';
 
     public function __construct()
     {
@@ -76,7 +76,7 @@ class CaseController extends BaseController
             ->first();
         //聚合数据
         $return_data = [];
-        $return_data['title'] = $this->title;
+        $return_data['title'] = isset($list->title)?$list->title.'_重庆网站建设-重庆普擎科技':$this->title;
         $return_data['keywords'] = $this->keywords;
         $return_data['list'] = $list;
         $return_data['previous'] = $previous;

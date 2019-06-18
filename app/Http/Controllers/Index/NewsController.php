@@ -7,8 +7,8 @@ use App\Http\Controllers\Controller;
 class NewsController extends BaseController
 {
     /*==========【标题及关键词】===========*/
-    protected $title = '行业新闻/时事资讯/网站建设/技术文章/教程分享-普擎科技';
-    protected $keywords = '行业新闻,时事资讯,网站建设,技术文章,教程分享';
+    protected $title = '网站建设技术文章_网站开发教程分享_网站制作技巧-普擎科技';
+    protected $keywords = '网站建设技术文章,网站开发教程分享,网站建设,网站制作技巧,教程分享';
 
     public function __construct()
     {
@@ -74,7 +74,7 @@ class NewsController extends BaseController
             ->orderBy('id', 'asc')
             ->first();
         $return_data = [];
-        $return_data['title'] = isset($list->title)?$list->title.'|重庆网站建设|重庆普擎科技':$this->title;
+        $return_data['title'] = isset($list->title)?$list->title.'_重庆网站建设-重庆普擎科技':$this->title;
         $return_data['keywords'] = $this->keywords;
         $return_data['news_category_lists'] = $this->get_news_category_lists();
         $return_data['case_category_lists'] = $this->get_case_category_lists();

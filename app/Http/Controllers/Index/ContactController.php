@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Index;
 class ContactController extends BaseController
 {
     /*==========【标题及关键词】===========*/
-    protected $title = '公司简介/团队信息/联系方式/付款方式/站点地图-普擎科技';
-    protected $keywords = '公司简介，团队信息，联系方式，付款方式，站点地图';
+    protected $title = '公司简介_团队信息_联系方式_付款方式_站点地图-普擎科技';
+    protected $keywords = '公司简介,团队信息,联系方式,付款方式,站点地图';
 
     public function __construct()
     {

@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Index;
 class AppController extends BaseController
 {
     /*==========【标题及关键词】===========*/
-    protected $title = 'APP定制开发,IOS 安卓 APP，软件一体式开发，WEBAPP-普擎科技';
-    protected $keywords = 'APP定制开发,IOS安卓APP，软件一体式开发，WEBAPP';
+    protected $title = 'APP定制开发_软件开发流程_软件怎么开发_软件开发多少钱-普擎科技';
+    protected $keywords = 'APP定制开发,软件开发流程,软件怎么开发,软件开发多少钱';
 
     public function __construct()
     {

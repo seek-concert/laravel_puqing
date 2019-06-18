@@ -3,9 +3,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>{{Cache('title')}}-首页</title>
+	<title>{{Cache('title')}}-重庆普擎科技</title>
 	<meta name="keywords" content="{{Cache('keywords')}}">
-	<meta name="description" content="重庆{{Cache('description')}}">
+	<meta name="description" content="{{Cache('description')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="baidu-site-verification" content="ZZddVRzekw" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
@@ -57,17 +57,17 @@
 				</ul>
 				<div class="clear"></div>
 				<span class="dh-main">
-					<h3 class="nav_h2"><a href="/" id="in01" class="hover" title="首页">首页</a></h3>
+					<h3 class="nav_h2"><a href="/" id="in01" class="hover" title="重庆普擎科技官网">首页</a></h3>
 					<h3 class="nav_h2"><a href="{{url('/web')}}" id="in02" class="hover" title="网站建设">网站建设</a></h3>
 
 
-					<h3 class="nav_h2"><a href="{{url('/app')}}" id="in08" class="hover" title="APP开发">APP开发</a>
+					<h3 class="nav_h2"><a href="{{url('/app')}}" id="in08" class="hover" title="软件开发定制">软件定制</a>
 
 					</h3>
-					<h3 class="nav_h2"><a href="{{url('/case')}}" id="in03" class="hover" title="成功案例">成功案例</a>
+					<h3 class="nav_h2"><a href="{{url('/case')}}" id="in03" class="hover" title="网站建设成功案例">成功案例</a>
 
 					</h3>
-					<h3 class="nav_h2"><a href="{{url('/news')}}" id="in04" class="hover" title="网站资讯">网站资讯</a>
+					<h3 class="nav_h2"><a href="{{url('/news')}}" id="in04" class="hover" title="网站开发资讯分享">网站资讯</a>
 
 					</h3>
 					<h3 class="nav_h2"><a href="{{url('/contact')}}" id="in06" class="hover" title="联系网站开发">联系普擎</a>
@@ -82,7 +82,7 @@
 	<div class="flexslider">
 		<ul class="slides">
 			@foreach ($banner_lists as $value)
-			<li style="background:url({{$value->img}}) no-repeat center;"><a href="{{$value->url}}" title="重庆普擎科技">&nbsp;</a></li>
+			<li style="background:url({{$value->img}}) no-repeat center;"><a href="{{$value->url}}" title="重庆普擎科技banner">&nbsp;</a></li>
 			@endforeach
 		</ul>
 	</div>
@@ -96,8 +96,8 @@
 				重庆普擎科技有限公司成立于2019年,公司聚集了一堆充满着活力和激情的年轻人在为梦想拼搏,我们致力于为客户打造心中最完美的产品,覆盖了公司官网定制开发,高端网站建设,电商平台开发,移动互联网产品开发(包括APP,小程序,微信应用开发等)，服务器、网站托管服务,IT信息技术外包服务,公司设计师、员工均为从业3年以上的优秀人才,曾在行业顶尖公司任职,凝聚互联网行业最领先的优势。</p>
 			<div class="mp">
 				<ul>
-					<li class="hover"><a href="{{url('/contact')}}" title="联系网站设计" rel="nofollow">CONTACT US</a></li>
-					<li><a href="{{url('/contact')}}" title="了解更多网站设计" rel="nofollow">ABOUT US</a></li>
+					<li class="hover"><a href="{{url('/contact')}}" title="联系我们进行网站制作" rel="nofollow">CONTACT US</a></li>
+					<li><a href="{{url('/contact')}}" title="了解更多网站开发" rel="nofollow">ABOUT US</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
@@ -466,12 +466,11 @@
 			</div>
 		
 			<div class="yqlj">
-				<p style="color: #FFFFFF">重庆普擎科技提供：<b class="keywords">重庆网站建设开发</b> <b class="keywords">微信小程序开发</b> <b class="keywords">自适应网站外包</b> <b class="keywords">WEB应用设计研发</b> <b class="keywords">电商网站专属定制</b></p>
+				<p style="color: #FFFFFF">重庆普擎科技提供：<strong class="keywords">重庆网站建设开发制作</strong> <strong class="keywords">微信小程序开发</strong> <strong class="keywords">自适应网站外包</strong> <strong class="keywords">WEB应用设计研发</strong> <strong class="keywords">电商网站专属定制</strong></p>
 				<ul>
 					<li><a href="https://www.baidu.com/" title="百度搜索" target="_blank">百度搜索</a></li>
 					<li><a href="https://www.aliyun.com/" title="阿里云服务器" target="_blank">阿里云服务器</a></li>
 					<li><a href="https://www.weibo.com/" title="新浪微博" target="_blank">新浪微博</a></li>
-					<li><a href="https://www.google.com/" title="google搜索" target="_blank">google搜索</a></li>
 					<li><a href="https://www.west.cn/" title="西部数码" target="_blank">西部数码</a></li>
 					<li><a href="https://www.zbj.com/" title="猪八戒网" target="_blank">猪八戒网</a></li>
 					<li><a href="http://www.icbc.com.cn" title="中国工商银行" target="_blank">中国工商银行</a></li>
