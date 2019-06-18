@@ -21,6 +21,7 @@
 	<script type="text/javascript" src="/index/js/jquery-1.8.3.min.js"></script>
 	<script src="/index/js/jquery1.js" type="text/javascript"></script>
 	<script>
+		/*百度*/
 		(function(){
 			var bp = document.createElement('script');
 			var curProtocol = window.location.protocol.split(':')[0];
@@ -32,6 +33,11 @@
 			}
 			var s = document.getElementsByTagName("script")[0];
 			s.parentNode.insertBefore(bp, s);
+		})();
+		/*360*/
+		(function(){
+			var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?61efbc491fee6c068e59f95e654885e7":"https://jspassport.ssl.qhimg.com/11.0.1.js?61efbc491fee6c068e59f95e654885e7";
+			document.write('<script src="' + src + '" id="sozz"><\/script>');
 		})();
 	</script>
 </head>
