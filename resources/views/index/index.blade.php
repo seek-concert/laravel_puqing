@@ -330,7 +330,7 @@
 							<ul>
 								<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
 										<p>{{ date('d',$value->input_time) }}</p>
-										<span>{{ date('Y',$value->input_time) }} OCT</span>
+										<span>{{ date('Y',$value->input_time) }} {{ date('M',$value->input_time) }}</span>
 								</li>
 								<li>
 									<h5><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}">{{ $value->title }}</a></h5>
@@ -349,7 +349,7 @@
 							<ul>
 								<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
 										<p>{{ date('d',$value->input_time) }}</p>
-										<span>{{ date('Y',$value->input_time) }} OCT</span>
+										<span>{{ date('Y',$value->input_time) }} {{ date('M',$value->input_time) }}</span>
 								</li>
 								<li>
 									<h5><a href="{{ url('news_show',[$value->id]) }}" title="{{ $value->keywords }}">{{ $value->title }}</a></h5>
@@ -368,7 +368,7 @@
 						<ul>
 							<li style="width:82px; background:#00adef; color:#FFFFFF; text-align:center; margin-right:14px;">
 								<p>{{ date('d',$value->input_time) }}</p>
-								<span>{{ date('Y',$value->input_time) }} OCT</span>
+								<span>{{ date('Y',$value->input_time) }} {{ date('M',$value->input_time) }}</span>
 							</li>
 							<li>
 								<h5><a href="{{ url('news_show',$value->id) }}" title="{{ $value->keywords }}"> {{ $value->title }}</a></h5>

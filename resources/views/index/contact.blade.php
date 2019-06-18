@@ -26,7 +26,7 @@
 	<div class="contact">
 		<div class="contact_l">
 			<h3>重庆普擎科技有限公司</h3>
-			<p><span class="cc" style="letter-spacing:28px;">地址</span><span>：&nbsp;&nbsp;&nbsp;重庆市渝北区仙桃数据谷中路107号</span>
+			<p><span class="cc" style="letter-spacing:28px;">地址</span><span>：&nbsp;&nbsp;&nbsp;重庆市渝北区仙桃街道数据谷中路107号</span>
 			</p>
 			<p><span class="cc" style="letter-spacing:28px;">邮编</span><span>：&nbsp;&nbsp;&nbsp;400000</span></p>
 			<p><span class="cc" style="letter-spacing:28px;">售前</span><span>：&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;

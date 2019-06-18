@@ -407,7 +407,7 @@ ul{list-style-type: none}
 .ctext .c1{font-size:18px;color:#333;float:left;width:100%;overflow: hidden;text-overflow: "...";white-space: nowrap;}
 .ctext .c2{font-size:12px;color:#b4b4b4;line-height:18px;float:left;width:100%;padding:10px 0;height:54px;}
 .ctext .c3{font-size:12px;color:#999;float:left;width:100%;}
-.case ul .hover .ctext .c1{color:#00a0dd;}
+.case ul :hover .ctext .c1{color:#00a0dd;}
 .case ul .hover .ctext .c3{color:#00a0dd;}
 .case_tit{width:1004px;margin:0 auto;height:60px;}
 .case_tit span{float:left;height:60px;line-height:60px;font-size:26px;color:#333;}
@@ -455,7 +455,7 @@ ul{list-style-type: none}
 .news_menu{float:left;width:100%;text-align: center;}
 .news_menu a{display: inline-block;color:#a1abaf;height:63px;line-height:63px;padding:0 30px;vertical-align: middle;font-size:14px;}
 .news_menu a.cur{display: inline-block;height:63px;line-height:63px;padding:0 30px;vertical-align: middle;font-size:14px;color:#20b7f4;background:url(../images/arr.jpg) no-repeat bottom center;padding-bottom:2px;}
-.news_menu a.hover{display: inline-block;height:63px;line-height:63px;padding:0 30px;vertical-align: middle;font-size:14px;color:#20b7f4;background:url(../images/arr.jpg) no-repeat bottom center;padding-bottom:2px;}
+.news_menu a:hover{display: inline-block;height:63px;line-height:63px;padding:0 30px;vertical-align: middle;font-size:14px;color:#20b7f4;background:url(../images/arr.jpg) no-repeat bottom center;padding-bottom:2px;}
 .news_list{float:left;width:100%;}
 .news_list ul{float:left;width:100%;margin-top:-20px;}
 .news_list ul li{float:left;width:100%;padding:20px 0;border-bottom:1px dashed #b6b6b6;}
@@ -467,7 +467,7 @@ ul{list-style-type: none}
 .news_r p{float:left;width:100%;color:#999;line-height:18px;margin-top:16px;height:54px;overflow:hidden;}
 .news_r h6{float:left;width:100%;height:20px;margin-top:10px;}
 .news_r h6 a{display:block;font-size:12px;float:left;line-height:20px;color:#666;font-weight:500;}
-.news_list ul .hover a{color:#20b7f4;}
+.news_list ul :hover a{color:#20b7f4;}
 .news_txt{width:100%;height:40px;}
 .news_txt h6{width:460px;height:30px;font-size:12px;line-height:30px;float:left;margin-top:10px;color:#999;font-weight:500;}
 /*关于普擎*/
