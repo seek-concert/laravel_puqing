@@ -25,7 +25,7 @@ class NewsController extends BaseController
         }
 
         //获取该分类下的新闻
-        $news_lists = DB::table('news')->where('category_id', '=', $id)->orderBy('id','desc')->paginate(5);
+        $news_lists = DB::table('news')->where('category_id', '=', $id)->orderBy('input_time','desc')->paginate(5);
 
         //聚合数据
         $return_data = [];
